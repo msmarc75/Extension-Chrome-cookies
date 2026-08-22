@@ -13,7 +13,8 @@
     "build": "node scripts/build.mjs",
     "test:unit": "node --test \"tests/unit/**/*.test.mjs\"",
     "test:e2e": "playwright test",
-    "test": "npm run check:tokens && npm run test:unit && npm run build && npm run test:e2e"
+    "test": "npm run check:tokens && npm run test:unit && npm run build && npm run test:e2e",
+    "verify:capture": "node scripts/verify-capture.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"

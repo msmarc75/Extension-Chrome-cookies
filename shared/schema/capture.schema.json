@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://consent-audit.dev/schema/capture.schema.json",
+  "title": "Capture",
+  "description": "One observation of a page's behaviour. Phase A is taken before any interaction with the banner and is the measurement the rest of the report rests on. Cookie and storage VALUES are deliberately absent: the report needs to know that something was written, by whom and when, never what it contained.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "phase",
+    "target",
+    "profile",
+    "window",
+    "interaction",
+    "requests",
+    "cookies",
+    "storage",
+    "notes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "phase": {
+      "description": "A: before any interaction. B: after a simulated refusal. C: after a simulated acceptance.",
+      "enum": ["A", "B", "C"]
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requestedUrl", "finalUrl", "origin"],
+      "properties": {
+        "requestedUrl": { "type": "string" },
+        "finalUrl": { "type": ["string", "null"] },
+        "origin": { "type": ["string", "null"] }
+      }
+    },
+    "profile": {
+      "description": "State the audited page was loaded into. Disclosed on the report: a capture taken in a profile that already holds the site's data measures a returning visitor, not a first one, and is worth less.",
+      "enum": ["incognito-fresh", "incognito-shared", "current"]
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["startedAt", "durationMs", "navigationCommittedAt"],
+      "properties": {
+        "startedAt": {
+          "description": "Epoch milliseconds at which observation began. Every tMs in this capture is relative to it.",
+          "type": "integer"
+        },
+        "durationMs": { "type": "number", "minimum": 0 },
+        "navigationCommittedAt": { "type": ["number", "null"] }
+      }
+    },
+    "interaction": {
+      "description": "What was done to the page during the window. Phase A is 'none' by construction — a single input event can be read by some CMPs as implied consent and would contaminate the measurement.",
+      "enum": ["none", "refuse-all", "accept-all"]
+    },
+    "requests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "tMs",
+          "url",
+          "host",
+          "party",
+          "method",
+          "resourceType",
+          "initiator",
+          "status",
+          "fromCache"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "tMs": { "type": "number" },
+          "url": { "type": "string" },
+          "host": { "type": "string" },
+          "party": { "enum": ["first", "third", "unknown"] },
+          "method": { "type": "string" },
+          "resourceType": { "type": "string" },
+          "initiator": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "host"],
+            "properties": {
+              "type": { "type": "string" },
+              "host": { "type": ["string", "null"] }
+            }
+          },
+          "status": { "type": ["integer", "null"] },
+          "fromCache": { "type": "boolean" }
+        }
+      }
+    },
+    "cookies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "host",
+          "path",
+          "party",
+          "secure",
+          "httpOnly",
+          "sameSite",
+          "session",
+          "expiresAt",
+          "size",
+          "tMs",
+          "source"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "host": { "type": "string" },
+          "path": { "type": "string" },
+          "party": { "enum": ["first", "third", "unknown"] },
+          "secure": { "type": "boolean" },
+          "httpOnly": { "type": "boolean" },
+          "sameSite": { "type": ["string", "null"] },
+          "session": {
+            "description": "True when the cookie carries no expiry and dies with the browser session.",
+            "type": "boolean"
+          },
+          "expiresAt": { "type": ["number", "null"] },
+          "size": {
+            "description": "Byte length of the value. The value itself is never recorded.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "tMs": {
+            "description": "Null when the cookie was found in the jar at the end of the window without an observable moment of writing — a cookie set from script, typically. The report shows it as undated rather than guessing.",
+            "type": ["number", "null"]
+          },
+          "source": { "enum": ["set-cookie", "jar"] }
+        }
+      }
+    },
+    "storage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["origin", "type", "key", "tMs", "bytes", "source"],
+        "properties": {
+          "origin": { "type": "string" },
+          "type": {
+            "enum": [
+              "localStorage",
+              "sessionStorage",
+              "indexedDB",
+              "cacheStorage",
+              "serviceWorker",
+              "fileSystem",
+              "webSQL",
+              "other"
+            ]
+          },
+          "key": { "type": ["string", "null"] },
+          "tMs": { "type": ["number", "null"] },
+          "bytes": { "type": ["number", "null"] },
+          "source": {
+            "description": "'event' is a write observed as it happened, and carries a time. 'snapshot' is what was found in the store once the window closed: it proves the store is non-empty but carries no time, and sometimes no key.",
+            "enum": ["event", "snapshot"]
+          }
+        }
+      }
+    },
+    "notes": {
+      "description": "Anything that limits how much the capture can be relied on. Surfaced on the report, not swallowed.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "detail"],
+        "properties": {
+          "code": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    }
+  }
+}

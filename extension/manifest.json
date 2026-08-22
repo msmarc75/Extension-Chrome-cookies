@@ -24,5 +24,6 @@
     "service_worker": "src/background/service-worker.js",
     "type": "module"
   },
-  "permissions": ["activeTab", "cookies", "debugger", "storage", "scripting"]
+  "permissions": ["activeTab", "cookies", "debugger", "storage", "scripting"],
+  "incognito": "spanning"
 }

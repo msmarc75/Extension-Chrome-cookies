@@ -1,0 +1,191 @@
+{
+  "description": "A hand-built CDP stream standing in for a small publisher: the document, a first-party session cookie, an analytics beacon and an ad exchange call, a localStorage write, all inside the observation window. The shape mirrors what Chrome actually emits — monotonic `timestamp` on every Network event, `wallTime` only on requestWillBeSent, no clock at all on DOMStorage.",
+  "startedAt": 1700000000000,
+  "requestedUrl": "https://shop.example.fr/",
+  "events": [
+    {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "requestId": "1",
+        "timestamp": 1000.0,
+        "wallTime": 1700000000.1,
+        "type": "Document",
+        "request": { "url": "https://shop.example.fr/", "method": "GET" },
+        "initiator": { "type": "other" }
+      }
+    },
+    {
+      "method": "Network.responseReceived",
+      "params": {
+        "requestId": "1",
+        "timestamp": 1000.2,
+        "response": { "status": 200, "fromDiskCache": false }
+      }
+    },
+    {
+      "method": "Network.responseReceivedExtraInfo",
+      "params": {
+        "requestId": "1",
+        "headers": {
+          "set-cookie": "PHPSESSID=abc123; Path=/; HttpOnly; SameSite=Lax\n_shop_ab=variant-b; Path=/; Max-Age=2592000"
+        }
+      }
+    },
+    {
+      "method": "Page.frameNavigated",
+      "receivedAt": 1700000000350,
+      "params": {
+        "frame": { "id": "main", "url": "https://shop.example.fr/" }
+      }
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "requestId": "2",
+        "timestamp": 1000.35,
+        "wallTime": 1700000000.45,
+        "type": "Script",
+        "request": { "url": "https://www.google-analytics.com/analytics.js", "method": "GET" },
+        "initiator": { "type": "parser", "url": "https://shop.example.fr/" }
+      }
+    },
+    {
+      "method": "Network.responseReceived",
+      "params": {
+        "requestId": "2",
+        "timestamp": 1000.5,
+        "response": { "status": 200, "fromDiskCache": false }
+      }
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "requestId": "3",
+        "timestamp": 1000.9,
+        "wallTime": 1700000001.0,
+        "type": "Image",
+        "request": { "url": "https://ads.doubleclick.net/pixel?id=42", "method": "GET" },
+        "initiator": { "type": "script", "url": "https://www.google-analytics.com/analytics.js" }
+      }
+    },
+    {
+      "method": "Network.responseReceivedExtraInfo",
+      "params": {
+        "requestId": "3",
+        "headers": {
+          "set-cookie": "IDE=tracking-value; Domain=.doubleclick.net; Path=/; Secure; SameSite=None; Expires=Wed, 01 Jan 2025 00:00:00 GMT"
+        }
+      }
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "requestId": "4",
+        "timestamp": 1001.2,
+        "wallTime": 1700000001.3,
+        "type": "XHR",
+        "request": { "url": "https://cdn.shop.example.fr/logo.svg", "method": "GET" },
+        "initiator": { "type": "script", "url": "https://shop.example.fr/" }
+      }
+    },
+    {
+      "method": "Network.requestServedFromCache",
+      "params": { "requestId": "4" }
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "requestId": "5",
+        "timestamp": 1001.8,
+        "wallTime": 1700000001.9,
+        "type": "Fetch",
+        "request": { "url": "https://ads.doubleclick.net/collect", "method": "POST" },
+        "initiator": { "type": "script", "url": "https://ads.doubleclick.net/pixel" }
+      }
+    },
+    {
+      "method": "Network.loadingFailed",
+      "params": { "requestId": "5", "timestamp": 1001.95, "errorText": "net::ERR_BLOCKED" }
+    }
+  ],
+  "jarCookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "abc123",
+      "domain": "shop.example.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 6,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "tracking-value",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1735689600,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjSession",
+      "value": "written-by-script",
+      "domain": "shop.example.fr",
+      "path": "/",
+      "expires": 1735689600,
+      "size": 17,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": null
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.silent",
+      "domain": "shop.example.fr",
+      "path": "/",
+      "expires": 1735689600,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": null
+    }
+  ],
+  "pageMarks": {
+    "installed": true,
+    "marks": [
+      {
+        "kind": "storage",
+        "area": "localStorage",
+        "key": "consent_seen",
+        "size": 1,
+        "at": 1700000001450
+      },
+      {
+        "kind": "cookie",
+        "header": "_hjSession=written-by-script; path=/; Secure",
+        "at": 1700000001600
+      }
+    ],
+    "inventory": {
+      "localStorage": [
+        ["consent_seen", 1],
+        ["theme", 4]
+      ],
+      "sessionStorage": []
+    }
+  },
+  "usageBreakdown": [
+    { "storageType": "local_storage", "usage": 128 },
+    { "storageType": "indexeddb", "usage": 4096 },
+    { "storageType": "cookies", "usage": 512 },
+    { "storageType": "cache_storage", "usage": 0 }
+  ]
+}

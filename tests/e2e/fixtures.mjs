@@ -61,6 +61,39 @@ export const test = base.extend({
   extensionId: async ({ worker }, use) => {
     await use(new URL(worker.url()).host);
   },
+
+  /**
+   * The popup, open as a tab.
+   *
+   * It doubles as the harness's way into the message protocol: only a page
+   * served from the extension's own origin may talk to the service worker, and
+   * a worker cannot deliver a message to itself.
+   */
+  extensionPage: async ({ context, extensionId }, use) => {
+    const page = await context.newPage();
+    await page.goto(`chrome-extension://${extensionId}/src/ui/popup/popup.html`);
+    await use(page);
+    await page.close();
+  },
 });
+
+/**
+ * Send one protocol request to the service worker from an extension page and
+ * return the response envelope.
+ */
+export function callBackground(page, type, payload = null) {
+  return page.evaluate(
+    ([messageType, messagePayload]) =>
+      chrome.runtime.sendMessage({
+        protocol: 1,
+        kind: 'request',
+        id: crypto.randomUUID(),
+        type: messageType,
+        payload: messagePayload,
+        sentAt: Date.now(),
+      }),
+    [type, payload],
+  );
+}
 
 export { expect } from '@playwright/test';

@@ -13,30 +13,98 @@
     </header>
 
     <main class="ca-main">
-      <section class="ca-panel" aria-labelledby="ca-selfcheck-title">
-        <h2 class="ca-panel__title" id="ca-selfcheck-title">Extension self-check</h2>
+      <!-- Waiting on the service worker. -->
+      <section class="ca-panel" data-view="loading">
+        <p class="ca-panel__lead">Checking what this installation can measure…</p>
+      </section>
 
-        <p class="ca-verdict" data-field="verdict" role="status" aria-live="polite">
-          <span class="ca-verdict__mark" data-field="verdict-mark" aria-hidden="true">·</span>
-          <span class="ca-verdict__label" data-field="verdict-label">Checking…</span>
+      <!-- Incognito access has not been granted. -->
+      <section class="ca-panel" data-view="blocked" hidden>
+        <h2 class="ca-panel__title">Incognito access required</h2>
+        <p class="ca-panel__lead">
+          A first-visit measurement needs a profile that holds none of the site's data. In your
+          normal profile the site may already have your consent stored, so no banner appears and
+          the audit would understate what a new visitor receives.
+        </p>
+        <p class="ca-panel__lead">
+          Open this extension's details and turn on <em>Allow in Incognito</em>.
+        </p>
+        <button class="ca-button" type="button" data-action="open-settings">
+          Open extension details
+        </button>
+      </section>
+
+      <!-- Ready to audit. -->
+      <section class="ca-panel" data-view="ready" hidden>
+        <h2 class="ca-panel__title">Before consent</h2>
+        <p class="ca-target" data-field="target">—</p>
+        <p class="ca-panel__lead">
+          The page is loaded in a clean window and watched for five seconds without being touched
+          at all — no click, no scroll. Anything that arrives in that window arrived before you
+          could agree to it.
         </p>
 
-        <dl class="ca-facts">
-          <div class="ca-facts__row">
-            <dt class="ca-facts__term">Service worker</dt>
-            <dd class="ca-facts__value" data-field="worker">—</dd>
+        <div class="ca-notice" data-field="debugger-notice" hidden>
+          <p class="ca-notice__title">Chrome will show a warning bar</p>
+          <p class="ca-notice__body">
+            Measuring the earliest requests means attaching Chrome's own debugger, so Chrome pins
+            a “Consent Audit started debugging this browser” bar to the audited window. That is
+            Chrome telling you the truth, not a malfunction. The bar disappears with the window.
+          </p>
+          <button class="ca-button ca-button--quiet" type="button" data-action="acknowledge">
+            Understood
+          </button>
+        </div>
+
+        <button class="ca-button" type="button" data-action="audit">Audit this page</button>
+      </section>
+
+      <!-- Observation window in progress. -->
+      <section class="ca-panel" data-view="running" hidden>
+        <h2 class="ca-panel__title">Observing</h2>
+        <p class="ca-panel__lead" data-field="running-detail">
+          Watching the page without touching it. Do not interact with the audit window.
+        </p>
+      </section>
+
+      <!-- Capture A summary. -->
+      <section class="ca-panel" data-view="result" hidden>
+        <h2 class="ca-panel__title">Deposited before consent</h2>
+        <p class="ca-target" data-field="result-target">—</p>
+
+        <dl class="ca-figures">
+          <div class="ca-figures__row">
+            <dt class="ca-figures__term">Third-party requests</dt>
+            <dd class="ca-figures__value" data-field="third-party-requests">—</dd>
           </div>
-          <div class="ca-facts__row">
-            <dt class="ca-facts__term">Message protocol</dt>
-            <dd class="ca-facts__value" data-field="protocol">—</dd>
+          <div class="ca-figures__row">
+            <dt class="ca-figures__term">Cookies written</dt>
+            <dd class="ca-figures__value" data-field="cookies">—</dd>
           </div>
-          <div class="ca-facts__row">
-            <dt class="ca-facts__term">Round trip</dt>
-            <dd class="ca-facts__value" data-field="latency">—</dd>
+          <div class="ca-figures__row">
+            <dt class="ca-figures__term">Storage writes</dt>
+            <dd class="ca-figures__value" data-field="storage">—</dd>
+          </div>
+          <div class="ca-figures__row">
+            <dt class="ca-figures__term">First deposit</dt>
+            <dd class="ca-figures__value" data-field="first-deposit">—</dd>
           </div>
         </dl>
 
-        <button class="ca-button" type="button" data-action="self-check">Run self-check</button>
+        <p class="ca-caveat" data-field="profile-note"></p>
+        <p class="ca-caveat" data-field="capture-notes" hidden></p>
+
+        <button class="ca-button" type="button" data-action="audit">Audit again</button>
+      </section>
+
+      <!-- The audit could not run or did not complete. -->
+      <section class="ca-panel" data-view="error" hidden>
+        <h2 class="ca-panel__title">The audit did not complete</h2>
+        <p class="ca-verdict" data-state="breach">
+          <span class="ca-verdict__mark" aria-hidden="true">✕</span>
+          <span class="ca-verdict__label" data-field="error-message">Unknown failure</span>
+        </p>
+        <button class="ca-button" type="button" data-action="audit">Try again</button>
       </section>
     </main>
 

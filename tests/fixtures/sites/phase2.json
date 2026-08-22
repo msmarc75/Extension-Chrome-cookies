@@ -1,0 +1,15 @@
+{
+  "description": "Sites for the phase 2 acceptance run. Five French news outlets (the criterion asks for at least three), two retail/travel sites where consent has commercial weight, two large English-language publishers, and Wikipedia as a control — a tool that finds trackers on Wikipedia is measuring itself, not the web.",
+  "sites": [
+    { "url": "https://www.lemonde.fr/", "note": "FR news, Didomi" },
+    { "url": "https://www.lefigaro.fr/", "note": "FR news" },
+    { "url": "https://www.20minutes.fr/", "note": "FR news, free daily" },
+    { "url": "https://www.liberation.fr/", "note": "FR news" },
+    { "url": "https://www.leparisien.fr/", "note": "FR news" },
+    { "url": "https://www.cdiscount.com/", "note": "FR retail" },
+    { "url": "https://www.sncf-connect.com/", "note": "FR travel, public-adjacent" },
+    { "url": "https://www.bbc.com/", "note": "UK public broadcaster" },
+    { "url": "https://www.theguardian.com/", "note": "UK news" },
+    { "url": "https://www.wikipedia.org/", "note": "control — expected to deposit nothing" }
+  ]
+}

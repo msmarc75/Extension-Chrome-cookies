@@ -1,65 +1,135 @@
 /*
  * Popup controller.
  *
- * Phase 1 scope: prove the popup ↔ service worker channel end to end and show
- * the result in the report register (mark + label + measured value), never a
- * bare colour.
+ * The popup is a launcher and a summary, not the report. It shows the four
+ * figures that decide whether the rest is worth reading, and it is honest
+ * about the conditions the measurement was taken under — a capture from a
+ * profile that already knew the site is worth less, and says so.
  */
 
 import { MessageType, request } from '../../shared/messaging.js';
+import { formatOffset, summarise } from './summary.js';
 
-const VERDICT = Object.freeze({
-  pending: { state: '', mark: '·', label: 'Checking…' },
-  clear: { state: 'clear', mark: '✓', label: 'Service worker responding' },
-  breach: { state: 'breach', mark: '✕', label: 'Service worker unreachable' },
-});
+const ACKNOWLEDGED_KEY = 'debuggerNoticeAcknowledged';
 
 const field = (name) => document.querySelector(`[data-field="${name}"]`);
+const views = () => document.querySelectorAll('[data-view]');
 
-function setVerdict(kind) {
-  const verdict = VERDICT[kind];
-  const container = field('verdict');
-  container.dataset.state = verdict.state;
-  field('verdict-mark').textContent = verdict.mark;
-  field('verdict-label').textContent = verdict.label;
+function show(view) {
+  for (const section of views()) {
+    section.hidden = section.dataset.view !== view;
+  }
 }
 
-function setFacts({ worker, protocol, latency, version }) {
-  field('worker').textContent = worker;
-  field('protocol').textContent = protocol;
-  field('latency').textContent = latency;
-  field('version').textContent = version;
+const PROFILE_NOTE = Object.freeze({
+  'incognito-fresh': 'Measured in a clean incognito window — a genuine first visit.',
+  'incognito-shared':
+    'Measured in an incognito session that was already open, so it may carry state from earlier browsing in that session.',
+  current:
+    'Measured in your normal profile. This is a returning visit, not a first one: the site may already hold a stored choice.',
+});
+
+async function activeTabUrl() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  return tab?.url ?? null;
 }
 
-async function runSelfCheck() {
-  const button = document.querySelector('[data-action="self-check"]');
-  button.disabled = true;
-  setVerdict('pending');
+function renderResult(capture) {
+  const summary = summarise(capture);
 
-  const start = performance.now();
-  const status = await request(MessageType.GET_STATUS);
-  const elapsed = performance.now() - start;
+  field('result-target').textContent = capture.target.finalUrl ?? capture.target.requestedUrl;
+  field('third-party-requests').textContent =
+    `${summary.thirdPartyRequests} of ${summary.totalRequests}`;
+  field('cookies').textContent =
+    summary.cookies === 0
+      ? 'none'
+      : `${summary.cookies} (${summary.thirdPartyCookies} third-party)`;
+  field('storage').textContent = summary.storage === 0 ? 'none' : String(summary.storage);
+  field('first-deposit').textContent =
+    summary.firstDepositMs === null ? 'nothing observed' : formatOffset(summary.firstDepositMs);
 
-  if (status.ok) {
-    setVerdict('clear');
-    setFacts({
-      worker: `up ${Math.round(status.data.workerUptimeMs)} ms`,
-      protocol: `v${status.data.protocol}`,
-      latency: `${elapsed.toFixed(1)} ms`,
-      version: `v${status.data.version}`,
-    });
+  field('profile-note').textContent = PROFILE_NOTE[capture.profile] ?? '';
+
+  const notes = field('capture-notes');
+  if (capture.notes.length > 0) {
+    notes.hidden = false;
+    notes.textContent = `Limitations recorded: ${capture.notes.map((n) => n.code).join(', ')}.`;
   } else {
-    setVerdict('breach');
-    setFacts({
-      worker: status.error.code,
-      protocol: '—',
-      latency: '—',
-      version: 'not connected',
-    });
+    notes.hidden = true;
   }
 
-  button.disabled = false;
+  show('result');
 }
 
-document.querySelector('[data-action="self-check"]').addEventListener('click', runSelfCheck);
-runSelfCheck();
+function fail(message) {
+  field('error-message').textContent = message;
+  show('error');
+}
+
+async function refreshCapability() {
+  const [status, capability] = await Promise.all([
+    request(MessageType.GET_STATUS),
+    request(MessageType.AUDIT_CAPABILITY),
+  ]);
+
+  field('version').textContent = status.ok ? `v${status.data.version}` : 'not connected';
+
+  if (!capability.ok) {
+    fail('The extension could not reach its background service.');
+    return null;
+  }
+  if (!capability.data.canAudit) {
+    show('blocked');
+    return null;
+  }
+
+  const url = await activeTabUrl();
+  if (!url || !/^https?:/.test(url)) {
+    fail('This page cannot be audited. Open an http or https page and try again.');
+    return null;
+  }
+
+  field('target').textContent = url;
+
+  const { [ACKNOWLEDGED_KEY]: acknowledged } = await chrome.storage.local.get(ACKNOWLEDGED_KEY);
+  field('debugger-notice').hidden = Boolean(acknowledged);
+
+  show('ready');
+  return url;
+}
+
+async function runAudit() {
+  const url = await activeTabUrl();
+  if (!url) {
+    fail('No page to audit.');
+    return;
+  }
+
+  show('running');
+  field('running-detail').textContent =
+    'Watching the page without touching it. Do not interact with the audit window.';
+
+  const response = await request(MessageType.CAPTURE_PRE_CONSENT, { url });
+
+  if (response.ok) {
+    renderResult(response.data);
+    return;
+  }
+  fail(response.error.message);
+}
+
+document.addEventListener('click', async (event) => {
+  const action = event.target.closest('[data-action]')?.dataset.action;
+  if (!action) return;
+
+  if (action === 'audit') {
+    await runAudit();
+  } else if (action === 'acknowledge') {
+    await chrome.storage.local.set({ [ACKNOWLEDGED_KEY]: true });
+    field('debugger-notice').hidden = true;
+  } else if (action === 'open-settings') {
+    await chrome.tabs.create({ url: `chrome://extensions/?id=${chrome.runtime.id}` });
+  }
+});
+
+refreshCapability();

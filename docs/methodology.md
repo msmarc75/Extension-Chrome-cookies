@@ -72,6 +72,57 @@ and the banner was found heuristically, the report says so, on the report
 itself and not only in the documentation. A reader must be able to weight the
 finding.
 
+**A clean profile, not a cleaned one.** A profile that already holds the site's
+data measures a *returning* visitor: the site may find a stored choice, show no
+banner, and load everything — which is a different question from the one this
+tool asks. The audit therefore runs in an incognito window. The alternative,
+clearing the site's data in the user's own profile first, would destroy
+something the user owns in order to measure it, and is not on offer. Each
+capture records which of `incognito-fresh`, `incognito-shared` or `current` it
+was taken under, and the report shows it.
+
+## What capture A can and cannot see
+
+Stated plainly, because a finding is only as good as the instrument behind it.
+
+**Requests** come from the CDP `Network` domain, attached before navigation. A
+request is recorded when the page asks for it, whether or not the network
+allows it — which is the right unit: what the site chose to send is the fact at
+issue.
+
+**Cookies** have two sources. `Set-Cookie` response headers give the moment of
+writing. A reading of the jar at the end of the window gives what actually
+persisted. Where the two disagree, the jar decides what is recorded and the
+header decides when.
+
+**Storage and script-set cookies** need in-page instrumentation, because the
+protocol will not give them up: `chrome.debugger` refuses the `DOMStorage`
+domain to extensions outright, and `Storage.getUsageAndQuota` does not account
+for localStorage at all. A small script installed before navigation wraps
+`Storage.prototype.setItem` and the `document.cookie` setter, and is read back
+once the window has closed. It dispatches no event and clicks nothing: there is
+nothing in it a consent platform could mistake for agreement.
+
+Known limits of that approach, each of which the capture discloses rather than
+papers over:
+
+- A write that bypasses `setItem` — `localStorage.foo = 1` sets a named
+  property — leaves no mark. The end-of-window inventory catches the key, and it
+  is recorded as `snapshot`, without a time.
+- IndexedDB and Cache Storage are visible only as a quota reading: present,
+  sized, undated, and without keys.
+- A cross-document navigation during the window resets the marks, since the
+  instrument re-installs per document. What was written before a redirect is
+  lost to the timeline, though its cookies still appear in the jar.
+- Anything recorded without an observable moment of writing is shown as
+  undated. It is never given a plausible-looking time.
+
+**First and third party** are separated by registrable domain, using a compact
+list of multi-label public suffixes rather than the full Public Suffix List.
+The classification is a convenience for reading a capture; it is not the basis
+of a finding. Tracker classification proper arrives with the Tracker Radar data
+and its entity ownership.
+
 ## Open questions
 
 Legal points this project has deliberately not settled. Each one names the rule

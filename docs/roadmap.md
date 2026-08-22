@@ -39,7 +39,7 @@ The order is the product. Step 5 is observable exactly once.
 | # | Phase | Acceptance | Status |
 |---|---|---|---|
 | 1 | Skeleton | Loads without error, popup opens, message round trip, build and unit tests run | **done** |
-| 2 | Capture | Capture A complete and serialised to `shared/schema`; ten test sites including three French news outlets; debugger detaches under every path, zero orphan sessions over a hundred audits | not started |
+| 2 | Capture | Capture A complete and serialised to `shared/schema`; ten test sites including three French news outlets; debugger detaches under every path, zero orphan sessions over a hundred audits | **done** |
 | 3 | Banner detection | Thirty real fixtures: CMP identified in ≥25, refusal succeeds in ≥22 | not started |
 | 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | not started |
 | 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | not started |
@@ -61,6 +61,45 @@ The order is the product. Step 5 is observable exactly once.
   succeeds, and nothing logs an error.
 
 Verified: 37 unit tests, 5 end-to-end tests, all green.
+
+### Phase 2 — what shipped
+
+- `shared/schema/capture.schema.json` — the capture contract, plus a validator
+  for the subset of JSON Schema the project uses, which throws on any keyword
+  it does not implement rather than under-enforcing silently.
+- `debugger-session.js` — attach, send with a timeout, detach. Four independent
+  guarantees of detachment, including a sweep at every worker start for the one
+  case the others cannot cover: an eviction mid-audit.
+- `capture.js` — a pure builder over the CDP event stream, driven in tests from
+  a recorded session.
+- `page-instrument.js` — the in-page hooks that date storage writes and
+  script-set cookies. `chrome.debugger` denies extensions the `DOMStorage`
+  domain, and the quota API does not count localStorage, so without this the
+  capture would be blind to storage and would only ever see a script-set cookie
+  undated, found in the jar with no idea when it arrived.
+- `audit.js` — the ordering the product rests on: attach, then navigate, then
+  five seconds during which nothing touches the page. The navigation is started
+  and not awaited, so a page that never answers cannot stretch the window.
+- Popup: the audit launcher, the Chrome debugger-bar warning shown before the
+  first audit, and the four figures that say whether the rest is worth reading.
+
+Verified: 109 unit tests and 16 end-to-end tests green; a hundred consecutive
+audits — including hanging pages and refused URLs — leaving zero debugger
+sessions attached and no tab open; and a real-site run recorded in
+[`verification/capture-a-2026-08-22.md`](verification/capture-a-2026-08-22.md).
+
+### Open for phase 3
+
+- **The incognito gate.** An audit currently refuses to run without incognito
+  access, because a profile holding the site's data measures a returning
+  visitor. That is correct for the headline measurement and it is friction
+  before the tool does anything at all. Whether to offer a disclosed
+  current-profile audit as a second, clearly-labelled mode is a product call,
+  not a technical one.
+- **Fingerprinting surface.** `PRE_CONSENT_FINGERPRINT` needs Canvas, WebGL and
+  AudioContext hooks installed alongside the existing ones. The instrument is
+  the right place; the rule that consumes them lands in phase 4, so the hooks
+  land with it.
 
 ## Standing constraints
 

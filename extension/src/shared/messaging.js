@@ -13,6 +13,8 @@ export const PROTOCOL_VERSION = 1;
 export const MessageType = Object.freeze({
   PING: 'ping',
   GET_STATUS: 'get_status',
+  AUDIT_CAPABILITY: 'audit_capability',
+  CAPTURE_PRE_CONSENT: 'capture_pre_consent',
 });
 
 /** Error codes carried by a failed response envelope. */
