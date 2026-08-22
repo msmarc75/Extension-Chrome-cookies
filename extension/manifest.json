@@ -24,6 +24,14 @@
     "service_worker": "src/background/service-worker.js",
     "type": "module"
   },
-  "permissions": ["activeTab", "cookies", "debugger", "storage"],
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "debugger",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.consent-audit.dev/*"
+  ],
   "incognito": "spanning"
 }

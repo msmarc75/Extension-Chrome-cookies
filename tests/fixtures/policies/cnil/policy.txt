@@ -1,0 +1,142 @@
+Accueil
+Données personnelles
+
+Données personnelles
+
+08 avril 2024
+La CNIL s'engage à ce que les traitements de données personnelles effectués sur cnil.fr soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
+
+Imprimer l’article
+Partager cette page par courriel
+
+Diminuer la taille de la police
+Augmenter la taille de la police
+
+Politique de protection des données
+Chaque service en ligne limite la collecte des données personnelles au strict nécessaire (minimisationminimisation
+Le principe de minimisation prévoit que les données à caractère personnel doivent être adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités pour lesquelles elles sont traitées. Exemple : Collecter et conserver le...> En savoir plus
+
+des données) et s’accompagne d’une information sur :
+le responsable du traitement et les objectifs du recueil de ces données (finalités) ;
+la base juridique du traitement de données ;
+le caractère obligatoire ou facultatif du recueil des données pour la gestion de votre demande et le rappel des catégories de données traitées ;
+la source des données (lorsque d’autres données que celles fournies via le service en ligne sont utilisées pour le traitement de votre demande) ;
+les catégories de personnes concernées ;
+les destinataires des données (uniquement la CNIL en principe, sauf précision lorsqu'une transmission à un tiers est nécessaire) ;
+la durée de conservation des données ;
+les mesures de sécurité (description générale) ;
+l’existence éventuelle de transferts de données hors de l’Union européenne ou de prises de décision automatisées ;
+vos droits Informatique et Libertés et la façon de les exercer auprès de la CNIL.
+
+Les données personnelles recueillies dans le cadre des services proposés sur cnil.fr sont traitées selon des protocoles sécurisés et permettent à la CNIL de gérer les demandes reçues dans ses applications informatiques.
+> En savoir plus sur la gestion des sites web administrés par la CNIL
+> Accéder au registre RGPD de la CNIL
+> En savoir plus sur le registre RGPD de la CNIL
+Exercer vos droits
+Pour toute information ou exercice de vos droits Informatique et Libertés sur les traitements de données personnelles gérés par la CNIL, vous pouvez contacter son délégué à la protection des données (DPO)délégué à la protection des données (dpo)
+Le délégué à la protection des données (DPO) est chargé de mettre en œuvre la conformité au règlement européen sur la protection des données au sein de l’organisme qui l’a désigné s’agissant de l’ensemble des traitements mis en œuvre par cet organism...> En savoir plus
+
+:
+par ce formulaire
+ou par courrier (avec copie de votre pièce d’identité en cas d'exercice de vos droits, sauf si les éléments communiqués dans votre demande permettent de vous identifier de façon certaine) à l'adresse suivante :
+Commission Nationale de l'Informatique et des Libertés
+A l'attention du délégué à la protection des données (DPO)délégué à la protection des données (dpo)
+Le délégué à la protection des données (DPO) est chargé de mettre en œuvre la conformité au règlement européen sur la protection des données au sein de l’organisme qui l’a désigné s’agissant de l’ensemble des traitements mis en œuvre par cet organism...> En savoir plus
+
+​​3 Place de Fontenoy
+75007 PARIS
+
+À propos des cookies
+Nous utilisons différents traceurs/cookies sur le site pour mesurer l’audience et intégrer des services permettant d’améliorer l’interactivité du site.
+> En savoir plus sur les cookies et leur fonctionnement
+Types de traceurs/cookies déposés sur le site de la CNIL :
+
+Cookies strictement nécessaires au site pour fonctionner Déplier
+Ces traceurs/cookies permettent aux services principaux du site de fonctionner de manière optimale. Vous pouvez techniquement les bloquer en utilisant les paramètres de votre navigateur mais votre expérience sur le site risque d’être dégradée.
+Par ailleurs, vous avez la possibilité de vous opposer à l’utilisation des traceurs de mesure d’audience strictement nécessaires au fonctionnement et aux opérations d’administration courante du site web dans la fenêtre de gestion des cookies située en haut à droite de chaque page du site.
+Navigation sur www.cnil.fr
+
+Nom du traceur/cookiecookie
+La définition Un cookie est un petit fichier stocké par un serveur dans le terminal (ordinateur, téléphone, etc.) d’un utilisateur et associé à un domaine web (c’est à dire dans la majorité des cas à l’ensemble des pages d’un même site web).&n...> En savoir plus
+
+Finalité
+Durée de conservation
+
+Tarteaucitron
+
+Sauvegarde vos choix en matière de consentement des cookies
+
+6 mois
+
+Espace
+
+Permet de paramétrer la présentation du service en fonction de l’interface utilisée (particulier, professionnel, presse)
+
+Session
+
+TypeVisiteur
+Permet de paramétrer la présentation du service en fonction de l’interface utilisée (particulier, professionnel, presse) - (stocké en local)
+
+SERVERID
+
+Permet d’assurer l’équilibrage de la charge des serveurs.
+
+Session
+
+Utilisation des téléservices CNIL
+
+Compte usager « services.cnil.fr »
+
+Nom du traceur/cookie
+Finalité
+Durée de conservation
+
+Sessionid-xxx
+Permet de maintenir l’authentification de l’utilisateur au cours de sa navigation sur son compte usager « services.cnil.fr »
+Session
+
+a2-opened-session-nnnnnn
+Permet d’identifier l’existence d’une session de l’utilisateur connecté sur son compte usager « service.cnil.fr »
+Session ou jusqu’à la fermeture du navigateur
+
+csrftoken-combo-nnnnnnn
+Permet de protéger le compte usager « services.cnil.fr » d’attaques informatiques
+12 mois
+
+Vidéos consultées à partir de www.cnil.fr
+
+Nom
+Finalité
+
+peertube-videojs-video-watch-history
+Permet d’assurer la reprise de la lecture de la vidéo en cours, en cas d’interruption réseau (stocké en local)
+
+peertube-videojs-average-bandwidth
+Permet d’ajuster les paramètres de définition automatique de la vidéo (stocké en local)
+
+Peertube-videojs-mute / peertube-videojs-volume
+Permet de gérer les paramètres du volume.
+
+Traceurs/cookies de mesure d’audience
+
+Nom du traceur/cookie
+Finalité
+Durée de conservation
+
+_pk_id.nnnnn
+
+Permet de stocker votre identifiant unique de visite (si la mesure d'audience Piwik est active)
+
+12 mois
+
+_pk_ses.nnnnn
+
+Permet le stockage temporaire de vos données de visite (si la mesure d'audience Piwik est active)
+
+30 minutes
+
+_pk_ref.nnnnn
+Permet de déterminer l'origine de la visite de l'utilisateur (si la mesure d'audience Piwik est active)
+6 mois
+
+Pour en savoir plus sur les cookies de mesure d'audience : voir la politique de confidentialité de Piwik (Matomo) (disponible uniquement en langue anglaise)

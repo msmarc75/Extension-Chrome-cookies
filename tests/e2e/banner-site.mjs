@@ -90,6 +90,32 @@ const send = (response, body) => {
   response.end(body);
 };
 
+
+/*
+ * A privacy policy, and — before it — the hub that so many sites answer
+ * "privacy" with. The audit has to walk from one to the other.
+ */
+const POLICY_HUB = html(`
+  <article>
+    <h1>Privacy</h1>
+    <p>Our privacy policy, and how we use cookies.</p>
+    <ul>
+      <li><a href="/privacy-policy">Privacy policy</a></li>
+      <li><a href="/cookies">Cookie policy</a></li>
+    </ul>
+  </article>`);
+
+const POLICY = html(`
+  <article>
+    <h1>Politique de confidentialite</h1>
+    <p>Fixture Presse SAS, 4 rue de Rivoli, 75001 Paris, est responsable du traitement des donnees personnelles collectees sur ce site.</p>
+    <p>Nous traitons vos donnees de navigation afin de mesurer notre audience et de diffuser de la publicite personnalisee. La publicite repose sur votre consentement.</p>
+    <p>Vos donnees sont conservees treize mois a compter de leur collecte.</p>
+    <p>Vous disposez d un droit d acces, de rectification et d effacement, et vous pouvez retirer votre consentement a tout moment via le lien "Gerer mes cookies" en bas de chaque page.</p>
+    <p>Vous pouvez introduire une reclamation aupres de la CNIL.</p>
+    <div class="banner" id="cookie-notice"><p>Nous utilisons des cookies.</p><button>Tout accepter</button></div>
+  </article>`);
+
 /**
  * @returns {Promise<{origin: string, frameOrigin: string, close: () => Promise<void>}>}
  */
@@ -107,6 +133,8 @@ export async function startBannerSite() {
     if (path === '/second-layer') return send(response, SECOND_LAYER);
     if (path === '/shadow') return send(response, SHADOW);
     if (path === '/clean') return send(response, CLEAN);
+    if (path === '/policy') return send(response, POLICY_HUB);
+    if (path === '/privacy-policy') return send(response, POLICY);
     if (path === '/framed') {
       return send(
         response,

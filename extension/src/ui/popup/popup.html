@@ -56,6 +56,22 @@
           </button>
         </div>
 
+        <!--
+          Sending a document to a service is a decision, not a default. The box
+          is unticked, it says where the text goes, and nothing leaves the
+          browser unless it is ticked.
+        -->
+        <label class="ca-choice">
+          <input class="ca-choice__box" type="checkbox" data-field="analyse-policy">
+          <span class="ca-choice__label">
+            Also analyse the privacy policy.
+            <span class="ca-choice__detail">
+              Its text is sent to the Consent Audit service, which reads it against the
+              articles of the GDPR. Nothing else leaves your browser.
+            </span>
+          </span>
+        </label>
+
         <button class="ca-button" type="button" data-action="audit">Audit this page</button>
       </section>
 

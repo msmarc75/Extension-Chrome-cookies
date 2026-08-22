@@ -16,11 +16,16 @@
     "test": "npm run check:tokens && npm run test:unit && npm run build && npm run test:e2e",
     "verify:capture": "node scripts/verify-capture.mjs",
     "capture:fixtures": "node scripts/capture-fixtures.mjs",
+    "capture:policies": "node scripts/capture-policies.mjs",
     "rederive:profiles": "node scripts/rederive-profiles.mjs",
     "verify:banners": "node scripts/verify-banners.mjs",
-    "verify:rules": "node scripts/verify-rules.mjs"
+    "verify:rules": "node scripts/verify-rules.mjs",
+    "verify:policies": "node scripts/verify-policies.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0"
   }
 }

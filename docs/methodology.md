@@ -252,6 +252,74 @@ alone.
 observable moment of writing cannot be shown to predate the choice. It appears
 in the capture and stays out of the finding.
 
+## Reading the privacy policy
+
+**Reaching it.** The document analysed is the one the site itself puts forward:
+the policy control on its own banner, first. Where the banner offers none, the
+page's links are *ranked* rather than taken in order — a news site publishes
+articles about privacy, and the first link whose text says "privacy" is a
+headline about as often as it is a policy. The ranking prefers a path that names
+the document (`/privacy`, `/confidentialite`, `datenschutz.zeit.de`), penalises
+anything shaped like an article (a date in the path, `/news/`, `/video/`),
+rejects PDFs, and prefers the site's own domain: the first run of the corpus
+followed a Belgian publisher's Cloudflare interstitial to *Cloudflare's* privacy
+policy — a real document, professionally written, about the wrong company.
+
+**One hop, and only one.** A great many sites answer "privacy" with a hub: a
+page of links to the policy, the cookie policy and a video about them. When the
+page reached is too short to be a policy, one link is followed, and only towards
+a candidate that scores better than the page it is on. Following links about
+privacy until something long enough turns up is how a tool ends up analysing a
+blog post.
+
+**Reading it.** Through the same debugger session as everything else, from the
+rendered document. Not `fetch`: a policy rendered by script, served as an
+application route or behind a consent gate returns a shell with none of the text
+in it, and fetching from the service would analyse a document the visitor never
+saw. Navigation, headers, footers, forms and the consent banner itself are
+removed before the text is taken — a banner left in would put its own words into
+the analysis and make every site look as though its policy discussed consent.
+
+**What the analysis is asked.** Fifteen subjects, fixed, each tied to the
+article that asks for it: the controller's identity, the DPO's contact details,
+the categories of data, the purposes, the legal bases, the legitimate interests
+relied on, the recipients, transfers outside the EEA and their safeguard, the
+retention period, the rights of access, rectification and erasure, the right to
+withdraw consent, the right to complain to a supervisory authority, automated
+decision-making, what is stored on the device, and how to change the cookie
+choice later. Every subject comes back, always: one the analysis did not reach
+is stated as unreached rather than omitted.
+
+**Every claim carries the sentence, and the sentence is checked.** A model that
+says "the policy states its retention period" and hands back a sentence the
+document does not contain has not found a retention period; it has written one.
+So each claim of presence comes with one sentence, and the server looks for that
+sentence in the source before issuing anything. The comparison tolerates what
+carries no meaning — a non-breaking space, a straightened apostrophe, a trailing
+footnote marker — and the quote finally reported is the *document's* characters
+at the position found, never the model's copy of them.
+
+**A claim that fails that check becomes `unverified`, not `absent`.** This
+reverses a decision recorded during phase 3, which was to downgrade such a claim
+to absent, and the reversal is the same principle as everywhere else in this
+project: the tool's own uncertainty must not become an accusation. That the
+quote could not be found establishes that the claim is unusable. It does not
+establish that the policy is silent. `unverified` is reported as a warning that
+says exactly what happened, and it never fails a rule.
+
+**What every policy must state, and what only some must.** A controller with no
+DPO has none to name; a site relying on no legitimate interest has none to
+describe; a site transferring nothing outside the EEA has no safeguard to
+disclose. Those subjects are conditional: their absence is recorded as an
+observation and never as a departure. Treating them as required would fail a
+compliant policy for being silent about something that does not apply to it.
+
+**The API key is on the server and nowhere else.** Anything shipped to a browser
+is public, so the extension holds the address of a service, not a key. What
+leaves the browser is the policy text — and only when the user has ticked the
+box that says so. A tool that quietly posted the pages it visited to a server
+would be doing to its user what it exists to report other people for.
+
 ## Scoring, and the honesty constraints on it
 
 A number out of a hundred is the most quotable thing this product makes, and
@@ -331,6 +399,15 @@ No instrument publishes a threshold; the guidance says "as easy". **Shipped:** a
 20 % tolerance on surface area, WCAG relative luminance for contrast, and both
 sides' figures printed side by side so the reader can disagree with the
 threshold and still use the measurement.
+
+**Is a policy that defers to another document compliant?** *(category D)* A
+policy that says "each of our services states its own purposes" has addressed
+the subject without making the disclosure. The EDPB's transparency guidelines
+are against layering that hides the substance, but a link to a genuinely
+complete second document is not itself a breach. **Shipped:** a reference to an
+unread document is at most `partial`, never `present` — the analysis judges only
+the text it was given, and says so — and `partial` costs half of what `absent`
+costs rather than nothing.
 
 **Does loading a consent platform before consent count against the site?**
 **Shipped:** no. Loading the CMP is how the site asks the question, and its own

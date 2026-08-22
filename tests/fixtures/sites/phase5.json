@@ -1,0 +1,117 @@
+{
+  "description": "Sites whose privacy policy makes up the phase 5 corpus. Chosen to overlap the phase 3 banner corpus wherever possible — the same publishers, so a policy finding can be read beside what the same site actually deposits — and widened with two institutions and one non-profit, whose policies are written to be exemplary and are the corpus's control group. Policy URLs are discovered the way the extension discovers them, from the banner's own policy control or the page's links; `policyUrl` is only set where discovery has no chance, and says why.",
+  "sites": [
+    {
+      "slug": "lemonde",
+      "url": "https://www.lemonde.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "lefigaro",
+      "url": "https://www.lefigaro.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "leparisien",
+      "url": "https://www.leparisien.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "liberation",
+      "url": "https://www.liberation.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "ouest-france",
+      "url": "https://www.ouest-france.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "20minutes",
+      "url": "https://www.20minutes.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "cnil",
+      "url": "https://www.cnil.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "seloger",
+      "url": "https://www.seloger.com/",
+      "country": "FR"
+    },
+    {
+      "slug": "theguardian",
+      "url": "https://www.theguardian.com/",
+      "country": "UK"
+    },
+    {
+      "slug": "bbc",
+      "url": "https://www.bbc.com/",
+      "country": "UK"
+    },
+    {
+      "slug": "gov-uk",
+      "url": "https://www.gov.uk/",
+      "country": "UK"
+    },
+    {
+      "slug": "spiegel",
+      "url": "https://www.spiegel.de/",
+      "country": "DE"
+    },
+    {
+      "slug": "zeit",
+      "url": "https://www.zeit.de/",
+      "country": "DE"
+    },
+    {
+      "slug": "elpais",
+      "url": "https://elpais.com/",
+      "country": "ES"
+    },
+    {
+      "slug": "repubblica",
+      "url": "https://www.repubblica.it/",
+      "country": "IT"
+    },
+    {
+      "slug": "nu-nl",
+      "url": "https://www.nu.nl/",
+      "country": "NL"
+    },
+    {
+      "slug": "wikipedia",
+      "url": "https://www.wikipedia.org/",
+      "country": "INT",
+      "policyUrl": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
+      "why": "The portal page carries no banner and no policy link; the policy lives on the Foundation's own wiki."
+    },
+    {
+      "slug": "heise",
+      "url": "https://www.heise.de/",
+      "country": "DE"
+    },
+    {
+      "slug": "elmundo",
+      "url": "https://www.elmundo.es/",
+      "country": "ES"
+    },
+    {
+      "slug": "standaard",
+      "url": "https://www.standaard.be/",
+      "country": "BE"
+    },
+    {
+      "slug": "francetvinfo",
+      "url": "https://www.francetvinfo.fr/",
+      "country": "FR"
+    },
+    {
+      "slug": "irishtimes",
+      "url": "https://www.irishtimes.com/",
+      "country": "IE"
+    }
+  ]
+}

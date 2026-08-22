@@ -23,6 +23,12 @@ import { assess } from '../engine/index.js';
 import { locateBanner } from '../content/banner-detector.js';
 import { identifyCmp } from '../content/cmp-adapters/index.js';
 import { express, readProfile, resetOrigin } from '../content/interaction-driver.js';
+import {
+  POLICY_TEXT_EXPRESSION,
+  nextPolicyHop,
+  parsePolicyText,
+  policyUrlFrom,
+} from '../content/policy-text.js';
 
 /** Length of the observation window, in milliseconds. */
 export const OBSERVATION_MS = 5_000;
@@ -32,6 +38,15 @@ const SESSION_BUDGET_MS = 60_000;
 
 /** Budget for each end-of-window question put to the page. */
 const SNAPSHOT_TIMEOUT_MS = 3_000;
+
+/** How long the policy page is given to render before it is read. */
+const POLICY_SETTLE_MS = 2_500;
+
+/** Below this, what came back is a link page or a wall, not a policy. */
+const MIN_POLICY_CHARACTERS = 400;
+
+/** Below this, the page reached is more likely a hub than the policy itself. */
+const HUB_CHARACTERS = 2_500;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -232,6 +247,78 @@ async function observe({
   });
 }
 
+/**
+ * Reach the privacy policy and bring back its text.
+ *
+ * Through the session, not through `fetch`: a great many policies are rendered
+ * by script or served as an application route, where fetching the URL returns a
+ * shell with none of the text in it — and fetching from the service worker
+ * would need host permissions the product does not otherwise ask for.
+ *
+ * Whatever happens, this returns a record rather than throwing. A policy that
+ * could not be reached is a finding about the site, and the audit that reached
+ * everything else is still worth issuing.
+ *
+ * @param {object} session
+ * @param {object} banner the located banner
+ * @param {object} profile the page profile
+ */
+async function readPolicy(session, banner, profile) {
+  const { url, via } = policyUrlFrom(banner, profile);
+  const record = { url, via, text: '', characters: 0, truncated: false, from: null, error: null };
+  if (!url) {
+    record.error = { code: 'NO_POLICY_LINK', message: 'No link to a policy was found' };
+    return record;
+  }
+
+  const visit = async (target) => {
+    /* Started, not awaited — the same reason as the audit navigation: a policy
+       page that never answers must not hold the session open. */
+    void session.send('Page.navigate', { url: target }).catch(() => {});
+    await sleep(POLICY_SETTLE_MS);
+    const collected = await session.trySend(
+      'Runtime.evaluate',
+      { expression: POLICY_TEXT_EXPRESSION, returnByValue: true },
+      { timeoutMs: SNAPSHOT_TIMEOUT_MS },
+    );
+    return collected === null ? null : parsePolicyText(collected?.result?.value);
+  };
+
+  let read = await visit(url);
+  if (read === null) {
+    record.error = { code: 'POLICY_UNREADABLE', message: 'The policy page could not be read' };
+    return record;
+  }
+
+  /*
+   * "Privacy" often answers with a hub: a page of links to the policy, the
+   * cookie policy and a video about them. Analysing that and reporting that the
+   * policy states nothing would be a finding about the tool.
+   */
+  if (read.text.length < HUB_CHARACTERS) {
+    const hop = nextPolicyHop(read);
+    if (hop) {
+      const deeper = await visit(hop);
+      if (deeper && deeper.text.length > read.text.length) {
+        read = deeper;
+        record.via = `${record.via}+hop`;
+      }
+    }
+  }
+  record.text = read.text;
+  record.characters = read.text.length;
+  record.truncated = read.truncated;
+  record.from = read.from;
+  record.finalUrl = read.url;
+  if (read.text.length < MIN_POLICY_CHARACTERS) {
+    record.error = {
+      code: 'POLICY_TOO_SHORT',
+      message: `Only ${read.text.length} characters of text at ${read.url ?? url}`,
+    };
+  }
+  return record;
+}
+
 /** Bring up the domains and the in-page instrument. All of it before navigation. */
 async function arm(session) {
   await session.send('Network.enable');
@@ -318,12 +405,17 @@ export async function captureBeforeConsent({
  * @param {'incognito'|'current'} [options.mode]
  * @param {number} [options.observationMs]
  * @param {boolean} [options.act] whether to attempt refusal and acceptance
+ * @param {null|((policy: object) => Promise<object>)} [options.analyse] what to do
+ *   with the policy text once the browser work is over. Injected rather than
+ *   imported so the audit does not depend on the service being reachable, and
+ *   so the tests can exercise both answers.
  */
 export async function probeBanner({
   url,
   mode = 'incognito',
   observationMs = OBSERVATION_MS,
   act = true,
+  analyse = null,
 } = {}) {
   if (auditInFlight) {
     throw new AuditError('BUSY', 'An audit is already running');
@@ -334,9 +426,11 @@ export async function probeBanner({
   const surface = await openAuditSurface(mode);
   /** @type {CaptureBuilder|null} */
   let builder = null;
+  /* Held out here so the report can be assembled after the debugger is gone. */
+  let judged = null;
 
   try {
-    return await withSession(
+    const result = await withSession(
       surface.tabId,
       (method, params) => builder?.onEvent(method, params),
       async (session) => {
@@ -403,19 +497,21 @@ export async function probeBanner({
           framesExamined: profile.framesExamined ?? null,
           refusal: null,
           acceptance: null,
+          policy: null,
           report: null,
         };
 
         /*
          * The rulebook reads the detector's own output, not the summary above:
          * the fairness rules need the controls' geometry and colours, which the
-         * summary deliberately drops.
+         * summary deliberately drops. Assembled after the session closes, so a
+         * policy analysis that takes half a minute does not hold a debugger
+         * attached to the user's browser while it runs.
          */
-        const judge = () =>
-          assess({ captureA, profile, cmp, banner, refusal: result.refusal });
+        judged = { captureA, profile, cmp, banner };
 
         if (!act) {
-          result.report = judge();
+          result.policy = await readPolicy(session, banner, profile);
           return result;
         }
 
@@ -440,18 +536,39 @@ export async function probeBanner({
           result.profileAfterAcceptance = await readProfile(session);
         }
 
-        result.report = assess({
-          captureA,
-          profile,
-          cmp,
-          banner,
-          refusal: result.refusal,
-          profileAfterAcceptance: result.profileAfterAcceptance ?? null,
-        });
+        /*
+         * The policy is read last, and only once: reaching it navigates the
+         * tab away from the audited page, so nothing measured above could
+         * survive it. Doing this earlier would cost the acceptance capture.
+         */
+        result.policy = await readPolicy(session, banner, profile);
+        judged.profileAfterAcceptance = result.profileAfterAcceptance ?? null;
         return result;
       },
       { budgetMs: SESSION_BUDGET_MS },
     );
+
+    /*
+     * Everything past here happens with no debugger attached and no tab of
+     * ours open: the analysis is a network call to the service, and the report
+     * is arithmetic.
+     */
+    if (analyse && result.policy?.text) {
+      try {
+        result.policy.analysis = await analyse(result.policy);
+      } catch (cause) {
+        result.policy.analysis = null;
+        result.policy.error = { code: cause?.code ?? 'ANALYSIS_FAILED', message: cause?.message ?? String(cause) };
+      }
+    }
+
+    result.report = assess({
+      ...judged,
+      refusal: result.refusal,
+      policy: result.policy,
+      policyAnalysis: result.policy?.analysis ?? null,
+    });
+    return result;
   } finally {
     auditInFlight = false;
     try {

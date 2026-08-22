@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://consent-audit.dev/schema/policy-analysis.schema.json",
+  "title": "Policy analysis",
+  "description": "What a privacy policy states about a fixed list of subjects the GDPR requires it to cover. Every claim that the policy says something travels with the sentence it says it in, and that sentence is checked against the source before this document is issued: a claim whose quote cannot be found verbatim becomes \"unverified\" and is never reported as either present or absent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "promptVersion",
+    "model",
+    "source",
+    "mentions",
+    "notes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "promptVersion": {
+      "description": "Which prompt produced this. A change of wording changes the findings, so the analysis says which wording it came from and the cache is keyed on it.",
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sha256", "characters", "truncated", "url"],
+      "properties": {
+        "sha256": {
+          "description": "Of the normalised text, which is what was actually analysed and what the cache is keyed on.",
+          "type": "string"
+        },
+        "characters": { "type": "integer", "minimum": 0 },
+        "truncated": {
+          "description": "Whether the policy was longer than the analysis ceiling. A truncated analysis can miss a subject stated only in the part that was cut, which is why absence is reported more cautiously when this is true.",
+          "type": "boolean"
+        },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "mentions": {
+      "description": "One entry per subject, always all of them, in a fixed order. A subject the analysis did not reach is stated as such rather than omitted.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["subject", "status", "quote", "quoteVerified", "note"],
+        "properties": {
+          "subject": {
+            "enum": [
+              "identity_controller",
+              "contact_dpo",
+              "data_categories",
+              "purposes",
+              "legal_bases",
+              "legitimate_interests",
+              "recipients",
+              "third_country_transfers",
+              "retention",
+              "rights_access_rectify_erase",
+              "right_withdraw_consent",
+              "right_complain_supervisory",
+              "automated_decision_making",
+              "cookies_described",
+              "consent_withdrawal_mechanism"
+            ]
+          },
+          "status": {
+            "description": "present: the policy states this. partial: it gestures at it without the substance the article asks for. absent: it does not state it. unverified: the analysis claimed it but the sentence could not be found in the source, so neither reading is issued.",
+            "enum": ["present", "partial", "absent", "unverified"]
+          },
+          "quote": {
+            "description": "The sentence the claim rests on, verbatim from the source. Null for absent, and for unverified where nothing usable came back.",
+            "type": ["string", "null"]
+          },
+          "quoteVerified": {
+            "description": "Set by the server, never by the model: whether the quote was found in the source text.",
+            "type": "boolean"
+          },
+          "note": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "notes": {
+      "description": "What limited this analysis, in the same vocabulary the capture uses.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "detail"],
+        "properties": {
+          "code": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    }
+  }
+}

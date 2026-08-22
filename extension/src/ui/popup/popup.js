@@ -159,7 +159,13 @@ async function runAudit() {
    * `act: false` — the popup measures and identifies, it does not refuse or
    * accept on the user's behalf. Driving the banner belongs to the full audit.
    */
-  const response = await request(MessageType.PROBE_BANNER, { url, act: false });
+  /*
+   * The policy is analysed only if the box was ticked. A tool that quietly
+   * posted the page's documents to a server the first time it was pressed would
+   * be doing to its user what it exists to report other people for.
+   */
+  const analysePolicy = field('analyse-policy').checked === true;
+  const response = await request(MessageType.PROBE_BANNER, { url, act: false, analysePolicy });
 
   if (response.ok) {
     renderResult(response.data);

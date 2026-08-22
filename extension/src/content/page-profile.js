@@ -316,6 +316,9 @@ export function profileExpression({ relaxed = false } = {}) {
       text: squash(element.innerText || element.textContent || '', LIMITS.controlText),
       ariaLabel: squash(element.getAttribute('aria-label') || '', LIMITS.controlText) || null,
       title: squash(element.getAttribute('title') || '', LIMITS.controlText) || null,
+      /* Resolved against the document, because the policy is fetched from
+         another page and a relative href would be read against the wrong one. */
+      href: element.tagName === 'A' ? (element.href || null) : null,
       rect: { x: Math.round(rect.x), y: Math.round(rect.y),
               width: Math.round(rect.width), height: Math.round(rect.height) },
       visible: visible(element, style, rect),
@@ -424,6 +427,26 @@ export function profileExpression({ relaxed = false } = {}) {
     }
   } catch (_) {}
 
+  /*
+   * Where the site says its policy lives. Collected from the whole document
+   * rather than from the banner, because the banner is where the *good* answer
+   * is and this is the fallback for when it has none.
+   */
+  const policyLinks = [];
+  try {
+    const POLICY_WORDS = /privacy|confidentialit|datenschutz|privacidad|privacy|cookie|rgpd|gdpr|donnees personnelles|personal data|informativa/;
+    const seenHref = new Set();
+    for (const anchor of document.querySelectorAll('a[href]')) {
+      const href = anchor.href || '';
+      if (!href.startsWith('http') || seenHref.has(href)) continue;
+      const label = fold(anchor.innerText || anchor.textContent || '');
+      if (!POLICY_WORDS.test(label) && !POLICY_WORDS.test(fold(href))) continue;
+      seenHref.add(href);
+      policyLinks.push({ href: href.slice(0, 500), text: squash(label, 120) });
+      if (policyLinks.length >= 24) break;
+    }
+  } catch (_) {}
+
   return JSON.stringify({
     url: location.href,
     title: squash(document.title, 200),
@@ -433,6 +456,7 @@ export function profileExpression({ relaxed = false } = {}) {
     tcf,
     containers,
     frames: frames.slice(0, 20),
+    policyLinks,
   });
 })()`;
 }
@@ -457,6 +481,7 @@ const emptyProfile = () => ({
   tcf: null,
   containers: [],
   frames: [],
+  policyLinks: [],
   unreadable: true,
 });
 
@@ -498,6 +523,11 @@ export function parsePageProfile(raw) {
     frames: Array.isArray(parsed.frames)
       ? parsed.frames.filter((f) => typeof f?.src === 'string')
       : [],
+    policyLinks: Array.isArray(parsed.policyLinks)
+      ? parsed.policyLinks
+          .filter((link) => typeof link?.href === 'string')
+          .map((link) => ({ href: link.href, text: String(link.text ?? '') }))
+      : [],
     unreadable: false,
   };
 }
@@ -532,6 +562,7 @@ function normaliseContainer(container) {
             text: String(control.text ?? ''),
             ariaLabel: control.ariaLabel ?? null,
             title: control.title ?? null,
+            href: typeof control.href === 'string' ? control.href : null,
             rect: { ...RECT, ...(control.rect ?? {}) },
             visible: control.visible !== false,
             disabled: control.disabled === true,

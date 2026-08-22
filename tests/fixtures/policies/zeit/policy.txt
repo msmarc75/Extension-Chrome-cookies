@@ -1,0 +1,640 @@
+☰
+
+Datenschutzerklärung
+13.07.2026
+
+Beim Aufruf einer Website, der Registrierung für einen Dienst, der Abwicklung von Verträgen und anderen Interaktionen werden personenbezogene Daten verarbeitet. Das geschieht sowohl automatisch (z.B. bei der IP-Adresse) als auch durch die aktive Eingabe von Daten (z.B. bei einer Bestellung). Die Datenschutz-Grundverordnung (DSGVO) verpflichtet uns dazu, Sie über diese Verarbeitung zu informieren. Sie sollen z.B. wissen, welche Zwecke wir verfolgen, wie lange Ihre Informationen gespeichert werden, auf welcher Rechtsgrundlage die Verarbeitung basiert und welche Empfänger von Daten es geben kann. Darum geht es in dieser Datenschutzerklärung.
+
+Verantwortlich für die Datenverarbeitung ist grundsätzlich die Zeitverlag Gerd Bucerius GmbH & Co. KG, Buceriusstraße, Eingang Speersort 1, 20095 Hamburg. Weitere Angaben zum Unternehmen sowie Kontaktmöglichkeiten finden Sie am Ende der Datenschutzerklärung.
+Kundenservice DIE ZEIT
+Bei Fragen zu Ihrem Abo, Kündigungen und bei einem Widerruf wenden Sie sich bitte ausschließlich an unseren Kundenservice.
+
+als PDF speichern
+
+Unternehmen der ZEIT Verlagsgruppe
+
+Der ZEIT Verlagsgruppe gehören die nachstehenden Firmen an: Zeitverlag Gerd Bucerius GmbH & Co. KG, ZEIT Sprachen GmbH, ZEIT Akademie GmbH, Studio ZX GmbH, ZEIT Weltkunst Verlag GmbH, academics GmbH, Good Jobs GmbH und e-fellows.net GmbH & Co. KG.
+Angeboten werden z.B. Abonnements zu verschiedenen journalistischen Inhalten, Reisen, Produkte, Seminare, Job-Portale, Veranstaltungen und Vorteilsangebote für Abonnenten.
+
+Privacy-Einstellungen
+
+So ändern Sie Ihre Privacy-Einstellungen: klicken Sie auf "Zustimmung widerrufen" oder löschen Sie die Cookies in Ihrem Browser. Beim nächsten Aufruf von zeit.de erscheint dann wieder das Consent-Banner, in dem Sie zwischen dem Zugang mit Werbetracking und dem kostenpflichtigen zeit.de werbefrei-Abo wählen können.
+
+Zustimmung erteilen
+
+Nutzung der Website
+
+Websites haben unterschiedliche Funktionen und Interaktionsmöglichkeiten. Manchmal kann man sich Inhalte anschauen oder ein Online-Formular zur Kontaktaufnahme nutzen. Auf anderen Seiten ist es möglich, sich zu registrieren. Je nach Website ist die Datenverarbeitung unterschiedlich umfangreich.
+
+Logfiles
+Wenn Sie eine Website besuchen, werden vorübergehend technische Nutzungsdaten (sogenannte Logdaten) verarbeitet. Diese werden von Ihrem Browser übermittelt und beinhalten unter anderem die IP-Adresse Ihres Computers, die Anfrage des Clients (Dateiname und URL), den HTTP-Antwort-Code und die Internetseite, von der Sie auf die Website gelangt sind.
+Die beschriebene Datenverarbeitung ist zur Wahrung berechtigter Interessen erlaubt (Art. 6 Abs. 1 f) DSGVO). Wir sind darauf angewiesen, mit unseren Unternehmen und Inhalten eine größtmögliche Reichweite zu erzielen. Der Betrieb einer Website ist dabei unumgänglich. Die Verarbeitung geschieht automatisch und kann nicht unterbunden werden. Sie ist technisch erforderlich, um eine Website aufzurufen.
+Die Logdaten werden gelöscht oder anonymisiert, sobald sie nicht mehr benötigt werden.
+
+To the top of the section
+Anfragen über die Website
+Wir bieten unterschiedliche Möglichkeiten zur Kontaktaufnahme an (z.B. Online-Kontaktformular, E-Mail-Kontaktadresse, Feedback-Formular). Die von Ihnen übermittelten Daten und Informationen verarbeiten wir zur Beantwortung Ihrer Anfrage. Feedback zu unseren Produkten oder Hinweise auf Fehler nutzen wir zur Verbesserung und Fehlerbeseitigung.
+Die Datenverarbeitung im (vor)vertraglichen Kontext, zur Kommunikation und zur Fehlerbeseitigung ist gesetzlich erlaubt (Art. 6 Abs. 1 b), f) DSGVO, § 25 Abs. 2 TDDDG). Die Bereitstellung Ihrer personenbezogenen Daten ist dabei erforderlich, um mit uns zu kommunizieren und im Falle von Feedback die Fehlerbeseitigung zu ermöglichen.
+Wir speichern die Daten für die Dauer von 6 Monaten. Falls Sie sich bei uns registrieren oder es zu einer anderen Art des weiteren Kontakts kommt, werden Ihre Daten weiterhin gespeichert und erst nach Ablauf der geltenden gesetzlichen Aufbewahrungspflichten gelöscht.
+
+To the top of the section
+Registrierung
+Sie haben die Möglichkeit, sich mit Ihrer E-Mail-Adresse zu registrieren und Zugriff auf erweiterte Funktionen und Inhalte der Website zu erhalten. Dabei wird ein der E-Mail-Adresse zugeordnetes Nutzerkonto angelegt, dem die darüber ausgeführten Aktionen auf der Website zugeordnet werden können.
+Rechtsgrundlage für die Datenverarbeitung ist das bei einer Registrierung entstehende Nutzungsverhältnis (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung Ihrer Daten ist dabei erforderlich für die Registrierung, da ansonsten kein Ihnen zugeordnetes Nutzerkonto erstellt werden kann.
+Ihre Daten werden für die Dauer des Nutzungsverhältnisses und eventueller Aufbewahrungspflichten gespeichert.
+
+To the top of the section
+Hey Studium Interessenstest
+Als registrierter Nutzer können Sie unseren Hey Studium Interessenstest machen und eine differenzierte Rückmeldung zu passenden Studiengängen erhalten. Der Test ist multidimensional angelegt und berücksichtigt sowohl Interessen als auch die eigene Selbsteinschätzung in Bezug auf Stärken und Schwächen.
+Die Datenverarbeitung zur Erbringung einer Leistung ist gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung Ihrer personenbezogenen Daten ist dabei erforderlich, um den Interessenstest zu absolvieren und ein Ergebnis zu erhalten.
+Wir speichern das Testergebnis für die Dauer Ihrer Registrierung. Wenn Sie Ihr Profil löschen, werden auch die dazugehörigen Daten gelöscht.
+
+To the top of the section
+Customer-Matching auf Social-Media-Plattformen
+Zur Vermeidung der Ausspielung von Werbe- und Akquisitionsmaßnahmen an bestehende Kunden gleichen wir selektierte Kundenstammdaten (insbesondere E-Mail-Adressen) mit Nutzerdaten von Social-Media-Plattformen (z.B. Meta, LinkedIn, Google) ab. Ziel ist es, aktive Bestandskunden von Neukundenkampagnen auszuschließen (sogenannte Suppression/Exclusion Audiences), Streuverluste zu minimieren, Werbebudgets effizient einzusetzen und eine unnötige Ansprache bestehender Kundenbeziehungen zu vermeiden.
+Rechtsgrundlage für diese Verarbeitung ist das berechtigte Interesse (Art. 6 Abs. 1 f) DSGVO) oder die Einwilligung (Art. 6 Abs. 1 a) DSGVO) – je nachdem, welche Vorgaben uns die Social-Media-Plattformen in ihren AGB machen. Dieses liegt in der effizienten Steuerung von Marketingmaßnahmen, der Vermeidung von Fehlansprachen bestehender Kunden sowie der wirtschaftlich sinnvollen Verwendung von Werbebudgets. Die Bereitstellung der für den Abgleich verwendeten Daten erfolgt im Rahmen der bestehenden Kundenbeziehung.
+Es erfolgt keine separate Speicherung über den Datenabgleich hinaus. Die auf den Social-Media-Plattformen für den Abgleich hochgeladenen Daten werden dort nach Abschluss des Matching-Vorgangs gelöscht.
+
+To the top of the section
+
+Nutzung von zeit.de
+
+Auf www.zeit.de finden Sie eine Auswahl von redaktionellen Angeboten der ZEIT Redaktion und des ZEIT Verlags, Spiele, Videos sowie Podcasts. Um die Bereitstellung dieser Inhalte finanzieren zu können, bieten wir unseren Anzeigenkunden Flächen für nutzungsbasierte Werbung an. Hierbei werden die beim Aufruf der Seite entstehenden Daten verwendet, um ein Nutzerprofil zu bilden und Ihnen möglichst passende Werbeanzeigen auszuspielen.
+Wenn Sie keine personalisierten Werbeanzeigen sehen und das Werbetracking unterbinden möchten, können Sie alternativ unser kostenpflichtiges zeit.de werbefrei-Abo nutzen. Dieses ermöglicht Ihnen den Zugang zu denselben Inhalten, allerdings ohne personalisiertes Werbetracking und die Ausspielung nutzungsbasierter Werbung.
+Bevor Sie auf www.zeit.de gelangen, können Sie sich aktiv für die Nutzung mit Werbetracking oder das zeit.de werbefrei-Abo entscheiden.
+
+Nutzungsmöglichkeiten
+Sie können zwischen den beiden Nutzungsmöglichkeiten wählen. Bevor Sie die Seite aufrufen können, wird Ihnen folgendes angezeigt:
+
+To the top of the section
+Consent Management-Plattform
+Um die Datenverarbeitung auf der Website datenschutzkonform steuern zu können, verwenden wir das Transparency and Consent Framework des IAB Europe (TCF). Dieses Regelwerk stammt von einem Online-Marketing-Branchenverband, dem Interactive Advertising Bureau Europe (IAB Europe). Es definiert Zwecke und Rechtsgrundlagen der Verarbeitung und gibt technische Standards zur Einholung von Einwilligungen vor. Die Umsetzung erfolgt über die der Website vorgeschaltete Consent-Abfrage, die wir mit dem Tool Sourcepoint umsetzen (angeboten von der Sourcepoint Technologies, Inc., 228 Park Avenue South, #87903, New York, NY 10003 -1502, USA). Wir speichern die von Ihnen getroffenen Einstellungen durch das Setzen von Cookies.
+Die auf Ihrem Endgerät stattfindende Datenverarbeitung ist zur Wahrung unserer berechtigten Interessen zulässig bzw. erforderlich, um unseren Dienst bereitzustellen (Art. 6 Abs. 1 f) DSGVO, § 25 Abs. 2 Nr. 2 TDDDG). Um unsere Seite datenschutzkonform betreiben zu können, müssen wir das Vorliegen von Einwilligungen bzw. deren Widerruf elektronisch dokumentieren. Andernfalls können wir im Zweifel nicht nachweisen, dass Sie bestimmten Verarbeitungen zugestimmt haben. Insofern ist die Datenverarbeitung erforderlich, um unsere Seite zu nutzen.
+Das Cookie wird bis zu Ihrem Widerruf gespeichert und spätestens nach 13 Monaten gelöscht.
+
+To the top of the section
+Werbefinanzierter Zugang
+Wenn Sie die Auswahl des redaktionellen Angebots ohne eine Zuzahlung nutzen wollen, finanzieren wir unseren Journalismus durch die Ausspielung personalisierter Werbeanzeigen und politischer Anzeigen basierend auf Ihrem Nutzungsverhalten und Ihren vermuteten Interessen. Unsere Werbepartner und wir nutzen verschiedene Technologien für das Werbetracking, wobei auch eine Datenverarbeitung auf Ihrem Endgerät stattfindet (insbesondere durch Cookies). Welche Datenverarbeitung genau zum Zeitpunkt des Aufrufs von www.zeit.de stattfindet, können Sie den ausführlichen Informationen im Privacy-Center entnehmen.
+Die beschriebene Datenverarbeitung beruht auf Ihrer Einwilligung (Art. 6 Abs. 1 a) DSGVO, Art. 18 Abs. 1 b) TTVO, § 25 Abs. 1 TDDDG). Um das Angebot in Anspruch nehmen zu können, müssen Sie der Analyse für das Unterbreiten unserer personalisierten Anzeigen zustimmen. Andernfalls können Sie die Seite nicht aufrufen und nicht auf die Inhalte zugreifen. Ihre Einwilligung können Sie jederzeit widerrufen. Das hat zur Folge, dass Sie das Angebot dann nur nach Abschluss eines PUR-Abos nutzen können. Dies gilt auch für das kostenpflichtige ZEIT Digital Abo.
+Die Speicherdauer der entstehenden Daten sowie der auf Ihrem Endgerät gesetzten Cookies sehen Sie im Privacy-Center.
+
+To the top of the section
+zeit.de werbefrei-Abo
+Als zeit.de werbefrei-Abonnent können Sie das Angebot ohne Werbetracking und personalisierte Werbeanzeigen nutzen. Nicht personalisierte Werbung kann jedoch weiterhin angezeigt werden.
+Die Verarbeitung personenbezogener Daten bei der Nutzung unserer Seite mit einem zeit.de werbefrei-Abo ist zur Erfüllung des Nutzungsvertrags zulässig (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung der im Rahmen der kostenpflichtigen Registrierung abgefragten Daten ist erforderlich, um Ihnen Zugang zu gewähren und die Leistung abzurechnen.
+Wir speichern die entstehenden Vertragsdaten so lange, wie dies für die Erfüllung gesetzlicher Aufbewahrungspflichten erforderlich ist. Diese betragen je nach Datum und Dokument 6 oder 8 Jahre.
+
+To the top of the section
+Inhalte aus sozialen Netzwerken
+Wir binden auf unserer Seite Inhalte und Funktionen von Social-Media-Plattformen ein (z.B. Facebook, YouTube, Instagram oder TikTok). Wenn Sie einen Share-Button benutzen oder einen Artikel mit einem eingebetteten Inhalt lesen, werden Nutzungsdaten wie Ihre IP-Adresse an diese Social-Media-Plattformen übertragen.
+Die Dienste sind standardmäßig inaktiv und müssen von Ihnen aktiviert werden. Rechtsgrundlage für die Datenverarbeitung ist daher Ihre Einwilligung (Art. 6 Abs. 1 a) DSGVO, § 25 Abs. 1 TDDDG). Die Bereitstellung Ihrer Daten ist freiwillig und nicht erforderlich, um www.zeit.de zu nutzen. Sie können dann allerdings keine Inhalte von Social-Media-Plattformen sehen und deren eingebettete Funktionen nicht nutzen.
+Die Speicherdauer der entstehenden Daten sowie der auf Ihrem Endgerät gesetzten Cookies können Sie dem Privacy-Center entnehmen.
+
+To the top of the section
+Personalisierte redaktionelle Inhaltsempfehlungen
+Wir nutzen verschiedene Technologien, um ein verlagsspezifisches Leseprofil des von Ihnen verwendeten Endgeräts zu erstellen. Wir verwenden die dabei entstehenden Daten zu Ihrem Leseverhalten, um Ihnen an ausgewählten Stellen personalisierte redaktionelle Inhalte vorzuschlagen. Auf diese Weise sehen Sie vermehrt Inhalte, die zu Ihren konkreten Interessen passen.
+Rechtsgrundlage für die Verarbeitung im Rahmen der personalisierten Inhaltsempfehlungen ist Ihre Einwilligung (Art. 6 Abs. 1 a) DSGVO, § 25 Abs. 1 TDDDG). Die Bereitstellung Ihrer Daten ist nicht erforderlich. Sie können die Auswahl des redaktionellen Angebots auf www.zeit.de auch nutzen, wenn Sie keine Einwilligung erteilen.
+Informationen zur Datenspeicherung und der Lebensdauer der auf Ihrem Endgerät gesetzten Cookies finden Sie im Privacy-Center.
+
+To the top of the section
+Messung der Nutzung
+Wir führen statistische Auswertungen der Nutzung unserer Inhalte durch, um unser Angebot zu verbessern und interessanter zu gestalten. Die Messung bezieht sich z.B. darauf, welche Inhalte gelesen wurden und von welcher Seite ein Nutzer kommt.
+Die Zulässigkeit der stattfindenden Verarbeitung richtet sich nach unserem berechtigten Interesse (Art. 6 Abs. 1 f) DSGVO). Um unser Angebot aufrechterhalten und verbessern zu können, sind wir auf die statistischen Auswertungen angewiesen. Die auf Ihrem Endgerät stattfindende Verarbeitung ist erforderlich, um den Dienst in Anspruch nehmen zu können (§ 25 Abs. 2 Nr. 2 TDDDG).
+Angaben zur Speicherdauer können Sie dem Privacy-Center entnehmen.
+
+To the top of the section
+Sicherer Betrieb der Seite
+Unsere digitalen Angebote und Abonnements dürfen nur entsprechend der jeweils geltenden vertraglichen Vereinbarungen genutzt werden. Um eine missbräuchliche Nutzung zu erkennen und angemessen reagieren zu können, werden personenbezogene Daten (z.B. Login-Daten, Devices, Login-Häufigkeit, Datum und Uhrzeit) in unserer Datenbank zum Schutz unserer Rechte verarbeitet und ungewöhnliche Nutzungen identifiziert. So wehren wir insbesondere Credential Stuffing (Automatisiertes Ausprobieren geleakter Zugangsdaten), Brute-Force-/Password-Spraying-Angriffe, Session-Hijacking / Session-Fixation, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL-Injection / Injection-Angriffe auf Backend-Systeme und das Abgreifen unserer journalistischen Inhalte durch KI-Bots ab.
+Rechtsgrundlage dieser Verarbeitungen ist das zustande gekommene Nutzungsverhältnis sowie unser berechtigtes Interesse (Art. 6 Abs. 1 b), f) DSGVO, § 25 Abs. 2 Nr. 2 TDDDG). Die Inhalte auf zeit.de sind die Verkörperung der journalistischen Arbeit unseres Unternehmens und unser wichtigstes wirtschaftliches Gut. Dieses müssen wir durch technische Maßnahmen schützen, um unser Geschäftsmodell aufrechterhalten zu können. Die Datenverarbeitung erfolgt automatisiert und kann nicht unterbunden werden.
+Eine separate Datenspeicherung für diese Zwecke findet nicht statt.
+
+To the top of the section
+A/B-Testing
+Wir führen sogenanntes A/B-Testing durch, bei dem wir Ihnen unsere Website mit leicht variierten Inhalten anzeigen. Auf diese Weise können wir unser Angebot zu analysieren, regelmäßig verbessern und interessanter gestalten.
+Rechtsgrundlage für die Durchführung von A/B-Testing ist Ihre Einwilligung (Art. 6 Abs. 1 a) DSGVO, § 25 Abs. 1 TDDDG).
+Eine separate Speicherung von Daten findet bei dieser Verarbeitung nicht statt.
+
+To the top of the section
+Online-Spiele
+Wir bieten verschiedene Online-Spiele an. Die Eingaben von eingeloggten Nutzern werden dabei in der Datenbank unter ihrem Nutzerkonto hinterlegt, um Spielstände wieder aufrufen zu können. Der Spielstand von nicht eingeloggten Nutzern wird in einem Session Cookie gespeichert. Teilweise besteht die Möglichkeit, einen selbst gewählten Nutzernamen für die Anzeige in einer High-Score-Tabelle zu wählen.
+Die stattfindende Datenverarbeitung ist im Rahmen des Nutzungsverhältnisses und Bereitstellung des Dienstes gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO, § 25 Abs. 2 Nr. 2 TDDDG). Um die Online-Spiele in Anspruch nehmen zu können, ist die Eingabe von Daten und oder die Verarbeitung von Daten auf Ihrem Endgerät erforderlich.
+Die gesetzten Cookies laufen spätestens nach 10 Monaten ab.
+
+To the top of the section
+Kommentare
+Als registrierter Nutzer können Sie Kommentare zu unseren Beiträgen hinterlassen. Diese werden zusammen mit dem von Ihnen angegebenen Nutzernamen auf der Seite veröffentlicht. Wir empfehlen Ihnen bei der Wahl des Nutzernamens insoweit anstatt Ihres Klarnamens die Verwendung eines Pseudonyms. Zusätzlich können Sie auf Kommentare anderer Nutzer reagieren und diese z.B. mit "Gefällt mir" markieren.
+Wir möchten unseren Nutzern die Möglichkeit bieten, sich am Diskurs und der Meinungsbildung aktiv zu beteiligen. Hierbei ist es erforderlich, dass Kommentare und Reaktionen veröffentlicht und von anderen gelesen werden können. Als digitale Leserbriefe unterfallen die Kommentare dem Medienprivileg.
+Sie bleiben zeitlich unbegrenzt öffentlich einsehbar, selbst wenn ein Nutzerkonto gelöscht wird (der Nutzername ist dann ebenfalls nicht mehr vorhanden). Bei einem Verstoß gegen die Netiquette können Kommentare gelöscht oder von der Redaktion bearbeitet werden.
+
+To the top of the section
+Podcast auf Drittplattformen
+Sie können unser Z+ Podcast Angebot auch auf Drittplattformen (z.B. Apple Music oder Spotify) nutzen. Um Ihnen das zu ermöglichen, müssen personenbezogene Daten pseudonymisiert übergeben werden. Dies geschieht nur, wenn Sie Ihre Z+ Angebote auf der Drittplattform aktiv freischalten. Weitere personenbezogene Daten zu Ihrem ZEIT Nutzerkonto werden nicht verarbeitet.
+Die Datenverarbeitung ist zur Abwicklung des zustande kommenden Vertrags gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO). Die Weitergabe der oben genannten personenbezogenen Daten ist erforderlich, um Ihnen die Möglichkeit zu bieten, Inhalte auf Drittplattformen nutzen zu können.
+Informationen zur Speicherdauer finden Sie auf der jeweiligen Drittplattform.
+
+To the top of the section
+Kontakt zwischen Nutzern
+Über ein Online-Kontaktformular können Sie direkt Nachrichten an andere Nutzer senden. Dabei wird die eingegebene Nachricht übermittelt und der empfangende Nutzer sieht Ihre E‑Mail‑Adresse, um antworten zu können. Weitere technisch notwendige Daten können bei der Formularübermittlung anfallen (z.B. Zeitstempel). Sie werden vor dem Absenden einer Nachricht ausdrücklich darauf hingewiesen, dass Ihre E-Mail-Adresse gegenüber dem Empfänger offengelegt wird.
+Rechtsgrundlage ist das Nutzungsverhältnis nach Art. 6 Abs. 1 b) DSGVO. Die Bereitstellung der E‑Mail‑Adresse und der Nachricht ist erforderlich, um die Funktion nutzen zu können. Ohne diese Angaben ist eine Zustellung an den anderen Nutzer nicht möglich.
+Nachrichten werden nicht auf zeit.de gespeichert. Sie liegen ausschließlich bei den jeweiligen Empfängern in deren Postfächern.
+
+To the top of the section
+ZEIT Single-Sign-On-Account
+Es gibt Dienste, für die Sie einen sogenannten Single-Sign-On-Account benötigen. Erforderlich sind eine E-Mail-Adresse sowie ein selbst gewähltes Passwort. Mit diesem Account haben Sie die Möglichkeit, auf verschiedene Angebote zuzugreifen.
+Die Datenverarbeitung im Rahmen des entstehenden Nutzungsverhältnisses ist gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung der abgefragten Daten ist für die Registrierung erforderlich.
+Ihre Daten werden für die Dauer des Bestehens Ihres Accounts gespeichert.
+
+To the top of the section
+HeyStudium KI-ChatBot
+Wir stellen einen KI-gestützten Chatbot bereit, über den sich Nutzer zu Studiengängen und Universitäten beraten lassen und direkt interagieren können. Dabei werden die eingegebenen Inhalte sowie zur Sitzungssteuerung erforderliche Nutzungsdaten verarbeitet, um passende Antworten zu generieren und die Beratung bereitzustellen.
+Rechtsgrundlage für diese Verarbeitung ist die Durchführung des Nutzungsverhältnisses (Art. 6 Abs. 1 b) DSGVO) auf zeit.de. Die Bereitstellung der im Chat eingegebenen Daten ist erforderlich, um Ihre Anfrage zu verstehen und zu beantworten. Ohne diese Angaben kann der ChatBot nicht genutzt werden. Die Chatverläufe werden ausgewertet und zur Optimierung genutzt (Art. 6 Abs. 1 f) DSGVO). Dabei geht es um die Verbesserung der Antwortqualität und Beratung durch den ChatBot. Wenn Nutzer z.B. wegen bestimmter Antworten oder Fragen den Chat abbrechen und die Seite verlassen, soll das erkannt und bestenfalls behoben werden.
+Wir speichern Chatverläufe für 2 Monate und löschen sie anschließend.
+
+To the top of the section
+Liveblog
+Auf zeit.de haben wir einen Liveblog eingebunden, um Inhalte anzuzeigen, einen Live-Ticker bereitzustellen und über aktuelle Ereignisse in Echtzeit journalistisch zu berichten. Dabei werden Nutzungs- und Gerätedaten verarbeitet (auch auf dem Endgerät).
+Rechtsgrundlage für die Verarbeitung sind das Nutzungsverhältnis (Art. 6 Abs. 1 b) DSGVO) sowie das berechtigte Interesse, aktuelle journalistische Inhalte in einer nutzerfreundlichen und fortlaufend aktualisierten Form bereitzustellen (Art. 6 Abs. 1 f) DSGVO). Die Datenverarbeitung auf dem Endgerät ist zur Bereitstellung und Einbindung des Liveblogs auf zeit.de gesetzlich erlaubt (§ 25 Abs. 2 TDDDG). Die Verarbeitung geschieht automatisch beim Aufruf des Liveblogs und kann nicht unterbunden werden.
+Eine gesonderte Speicherdauer besteht für diesen Zweck nicht. Die Daten werden daher nur so lange verarbeitet, wie dies für die Bereitstellung und den Betrieb des Liveblogs erforderlich ist.
+
+To the top of the section
+Community-KI-Feature
+Wir haben auf zeit.de ein Community-KI-Feature eingebaut, um Nutzerkommentare zu unseren Beiträgen zusammenzufassen und übersichtlich darzustellen. Außerdem werden Kommentare mit besonders vielen Reaktionen hervorgehoben. Dabei können insbesondere die Inhalte der Kommentare, die verwendeten Nutzernamen und die Anzahl der Reaktionen dargestellt werden.
+Die Verarbeitung erfolgt zur Wahrung unserer berechtigten Interessen (Art. 6 Abs. 1 f) DSGVO). Das besteht darin, die Diskussionen auf unseren Seiten übersichtlicher darzustellen und Nutzern einen schnellen Überblick über besonders häufig unterstützte oder relevante Kommentare zu ermöglichen. Das Community-KI-Feature kann nicht deaktiviert werden.
+Die Kommentare werden für die Dauer ihrer Veröffentlichung auf zeit.de über das Community-Feature verarbeitet.
+
+To the top of the section
+
+Aktionen, Verträge und Abos
+
+Die Unternehmen der ZEIT Verlagsgruppe bieten unterschiedliche Produkte und Leistungen an. Wenn Sie z.B. ein Abo abschließen, eine Reise buchen oder an einem Gewinnspiel teilnehmen, werden unterschiedliche personenbezogene Daten erhoben, genutzt und zur Vertragsabwicklung an andere Unternehmen weitergegeben.
+
+Abschluss eines Abos
+Beim Abschluss eines Abos fragen wir verschiedene Daten bei Ihnen ab. Wir verwenden diese, um das Abo bereitzustellen und Ihnen gegenüber abzurechnen.
+Die Datenverarbeitung ist zur Abwicklung des zustande kommenden Vertrags gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO). Die Angabe der von uns abgefragten Daten ist zum Abschluss des Abos erforderlich.
+Ihr Datensatz wird in unserer Kundendatenbank für die Dauer Ihres Abos gespeichert. Die darüber hinaus gehende Speicherung dient der Einhaltung der uns obliegenden gesetzlichen Aufbewahrungspflichten.
+
+To the top of the section
+Abschluss eines Probe-Abos
+Wir bieten regelmäßig den Abschluss eines Probe-Abos an, damit Sie unsere Angebote testen können. Je nach Produkt werden verschiedene Daten abgefragt und zur Bereitstellung verwendet.
+Die Datenverarbeitung ist zur Erfüllung von zustande kommenden Verträgen sowie zur Wahrung unserer berechtigten Interessen zulässig (Art. 6 Abs. 1 b), f) DSGVO). Die Angabe Ihrer Daten ist freiwillig, für die Bereitstellung unseres Angebots aber erforderlich. Ist der Abschluss eines Probe-Abos Voraussetzung für die Teilnahme an einem Gewinnspiel, hat die Nichtbereitstellung Ihrer Daten zur Folge, dass Sie nicht teilnehmen können.
+Vertragsunterlagen beinhalten zwangsläufig steuerrechtlich relevante Handels- und Geschäftsbriefe, die einer gesetzlichen Aufbewahrungspflicht von bis zu 8 Jahren unterliegen. Um alle Vorgänge nachvollziehen und im Falle einer Behördenprüfung auskunftsfähig sein zu können, speichern wir alle Unterlagen und Daten für mindestens diesen Zeitraum.
+
+To the top of the section
+Shared Abo
+Als Digital-Abonnent haben Sie die Möglichkeit, Ihr Abo mit einer anderen Person zu teilen. Die Mitbenutzungsberechtigung endet spätestens mit dem Ende des Digital-Abos, Sie können einen geteilten Zugang aber jederzeit entziehen.
+Die Datenverarbeitung erfolgt zur Bereitstellung des Shared Abos und zur Wahrung von berechtigten Interessen (Art. 6 Abs. 1 b), f) DSGVO). Unsere Abonnenten sollen die Möglichkeit haben, andere an unseren Inhalten teilhaben zu lassen. Die Bereitstellung der E-Mail-Adresse der begünstigten Person ist erforderlich, um den Zugang zu erhalten. Die eingeladene Person kann dem Erhalt einer Einladung jederzeit widersprechen.
+Sofern die E-Mail-Adresse der eingeladenen Person nicht zu anderen Zwecken länger gespeichert werden darf, wird sie mit dem Verfall der Einladung nach 3 Monaten gelöscht oder bis zum Ablauf des Mitbenutzungsrechts gespeichert.
+
+To the top of the section
+Bezahlung (Dienstleister)
+Wir setzen Zahlungsanbieter ein, um Ihnen möglichst viele Bezahlmethoden auf einen Klick anbieten zu können. Die Anbieter übernehmen dabei insbesondere die Weiterleitung der gezahlten Beträge an uns und kontrollieren die Zahlungsflüsse.
+Die Einbindung von Zahlungsanbietern und die dabei stattfindende Weitergabe Ihrer Daten ist zur Wahrung unserer berechtigten Unternehmensinteressen erlaubt (Art. 6 Abs. 1 f) DSGVO). Wir selbst sind nicht in der Lage, die erforderlichen Prozesse rechtssicher abzubilden. Daher haben wir uns für externe Zahlungsdienstleister entschieden. Die Datenverarbeitung geschieht automatisch, wenn Sie eine der angebotenen Zahlungsmethoden auswählen und auf der Seite des Zahlungsanbieters bezahlen. Die Datenverarbeitung ist für die Bezahlung erforderlich.
+Wir speichern keine Bankdaten in unseren Systemen. Wir halten lediglich vor, welche Beträge zu zahlen sind und ob sie beglichen wurden.
+
+To the top of the section
+Schutz vor Forderungsausfall
+Wir verarbeiten personenbezogene Daten, um über das Zustandekommen von Verträgen zu entscheiden. Wir prüfen insbesondere, ob zu unseren Gunsten bestehende Forderungen in der Vergangenheit ordnungsgemäß beglichen wurden. Das Ergebnis dieser Prüfung fließt in unsere Entscheidung mit ein.
+Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 f) DSGVO. Unser berechtigtes Interesse liegt darin, uns vor Forderungsausfällen und betrügerischen Vertragsschlüssen zu schützen. Dies dient zugleich der wirtschaftlich verantwortlichen Ausübung unserer Privatautonomie. Wir verwenden nur die bei Bestellung angegebenen Daten sowie die bereits in unserer Datenbank gespeicherten Angaben zu früheren Bestellungen.
+Die Daten über nicht beglichene Forderungen speichern wir über den Ablauf gesetzlicher Aufbewahrungspflichten hinaus.
+
+To the top of the section
+Schutz vor Mehrfachbestellungen von Probe-Abos
+Wir speichern Daten zu Personen und Aufträgen, um Mehrfachbestellungen von Probe-Abos zu verhindern und (erneute) Vertragsabschlüsse aus wirtschaftlichen oder rechtlichen Gründen abzulehnen. Dabei markieren wir Datensätze mit Attributen.
+Die Verarbeitung ist zur Wahrung unserer berechtigten Interessen zulässig (Art. 6 Abs. 1 f) DSGVO). Wir bieten Probe-Abos an, damit unsere Produkte getestet werden können. Die übermäßige Inanspruchnahme dieses Angebots können wir aufgrund der geltenden Privatautonomie verhindern und so unsere unternehmerischen Interessen schützen. Zu diesem Zweck findet ein Abgleich mit früheren Bestellungen und Vorgängen statt.
+Wir speichern die Daten, solange es zur Prüfung und Verhinderung von missbräuchlichen Bestellungen erforderlich ist.
+
+To the top of the section
+Gewinnspiele
+Wir führen regelmäßig Gewinnspiele durch und fragen dabei verschiedene Daten ab. Diese verarbeiten wir zur Prüfung der Teilnahmeberechtigung, Ermittlung und Benachrichtigung des Gewinners, Zusendung des Gewinns sowie ggf. zur Veröffentlichung einer Gewinnerliste.
+Die bei der Durchführung eines Gewinnspiels stattfindende Datenverarbeitung ist gesetzlich gestattet (Art. 6 Abs. 1 b) DSGVO). Bei der Teilnahme handelt es sich um eine Art Vertrag, für dessen Durchführung die von uns abgefragten Daten erforderlich sind. Wenn Sie die abgefragten Daten nicht bereitstellen, können Sie am Gewinnspiel nicht teilnehmen.
+Ihre im Zusammenhang mit unseren Gewinnspielen erhobenen Daten werden bis zur vollständigen Abwicklung (Ermittlung und Benachrichtigung der Gewinner, Zusendung des Gewinns) gespeichert. Eine darüber hinausgehende Speicherung kann im Rahmen von verbundenen Verarbeitungen erfolgen (z.B. Abschluss eines Probe-Abos oder Anmeldung zu einem Newsletter, wenn dies die Voraussetzung für eine Gewinnspielteilnahme war). Etwaige Veröffentlichungen sind zeitlich unbeschränkt.
+
+To the top of the section
+Umfragen
+Wir führen Online-Umfragen durch, um die Qualität unserer Leistungen bewerten zu lassen oder um Interessen abzufragen. Erhoben werden Meinungen und Ansichten, die wir zur Verbesserung unserer Leistungen auswerten und verwenden. Sofern Gewinne unter den Umfrageteilnehmern verlost werden, fragen wir zusätzlich ohne Bezug zu den Umfrageergebnissen Kontaktdaten ab.
+Die stattfindende Datenverarbeitung dient der Wahrung unserer berechtigten Unternehmensinteressen (Art. 6 Abs. 1 f) DSGVO). Wir möchten die Meinung unserer Kunden bei der Weiterentwicklung unserer Leistungen berücksichtigen und benötigen hierfür möglichst aussagekräftige Daten. Die Teilnahme an unseren Umfragen ist freiwillig. Die Angabe von Kontaktdaten ist erforderlich, um bei der Verlosung eines Gewinns berücksichtigt werden zu können.
+Die anonymisierten Umfrageergebnisse speichern wir zeitlich unbegrenzt. Nicht-anonymisierbare Daten speichern wir für eine Dauer von 6 Monaten ab Erhebung. Kontaktdaten werden für die Dauer ihrer anschließenden Verwendung gespeichert.
+
+To the top of the section
+
+Events und Seminare
+
+Wir veranstalten regelmäßig Events und Seminare zu verschiedenen Themen. Die Anmeldung erfolgt dabei meistens online und ist je nach Veranstaltung von der Angabe unterschiedlicher Daten abhängig.
+
+Präsenz-Veranstaltungen
+Wenn Sie sich für eine unserer Veranstaltungen anmelden möchten, können Sie dies in der Regel online tun. Je nach Veranstaltung werden unterschiedliche Daten abgefragt und an unsere Partner und Sponsoren weitergeleitet (z.B. zur Erstellung von Teilnehmerlisten oder Namensschildern oder zur Ermöglichung der Übermittlung von Unterlagen). Sofern Mitglieder der Verfassungsorgane des Bundes (z.B. Politiker) bei einer Veranstaltung zu Gast sind oder einen Vortrag halten, sind wir zur Weitergabe von Daten an das Bundeskriminalamt und andere Behörden verpflichtet. So können mögliche Gefahrenquellen festgestellt und erforderlichenfalls geeignete gefahrenabwehrende Maßnahmen getroffen werden. Bei manchen Veranstaltungsformaten wird eine Teilnehmerliste im gedruckten Programm auf der Konferenz veröffentlicht.
+Die im Rahmen der Veranstaltungsdurchführung stattfindende Datenverarbeitung ist zur Ermöglichung Ihrer Teilnahme und zur Wahrung von berechtigten Interessen zulässig (Art. 6 Abs. 1 b), f) DSGVO). Unsere Partner und Sponsoren sind Ihre fachlichen Ansprechpartner und benötigen die Daten der Teilnehmer zur Abwicklung. Die mit einem Sternchen gekennzeichneten Angaben sind für die Durchführung unserer Veranstaltungen erforderlich und berechtigen Sie zu deren Zutritt. Weitere Angaben sind freiwillig.
+Wir speichern die Daten zu Ihrer Teilnahme mindestens für die Dauer der geltenden gesetzlichen Aufbewahrungspflichten. In der Regel sind dies 8 Jahre.
+
+To the top of the section
+Online-Veranstaltungen
+Wir führen unsere digitalen Veranstaltungen auf Online-Plattformen durch. Je nach Veranstaltung und Art der Nutzung durch die Teilnehmer werden dabei unterschiedliche personenbezogene Daten verarbeitet (z.B. Name, Video, Audio). Die Teilnahme setzt in der Regel nicht das Anlegen eines Accounts bei der genutzten Plattform voraus. Es ist in der Regel ausreichend, wenn Sie sich über die Weboberfläche mit den Zugangsdaten anmelden. Während der Teilnahme werden Metadaten (z.B. IP-Adresse, Geräte-/Hardware-Informationen), Verbindungsdaten (z.B. Rufnummer, Ländername, Start- und Endzeit) und – je nach Veranstaltung – auch Inhaltsdaten (z.B. Chatverlauf, Audio, Video) verarbeitet.
+Die Zulässigkeit der Verarbeitung ergibt sich aus unserem berechtigten Interesse (Art. 6 Abs. 1 f) DSGVO). Digitale Veranstaltungen sind eine Alternative und Ergänzung zur klassischen Präsenzveranstaltung. Die interaktive Ausgestaltung und Durchführung von Veranstaltungen sind nur mit einer Software möglich, die entsprechende Funktionen und Kapazitäten bietet. Bei den Meta- und Verbindungsdaten handelt es sich um Informationen, die bei der Nutzung notwendigerweise anfallen. Andernfalls kann keine Verbindung zum verwendeten Endgerät hergestellt werden. Welche Inhaltsdaten verarbeitet werden, entscheiden Sie selbst. Sie können die Kamera oder das Mikrofon jederzeit abschalten und die Verarbeitung von Daten auf diese Weise unterbinden. Die Nutzung der anderen Funktionen ist ebenfalls freiwillig.
+Unsere digitalen Veranstaltungen werden in der Regel nicht aufgezeichnet.
+
+To the top of the section
+Film- und Fotoaufnahmen
+Bei unseren Veranstaltungen werden regelmäßig Film- und Fotoaufnahmen angefertigt. Diese werden von uns sowie unseren Partner und Sponsoren zur Dokumentation und Darstellung der Veranstaltung gegenüber der Öffentlichkeit genutzt. Die Aufnahmen können in Print- oder Digitalform veröffentlicht werden (z.B. auf Websites oder sozialen Netzwerken).
+Die Verarbeitung von Film- und Fotoaufnahmen ist zur Wahrung berechtigter Interessen zulässig (Art. 6 Abs. 1 f) DSGVO). Wir organisieren öffentlichkeitswirksame Veranstaltungen mit Persönlichkeiten aus Wirtschaft, Politik und Kultur. Es besteht ein gesteigertes Interesse der Allgemeinheit, Informationen zum Inhalt der Veranstaltung, den teilnehmenden Personen und den Rahmenbedingungen zu erhalten. Es werden in der Regel sowohl Gruppen- als auch Einzelaufnahmen gemacht. Als Teilnehmer können Sie den Aufnahmebereich jederzeit verlassen.
+Film- und Fotoaufnahmen werden grundsätzlich ohne zeitliche Begrenzung gespeichert. Soweit sie im Internet veröffentlicht werden, sind sie dort ebenfalls zeitlich unbegrenzt einsehbar.
+
+To the top of the section
+
+Kommunikation
+
+Wir nutzen verschiedene Kommunikationskanäle, um mit Ihnen in Verbindung zu treten, Mitteilungen entgegenzunehmen oder Ihnen interessante Angebote und Informationen zukommen zu lassen. Werbliche Ansprache ist wichtig für unser Unternehmen, um wirtschaftlich erfolgreich zu sein. Sie können der Nutzung Ihrer personenbezogenen Daten zu werblichen Zwecken jederzeit widersprechen und / oder sich von unseren E-Mail-Newslettern über den Abmelde-Link am Ende jedes Newsletters austragen.
+
+Newsletter
+Wir haben verschiedene Newsletter, die Sie unter Angabe Ihrer E-Mail-Adresse abonnieren können. Sie erhalten dann Informationen zu verschiedenen Angeboten (von uns oder von Dritten).
+Die Nutzung Ihrer E-Mail-Adresse zum Versand unserer Newsletter ist von Ihrer Einwilligung abhängig (Art. 6 Abs. 1 a) DSGVO). Die Bereitstellung Ihrer Daten ist freiwillig und hat keine Auswirkung auf ein etwa mit uns bestehendes Vertragsverhältnis. Ist die Anmeldung zu einem Newsletter Voraussetzung für die Teilnahme an einem Gewinnspiel oder den Erhalt von redaktionellen Inhalten (z.B. in Form eines eBooks), hat die Nichtbereitstellung zur Folge, dass Sie nicht teilnehmen können bzw. die Inhalte nicht bekommen.
+Ihre E-Mail-Adresse wird für die Dauer des Vorliegens Ihrer Einwilligung und darüber hinaus zur Dokumentation Ihrer An- und Abmeldung in unserer Newsletter-Datenbank gespeichert. Bei einem Widerruf Ihrer Einwilligung erhalten Sie keine Newsletter mehr.
+
+Redaktionelle Newsletter
+Wir bieten verschiedene redaktionelle Newsletter an, die Sie teilweise separat abonnieren können oder automatisch als zusätzlichen Bestandteil eines Abonnements erhalten.
+Die Nutzung Ihrer E-Mail-Adresse zum Versand unserer redaktionellen Newsletter ist von Ihrer Einwilligung abhängig (Art. 6 Abs. 1 a) DSGVO) oder aufgrund eines Vertrags gesetzlich erlaubt (Art. 6 Abs. 1 b) DSGVO). Im Falle einer Einwilligung ist die Bereitstellung Ihrer Daten freiwillig. Erfolgt der Versand im Rahmen eines Vertrags, ist die Angabe Ihrer Daten erforderlich.
+Ihre E-Mail-Adresse wird für die Dauer des Vorliegens Ihrer Einwilligung bzw. eines Vertrags und darüber hinaus zur Dokumentation Ihrer An- und Abmeldung in unserer Newsletter-Datenbank gespeichert. Bei einem Widerruf Ihrer Einwilligung erhalten Sie keine Newsletter mehr.
+
+To the top of the section
+Empfehlung von ähnlichen Angeboten
+Wir nutzen die von Ihnen im Rahmen einer Anmeldung, Registrierung, Bestellung oder Buchung angegebene E-Mail-Adresse zum Versand von Werbung für eigene ähnliche Angebote.
+Die Nutzung von E-Mail-Adressen zur Übermittlung eigener ähnlicher Angebote ist gesetzlich ausdrücklich erlaubt und nicht von einer Einwilligung abhängig (§ 7 Abs. 3 UWG). Die Bereitstellung Ihrer personenbezogenen Daten in diesem Zusammenhang ist allerdings freiwillig und Sie können jederzeit widersprechen (entweder durch Kontaktaufnahme oder über den Link am Ende jeder werblichen E-Mail).
+Wenn Sie der werblichen Nutzung widersprechen, werden Ihre Daten gelöscht oder mit einer Werbesperre versehen. Eine Löschung ist meistens nicht möglich, da wir die bei einer Anmeldung, Registrierung, Bestellung oder Buchung erhobenen Daten zur Einhaltung gesetzlicher Aufbewahrungspflichten weiterhin speichern müssen.
+
+To the top of the section
+Newsletter-Erfolgsmessung
+Bei der Newsletter-Erfolgsmessung werden Öffnungs- und Klickraten verarbeitet sowie Empfängerprofile gebildet. Die entstehenden Daten verwenden wir, um den Newsletter zu verbessern und entsprechend Ihren Interessen sowie Lesegewohnheiten zu gestalten.
+Die Datenverarbeitung erfolgt zur Wahrung unserer berechtigten Interessen und ist damit gerechtfertigt (Art. 6 Abs. 1 f) DSGVO). Wir müssen nachvollziehen können, ob unsere werblichen Maßnahmen erfolgreich sind. Die Bereitstellung Ihrer Daten ist freiwillig. Sie können die Erfolgsmessung jederzeit separat deaktivieren.
+Die entstehenden Daten werden pseudonymisiert bzw. anonymisiert und zeitlich unbegrenzt gespeichert.
+
+To the top of the section
+Werbung per Post
+Wir nutzen die bei uns gespeicherten sowie von Vertragspartnern überlassenen Anschriften zum postalischen Versand von Angeboten und Informationen.
+Die Nutzung von Daten zum Versand von Briefwerbung ist zur Wahrung berechtigter Interessen zulässig (Art. 6 Abs. 1 f) DSGVO). Wir sind aus wirtschaftlicher Sicht darauf angewiesen, unsere Leistungen bereits bestehenden und potenziellen Kunden anzubieten. In allen Bereichen ist es wichtig, aktiv auf Personen zuzugehen und Informationen zu versenden.
+Die Speicherdauer der Postanschriften richtet sich danach, ob Sie ein Kunde sind oder wir die Adresse zugekauft haben. Kundendaten müssen wir zur Wahrung gesetzlicher Aufbewahrungspflichten bis zu 8 Jahre speichern. Hinzugekaufte Daten werden für den werblichen Versand genutzt und danach gelöscht.
+
+To the top of the section
+Werbung durch Dritte
+Wir stellen die bei uns gespeicherten Postanschriften Unternehmen und Spendenorganisationen zur Verfügung, damit diese Ihnen Angebote und Informationen zusenden können.
+Die Weitergabe zum Zweck der Werbung erfolgt zur Wahrung berechtigter Interessen (Art. 6 Abs. 1 f) DSGVO). Alle beteiligten Unternehmen sind wirtschaftlich darauf angewiesen, neue Kunden zu gewinnen und Bestandskunden zu halten. Sie können der Übermittlung Ihrer Postanschrift an Dritte jederzeit widersprechen, ohne dass dies Einfluss auf ein etwa bestehendes Vertragsverhältnis hat.
+Kundendaten müssen wir zur Wahrung gesetzlicher Aufbewahrungspflichten bis zu 8 Jahre speichern. Im Falle eines Widerspruchs werden wir Ihre Postanschrift jedoch nicht mehr zu werblichen Zwecken an Dritte übermitteln.
+
+To the top of the section
+Werbliche Anrufe
+Wir nutzen Ihre Telefonnummer, um Sie über Angebote und Neuigkeiten zu informieren.
+Die Verarbeitung erfolgt auf Basis einer Einwilligung (Art. 6 Abs. 1 a) DSGVO, § 7a Abs. 1 UWG). Wir sind gesetzlich nach § 7a UWG verpflichtet, Ihre Einwilligung in die Telefonwerbung zu dokumentieren und für 5 Jahre ab Erteilung sowie nach jeder Verwendung aufzubewahren. Dies gilt unabhängig davon, ob Sie uns Ihre Einwilligung online, schriftlich, per E-Mail, telefonisch oder auf anderem Wege gegebenen haben. Im Falle der telefonischen Einwilligung fertigen wir mit Ihrer Zustimmung eine Aufnahme von der Erteilung Ihrer Einwilligung an und speichern diese zusammen mit Ihren Kontakt- und Vertragsdaten ab. Die Bereitstellung Ihrer Telefonnummer zum Zweck der Werbung ist freiwillig. Nach Ablauf von 2 Jahren nach dem Ende Ihres letzten aktiven Abonnements erlischt Ihre Einwilligung automatisch.
+Die Aufbewahrung endet spätestens 7 Jahre nach Ende Ihres letzten aktiven Abonnements. Anschließend werden die Daten gelöscht (wir sind gesetzlich zur Aufbewahrung verpflichtet).
+
+To the top of the section
+
+Gemeinsame Verantwortlichkeit
+
+ZEIT Verlagsgruppe
+Aufgrund der engen Zusammenarbeit innerhalb der ZEIT Verlagsgruppe sind ein gegenseitiger Datenaustausch sowie die gemeinsame Nutzung von Systemen und Applikationen unumgänglich. Aus diesem Grund finden manche Verarbeitungen in gemeinsamer Verantwortlichkeit statt. Der zwischen den beteiligten ZEIT Gesellschaften entsprechend geschlossene Vertrag nach Art. 26 DSGVO regelt insbesondere, wer für die Einhaltung der verschiedenen DSGVO-Pflichten zuständig ist.
+
+Allgemeine Infrastruktur und Kommunikation
+Die Unternehmen der ZEIT Verlagsgruppe nutzen eine gemeinsame Infrastruktur und kommunizieren über zentral verwaltete Geräte. Die Zeitverlag Gerd Bucerius GmbH & Co. KG stellt dabei die wesentlichen Telekommunikationsdienste und Applikationen zur Verfügung und ist zusammen mit den anderen Unternehmen gemeinsam verantwortlich für die stattfindende Datenverarbeitung.
+Gemeinsam verantwortliche Unternehmen: Zeitverlag Gerd Bucerius GmbH & Co. KG, ZEIT Akademie GmbH, Studio ZX GmbH, ZEIT Sprachen GmbH, academics GmbH, ZEIT Weltkunst Verlag GmbH
+
+To the top of the section
+Data Warehouse
+Zur Analyse, Kontrolle und Optimierung von Werbemaßnahmen verarbeiten wir personenbezogene Daten in einem von den Produktivsystemen getrennten Data Warehouse. Hier werden die Informationen pseudonymisiert und für spezielle Fragestellungen, zur Gruppen-Profilbildung sowie zur Erstellung von Engagement und Propensity Scores genutzt.
+Sofern wir für die Erhebung der Daten eine Einwilligung eingeholt haben, erfolgt auch die Weiterverarbeitung auf dieser Basis (Art. 6 Abs. a) DSGVO). Ansonsten erfolgt die Auswertung und interne Bereitstellung der pseudonymisierten Daten zur Wahrung unserer berechtigten Unternehmensinteressen (Art. 6 Abs. 1 f) DSGVO). Um wirtschaftlich sinnvolle Entscheidungen treffen und wettbewerbsfähig bleiben zu können, müssen wir die Anforderungen unserer Kunden kennen, Veränderungen erkennen und darauf reagieren können.
+Die Dauer der pseudonymisierten Speicherung im Data Warehouse richtet sich nach der Speicherdauer in unseren anderen Systemen (z.B. Newsletter-Datenbank, Veranstaltungsdatenbank). Wenn die Daten dort gelöscht werden können, sind sie nicht mehr über das Data Warehouse abrufbar.
+Gemeinsam verantwortliche Unternehmen: Zeitverlag Gerd Bucerius GmbH & Co. KG, ZEIT Sprachen GmbH, academics GmbH, Studio ZX GmbH, ZEIT Akademie GmbH
+
+To the top of the section
+Kundenbetreuung und Servicecenter
+Zur Bearbeitung von Fragen und Reklamationen sowie zur Erbringung unseres Urlaubs- und Umzugsservice werden die personenbezogenen Daten von Abonnenten den zuständigen Mitarbeitern in einem zentralen System bereitgestellt. Wir nutzen Ihre Daten zur Kommunikation mit Ihnen sowie zur Einrichtung der von Ihnen gewünschten Serviceleistungen.
+Die Verarbeitung erfolgt im Rahmen eines Vertragsverhältnisses und ist daher gesetzlich gestattet (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung Ihrer Daten ist erforderlich, damit wir unsere Leistungen erbringen können.
+Die Speicherung Ihrer personenbezogenen Daten richtet sich bei einem bestehenden oder früheren Abo nach den gesetzlich vorgeschriebenen Aufbewahrungszeiträumen zur Einhaltung von steuer- und handelsrechtlichen Pflichten. Die bei der Kundenbetreuung und Inanspruchnahme unserer Services anfallenden Daten unterliegen derselben Speicherdauer.
+Gemeinsam verantwortliche Unternehmen: Zeitverlag Gerd Bucerius GmbH & Co. KG, ZEIT Akademie GmbH
+
+To the top of the section
+Abo-Verwaltung und Marketing
+Wir verarbeiten die personenbezogenen Daten unserer Abonnenten zur Anbahnung und Erfüllung von Abo-Verträgen sowie zur Durchführung verschiedener Marketingmaßnahmen. Dabei werden neben Personenstammdaten auch Angaben zu bezogenen Leistungen und zurückliegenden Vertragsverhältnisse verarbeitet. Bei unseren Marketingmaßnahmen berücksichtigen wir, was die Adressaten interessieren könnte und unterbreiten passende Angebote.
+Die Verarbeitung im Rahmen der Abo-Verwaltung erfolgt zur Abwicklung eines Vertragsverhältnisses und ist daher gesetzlich gestattet (Art. 6 Abs. 1 b) DSGVO). Die Bereitstellung Ihrer Daten ist erforderlich, damit wir unsere Leistungen erbringen können. Marketingmaßnahmen stützen wir entweder auf unser berechtigtes Unternehmensinteresse (Art. 6 Abs. 1 f) DSGVO), die UWG-Ausnahme (§ 7 Abs. 3 UWG) oder eine von Ihnen erteilte Einwilligung (Art. 6 Abs. 1 a) DSGVO).
+Die zur Verwaltung Ihres Abos gespeicherten Daten unterliegen verschiedenen gesetzlichen Aufbewahrungspflichten. Wir speichern alle Vertragsdaten für einen Zeitraum von mindestens 8 Jahren. Bei einem Widerspruch zur werblichen Nutzung werden die Daten eingeschränkt verarbeitet und mit einer Werbesperre versehen.
+Gemeinsam verantwortliche Unternehmen: Zeitverlag Gerd Bucerius GmbH & Co. KG, ZEIT Akademie GmbH
+
+To the top of the section
+Andere Unternehmen
+Die Nutzung mancher Dienste erfolgt gemeinschaftlich mit dem jeweiligen Anbieter, sodass auch hier ein Vertrag über gemeinsame Verantwortlichkeit nach Art. 26 DSGVO abgeschlossen werden muss. In der Regel ist dieser ein fester Bestandteil der Nutzungsbedingungen und wird standardisiert durch den Anbieter vorgegeben. Teilweise betrifft die gemeinsame Verantwortlichkeit auch die Durchführung von Veranstaltungen oder gemeinsamen Projekten.
+
+Criteo SA
+Wir setzen Cookies und verarbeiten Daten auf Ihrem Endgerät, um Informationen zur Ausspielung von Werbung zu gewinnen. Wir analysieren dabei unter anderem, welche Inhalte Sie sich auf unserer Webseite angesehen haben und blenden dazu passende Empfehlungen ein (auf unserer Seite und den Seiten anderer Betreiber).
+Die Datenverarbeitung findet nur nach Ihrer Einwilligung statt (Art. 6 Abs. 1 a) DSGVO). Die Bereitstellung Ihrer Daten ist freiwillig und keine Voraussetzung für den Aufruf der Webseite.
+Die beschriebene Verarbeitung erfolgt in gemeinsamer Verantwortlichkeit mit dem Anbieter des Analysedienstes (Criteo SA, 32 Rue Blanche, 75009, Paris, Frankreich). Wir haben mit dem Unternehmen einen Vertrag nach Art. 26 DSGVO abgeschlossen und festgelegt, wer welche DSGVO-Pflichten zu erfüllen hat. Wir sind unter anderem dazu verpflichtet, über die gemeinsame Verantwortlichkeit mit der Criteo SA zu informieren und darauf hinzuweisen, dass Technologien wie Cookies und Pixel auf unserer Webseite verwendet werden. Auch liegt es in unserem Verantwortungsbereich, eine wirksame Einwilligung einzuholen.
+Den Datenschutzbeauftragten der Criteo SA erreichen Sie unter dpo@criteo.com. Die für das Unternehmen zuständige Datenschutzaufsichtsbehörde ist die Commission Nationale de l’Informatique et des Libertés (CNIL) in Frankreich.
+Weitere Informationen zur Datenverarbeitung finden Sie in der Datenschutzerklärung der Criteo SA.
+
+To the top of the section
+Outbrain UK Ltd.
+Auf unserer Webseite wird ein Pixel eingebunden, mit dem unter anderem Cookie-IDs, User-IDs und IP-Adressen in gekürzter Form verarbeitet werden. Die entstehenden Nutzerdaten werden für Werbetracking und das Ausspielen personalisierter Empfehlungen verwendet.
+Die Datenverarbeitung über den Pixel findet nur nach Ihrer Einwilligung statt (Art. 6 Abs. 1 a) DSGVO). Die Bereitstellung Ihrer Daten ist freiwillig und keine Voraussetzung für den Aufruf der Webseite.
+Die beschriebene Verarbeitung findet in gemeinsamer Verantwortlichkeit mit dem Anbieter des Pixels statt (Outbrain UK Limited, 121 Kingsway, First Floor, London WC2B6PA, United Kingdom). In einem Vertrag nach Art. 26 DSGVO haben der Anbieter und wir die uns obliegenden Pflichten in Bezug auf die Einhaltung datenschutzrechtlicher Vorgaben festgelegt. Als Webseitenbetreiber haben wir insbesondere die Pflicht, das Vorliegen einer Rechtsgrundlage für die Verarbeitung sicherzustellen, eine Consent-Management-Plattform zur Einholung von Einwilligungen zu verwenden und Nutzerdaten nicht zur Diskriminierung von Personen zu verwenden. Die Outbrain UK Limited muss unter anderem transparente Datenschutzinformationen zum Pixel vorhalten, für den Abschluss eines passenden Vertrags mit uns sorgen und Betroffenenansprüche erfüllen. Ferner besteht die gegenseitige Verpflichtung zur Kooperation in Datenschutzangelegenheiten.
+Mit der Outbrain UK Limited können Sie sich direkt über die E-Mail-Adresse privacy@outbrain.com in Verbindung setzen. Den Datenschutzbeauftragten der Outbrain UK Limited erreichen Sie bei der ePrivacy GmbH, Burchardstraße 14, 20095 Hamburg und unter privacy@eprivacy.eu. Die für die Outbrain UK Limited zuständige Datenschutzaufsichtsbehörde ist der Information Commissioner’s Officer.
+Weitere Informationen zur Datenverarbeitung finden Sie in der Datenschutzerklärung der Outbrain UK Limited.
+
+Utiq SA/NV
+Die Utiq-Technologie wird von Utiq SA/NV bereitgestellt, einem europäischen AdTech-Unternehmen, das mit teilnehmenden Telekommunikationsnetzbetreibern (siehe Liste hier) zusammenarbeitet, die zum Betrieb der Technologie beitragen. Die Utiq-Technologie ermöglicht es Webseiten wie der unseren, die die Utiq-Technologie nutzen, unsere digitalen Marketingaktivitäten durchzuführen.
+Wir verwenden die Utiq-Technologie auf unserer Webseite. Wenn Sie der Aktivierung dieser Technologie zustimmen, werden wir sie verwenden, um Sie als denselben Webseiten-Besucher zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten auf unserer Webseite zu sammeln. So können wir Ihnen personalisierte Inhalte und Werbung anbieten oder Analysen durchführen, je nachdem, welche zusätzlichen Einwilligungen Sie uns für diese Zwecke erteilt haben.
+Die Utiq-Technologie ist standardmäßig ausgeschaltet und erfordert Ihre Einwilligung, um aktiviert und verwendet zu werden. Die Technologie ist nur verfügbar, wenn Sie Kunde eines der teilnehmenden Telekommunikationsnetzbetreiber sind.
+Für bestimmte Phasen der Datenverarbeitung fungieren wir zusammen mit Utiq als gemeinsamer Datenverantwortlicher. Als Teil dieser gemeinsamen Datenverantwortlichkeit:
+holen wir Ihre Einwilligung zur Nutzung der Utiq-Technologie ein; dies gilt auch für die von Utiq und Ihrem Telekommunikationsnetzbetreiber durchgeführten Verarbeitungsprozesse;
+stellen wir Ihnen einen speziellen Link am unteren Rand unserer Webseite bereit, über den Sie Informationen über die Technologie und deren Verwaltung erhalten;
+stellt Utiq Ihnen ein Datenschutzportal (consenthub) zur Verfügung, um Ihnen die Ausübung Ihrer Datenschutzrechte zu erleichtern und Ihnen die einfache Verwaltung Ihrer Einwilligungen bei Utiq zu ermöglichen; zu jeder Zeit, an einem Ort.
+
+Ungeachtet dessen, dass Sie Ihre Rechte in Bezug auf jeden Datenverantwortlichen ausüben können, fungiert Utiq als gemeinsame Kontaktstelle für alle Fragen oder Anliegen, die Sie im Zusammenhang mit der Utiq-Technologie haben.
+Über das Utiq-Datenschutzportal (consenthub) können Sie alle von Ihnen erteilten Einwilligungen zur Nutzung der Utiq-Technologie auf allen an Utiq beteiligten Webseiten einsehen und widerrufen.
+Sie können Ihre nur für diese Webseite geltende Einwilligung auch hier widerrufen.
+Weitere Informationen über die Utiq-Technologie finden Sie in der Datenschutzerklärung von Utiq.
+
+To the top of the section
+iq digital media marketing GmbH
+Bei der Steuerung unserer Werbepartner auf zeit.de arbeiten wir mit der iq digital media marketing GmbH zusammen. Dieser spezialisierte Dienstleister vermarktet die Werbeflächen für uns und kümmert sich um die Einbindung der Werbetreibenden auf unseren Seiten. Hierbei verarbeitet die iq digital media marketing GmbH personenbezogene Daten, die auf zeit.de erhoben werden. Das geschieht wiederum über weitere Beteiligte, insbesondere die Anbieter von Marketing-Tools, Agenturen und Werbetreibende. Je nach ihrer konkreten Rolle und je nach Zweck der Datenverarbeitung handeln diese Beteiligten als gemeinsam Verantwortliche im Sinne von Art. 26 DSGVO.
+Die von uns und der iq digital media marketing GmbH gemeinsam verarbeiteten personenbezogenen Daten sind Cookie-IDs, IP-Adressen, MAC-Adressen, Geräte-IDs, verwendeter Browser und Daten aus dem Browser (z.B. Auflösung oder Spracheinstellung), verwendetes Betriebssystem und Daten über das Betriebssystem (z.B. Versionsnummer, Bildschirmauflösung), verwendetes Endgerät, Verhalten des Nutzers auf zeit.de bzw. Bewegungsdaten (welche Artikel wurden gelesen, welche Angebote wurden besucht, welche Links wurden geklickt etc.), Referrer-URL, Datum und Uhrzeit des Besuches sowie Verweildauer auf zeit.de, geografischer Standort, Nutzerdaten (E-Mail-Adressen, Mobilfunknummern, aber auch IP-Adressen und andere Online-Kennungen) und pofilidentifizierende Kennungen, die auf Grundlage von partnerspezifischen IDs oder Identifiern generiert wurden. Es werden nicht immer all diese Daten verarbeitet. Es kommt darauf an, welche Marketing-Tools im Einzelfall aktiv waren.
+Wir und die iq digital media marketing GmbH haben uns verpflichtet, uns den jeweils aktuellen Regeln des IAB TCF zu unterwerfen. Dort ist präzise definiert, welche personenbezogenen Daten im konkreten Einzelfall von den beteiligten Anbietern von Marketing-Tools, Agenturen und Werbetreibenden verarbeitet werden.
+Beim Aufruf von zeit.de erhalten Sie die Möglichkeit, die Reichweite der Verarbeitung personenbezogener Daten und den Zugriff auf bzw. das Speichern von Informationen auf Ihrem Endgerät durch entsprechende Einstellungen im Consent-Banner zu bestimmen. Sie haben jederzeit die Möglichkeit, Ihre Einwilligung zu widerrufen. Entsprechend den Einstellungen werden den an der Verarbeitung Beteiligten technische Signale über das Vorliegen der Rechtsgrundlage übermittelt. Die iq digital media marketing GmbH übernimmt die Vermarktung von zeit.de auf dieser Grundlage.
+Folgende Verarbeitungen unterfallen einer gemeinsamen Verantwortlichkeit:
+Ein personalisiertes Anzeigen-Profil erstellen
+Personalisierte Anzeigen auswählen
+Ein personalisiertes Inhalts-Profil (Content-Profile) erstellen
+Personalisierte Inhalte (Content) auswählen
+Anzeigen-Leistung messen
+Inhalte-Leistung (Content Performance) messen
+Marktforschung einsetzen, um Erkenntnisse über Zielgruppe zu gewinnen
+Produkte entwickeln und verbessern
+Informationen auf einem Gerät speichern und/oder abrufen (falls im IAB TCF festgelegt)
+Auslieferung und Präsentation von Anzeigen und Inhalt (Sonderzweck 2)
+
+Wir haben mit der iq digital media marketing GmbH vereinbart, dass wir uns um die Melde- und Benachrichtigungspflicht nach Art. 33, 34 DSGVO sowie die Einhaltung der Informationspflicht aus Art. 13 DSGVO kümmern.
+
+To the top of the section
+Meta Platforms Ireland Ltd.
+Verantwortlichkeiten
+Wir verwenden Meta‑Business‑Tools, um die Nutzung unserer Website besser zu verstehen, Werbemaßnahmen auf Facebook und Instagram zu optimieren und um deren Erfolg zu messen. Zu den Meta‑Business‑Tools gehören unter anderem das Facebook‑Pixel, die Meta Conversions API, Social Plugins sowie Funktionen zum Anmelden oder Teilen über Meta‑Dienste.
+Die Meta-Business-Tools werden von der Meta Platforms Ireland Ltd., Block J, Serpentine Avenue, Dublin 4, Irland bereitgestellt. Den Datenschutzbeauftragten erreichen Sie über ein Online-Formular.
+Je nachdem, welches der Meta-Business-Tools wir verwenden und welche Datenverarbeitungen wir durchführen, werden unterschiedliche Daten von Nutzern verarbeitet. Die Verantwortlichkeit für die Verarbeitung variiert dabei. Ein Teil erfolgt in gemeinsamer Verantwortlichkeit zwischen uns und der Meta Platforms Ireland Ltd. Wir haben aus diesem Grund einen Vertrag nach Art. 26 DSGVO geschlossen, in dem vor allem die Erfüllung von Betroffenenrechten geregelt wird. Bei der Nutzung mancher Funktionen handelt das soziale Netzwerk wiederum in unserem Auftrag und auf unsere Weisung hin. Bei diesen Konstellationen handelt es sich um eine Auftragsverarbeitung nach Art. 28 DSGVO, die wir besonders vertraglich geregelt haben. Manchmal findet die Verarbeitung auch in getrennter Verantwortlichkeit statt, sodass wir und die Meta Platforms Ireland Ltd. jeweils selbst die Einhaltung der DSGVO sicherstellen müssen. Wann welches Unternehmen wie verantwortlich ist, ergibt sich aus der nachfolgenden Tabelle.
+Zweck
+Datenkategorien
+Verantwortlichkeit
+
+Abgleich mit Nutzer-IDs und Kombination mit Event-Daten
+Kontaktinformationen
+Auftragsverarbeitung
+
+Ausschluss von Nutzern von ausgespielten Anzeigen, Erstellung von Custom Audiences, Erstellung von Berichten über die Auswirkungen von Werbekampagnen und anderer Inhalte, Erstellung von Analysen und Erkenntnissen über Personen und deren Nutzung von Apps, Websites und Produkten
+Event-Daten
+Auftragsverarbeitung
+
+Ausrichtung von Werbekampagnen auf Personen, die mit uns interagieren, Erstellung von Custom Audiences
+Event-Daten, Nutzer-IDs
+Gemeinsame Verantwortlichkeit
+
+Zustellung kommerzieller und transaktionsbezogener Nachrichten
+Event-Daten, Nutzer-IDs
+Gemeinsame Verantwortlichkeit
+
+Verbesserung der Anzeigenauslieferung, zur Personalisierung von Funktionen und Inhalten sowie zur Verbesserung, Bereitstellung und Sicherung der Produkte der Meta-Unternehmen
+Event-Daten, Nutzer-IDs
+Gemeinsame Verantwortlichkeit
+
+Lead-Generierung
+Individuell per Lead-Formular erhobene Daten
+Getrennte Verantwortlichkeit
+
+Verarbeitete Daten
+Mit Meta-Business-Tools werden personenbezogene Daten verarbeitet. Die Meta Platforms Ireland Ltd. gibt dabei vor, wie diese Daten insgesamt bezeichnet werden. Die Unterscheidung ist relevant für das Verständnis der in der Tabelle dargestellten Verarbeitungssituationen.
+Kontaktinformationen sind Informationen, mit denen Einzelpersonen identifiziert werden können. Dabei handelt es sich z.B. um Namen, E-Mail-Adressen und Telefonnummern. Event-Daten sind sonstige Informationen, die Nutzer durch ihre Aktionen im Internet generieren. Dazu gehören z.B. Besuche auf Websites, Installationen von Apps und Käufe in einem Online-Shop. Noch detailliertere Informationen finden sich in den Nutzungsbedingungen für Meta-Business-Tools.
+Custom Audiences
+Ein wichtiger Bestandteil der Meta-Business-Tools sind die Custom Audiences. Das sind Zielgruppen, die auf verschiedenen Daten beruhen und die wir dazu nutzen, gezielt Angebote auszuspielen. Die Meta-Business-Tool unterscheiden zwischen mehreren Custom Audiences:
+Website Custom Audiences (Personen, die die Website besucht haben)
+App Activity Custom Audiences (Personen, die eine App genutzt haben)
+Customer List Custom Audiences (Personen, deren Kontaktdaten wir hochgeladen haben)
+Engagement Custom Audiences (Personen, die mit Beiträgen oder Anzeigen interagiert haben)
+Shopping Custom Audiences (Personen, die einen Onlineshop oder Produktkatalog angesehen haben)
+
+Die Custom Audiences sind für uns nicht unmittelbar personenbezogen. Wir können nicht sehen oder herausfinden, ob bestimmte Personen in einer Zielgruppe sind oder nicht.
+Rechtsgrundlage
+Die Verarbeitungen in gemeinsamer und getrennter Verantwortlichkeit erfolgen auf Basis Ihrer Einwilligung (Art. 6 Abs. 1 a) DSGVO, § 25 Abs. 1 TDDDG). Wir holen diese Einwilligung über eine Consent-Management-Plattform ein. Die Verarbeitungen, bei denen wir die Meta Platforms Ireland Ltd. als Auftragsverarbeiter einsetzen, stützen wir auf unser berechtigtes Interesse (Art. 6 Abs. 1 f) DSGVO). Wenn wir Kampagnen über Meta-Plattformen ausspielen, soll das besonders effizient und kostensparend sein. Um aktive Abonnenten von diesen Kampagnen auszuschließen, machen wir einen Abgleich zwischen den Daten von Abonnenten und Nutzern von Meta-Diensten (Name und E-Mail-Adresse).
+
+To the top of the section
+Anbieter von Social-Media-Plattformen
+Wir unterhalten Profile bei verschiedenen Social-Media-Plattformen, um unsere Leistungen zu zeigen, mit Nutzern zu interagieren und unsere Produkte zu bewerben. Die beim Aufruf unserer Profile stattfindende Datenverarbeitung findet teilweise in gemeinsamer Verantwortlichkeit mit dem Plattformbetreiber statt. Weitere Informationen hierzu finden Sie im Kapitel Social-Media-Profile.
+
+Empfänger und Ort der Verarbeitung
+
+Wir verarbeiten personenbezogene Daten in verschiedenen Systemen und übermitteln sie je nach Verarbeitungstätigkeit an andere Unternehmen, Behörden oder Einzelpersonen. Der Ort der Verarbeitung richtet sich nach unserem Unternehmenssitz sowie den Standorten unserer Dienstleister.
+
+Auftragsverarbeiter
+Wir setzen diverse Auftragsverarbeiter wie Softwareanbieter, Rechenzentrumsbetreiber, Call-Center und IT-Dienstleister ein. Wir haben die Unternehmen sorgfältig ausgewählt und einen Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO geschlossen. Falls neben den im Privacy-Center genannten Unternehmen weitere Auftragsverarbeiter an der Datenverarbeitung beteiligt sind, werden diese nachfolgend aufgezählt.
+
+Unternehmensliste
+
+Sourcepoint Technologies, Inc. (SaaS-Anbieter Consent Management-Plattform)
+Webtrekk GmbH (SaaS-Anbieter Tracking-Tool)
+Mailjet GmbH (Newsletter-Tool)
+Google Ireland Ltd. (SaaS-Anbieter)
+Brightcove, Inc. (Hosting und Videoplattform)
+DPV Deutscher Pressevertrieb GmbH (Abo-Abwicklung)
+Optimizely GmbH (SaaS-Anbieter Newsletter-Tool)
+ferret go GmbH (Kommentarprüfung)
+Tickaroo GmbH (Einbindung Live-Blog)
+Audio Ventures Inc. (SimpleCast Audiobereitstellung)
+Salesforce, Inc. (Heroku Webhosting)
+Snowplow Analytics Ltd. (SaaS-Anbieter Tracking-Tool)
+Freshworks Inc. (SaaS-Anbieter Ticketsystem)
+Meta Platforms Ireland Ltd. (Social-Media-Plattform)
+MaxMind, Inc. (Geolokalisierung)
+Fastly, Inc. (Anbieter Content Delivery Network)
+StorifyMe GmbH (SaaS-Anbieter Social-Media-Stories)
+Amazon Web Services, Inc. (Anbieter Hosting)
+Kilkaya AS (SaaS-Anbieter Analyse-Tool)
+SpeedCurve Ltd (SaaS-Anbieter Pagespeed Performance)
+7 Points Sp. z o.o. (SaaS-Anbieter Umfrage-Tool SurveyLab)
+Piano Software Norway (SaaS-Anbieter für Personalisierung und Nutzeransprache)
+Stripo Inc. (SaaS-Anbieter Newsletter-Templates)
+Friendly Captcha GmbH (SaaS-Anbieter Anti-Bot-Lösung)
+Centinel Analytica GmbH (SaaS-Anbieter Anti-KI-Bot-Lösung)
+
+To the top of the section
+
+Dritte
+Manche Vorgänge beinhalten die Weitergabe von personenbezogenen Daten an Dritte. Das können Anbieter von Website-Tools, Kooperationspartner, Versanddienstleister oder Lieferanten sein. Diese Unternehmen entscheiden selbst über den Zweck der Weiterverarbeitung und müssen für Datenschutzkonformität sorgen. Falls neben an anderer Stelle schon genannten Unternehmen weitere Dritte an der Datenverarbeitung beteiligt sind, werden diese nachfolgend aufgezählt.
+
+Unternehmensliste
+
+MapTiler AG (visuelle Darstellung von Geoinformationen)
+Hola Org Ltd. (Spark Videovorschau)
+Meta Platforms Ireland Ltd. (Social-Media-Plattform)
+
+To the top of the section
+
+Ort der Verarbeitung
+Grundsätzlich findet die Datenverarbeitung in der Europäischen Union bzw. im Europäischen Wirtschaftsraum statt. Es werden jedoch auch Applikationen und Tools genutzt, bei denen eine Übermittlung von Daten in Drittländer nicht ausgeschlossen werden kann. Wir stellen in solchen Fällen das Vorliegen geeigneter Garantien sicher, um ein ausreichendes Datenschutzniveau in diesen Drittländern zu gewährleisten. In der Regel wurden mit den Anbietern die von der EU-Kommission bereitgestellten Standardvertragsklauseln vereinbart oder es besteht eine Zertifizierung unter dem Data Privacy Framework.
+
+Betroffenenrechte und Kontakt
+
+Die DSGVO gewährt Betroffenen grundsätzlich eine Reihe von Rechten. Sie können diese jederzeit ausüben. Wir sind aber nicht immer verpflichtet, ein Recht auch zu gewähren. Ein Anspruch auf Löschung kann zum Beispiel wegen gesetzlicher Aufbewahrungspflichten abgelehnt werden. Sofern Datenverarbeitungen in gemeinsamer Verantwortung erfolgen, können Sie Ihre Rechte gegenüber jedem der beteiligten Unternehmen geltend machen.
+
+Datenschutzrechte
+Sie haben ein Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO) und Datenübertragung (Art. 20 DSGVO).
+
+To the top of the section
+Widerspruchsrecht
+Wir haben geprüft, ob wir Ihre personenbezogenen Daten verarbeiten dürfen. Das betrifft insbesondere alle Verarbeitungen zur Wahrung berechtigter Interessen (Art. 6 Abs. 1 f) DSGVO). Falls Sie bei einer bestimmten Verarbeitung der Meinung sind, dass diese nicht zulässig ist, können Sie uns das mitteilen. Falls wir in Ihrem persönlichen Einzelfall zu dem Ergebnis kommen, dass wir Ihre Daten tatsächlich nicht verarbeiten dürfen, werden wir es nicht mehr tun. Sofern sich Ihr Widerspruch gegen werbliche Nachrichten richtet, setzen wir diesen natürlich direkt um.
+
+To the top of the section
+Widerrufsrecht
+Manche Datenverarbeitungen basieren auf einer von Ihnen erteilten Einwilligung. Diese können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Das hat allerdings keine Auswirkung auf die Zulässigkeit der bis dahin erfolgten Datenverarbeitung.
+
+To the top of the section
+Kontaktdaten
+Zur Geltendmachung von Datenschutzrechten sowie bei Fragen und Beschwerden zum Datenschutz nutzen Sie bitte ausschließlich die E-Mail-Adresse datenschutz@zeit.de oder unsere Postanschrift.
+Unseren externen Datenschutzbeauftragten erreichen Sie postalisch bei der Herting Oberbeck Datenschutz GmbH, Hallerstr. 76, 20146 Hamburg oder unter der E-Mail-Adresse dsb@zeit.de. Sie haben außerdem das Recht, sich jederzeit bei einer Datenschutzaufsichtsbehörde zu beschweren.
+
+To the top of the section
+
+Social-Media-Profile
+
+Wir haben Profile bei sozialen Netzwerken, um unsere Inhalte zu veröffentlichen und mit Nutzern in Kontakt zu treten. Wie Sie auch haben wir dafür einen Account angelegt und den Nutzungsbedingungen des jeweiligen sozialen Netzwerks zugestimmt.
+Die Verantwortlichkeiten für die Datenverarbeitung sind von Netzwerk zu Netzwerk unterschiedlich. Es kann sich um eine eigene oder gemeinsame Verantwortlichkeit nach Art. 26 DSGVO und in manchen Fällen sogar um eine Auftragsverarbeitung nach Art. 28 DSGVO handeln. Die Bewertung ergibt sich aus den Nutzungsbedingungen und integrierten Verträgen der Plattformanbieter, die wir als Grundlage für unsere Informationen nutzen (müssen).
+Die beim Aufruf der sozialen Netzwerke stattfindende Datenverarbeitung wird von den Anbietern vorgegeben. Wir können lediglich über die Vorgänge informieren, die in unserem Einflussbereich liegen und von uns kontrolliert werden können.
+
+Meta-Profile
+Gemeinsame Verantwortlichkeit
+Unser Meta-Profil nutzen wir, um Informationen öffentlich zugänglich zu machen, Werbung zu platzieren und mit den Nutzern zu kommunizieren. Die beim Aufruf eines Profils stattfindende Datenverarbeitung erfolgt in gemeinsamer Verantwortlichkeit zwischen uns und dem Anbieter der Plattform. Wir haben aus diesem Grund einen Vertrag nach Art. 26 DSGVO geschlossen, in dem insbesondere die Erfüllung von Betroffenenrechten geregelt wird.
+Die verschiedenen Meta-Plattformen werden von der Meta Platforms Ireland Limited, Block J, Serpentine Avenue, Dublin 4, Irland betrieben. Der Anbieter ist verantwortlich für die Zulässigkeit der Datenverarbeitung über das jeweilige soziale Netzwerk. Das Unternehmen wird vertreten durch den Vorstand Gareth Lambe. Die Meta Platforms Ireland Limited hat einen Datenschutzbeauftragten benannt, den Sie jederzeit kontaktieren können.
+Ihre Betroffenenrechte können Sie jederzeit gegenüber uns oder der Meta Platforms Ireland Limited geltend machen. Da die Rechte in der Regel nur von letzterer erfüllt werden können, leiten wir solche Anfragen weiter.
+Insights-Daten
+Beim Aufruf unseres Profils werden Insights-Daten erhoben und ausgewertet. Dabei handelt es sich um zusammengefasste Statistiken, die anhand bestimmter, von der Meta Platforms Ireland Limited protokollierter Aktionen erstellt werden. Es geht dabei hauptsächlich darum, wie Sie mit unserem Profil und anderen Inhalten interagieren. Für uns besteht keine Möglichkeit, Sie über die Insights-Daten zu identifizieren oder diese einem Profil zuzuordnen. Die Insights-Daten werden auch bei Personen erhoben, die keinen Account haben. In dem Fall wird der Nutzer allerdings beim Aufruf der Plattform um eine Einwilligung gebeten – ohne diese können keine Inhalte eingesehen werden.
+Die Meta Platforms Ireland Limited stützt die Zulässigkeit der Verarbeitung von Insights-Daten auf das berechtigte Interesse in Form der Optimierung von Werbeanzeigen (Art. 6 Abs. 1 f) DSGVO). Wir selbst verwenden sie, um unser Profil besser zu machen und Inhalte bereitzustellen, die von Vielen gelesen werden. Um unsere Reichweite zu verbessern, brauchen wir viele Aufrufe und viel Traffic auf unserem Profil. Je mehr wir die Inhalte an die Interessen unserer Nutzer anpassen, desto eher können wir dies erreichen.
+Für uns sind die Insights-Daten ein Teil der bereitgestellten Funktionen des sozialen Netzwerks. Die Verarbeitung ist in den Nutzungsbedingungen geregelt, denen alle Profilinhaber zustimmen müssen. Sie haben bei der Anlage Ihres eigenen Accounts also die Verarbeitung vertraglich zugelassen. Wenn Sie die Nutzungsbedingungen nicht akzeptieren, können Sie kein Profil unterhalten. Insoweit ist die Bereitstellung der Insights-Daten erforderlich für die Nutzung.
+Die über unser Profil erhobenen Insights-Daten werden anonymisiert verarbeitet. Das bedeutet, dass die Daten so geändert werden, dass sie nicht mehr oder nur mit einem unverhältnismäßig großen Aufwand an Zeit, Kosten und Arbeitskraft einer bestimmten oder bestimmbaren bzw. identifizierten oder identifizierbaren natürlichen Person zugeordnet werden können.
+Direktnachrichten und Likes
+Wir nutzen unseren Account, um mit Ihnen in Kontakt zu treten und zu interagieren. Das ist über Direktnachrichten, die Like-Funktion oder Kommentare möglich. In diesem Rahmen wird immer der Name angezeigt, der in Ihrem Profil hinterlegt ist.
+Die Zulässigkeit dieser Verarbeitung richtet sich nach dem berechtigten Interesse (Art. 6 Abs. 1 f) DSGVO). Die Kommunikation mit Ihnen ist für uns wichtig, um Fragen zu beantworten, auf Kritik einzugehen und Informationen auszutauschen. Nur so können wir unsere Leistungen verbessern. Sie können die verschiedenen Möglichkeiten zur Kommunikation nutzen, müssen es aber nicht. Die Inhalte unseres Profils können unabhängig davon angesehen werden.
+Kommentare werden zeitlich unbegrenzt auf unserem Profil gespeichert und können von anderen Nutzern eingesehen werden, bis Sie selbst den Kommentar wieder löschen. Das gleiche gilt für die Nutzung der Like-Funktion. Direktnachrichten werden ebenfalls gespeichert, allerdings in einem regelmäßigen Turnus gelöscht.
+Widerspruch gegen die Verarbeitung von Insights-Daten
+Die Insights-Daten werden auch für werbliche Zwecke verwendet, daher besteht grundsätzlich ein Widerspruchsrecht nach Art. 21 DSGVO. Die Meta Platforms Ireland Limited stellt in ihrer Datenschutzerklärung verschiedene Formulare für die Geltendmachung von Rechten bereit. Dort können Sie der Datenverarbeitung widersprechen. Sie können dieses Recht auch uns gegenüber geltend machen und wir leiten die Anfrage dann an den Anbieter weiter.
+Bitte beachten Sie, dass im Falle eines Widerspruchs gegen die Verarbeitung von Insights-Daten die Nutzung der Plattform nur eingeschränkt oder überhaupt nicht mehr möglich ist.
+Datenweitergabe und Drittstaatenübermittlung
+Die Datenverarbeitung findet auf Servern der Meta Platforms Ireland Limited statt. Direktnachrichten werden von unseren Mitarbeitern gesehen und beantwortet. Alle sonstigen Aktionen sind öffentlich einsehbar.
+Unser Profil bei dem sozialen Netzwerk ist über das Internet auf der ganzen Welt abrufbar, sodass ein Zugriff auch aus Ländern ohne ausreichendes Datenschutzniveau möglich ist. Die Meta Platforms Ireland Limited hat verschiedene Maßnahmen ergriffen, um ein ausreichendes Datenschutzniveau zu gewährleisten.
+
+To the top of the section
+TikTok-Profile
+Verantwortlichkeiten
+Wir haben Profile beim sozialen Netzwerk TikTok. Dabei handelt es sich um eine Social-Media-Plattform, auf der Nutzer kurze Videos erstellen, teilen und ansehen können. TikTok wird von der TikTok Technology Limited, 10 Earlsfort Terrace, Dublin, D02 T380, Ireland sowie der TikTok Information Technologies UK Limited, One London Wall, London, EC2Y 5EB, United Kingdom bereitgestellt. Die TikTok-Unternehmen sind über die E-Mail-Adresse dach@tiktok.com und verschiedene Online-Kontaktformulare erreichbar. Den Datenschutzbeauftragten erreichen Sie ebenfalls über ein Online-Formular.
+Je nachdem, welche Aktionen wir über ein Profil ausführen und welche Funktionalitäten wir nutzen, werden unterschiedliche Daten von TikTok-Nutzern verarbeitet. Die Verantwortlichkeit für die Verarbeitung variiert dabei. Ein Teil erfolgt in gemeinsamer Verantwortlichkeit zwischen uns und den TikTok-Unternehmen. Wir haben aus diesem Grund einen Vertrag nach Art. 26 DSGVO geschlossen, in dem vor allem die Erfüllung von Betroffenenrechten geregelt wird. Dieser Vertrag ist Teil der „Jurisdiction Specific Terms“, die uns gegenüber einseitig vorgegeben werden. Andere Verarbeitungen erfolgen in eigener Verantwortlichkeit, sodass sowohl wir als auch die TikTok-Unternehmen die Einhaltung der geltenden Datenschutzvorgaben sicherstellen müssen. Bei der Nutzung mancher Funktionen handelt das soziale Netzwerk wiederum in unserem Auftrag und auf unsere Weisung hin. Bei diesen Konstellationen handelt es sich um eine sogenannte Auftragsverarbeitung nach Art. 28 DSGVO, die ebenfalls in den „Juristiction Specific Terms“ geregelt ist. Wann welches Unternehmen wie verantwortlich ist, ergibt sich aus der nachfolgenden Tabelle.
+Zweck
+Datenkategorien
+Verantwortlichkeit
+
+Erhebung und Übermittlung von Entwicklerdaten und / oder Ereignisdaten durch (und an) TikTok
+Entwicklerdaten und / oder Ereignisdaten
+Gemeinsame Verantwortlichkeit
+
+Messung und Instight-Berichterstattung
+Ereignisdaten
+Gemeinsame Verantwortlichkeit
+
+Zielgruppenerstellung und Anzeigenausrichtung
+Ereignisdaten
+Getrennte Verantwortlichkeit
+
+Verbessern, Optimieren und Personalisieren von Anzeigen
+Ereignisdaten
+Getrennte Verantwortlichkeit
+
+Sicherheit, Schutz, Betrugsbekämpfung und Entwicklung
+Entwicklerdaten und / oder Ereignisdaten
+Getrennte Verantwortlichkeit
+
+Kontaktdetails Abgleich
+Kontaktdaten
+Auftragsverarbeitung
+
+Funktionalität des Entwicklerwerkeugs
+Entwicklerdaten
+Auftragsverarbeitung
+
+Benutzerdefinierte Zielgruppen (Kundendatei) Produkt
+Kontaktdaten
+Auftragsverarbeitung
+
+Lead Generation Produkt
+Lead-Generierungsdaten (wie in den Lead Generation Terms definiert)
+Auftragsverarbeitung
+
+Wir sind gemäß den „Juristiction Specific Terms“ dazu verpflichtet, Nutzer über das Vorliegen einer gemeinsamen Verantwortlichkeit mit den TikTok-Unternehmen sowie die wesentlichen Regelungen des Vertrags nach Art. 26 DSGVO zu informieren.
+Nutzung von TikTok
+Wir nutzen unsere Profile bei TikTok, um Informationen öffentlich zugänglich zu machen, Werbung zu platzieren und mit den Nutzern zu kommunizieren. Sie haben die Möglichkeit, über Direktnachrichten, die Like-Funktion oder Kommentare mit uns in Kontakt zu treten. Im Rahmen dieser Kontaktaufnahme wird dabei der Name angezeigt, der in Ihrem Profil als Benutzername hinterlegt ist. Sofern Sie ein Bild hinterlegt haben, ist auch dieses erkennbar.
+Die Zulässigkeit der beschriebenen Verarbeitung richtet sich nach unserem berechtigten Interesse (Art. 6 Abs. 1 f) DSGVO). Die Interaktion mit Nutzern ist für uns besonders wichtig, um Fragen zu beantworten, auf Kritik einzugehen und Informationen auszutauschen. Auch können wir unsere Inhalte auf eine Weise präsentieren, die von jüngeren Menschen geschätzt wird.
+Kommentare werden zeitlich unbegrenzt auf dem Kanal gespeichert und können von anderen Nutzern eingesehen werden. Das gleiche gilt für die Nutzung der Like-Funktion und Direktnachrichten. Sollten wir unser Profil löschen, werden auch die darüber generierten Inhalte gelöscht.
+Wenn Sie TikTok nutzen, werden diverse Daten durch das soziale Netzwerk verarbeitet. Dazu gehören unter anderem IP-Adresse, Standortdaten, Zeitzoneneinstellungen, Werbe-IDs, App- und Browser-Versionen sowie Geräteinformationen (System, Netzwerktyp, Geräte-ID, Bildschirmauflösung, Betriebssystem, Audioeinstellungen und angeschlossene Audiogeräte). Auch die von Ihnen aufgerufenen TikTok-Profile und Kanäle, Likes, Nachrichten und weitere Informationen zur Nutzung werden verarbeitet. Sofern Sie mit einem eigenen TikTok-Account angemeldet sind, werden diese Daten Ihrem Account zugeordnet. Weitere Informationen zur Verarbeitung Ihrer Daten finden Sie in der Datenschutzerklärung von TikTok. Die beschriebenen Verarbeitungen finden in alleiniger Verantwortung durch die TikTok-Unternehmen statt.
+Insights-Daten
+Die Erhebung und Übermittlung von Entwickler- und Ereignisdaten durch (und an) die TikTok-Unternehmen sowie die Messung und Insight-Berichterstattung finden in gemeinsamer Verantwortlichkeit statt. Die verarbeiteten Insights-Daten geben Auskunft darüber, wie viele Nutzer zu welchem Zeitpunkt auf unseren Kanal oder die Beiträge zugegriffen haben. Die Daten werden uns in aggregierter Form als Statistiken bereitgestellt. Für uns besteht keine Möglichkeit, Sie über diese Statistiken persönlich zu identifizieren oder bestimmte Aktionen Ihrem Account zuzuordnen. Bitte beachten Sie, dass auch Insights-Daten erhoben werden können, wenn Sie keinen eigenen TikTok-Account haben.
+Die Erhebung und Verwendung von Insights-Daten ist aus unserer Perspektive zur Wahrung von Unternehmensinteressen erlaubt (Art. 6 Abs. 1 f) DSGVO). Anhand der anonymisierten Insights-Daten können wir die Inhalte unseres Kanals optimieren und so unseren Umsatz steigern.
+Wir speichern die aggregierten Insights-Daten zeitlich unbegrenzt bzw. so lange, wie wir das jeweilige TikTok-Profil betreiben.
+Datenschutzerklärung der TikTok-Unternehmen
+Informationen über die Art und Weise, wie die TikTok-Unternehmen personenbezogene Daten verarbeiten (einschließlich der Rechtsgrundlage und der Möglichkeiten, Datenschutzrechte auszuüben), finden Sie in der Datenschutzerklärung von TikTok.
+Ausübung von Betroffenenrechten
+Im Vertrag über gemeinsame Verantwortlichkeit wurde festgelegt, dass die TikTok-Unternehmen dafür verantwortlich sind, die Rechte von Betroffenen aus Art. 15-20 DSGVO in Bezug auf die vom sozialen Netzwerk nach der gemeinsamen Verarbeitung gespeicherten oder anderweitig verarbeiteten personenbezogenen Daten zu erfüllen. Wenn Sie ein Betroffenenrechte geltend machen möchten, nutzen Sie am besten das bereitgestellte Online-Formular. Sie können Ihre Betroffenenrechte auch uns gegenüber geltend machen. Wir leiten Ihre Anfrage dann weiter.
+Datenweitergabe und Drittstaatenübermittlung
+Die Datenverarbeitung findet auf Servern der TikTok-Unternehmen statt. Direktnachrichten werden von unseren Mitarbeitern gesehen und beantwortet. Alle sonstigen Aktionen sind öffentlich einsehbar.
+TikTok ist über das Internet auf der ganzen Welt abrufbar, sodass ein Zugriff auch aus Ländern ohne ausreichendes Datenschutzniveau möglich ist. Die Plattformbetreiber haben verschiedene Maßnahmen ergriffen, um ein ausreichendes Datenschutzniveau zu gewährleisten. Die in den „Juristiction Specific Terms“ enthaltenen Standardvertragsklauseln regeln den internationalen Datentransfer und stellen sicher, dass die an der Datenverarbeitung beteiligten Unternehmen datenschutzkonform agieren.
+
+To the top of the section
+X-Profile
+Verantwortlichkeit
+Der Kurznachrichtendienst X wird angeboten und betrieben von der Twitter International Unlimited Company, One Cumberland Place, Fenian Street Dublin 2, D02 AX07, Irland. Die datenschutzrechtliche Verantwortlichkeit liegt allein dort. Das Unternehmen gehört zur X Corporation, 1355 Market Street, Suite 900, San Francisco, CA 94103, USA.
+Nutzung von X
+Wir verwenden X und die darüber bereitgestellten Funktionen zum Teilen von Informationen und zur Kommunikation mit anderen Nutzerinnen und Nutzern. Dabei halten wir uns an die Nutzungsbedingungen, denen wir bei der Anlage unseres Profils zugestimmt haben.
+Wir haben keinen Einfluss auf die stattfindende Datenverarbeitung. Informationen dazu finden Sie in der Datenschutzerklärung von X. Sie nutzen den Kurznachrichtendienst in eigener Verantwortung und müssen selbst entscheiden, ob Sie mit der Datenverarbeitung durch die Twitter International Unlimited Company einverstanden sind. Dies gilt insbesondere für die Nutzung der interaktiven Funktionen (z.B. Retweeten, Liken) und die Datenverarbeitung in Ländern außerhalb der EU und des EWR.
+Datenschutzeinstellungen
+Bei den allgemeinen Einstellungen Ihres Accounts sowie unter dem Punkt "Datenschutz und Sicherheit" haben Sie die Möglichkeit, die Verarbeitung Ihrer Daten einzuschränken. Darüber hinaus können Sie auf Ihrem Mobilgerät den Zugriff von X auf Kontakt- und Kalenderdaten, Fotos und Standortdaten beschränken (abhängig vom genutzten Betriebssystem). Weitere Informationen zu diesen Punkten finden Sie beim Plattformanbieter.
+
+To the top of the section
+WhatsApp-Kanäle
+Verantwortlichkeit
+Der Messenger-Dienst WhatsApp wird angeboten und betrieben von der WhatsApp Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland. Die datenschutzrechtliche Verantwortlichkeit liegt allein dort. Das Unternehmen gehört zu Meta Platforms, Inc., 1601 Willow Road, 94025 Menlo Park, USA.
+Nutzung von WhatsApp
+Wir betreiben einen WhatsApp-Kanal, um Informationen bereitzustellen. Eine individuelle Kommunikation mit den Nutzerinnen und Nutzern findet dabei nicht statt. Wir können insbesondere weder die Telefonnummer noch den Profilnamen einsehen.
+Wir haben keinen Einfluss auf die stattfindende Datenverarbeitung bei der Nutzung von WhatsApp. Sie selbst entscheiden, ob Sie den Dienst in der angebotenen Form nutzen möchten. Bitte lesen Sie hierzu die Datenschutzerklärung des Anbieters.
+Datenschutzeinstellungen
+Sie haben die Möglichkeit, die Datenverarbeitung bei der Nutzung von WhatsApp anzupassen. Nutzen Sie dafür die Datenschutzeinstellungen innerhalb der App.
+
+To the top of the section
+LinkedIn-Profile
+LinkedIn-Account und Kommunikation mit Nutzern
+Wir unterhalten verschiedene LinkedIn-Accounts, um uns mit Unternehmen und Personen zu vernetzen. Dort stellen wir uns vor, teilen Beiträge und interagieren mit anderen LinkedIn-Nutzern. Dabei können wir die auf Ihrem Profil veröffentlichten Inhalte sehen und zur Kommunikation mit Ihnen verwenden. Wir teilen und kommentieren z.B. Posts, verlinken LinkedIn-Nutzer oder nutzen die Nachrichten-Funktion.
+Die durch uns direkt stattfindende Datenverarbeitung erfolgt zur Wahrung unserer berechtigten Unternehmensinteressen (Art. 6 Abs. 1 f) DSGVO). Wir sind auf eine möglichst hohe Reichweite und daher auf berufsbezogene Netzwerke wie LinkedIn angewiesen. Die Kontaktaufnahme wird durch die ständige Interaktion mit den Nutzern und die verfügbaren Informationen in den Profilen erleichtert. Die Kommunikation mit uns bzw. die Interaktion mit unserem Profil ist freiwillig.
+Wenn Sie mehr über die Datenverarbeitung bei der Nutzung von LinkedIn erfahren möchten, lesen Sie bitte die Datenschutzerklärung des Anbieters (LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland).
+Seiten-Insights
+Wenn Sie unser LinkedIn-Profil besuchen, der Seite folgen oder sich mit ihr beschäftigen, verarbeitet die LinkedIn Ireland Unlimited Company personenbezogene Daten, um uns in anonymisierter Form Statistiken und Einblicke zu gewähren. Damit erhalten wir Erkenntnisse über die Arten von Handlungen, die Personen auf unserer Seite vornehmen (sog. Seiten-Insights). Hierzu verarbeitet das soziale Netzwerk insbesondere solche Daten, die Sie in Ihrem Profil zur Verfügung gestellt haben (z.B. Funktion, Land, Branche, Dienstalter, Unternehmensgröße und Beschäftigungsstatus). Darüber hinaus werden Informationen darüber verarbeitet, wie Sie mit unserer LinkedIn-Unternehmensseite interagieren. Die Verarbeitung dient unserem berechtigten Interesse, die Arten von vorgenommenen Handlungen auf unserer LinkedIn-Unternehmensseite auszuwerten und unsere Unternehmensseite anhand dieser Erkenntnisse zu verbessern (Art. 6 Abs. 1 f) DSGVO).
+Mit den Seiten-Insights stellt die LinkedIn Ireland Unlimited Company uns keine personenbezogenen Daten von Ihnen zur Verfügung. Wir haben nur auf die zusammengefassten und anonymisierten Seiten-Insights Zugriff. Auch ist es uns nicht möglich, über Seiten-Insights Rückschlüsse zu einzelnen Mitgliedern zu ziehen. Die beschriebene Verarbeitung erfolgt durch die LinkedIn Ireland Unlimited Company und uns als gemeinsam Verantwortliche. Aus diesem Grund besteht eine Vereinbarung zur gemeinsamen Verantwortlichkeit nach Art. 26 DSGVO mit dem Anbieter, in der folgendes festgelegt ist:
+Die LinkedIn Ireland Unlimited Company ist dafür verantwortlich, dass Sie Ihre Rechte aus der DSGVO ausüben können. Sie können das Unternehmen online kontaktieren "LinkedIn online kontaktieren") oder über die in der Datenschutzerklärung angegebenen Kontaktdaten erreichen. Den Datenschutzbeauftragten können Sie über ein Online-Formular anschreiben. Sie können sich wegen der Ausübung Ihrer Rechte im Zusammenhang mit der Verarbeitung personenbezogener Daten im Rahmen der Seiten-Insights auch an uns wenden. Wir werden in einem solchen Fall Ihre Anfrage an das soziale Netzwerk weiterleiten.
+Die LinkedIn Ireland Unlimited Company und wir haben vereinbart, dass die irische Datenschutzkommission die federführende Aufsichtsbehörde für die Überwachung der Datenverarbeitung über die für Seiten-Insights ist. Sie haben stets das Recht, eine Beschwerde bei der irischen Datenschutzkommission (siehe unter www.dataprotection.ie) oder bei jeder anderen Aufsichtsbehörde einzureichen.
+Empfänger von Daten
+Wir verwenden LinkedIn lediglich als Plattform und richten uns nach den Nutzungsbedingungen des Anbieters. Wir selbst haben keine Auswirkung darauf, welche Daten beim Aufruf unseres Profils verarbeitet werden und wer Ihr Profil sehen kann. In dieser Hinsicht sind wir wie Sie nur ein Nutzer.
+Wir haben allerdings Mitarbeiter, die sich um die Betreuung unserer LinkedIn-Profile kümmern. Eingehende Nachrichten werden von ihnen eingesehen und bearbeitet. Je nachdem, wie Sie mit unsren Inhalten interagieren, können Ihr Profil sowie Ihre Veröffentlichungen von anderen Nutzern wahrgenommen werden.
+Bei der Nutzung von LinkedIn findet ein Datentransfer in Drittländer außerhalb der Europäischen Union und des Europäischen Wirtschaftsraums statt. Nach den Angaben des Anbieters ist dieser durch Standardvertragsklauseln legitimiert.
+Speicherdauer
+Wenn Sie einen Kommentar hinterlassen, wird dieser zeitlich unbegrenzt auf unserem Profil gespeichert (bis Sie ihn löschen). Das gleiche gilt für die Nutzung der Like-Funktion. Direktnachrichten an uns werden ebenfalls gespeichert, allerdings in einem regelmäßigen Turnus gelöscht.
+
+To the top of the section
+SnapChat-Profile
+Verantwortlichkeit
+Die Social-Media-Plattform SnapChat wird angeboten und betrieben von der Snap Inc., with its address at 3000 31st Street, Santa Monica, California 90405, USA. Die datenschutzrechtliche Verantwortlichkeit liegt allein dort.
+Nutzung von SnapChat
+Wir verwenden SnapChat und die darüber bereitgestellten Funktionen zum Teilen von Informationen und zur Kommunikation mit anderen Nutzerinnen und Nutzern. Dabei halten wir uns an die Nutzungsbedingungen, denen wir bei der Anlage unseres Profils zugestimmt haben.
+Wir haben keinen Einfluss auf die stattfindende Datenverarbeitung. Informationen dazu finden Sie in der Datenschutzerklärung von SnapChat. Sie nutzen die Social-Media-Plattform in eigener Verantwortung und müssen selbst entscheiden, ob Sie mit der Datenverarbeitung durch die Snap Inc einverstanden sind. Dies gilt insbesondere für die Nutzung der Funktionen (z.B. Reactions, Stories, Chatten, SnapMap) und die Datenverarbeitung in Ländern außerhalb der EU und des EWR.
+
+To the top of the section
+
+Medienprivileg
+
+Über unsere Website und andere Kanäle verarbeiten wir personenbezogene Daten auch zu journalistischen Zwecken. Dabei verfolgen wir das Ziel, Informationen, Meinungen und Ideen in der Öffentlichkeit zu verbreiten und objektiv einen Beitrag zur Meinungsbildung zu leisten.
+In diesem Fall gilt das sogenannte Medienprivileg mit der Folge, dass nicht alle Vorgaben der DSGVO eingehalten werden müssen. Wir benötigen z.B. keine Rechtsgrundlage für die Datenverarbeitung und müssen keine Datenschutzerklärung bereithalten. Das ist auch nachvollziehbar. Es wäre schädlich für die Presse- und Meinungsfreiheit, wenn wir uns bei der Veröffentlichung von Artikeln um eine gesetzliche Grundlage Gedanken machen oder alle von einer Recherche betroffenen Personen über die Verarbeitung ihrer personenbezogenen Daten informieren müssten. Das würde die unabhängige Berichterstattung und die Persönlichkeitsrechte der Quellen gefährden.
+Das Medienprivileg entbindet natürlich nicht von allen gesetzlichen Pflichten. Alle mit der Verarbeitung beschäftigten Personen wurden auf das Datengeheimnis verpflichtet, es werden angemessene technische und organisatorische Maßnahmen zum Schutz von personenbezogenen Daten getroffen und wir halten uns an den Medienstaatsvertrag, die anwendbaren Pressegesetze sowie den Pressekodex.

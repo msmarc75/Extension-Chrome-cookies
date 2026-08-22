@@ -1,0 +1,15 @@
+{
+  "slug": "theguardian",
+  "home": "https://www.theguardian.com/",
+  "country": "UK",
+  "recordedAt": "2026-08-22T12:21:24.803Z",
+  "policyUrl": "https://www.theguardian.com/info/privacy",
+  "finalUrl": "https://www.theguardian.com/help/privacy-policy",
+  "via": "page-link+hop",
+  "from": "main",
+  "characters": 39091,
+  "truncated": false,
+  "error": null,
+  "title": "Privacy policy | Privacy | The Guardian",
+  "lang": "en"
+}

@@ -1,0 +1,96 @@
+{
+  "provenance": "A DRY RUN OF THE PROMPT, NOT AN API MEASUREMENT. Produced by applying server/prompts/policy-v1.mjs to policy.txt by hand while building phase 5, because this container has no ANTHROPIC_API_KEY. Kept deliberately as the corpus's hard case: the page reached from cnil.fr is a data-protection landing page with a full cookie table but no article-13 notice of its own — most subjects are genuinely absent from THIS document, and a reader who assumed the CNIL's own site must score well would have marked them present. `npm run verify:policies -- --live` is the real measurement.",
+  "model": "dry-run/policy-v1",
+  "mentions": [
+    {
+      "subject": "identity_controller",
+      "status": "partial",
+      "quote": "La CNIL s'engage à ce que les traitements de données personnelles effectués sur cnil.fr soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.",
+      "note": "The controller is named only in passing; the page describes what each online service discloses rather than making the disclosure itself."
+    },
+    {
+      "subject": "contact_dpo",
+      "status": "present",
+      "quote": "A l'attention du délégué à la protection des données (DPO)",
+      "note": "With a postal address and a contact form."
+    },
+    {
+      "subject": "data_categories",
+      "status": "absent",
+      "quote": null,
+      "note": "The page says each service states its categories; it states none itself."
+    },
+    {
+      "subject": "purposes",
+      "status": "partial",
+      "quote": "Nous utilisons différents traceurs/cookies sur le site pour mesurer l’audience et intégrer des services permettant d’améliorer l’interactivité du site.",
+      "note": "Stated for cookies only; for everything else the page defers to each service's own notice."
+    },
+    {
+      "subject": "legal_bases",
+      "status": "absent",
+      "quote": null,
+      "note": "Listed as something each service's notice provides, not given here."
+    },
+    {
+      "subject": "legitimate_interests",
+      "status": "absent",
+      "quote": null,
+      "note": null
+    },
+    {
+      "subject": "recipients",
+      "status": "partial",
+      "quote": "les destinataires des données (uniquement la CNIL en principe, sauf précision lorsqu'une transmission à un tiers est nécessaire) ;",
+      "note": "Part of a list of what each service's own notice must contain, rather than a disclosure for this site."
+    },
+    {
+      "subject": "third_country_transfers",
+      "status": "absent",
+      "quote": null,
+      "note": "Named as something services disclose where it applies; nothing is disclosed here."
+    },
+    {
+      "subject": "retention",
+      "status": "partial",
+      "quote": "Durée de conservation",
+      "note": "A period is given for each cookie in the table, and for nothing else."
+    },
+    {
+      "subject": "rights_access_rectify_erase",
+      "status": "partial",
+      "quote": "Pour toute information ou exercice de vos droits Informatique et Libertés sur les traitements de données personnelles gérés par la CNIL, vous pouvez contacter son délégué à la protection des données (DPO)",
+      "note": "How to exercise the rights, without listing which rights they are."
+    },
+    {
+      "subject": "right_withdraw_consent",
+      "status": "partial",
+      "quote": "vous avez la possibilité de vous opposer à l’utilisation des traceurs de mesure d’audience strictement nécessaires au fonctionnement et aux opérations d’administration courante du site web dans la fenêtre de gestion des cookies située en haut à droite de chaque page du site.",
+      "note": "A right to object to measurement trackers; withdrawal of consent as such is not stated."
+    },
+    {
+      "subject": "right_complain_supervisory",
+      "status": "absent",
+      "quote": null,
+      "note": "The site is the supervisory authority, which does not remove the requirement to say so."
+    },
+    {
+      "subject": "automated_decision_making",
+      "status": "absent",
+      "quote": null,
+      "note": null
+    },
+    {
+      "subject": "cookies_described",
+      "status": "present",
+      "quote": "Types de traceurs/cookies déposés sur le site de la CNIL :",
+      "note": "Followed by a table giving each cookie, its purpose and its lifetime."
+    },
+    {
+      "subject": "consent_withdrawal_mechanism",
+      "status": "present",
+      "quote": "dans la fenêtre de gestion des cookies située en haut à droite de chaque page du site",
+      "note": null
+    }
+  ]
+}

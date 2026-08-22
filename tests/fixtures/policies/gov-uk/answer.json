@@ -1,0 +1,96 @@
+{
+  "provenance": "A DRY RUN OF THE PROMPT, NOT AN API MEASUREMENT. Produced by applying server/prompts/policy-v1.mjs to policy.txt by hand while building phase 5, because this container has no ANTHROPIC_API_KEY. It exists so the pipeline — normalisation, quote verification, assembly, schema — can be exercised against a real document and a realistic answer, including its mistakes. It must not be read as evidence of what the model returns. `npm run verify:policies -- --live` is that measurement.",
+  "model": "dry-run/policy-v1",
+  "mentions": [
+    {
+      "subject": "identity_controller",
+      "status": "present",
+      "quote": "GOV.UK (or www.gov.uk) is provided by the Government Digital Service (GDS), part of the Department for Science, Innovation & Technology (DSIT).",
+      "note": null
+    },
+    {
+      "subject": "contact_dpo",
+      "status": "present",
+      "quote": "You can also contact our Data Protection Officer (DPO):",
+      "note": "The postal address and dataprotection@dsit.gov.uk follow."
+    },
+    {
+      "subject": "data_categories",
+      "status": "present",
+      "quote": "your Internet Protocol (IP) address, and details of which version of web browser you used",
+      "note": null
+    },
+    {
+      "subject": "purposes",
+      "status": "present",
+      "quote": "gather feedback to improve our services, for example our email alerts",
+      "note": null
+    },
+    {
+      "subject": "legal_bases",
+      "status": "present",
+      "quote": "The legal basis for processing data collected with Google Analytics and SpeedCurve RUM on GOV.UK and other government digital services is your consent.",
+      "note": null
+    },
+    {
+      "subject": "legitimate_interests",
+      "status": "present",
+      "quote": "The legal basis for processing personal data in relation to site security is our legitimate interests, and the legitimate interests of our users, in ensuring the security and integrity of GOV.UK.",
+      "note": null
+    },
+    {
+      "subject": "recipients",
+      "status": "present",
+      "quote": "The data we collect may be shared with other government departments, agencies and organisations.",
+      "note": "Categories rather than named recipients, which art. 13(1)(e) allows."
+    },
+    {
+      "subject": "third_country_transfers",
+      "status": "present",
+      "quote": "Where data processing happens in the US, suppliers need to meet the certification standards set out in the UK-US data bridge agreement.",
+      "note": null
+    },
+    {
+      "subject": "retention",
+      "status": "present",
+      "quote": "delete access log data which contain your IP address after 120 days",
+      "note": null
+    },
+    {
+      "subject": "rights_access_rectify_erase",
+      "status": "present",
+      "quote": "request that your personal data is erased if there is no longer a justification for it",
+      "note": null
+    },
+    {
+      "subject": "right_withdraw_consent",
+      "status": "absent",
+      "quote": null,
+      "note": "Consent is named as the basis for analytics, but the notice does not state a right to withdraw it."
+    },
+    {
+      "subject": "right_complain_supervisory",
+      "status": "present",
+      "quote": "You can also make a complaint to the Information Commissioner, who is an independent regulator.",
+      "note": null
+    },
+    {
+      "subject": "automated_decision_making",
+      "status": "absent",
+      "quote": null,
+      "note": null
+    },
+    {
+      "subject": "cookies_described",
+      "status": "partial",
+      "quote": "Find out more about how we use Google Analytics and other cookies on GOV.UK.",
+      "note": "The cookies themselves are listed on a separate page this notice only links to."
+    },
+    {
+      "subject": "consent_withdrawal_mechanism",
+      "status": "absent",
+      "quote": null,
+      "note": "No control or link for changing the cookie choice is described in this document."
+    }
+  ]
+}

@@ -13,7 +13,7 @@ Settled. Reopen only with a reason.
 |---|---|---|
 | Should the incognito gate be the only way to audit? | **No — two modes, incognito the default** | A hard gate before the tool does anything is the friction that loses a user before the first result. "Audit in my current profile" is also a real question a DPO asks — *does this site honour the refusal I already gave it?* The capture already records `profile: current` and the report already discloses it |
 | Model for policy analysis | **`claude-opus-5`** | Not downgraded for cost: that is the buyer's call, not the builder's. The task is adversarial reading of legal prose where a missed mention becomes a false clean bill of health |
-| How the literal quote is guaranteed | **Structured output, then verified by substring against the source** | The API's citation feature returns API-guaranteed verbatim spans but cannot be combined with a strict output schema. Verifying ourselves keeps the schema *and* is mechanically checkable: any mention whose quote is not found verbatim is downgraded to absent |
+| How the literal quote is guaranteed | **Structured output, then verified by substring against the source** | The API's citation feature returns API-guaranteed verbatim spans but cannot be combined with a strict output schema. Verifying ourselves keeps the schema *and* is mechanically checkable. ~~Any mention whose quote is not found verbatim is downgraded to absent~~ — **revised in phase 5**: such a mention becomes `unverified`, which is neither present nor absent. Downgrading to absent would turn the tool's own uncertainty into an accusation against the site |
 | Batch mode for agencies | **Yes, strictly serial** | It is what turns a one-off tool into a subscription. Serial, user-initiated, one site at a time at the same pace a human visit produces — the plan's worry about pacing is real |
 | Separate web app for the Agency tier | **No, not yet** | A second product with its own auth, hosting and support surface. Defer until an agency asks and pays |
 | Scheduled monitoring | **Runs when Chrome is open, and says so** | An extension cannot audit while the browser is closed, and `chrome.debugger` has no server-side equivalent. A server-side crawler is a different product. The tier's promise must be worded as what it is |
@@ -62,7 +62,7 @@ The order is the product. Step 5 is observable exactly once.
 | 2 | Capture | Capture A complete and serialised to `shared/schema`; ten test sites including three French news outlets; debugger detaches under every path, zero orphan sessions over a hundred audits | **done** |
 | 3 | Banner detection | Thirty real fixtures: CMP identified in ≥25, refusal succeeds in ≥22 | **detection met, refusal short** |
 | 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | **done** |
-| 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | not started |
+| 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | **built; the live measurement needs a key** |
 | 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | not started |
 | 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | not started |
 | 8 | Publication | Extension privacy policy, written justification per permission, screenshots, store listing | not started |
@@ -250,22 +250,120 @@ The sweep now leaves live sessions alone and audits wait for it;
 Verified: 200 unit tests and 26 end-to-end tests green, `npm run check:tokens`
 and `npm run build` clean, and the full corpus run linked above.
 
-### Open for phase 5
+### Phase 5 — what shipped
+
+**The service.** `server/`, `node:http`, no framework — it routes two paths and
+parses one JSON body, and a process that holds an API key should have a
+dependency list readable in an afternoon. One dependency was added and is
+justified in the commit: `@anthropic-ai/sdk`, the official client, for retries,
+typed errors and streaming.
+
+- `POST /analyze-policy` takes `{text, url}` and answers `{ok, data, cached}`.
+  `GET /health` answers without a key, so a deployment can be checked before it
+  is trusted with one.
+- `server/prompts/policy-v1.mjs` — the prompt as a versioned file. A change of
+  wording changes the findings, so the analysis records which prompt produced it
+  and the cache is keyed on it: editing the prompt invalidates nothing silently,
+  it simply stops being a cache hit.
+- Structured output through `output_config.format`, then validated against
+  `shared/schema/policy-analysis.schema.json` by the project's own validator —
+  the one written in phase 2 to run in two places, which is now doing so.
+- SHA-256 cache over the *normalised* text, the prompt version and the model.
+  Those three decide the answer, so nothing else is in the key — and a policy
+  that changed a word is a different document with a different hash, which is
+  why there is no expiry.
+- An optional bearer token, because a process that spends money per request
+  should not answer to anyone who finds its port. It is an operational guard,
+  not the licence system; that is phase 7.
+
+**The reading of it.** Fifteen subjects, each tied to the article that asks for
+it, and every claim of presence checked against the source before it is issued.
+A claim whose sentence is not in the document becomes `unverified` — neither
+present nor absent — which is the phase's one reversal of an earlier decision
+and is argued in `docs/methodology.md`.
+
+**Reaching the policy.** From the banner's own policy control first, then from
+the page's links, *ranked*. The ranking is not decoration: the first corpus run
+followed "the first link mentioning privacy" and analysed a Guardian article
+about a Meta trial, a Spiegel article about Uber's fine, and — the one worth
+remembering — a Belgian publisher's Cloudflare interstitial through to
+*Cloudflare's* privacy policy. Ranking by path shape, by article markers, by
+same-site and by file type fixed all three. One hop is allowed from a hub page
+to the policy it links to, which is how theguardian.com goes from 574 characters
+of table of contents to 39 000 characters of policy.
+
+**Category D.** Five rules, fifteen points, which completes the weight budget
+the plan set: deposit 35, fairness 30, information 20, policy 15 — 100 exactly.
+Subjects that only some controllers must state — a DPO, legitimate interests,
+transfers outside the EEA, automated decisions — are conditional: their absence
+is an observation, never a departure. A policy is not defective for being silent
+about something that does not apply to it.
+
+**The corpus.** `npm run capture:policies` records real policies the way the
+extension reaches them — homepage, profile, detector, policy control — so a
+document the extension could not have found does not enter by the back door.
+17 usable policies from 22 attempts, in five countries, overlapping the phase 3
+banner corpus wherever possible. The five failures are recorded rather than
+dropped: four homepages offered no discoverable policy link from this sandbox
+(a consent wall, a Cloudflare interstitial, two banners rendered in frames whose
+links the page does not carry), and they are in the corpus as failures.
+
+**Where it stands against the criteria.**
+
+| Criterion | Status |
+|---|---|
+| `POST /analyze-policy` | met |
+| Versioned prompt | met — `policy-v1`, recorded in every analysis |
+| Schema-validated output | met — every issued document is validated or the request fails |
+| SHA-256 cache | met — measured in the tests: the second identical request never reaches the model |
+| Fifteen real policies | met — 17 recorded |
+| >90 % detection | **not measured** |
+| Every "present" backed by a literal quote found in the source | met by construction, and measured on what has been run: 21 of 21 |
+
+The detection figure needs a model call, and this container has no
+`ANTHROPIC_API_KEY`. What exists instead is the harness that produces it —
+`npm run verify:policies -- --live` runs the corpus and writes the figures into
+`docs/verification/` — and a dry run of the prompt over two policies, applied by
+hand and labelled as such in the fixtures, which exercises everything except the
+model: normalisation, quote verification, assembly, schema and the category D
+rules, against real documents. Its output is
+[`verification/policies-2026-08-22.md`](verification/policies-2026-08-22.md).
+**That is not the acceptance measurement and must not be quoted as one.** The
+cost of the real run, at the rate recorded above, is roughly $3 for the whole
+corpus.
+
+Verified: 251 unit tests and 32 end-to-end tests green, `npm run check:tokens`
+and `npm run build` clean. The end-to-end run includes the whole path — banner
+to hub page to policy to service to report — against a local service whose
+model is a stub, including the case that matters most: a fabricated sentence in
+the answer, which the server drops and the rules never see.
+
+### Open for phase 6
+
+- **The detection measurement.** `ANTHROPIC_API_KEY=… npm run verify:policies --
+  --live`. Nothing in the code needs to change for it, and the document it
+  writes is the phase 5 evidence.
+- **The report is where category D becomes readable.** The findings carry the
+  quote the site's own policy gave them; the report has to print it beside the
+  deposit timeline, which is phase 6's signature element.
+- **The service has no home yet.** `DEFAULT_SERVICE_ORIGIN` names
+  `api.consent-audit.dev`, which is where the manifest's host permission points
+  and where nothing is deployed. Deployment belongs with the licence server in
+  phase 7.
 
 - **A measurement from Europe.** The refusal figure in phase 3 is a floor taken
   from a non-EU exit IP with a filtered egress. Re-running `npm run
   verify:banners --live` from a European network is what would settle whether
   the criterion is met; nothing in the code needs to change for it. The same run
   would tighten the rule figures, which inherit the same corpus.
-- **The information rules read the banner, not the policy.** `PURPOSES_STATED`,
-  `CONTROLLERS_IDENTIFIED` and `RETENTION_STATED` currently judge what the banner
-  itself says — which is the right question for a banner, and half the question
-  overall. The policy text phase 5 fetches is the other half. Nothing in the
-  engine anticipates it: the rules that will consume it get written when it
-  exists.
+- **Category C reads the banner; category D reads the policy.** That division
+  turned out to be the right one and is now settled: `PURPOSES_STATED` and its
+  neighbours judge what the visitor is told *at the moment of the choice*, which
+  is a different question from what the policy states, and both are worth
+  asking.
 - **The tracker table is short, and shipping it is not maintaining it.** The
-  weekly refresh from the licence server — JSON into `chrome.storage`, overriding
-  the shipped copy — belongs with the server, in phase 5 or 7.
+  weekly refresh — JSON into `chrome.storage`, overriding the shipped copy —
+  belongs with the licence server, in phase 7.
 
 ## Standing constraints
 

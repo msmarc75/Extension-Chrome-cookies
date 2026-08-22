@@ -1,0 +1,139 @@
+Accueil
+Notre politique de protection des données à caractère personnel
+
+La protection de vos données à caractère personnel est un élément essentiel de notre relation, que vous soyez client ou utilisateur de nos services et sites. Cette relation est fondée sur un principe de transparence visant à respecter votre vie privée conformément à la règlementation en vigueur en France et en Europe notamment en application de la loi informatique et libertés et du Règlement Général sur la Protection des Données (RGPD), la « Réglementation ».
+
+La présente politique vous informe sur les catégories de données à caractère personnel que nous traitons, la façon dont nous les utilisons, les catégories de destinataires auxquels nous les communiquons, ainsi que sur les droits dont vous disposez.
+
+1. QUELLES DONNÉES RECUEILLONS-NOUS ?
+
+En qualité de responsable de traitement au sens de l’article 24 du RGPD, LIBÉRATION peut recueillir directement auprès de vous ou indirectement via des tiers des données à caractère personnel. Conformément au principe de minimisation, nous ne collectons que les données nécessaires au regard des finalités pour lesquelles elles sont traitées.
+
+Les différentes catégories de données collectées lors votre souscription et dans le cadre de votre utilisation de nos services ou applications sont les suivantes :
+
+• Les données d’identification (nom, prénom, numéro abonné, civilité, date de naissance)
+• Les données de contact (adresse postale, adresse email, numéro de téléphone)
+• Les données de connexion (adresse IP d’ordinateur, logos de connexion et d’usage)
+• Les données financières (moyens de paiement, historiques de paiement, coordonnées bancaires)
+• Les données de navigation (liste des produits et services choisis, détails des services et abonnements souscrits, suivi de navigation au travers des cookies)
+• Les données de localisation
+• Les messages que vous laissez sur notre site
+• Les données d'interaction avec nos emails : ouverture des emails, clics sur les liens contenus dans les emails et informations techniques associées permettant de mesurer l'audience et la performance de nos campagnes.
+
+Les données personnelles recueillies peuvent être classées en deux catégories :
+
+• Les données que vous fournissez volontairement, par exemple lorsque vous vous abonnez à notre newsletter, à un jeu concours, que vous candidatez pour rejoindre l’équipe de Libération. Les informations que nous recueillons à votre sujet incluent principalement les données d’identification, de contact, des informations pertinentes pour le produit ou service choisi ou toute donnée que vous décidez de communiquer volontairement.
+• Les données recueillies indirectement (i) à l’aide de cookies et traceurs (voir point 7 ci-dessous) lorsque vous visitez notre site (données de connexion, de navigation, de localisation), que nous utilisons à des fins d’analyse interne et pour améliorer la qualité de notre site, (ii) par l’intermédiaire de Facebook qui identifie des profils susceptibles d’être intéressés par nos contenus. Grâce à cela, LIBERATION est en mesure d’afficher une de ses publicités sur Facebook à des personnes non-abonnées ou n’ayant pas encore visité notre site.
+
+2. POUR QUELLE UTILISATION ?
+
+Finalités
+Vos données à caractère personnel sont collectées et traitées uniquement sur la base des fondements juridiques prévus par la Réglementation :
+
+La réalisation de traitements nécessaires à l’exécution d’un contrat :
+• Gestion de compte client
+• Envoi de newsletters
+• Communications avec le client (assistance technique et commerciale)
+• Organisation de jeux-concours
+• Gestion de droits et des demandes d’exercice des droits des personnes
+• Fourniture et fonctionnement des services
+
+La réalisation de traitements basés sur les intérêts légitimes de Libération :
+• Lutte contre la fraude et prévention des impayés
+• Enrichissement et valorisation de la base clients/prospects
+• Fourniture de recommandations personnalisées basés sur l’analyse des usages
+• Prospection commerciale et développement des produits et services de LIBÉRATION : emailing ; sms, parrainage ; relances téléphoniques
+• Jeux-concours
+• Répondre aux questions des lecteurs : CheckNews
+• Pour assurer le respect de nos obligations légales et règlementaires telles que définies par la législation en vigueur.
+
+La réalisation de traitements pour lesquels la personne concernée a donné son consentement :
+• Prospection commerciale et développement des produits et services de tiers : cookies publicitaires
+• Mesure de l'audience, des interactions et de la performance des newsletters et communications électroniques.
+• Amélioration et personnalisation des contenus adressés par email et gestion de la pression des envois des campagnes email d'information ou de promotion en fonction de vos interactions.
+
+La réalisation de traitements résultant d’une obligation légale et/ou réglementaire à laquelle Libération est soumis :
+• Réponses aux demandes d’exercice des droits des personnes
+• Gestion de la liste d’exercice des droits RGPD
+
+3. VERS QUELS DESTINATAIRES ?
+
+Vos données à caractère personnel pourront être traitées par le personnel habilité de LIBÉRATION, des partenaires ou prestataires de LIBÉRATION. Le recours à ces partenaires ou prestataires est nécessaire à la bonne exécution du contrat passé entre vous et LIBÉRATION.
+
+Plus précisément, nous donnons accès aux données de nos abonnées à notre partenaire qui gère les abonnements, à notre partenaire en charge du support, de notre CRM (gestionnaire de la relation clients), à notre partenaire en charge de l’authentification, à notre DPO en cas de demande de votre part liée au RGPD. Nos prestataires en charge des formulaires web, des collectes d’adresses emails, des emailings, des paiements et des notifications push ont également accès à vos données. Vos données sont également présentes dans notre outil Microsoft. En cas d’abonnement papier, nos distributeurs de journaux sont en possession de votre adresse postale. LIBÉRATION échange également des données avec Facebook afin que des publicités Libération apparaissent lors de votre consultation de ce réseau social.
+
+Si ces destinataires sont amenés à traiter vos données en dehors de l’Union européenne, les transferts seront réalisés dans le respect de la Réglementation. Ainsi, LIBERATION s’engage à mettre en place des garanties appropriées de protection de vos données conformément au RGPD (clauses contractuelles types et mesures supplémentaires de protection). Vous pouvez en demander copie en écrivant à donnees-personnelles@liberation.fr.
+
+4. QUELLES SONT LES PERSONNES CONCERNEES
+
+LIBERATION recueille des informations de la part et au sujet de :
+
+• Clients abonnés ou anciens abonnés aux services de Libération
+• Tiers abonnés par parrainage
+• Personnes inscrites aux newsletters
+• Visiteurs et lecteurs du site
+• Candidats aux offres d’emploi
+
+LIBERATION demande aux personnes titulaires d’un compte sur le site Libération de veiller régulièrement à l’exactitude des données renseignées.
+
+5. QUELLES SONT LES DUREES DE CONSERVATION DES DONNEES ?
+
+Les données personnelles que LIBERATION collecte au cours de votre visite sont conservées pendant le temps nécessaire à l’accomplissement des finalités exposées ci-dessus, sauf si une durée plus longue est imposée par la loi.
+
+A titre d’exemple, les données qui vous concernent sont conservées au maximum :
+• 5 ans à compter de la fin de l’abonnement pour les données de gestion des abonnés,
+• 5 ans concernant les données recueillies lors de la création d’un compte (ou 3 ans si le compte est inactif),
+• 3 ans pour les données utilisateurs récoltées lors de l’inscription à une newsletter ou destinées à être utilisées pour de la prospection lorsque vous n’êtes pas abonné,
+• 3 ans en plus de l’année en cours concernant l’exercice des droits RGPD
+
+A l’issue de ces délais, LIBERATION supprime ou anonymise vos données. Des obligations légales ou réglementaires peuvent imposer à Libération une durée de conservation minimum de vos données.
+
+6. QUELLE SÉCURITÉ POUR VOS DONNÉES
+
+Nous avons défini des mesures techniques et organisationnelles permettant de protéger vos données de façon appropriée selon leur nature, l’étendue du traitement et leur accessibilité. Il peut s’agir par exemple de chiffrement des données, de gestion de droits d’accès, de flux sécurisés, …
+
+Le respect de la sécurité et de la protection de vos données s’impose à l’ensemble de nos collaborateurs ainsi qu’à nos prestataires.
+
+7. QUELS COOKIES ET QUELS TRACEURS ?
+
+Dans le cadre de votre utilisation de nos sites internet et applications mobiles, il est possible que soient enregistrés dans votre navigateur des cookies.
+Pour consulter notre politique cookies, dirigez-vous ici.
+
+Traceurs présents dans nos emails
+• Certaines newsletters et communications électroniques envoyées par Libération peuvent contenir des traceurs (également appelés pixels de suivi). Ces traceurs nous permettent notamment de mesurer l'ouverture et les clics dans les emails que vous recevez et, plus généralement, leur audience, leur performance et les interactions avec ceux-ci.
+• Vous pouvez vous opposer à ce suivi à tout moment en utilisant le lien d'opposition présent dans nos emails.
+
+8. A PROPOS DE VOS DROITS
+
+En application de la loi « Informatique et Libertés » et du RGPD, vous disposez des droits suivants :
+• Droit d’accès aux données personnelles détenues par Libération
+• Droit à la rectification de vos données personnelles
+• Droit de ne plus recevoir de communications marketing
+• Droit à la limitation ou à l’opposition au traitement des données personnelles, ou à leur effacement sous certaines conditions
+• Droit de recevoir une copie des données à caractère personnel que vous avez fournies à Libération dans un format structuré, couramment utilisé et lisible par machine
+• Droit de modifier ou de retirer à tout moment votre consentement, si vous avez volontairement fourni des données personnelles ou avez consenti à leur utilisation
+• Droit de saisir l’Autorité de protection des données (en France la CNIL)
+• Vous pouvez à tout moment vous opposer à la collecte des données d'ouverture de nos emails tout en continuant à recevoir nos newsletters et communications électroniques.
+
+Vous pouvez exercer vos droits à tout moment en envoyant un email à l’adresse suivante : donnees-personnelles@liberation.fr
+Libération examinera votre requête et vous répondra dans le délai d’un mois
+Si vous n’êtes pas satisfait de nos échanges, vous avez la possibilité de saisir la Commission Nationale de l’Informatique et des Libertés (CNIL) à l’adresse suivante :
+
+CNIL
+3 place de Fontenoy
+TSA 80715
+75334 Paris cedex 07
+
+9. ARRET DES NOTIFICATIONS
+
+Pour les notifications que vous recevez depuis votre application Libération : ouvrez votre application, rendez-vous dans le menu, cliquez sur "mes notifications" et désactivez celles que vous ne souhaitez plus recevoir (ou toutes)
+
+Pour les notifications que vous recevez depuis le site web (sur ordinateur ou mobile) : à la prochaine réception de notification, cliquez sur paramètres (la petite molette) ou options et sélectionnez : bloquer les notifications pour ce site.
+
+Pour les newsletters que vous recevez par e-mail : vous trouverez en bas de chaque e-mail un lien de désinscription en bas de chaque envoi sur lequel vous pouvez cliquer. Vous pourrez alors sur la page qui s'affiche décider des newsletters que vous souhaitez recevoir ou non.
+
+10. MODIFICATION DE LA POLITIQUE DE CONFIDENTIALITE
+
+La présente Politique de Confidentialité est régulièrement mise à jour quant à la manière dont nous recueillons et traitons vos données personnelles. Dans un tel cas, nous modifions la date de dernière mise à jour dans la présente page. Nous vous invitons à consulter régulièrement notre Politique de Confidentialité afin de consulter les éventuels changements qui auraient été apportées.
+
+Mis à jour, le 2 juillet 2026

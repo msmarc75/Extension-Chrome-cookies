@@ -316,6 +316,32 @@
   cursor: default;
 }
 
+/* ---- Choice ------------------------------------------------------------- */
+
+.ca-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--ca-space-3);
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-4);
+  cursor: pointer;
+}
+
+.ca-choice__box {
+  margin: var(--ca-space-0);
+  flex: none;
+}
+
+.ca-choice__label {
+  font-size: var(--ca-size-100);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-choice__detail {
+  display: block;
+  margin-top: var(--ca-space-1);
+  color: var(--ca-ink-muted);
+}
+
 /* ---- Footer ------------------------------------------------------------- */
 
 .ca-footer {

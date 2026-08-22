@@ -1,0 +1,15 @@
+{
+  "slug": "bbc",
+  "home": "https://www.bbc.com/",
+  "country": "UK",
+  "recordedAt": "2026-08-22T12:17:30.883Z",
+  "policyUrl": "https://www.bbc.com/pages/privacy-policy",
+  "finalUrl": "https://www.bbc.com/pages/privacy-policy",
+  "via": "page-link",
+  "from": "main",
+  "characters": 53075,
+  "truncated": false,
+  "error": null,
+  "title": "BBC Studios Privacy Policy",
+  "lang": "en-GB"
+}

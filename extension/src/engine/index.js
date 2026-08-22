@@ -28,6 +28,14 @@ import { policyReachable } from './rules/policy-reachable.js';
 import { purposesStated } from './rules/purposes-stated.js';
 import { retentionStated } from './rules/retention-stated.js';
 
+import {
+  policyIdentifiesController,
+  policyNamesRecipients,
+  policyStatesPurposes,
+  policyStatesRetention,
+  policyStatesRights,
+} from './rules/policy-rules.js';
+
 /*
  * Order matters in one place only: NO_DARK_PATTERN reads what the other
  * fairness rules found, so it runs last.
@@ -51,6 +59,12 @@ export const RULES = Object.freeze([
   controllersIdentified,
   retentionStated,
   policyReachable,
+
+  policyIdentifiesController,
+  policyStatesPurposes,
+  policyNamesRecipients,
+  policyStatesRetention,
+  policyStatesRights,
 ]);
 
 export const ruleById = (id) => RULES.find((rule) => rule.id === id) ?? null;
@@ -63,6 +77,8 @@ export const ruleById = (id) => RULES.find((rule) => rule.id === id) ?? null;
  * @param {object} [audit.banner] result of locateBanner
  * @param {object} [audit.refusal] result of driving a refusal
  * @param {object} [audit.profileAfterAcceptance] the page as it stands after accepting
+ * @param {object} [audit.policy] what was extracted from the privacy policy page
+ * @param {object} [audit.policyAnalysis] the analysis service's reading of it
  * @returns {object} the report
  */
 export function assess(audit) {
@@ -121,12 +137,17 @@ export function assess(audit) {
         : []),
       ...(audit.banner?.disclosure ? [audit.banner.disclosure] : []),
       ...(audit.captureA?.notes ?? []).map((note) => `Capture limitation: ${note.code}.`),
+      ...(audit.policy && !audit.policyAnalysis
+        ? [
+            `The privacy policy was not analysed${audit.policy.error ? ` — ${audit.policy.error.message}` : ''}, so category D did not apply.`,
+          ]
+        : []),
+      ...((audit.policyAnalysis?.notes ?? []).map((note) => `Policy analysis: ${note.detail}.`)),
       ...(scored.coverage < 0.8
         ? [
             `Scored over ${Math.round(scored.coverage * 100)}% of the rulebook — the rest did not apply to this page. A score computed over part of the rules is not comparable with one computed over all of them.`,
           ]
         : []),
-      'Privacy policy analysis is not yet part of this build, so 15 points of the rulebook are absent from every score.',
     ],
   };
 }

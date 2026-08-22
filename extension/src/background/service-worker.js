@@ -9,6 +9,7 @@
 import { MessageType, PROTOCOL_VERSION, bindRuntime, createRouter } from '../shared/messaging.js';
 import { AuditError, auditCapability, captureBeforeConsent, probeBanner } from './audit.js';
 import { liveSessionCount, sweepOrphans } from './debugger-session.js';
+import { analysePolicyText, serviceSettings } from './policy-client.js';
 
 /**
  * Wall-clock instant at which this worker instance started. It resets on every
@@ -54,9 +55,24 @@ const router = createRouter()
         mode: payload?.mode ?? 'incognito',
         observationMs: payload?.observationMs,
         act: payload?.act !== false,
+        /*
+         * The audit hands the policy over only when asked to. An audit is
+         * useful without it — the deposit and fairness findings stand on their
+         * own — and sending a document to a service is not something to do by
+         * default because it happened to be reachable.
+         */
+        analyse:
+          payload?.analysePolicy === false
+            ? null
+            : (policy) =>
+                analysePolicyText(policy, {
+                  origin: payload?.serviceOrigin,
+                  token: payload?.serviceToken ?? null,
+                }),
       }),
     ),
-  );
+  )
+  .on(MessageType.SERVICE_SETTINGS, () => serviceSettings());
 
 /*
  * An audit that cannot run is an outcome, not a crash: the popup has a screen

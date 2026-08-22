@@ -1,0 +1,574 @@
+Politique de protection des Données Personnelles du site web 20minutes.fr
+
+20 Minutes est très sensible à la protection des données personnelles de ses Lectrices et de ses Lecteurs. L’ensemble des règles applicables à la protection de vos données personnelles, comme les mesures techniques de protection de vos données numériques, figurent dans le présent document que nous vous recommandons de consulter lors de votre première connexion aux sites web et applications de 20 Minutes.
+1. 20 Minutes collecte et traite certaines de vos données personnelles
+Lorsque vous consultez le site web www.20minutes.fr sur ordinateur personnel, sur tablette ou sur téléphone mobile, 20 Minutes collecte et traite des données personnelles vous concernant qui sont nécessaires pour que 20 Minutes puisse vous afficher les contenus que vous souhaitez consulter. Dans ce cadre, 20 Minutes est susceptible d’utiliser les capacités de traitement ou de stockage de votre terminal (par exemple par l’utilisation de "cookies") ainsi que certaines données techniques émises ou transmises par votre terminal : vous trouverez plus d’informations à ce sujet dans notre politique cookies.
+2. Identification du responsable du traitement de vos données personnelles
+Est considérée comme responsable de traitement la société qui détermine les finalités et les moyens du traitement de données personnelles, c’est-à-dire l’objectif et la façon de le réaliser.
+En collectant et en traitant les données personnelles de ses Lecteurs en ligne, 20 Minutes agit en qualité de responsable du traitement du site 20minutes.fr, de ses sous-domaines (ci-après « les Sites ») :
+https://www.20minutes.fr
+https://visions.20minutes.fr
+https://www.20minutes-media.com
+https://la21e.20minutes.fr/euro2016
+https://annonces-legales.20minutes.fr
+https://podcasts.20minutes.fr
+https://lacuisinedannie.20minutes.fr
+https://maison.20minutes.fr
+https://journaldesseniors.20minutes.fr
+https://bebesetmamans.20minutes.fr
+https://infolocale.20minutes.fr
+https://sportune.20minutes.fr
+
+ainsi que les applications suivantes (ci-après « les Applications ») :
+20 Minutes
+20 Minutes le journal
+
+Vous trouverez le détail de l’identification légale de 20 Minutes en cliquant sur mentions légales du site web 20minutes.fr.
+La société 20 Minutes dont le siège social est situé Bâtiment B, 159 rue Anatole France, CS 50216, 92309 Levallois-Perret Cedex, immatriculée au RCS de Paris B sous le numéro 438 049 843 qui exploite notamment le site www.20minutes.fr ainsi que ses sous-domaines (ci-après « les Sites »).
+3. Les bases légales du traitement
+Votre consentement (Article 6, paragraphe 1, point a), article 7 et article 9 paragraphe 2 point a) du RGPD). Nous pouvons collecter et traiter vos données personnelles suite au consentement que vous nous aurez donné expressément (via la complétion d’un formulaire ou via une case que vous aurez préalablement cochée). Ce consentement peut être retiré à tout moment.
+L’exécution d’un contrat (signature des CGUs) (Article 6, paragraphe 1, point b) du RGPD). Le traitement de vos données personnelles peut s’effectuer dans le cadre d’un contrat passé entre vous et la société 20 Minutes.
+L’exécution d’une obligation légale (Article 6, paragraphe 1, point c) du RGPD). Nous devons parfois traiter certaines de vos données personnelles pour respecter des obligations légales en vertu de la réglementation applicable.
+Notre intérêt légitime (Article 6, paragraphe 1, point f) du RGPD). Enfin, la poursuite des intérêts légitimes pourra entraîner le traitement de vos données personnelles, dans le respect de vos droits et intérêts.
+
+4. 20 Minutes collecte certaines de vos données personnelles
+Nous nous engageons à collecter des données personnelles strictement nécessaires à l’accomplissement des finalités décrites ci-dessous
+Vous trouverez ci-dessous la liste des données personnelles que nous sommes susceptibles de collecter
+vos données nominatives (nom, prénom, civilité, date de naissance, adresse e-mail, adresse postale, etc.)
+vos données professionnelles (société, diplômes, expériences professionnelles) sur la plateforme de recrutement de 20 Minutes ou lors du dépôt d’annonces légales sur le sous domaine dédié : https://annonces-legales.20minutes.fr/ ;
+vos identifiants et mots de passe cryptés utilisés pour vous identifier sur nos sites et applications
+vos données commerciales (historique de vos transactions, historique de vos demandes ou de vos correspondances avec le service client, données nécessaires à la réalisation d’actions de fidélisation, de prospection, d’enquêtes de satisfaction, de statistiques et de promotion)
+vos données de statistiques et d’usages relatives à nos communications (email, SMS, notifications)
+vos données de statistiques liées à votre navigation
+vos préférences, centres d’intérêt éditoriaux et publicitaires que vous avez déclaré ou qui sont déduits de votre navigation sur nos sites et applications
+vos données de connexion et d’utilisation de nos services (adresse IP, type de terminal, type et version du navigateur que vous utilisez, le système d’exploitation ainsi que la date et l’heure de votre accès, lecture d’articles et de pages, accès et téléchargement du journal numérique)
+
+4.1. Quel est le contexte de collecte de vos données ?
+Les données précédemment énoncées sont collectées directement auprès de vous lors de :
+la création et de la gestion d’un compte utilisateur en ligne
+votre connexion à nos services
+l’inscription à nos newsletters et/ou communications
+votre consultation de nos newsletters et communications (statistiques d’ouvertures, de clics…)
+votre inscription à nos applications mobiles et à leurs notifications
+l’abonnement au service 20 Minutes Turbo sur l’application 20 Minutes
+votre participation à des évènements d’animation de la communauté (concours ou jeux)
+vos partages et interactions avec nos contenus via les réseaux sociaux
+vos dépôts de commentaires et contributions lecteurs
+votre participation à des études et enquêtes
+le paramétrage de préférences sur nos Sites et nos Applications
+vos retours utilisateurs, demandes de renseignements et correspondances via nos formulaires de contact
+certains partenariats offrant des services à partir des Sites et des Applications
+votre navigation sur les Sites et les Applications
+l’exercice de vos droits relatifs à vos données personnelles
+
+Sur nos formulaires, les données obligatoires sont mentionnées par la présence d’un astérisque (*) à côté des champs concernés. Les autres champs sans mentions particulières peuvent être renseignés optionnellement.
+Dans certains cas, nous pouvons être amenés à collecter indirectement vos données personnelles auprès de partenaires auxquels vous avez donné votre accord.
+Il arrive également que nous traitions des données vous concernant provenant de nos partenaires commerciaux, notamment pour vous connecter sur nos sites via nos connecteurs sociaux (par exemple Facebook, Google, Apple) et pour votre utilisation des services sur nos Sites et nos Applications.
+L’utilisation des plateformes 20 Minutes est strictement réservée aux personnes de plus de 15 ans. L’utilisateur qui ne remplirait pas cette condition devra se munir du consentement du titulaire de l’autorisation parentale avant de communiquer ses données personnelles.
+5. Finalités du traitement de vos données personnelles
+Tous les traitements de données personnelles réalisés par 20 Minutes s’appuient sur une base juridique. Ces traitements sont les suivants :
+5.1. Accès aux services
+Finalités
+
+Base légale des traitements
+
+Créer et gérer votre compte en ligne
+
+Acceptation des conditions générales d’utilisation (CGU) ou votre consentement
+
+Accéder aux services et fonctionnalités
+
+Acceptation des CGU
+
+Prendre en compte vos préférences de paramétrage sur nos sites et applications
+
+Acceptation des CGU ou votre consentement
+
+Prendre en compte vos inscriptions à nos newsletters
+
+Votre consentement
+
+Gérer et administrer vos abonnements newsletters
+
+Notre intérêt légitime
+
+Prendre en compte le dépôt de vos commentaires, contributions et avis
+
+Acceptation des CGU
+
+Prendre en compte les articles sauvegardés pour être lus plus tard
+
+Acceptation des CGU
+
+Prendre en compte vos inscriptions à nos notifications sur nos sites et applications
+
+Votre consentement
+
+Gérer et administrer vos inscriptions aux notifications
+
+Notre intérêt légitime
+
+Fournir l’accès aux contenus et services inclus dans l’offre d’abonnement sans traceurs publicitaires
+
+Acceptation des CGV
+
+5.2. Statistiques, mesure d’audience et analyse
+Finalités
+
+Base légale des traitements
+
+Comptabiliser le nombre d’articles lus pour gérer l’accessibilité aux contenus
+
+Notre intérêt légitime
+
+Assurer l’amélioration constante de nos produits et services, notamment en recourant à des technologies d’analyse avancée de vos données
+
+Notre intérêt légitime
+
+Réaliser des études et statistiques sur nos produits et services existants ou dans le cadre du développement de nouveaux produits et services
+
+Notre intérêt légitime
+
+Collecter de manière automatisée par le biais de traceurs (dont des cookies) des informations permettant de mesurer la fréquentation de nos sites et applications, d’optimiser leur ergonomie et leurs contenus ainsi que d’identifier vos centres d’intérêt à des fins de personnalisation
+
+Notre intérêt légitime ou votre consentement
+
+Élaborer des statistiques d’audience de nos contenus éditoriaux et/ou commerciaux
+
+Notre intérêt légitime ou votre consentement
+
+Qualifier et analyser les audiences de notre Site, personnaliser nos contenus, produits et services ainsi que votre expérience utilisateur notamment avec votre tranche d’âge estimée, votre genre estimé et votre localisation estimée à partir de données que vous avez déclarées dans votre compte utilisateur si vous en possédez un
+
+Notre intérêt légitime
+
+5.3. Obligations légales
+Finalités
+
+Base légale des traitements
+
+Respecter la législation applicable
+
+Nos obligations légales
+
+Prendre en compte votre acceptation relative à nos conditions générales et/ou contrats
+
+Nos obligations légales
+
+Gérer l’exercice de vos droits sur vos données personnelles
+
+Nos obligations légales
+
+5.4. Publicités/opérations partenaires
+Finalités
+
+Base légales des traitements
+
+Vous adresser des publicités et promotions de nos partenaires*
+
+Votre consentement
+
+Afficher sur nos sites et applications des publicités ciblées de nos partenaires*
+
+Votre consentement
+
+Afficher des publicités personnalisées de l’éditeur selon vos centres d’intérêts et profil en fonction de votre navigation sur notre Site et notre Application et de données renseignées (date de naissance, genre, code postal), ou déduites d’informations renseignées dans votre compte utilisateur (ex : tranche d’âge estimée, genre estimé, localisation estimée…), si vous possédez un compte utilisateur. Ces traitements sont mis en œuvre dans le cadre de la version gratuite de nos services financée par la publicité et impliquent l’utilisation de traceurs non essentiels soumis à votre consentement. Si vous refusez ces traceurs, vous ne verrez plus de publicités personnalisées et pourrez, le cas échéant, opter pour une offre d’abonnement sans traceurs publicitaires.*
+
+Votre consentement
+
+5.5. Opérations relation lecteurs
+Finalités
+
+Base légale des traitements
+
+Assurer la relation lecteurs : mise à disposition d’un service lecteurs accessible par courrier, formulaire de contact, e-mail pour toute question ou réclamation
+
+Acceptation des CGU ou votre consentement ou notre intérêt légitime
+
+Vérifier la qualité de nos services : recueil d’avis lecteurs, réalisation d’enquêtes de satisfaction
+
+Votre consentement ou notre intérêt légitime
+
+Vous envoyer des informations concernant la modification ou l’évolution de nos services
+
+Notre intérêt légitime
+
+Vous adresser des messages publicitaires et promotionnels relatifs à nos produits et services par e-mail, notifications mobiles, sur les réseaux sociaux ou tout autre support
+
+Votre consentement ou notre intérêt légitime
+
+Réaliser des actions de fidélisation via email
+
+Votre consentement ou notre intérêt légitime
+
+Réaliser des actions de fidélisation personnalisées, par reciblage, procédé consistant via des traceurs à l’identification de vos visites sur nos sites et applications ou via l’utilisation des services
+
+Votre consentement ou notre intérêt légitime
+
+Prendre en compte et gérer votre participation à nos événements
+
+Acceptation des CGU ou votre consentement ou notre intérêt légitime
+
+Vous envoyer des informations concernant nos événements
+
+Votre consentement ou notre intérêt légitime
+
+Prendre en compte et gérer votre participation aux jeux concours 20 Minutes ou organisés avec des partenaires (tirage au sort, remise de prix et livraison des dotations)
+
+Acceptation des CGU ou votre consentement
+
+Vous envoyer des informations concernant nos jeux-concours organisés
+
+Votre consentement ou notre intérêt légitime
+
+Personnaliser nos communications et notre relation commerciale notamment avec votre tranche d’âge estimée, votre genre estimé et votre localisation estimée à partir de données que vous avez déclaré dans votre compte utilisateur si vous en possédez un
+
+Notre intérêt légitime
+
+Mise à jour, enrichissement et déduplication de vos informations personnelles dans une base de données dédiée
+
+Votre consentement ou notre intérêt légitime
+
+Personnaliser nos contenus, produits et services ainsi que votre expérience utilisateur notamment avec votre tranche d’âge estimée, votre genre estimé et votre localisation estimée à partir de données que vous avez déclarées dans votre compte utilisateur si vous en possédez un
+
+Notre intérêt légitime
+
+Résoudre les problèmes rencontrés dans l’utilisation de l’application
+
+Votre consentement
+
+Suivre vos interactions avec les e-mails que nous vous envoyons afin de mesurer votre engagement, personnaliser les contenus qui vous sont proposés et créer des segmentations en fonction de votre profil.
+
+Votre consentement
+
+6. Durée de conservation de vos données personnelles
+6.1 Données relatives aux utilisateurs membres
+Catégorie de données
+
+Traitements
+
+Durées de conversation
+
+Données de connexion
+
+Accès au service
+
+Pendant toute la durée contractuelle ou 3 ans après le dernier contact (ne sont pas conservés après la suppression de compte)
+
+Ensemble des données liées à votre compte
+
+Abonnement newsletters, articles sauvegardés, commentaires déposés, réactions aux communications, autres utilisations de produits et services, connaissance des lectrices et lecteurs (personnaliser les contenus éditoriaux, les produits et services proposés, améliorer l’expérience utilisateur, les parcours de navigation et qualifier les audiences du site)
+
+Pendant toute la durée contractuelle ou 3 ans après le dernier contact. (Ne sont pas conservés après la suppression de compte)
+
+Données d’identification
+
+Pendant toute la durée contractuelle ou 3 ans après le dernier contact. (Ne sont pas conservés après la suppression de compte)
+
+Données liées à la modération des commentaires
+
+Données nominatives permettant de vous identifier et d’identifier vos commentaires
+
+Jusqu’à 13 mois après l’inscription ou le dernier commentaire déposé
+
+Données déduites d’informations renseignées dans votre compte utilisateur (ex : tranche d’âge estimé, genre estimé, localisation estimée…) si vous disposez d’un compte utilisateur
+
+Personnalisation des communications et de la relation commerciale
+
+Pendant la durée d’utilisation de nos services et 3 ans après la fin de l’utilisation ou du dernier contact
+
+Données relatives à la gestion de l'abonnement à 1,99 euros par mois (données d’identification, coordonnées, historique d’abonnement, données nécessaires à la facturation et au suivi de la relation contractuelle)
+
+Gestion et exécution de l’abonnement, facturation, gestion des accès, service après‑vente
+
+Pendant la durée de l’abonnement, puis archivage pendant la durée de prescription applicable à des fins de preuve et de respect de nos obligations légales et comptables. Notre partenaire Stripe conserve également ces données personnelles pendant la durée minimale nécessaire pour remplir ses obligations légales ou réglementaires, et pour ses besoins opérationnels. Pour obtenir plus d’informations sur la durée de conservation des données collectées par Stripe, cliquez ici.
+
+6.2 Données relatives aux formulaires de renseignement pour l’inscription à un événement, une contribution ou un témoignage
+Catégorie de données
+
+Traitements
+
+Durées de conservation
+
+Données d’identification et de contact recueillies lors d’une demande de renseignement
+
+Demande d’informations
+
+Jusqu’à deux ans après la demande
+
+6.3 Données relatives à la participation aux jeux concours
+Catégorie de données
+
+Traitements
+
+Durées de conservation
+
+Ensemble des données Gestion du compte Utilisateur (inscription au concours, dotation)
+
+Demande d’informations
+
+2 ans à compter de la fin du jeu-concours ou du dernier contact (1) émanant de l’Utilisateur
+
+Données d’identification et de contact et inscrits alertes emails
+
+Envoi d’informations sur l’évolution de nos jeux - concours et de nos offres
+
+Ne sont pas conservées au delà de la désinscription ou 3 ans à compter du dernier contact (1) émanant de l’Utilisateur
+
+Données d’identification des gagnants
+
+Remise des prix ou de la dotation
+
+Ne sont pas conservées au delà de la remise des dotations
+
+6.4 Données relatives au support
+Catégorie de données
+
+Traitements
+
+Durée de conservation
+
+Données d’identification fournies lors d’une réclamation, déclaration de bug, demande de renseignement ou autre demandes
+
+Réponse à la demande de la personne concernée
+
+Ne sont pas conservées au delà de 3 ans après l’envoi du message
+
+Données de journalisation présentes sur votre appareil
+
+Résoudre les problèmes rencontrés dans l’utilisation de l’application
+
+Jusqu’à la révocation de votre consentement
+
+6.5 Données relatives à l’exercice de vos droits
+Catégorie de données
+
+Traitements
+
+Durée de conservation
+
+Données traitées au titre d’une demande d’exercice d’un droit (hors pièce d’identité)
+
+Réponse à la demande de droit de la personne concernée
+
+Ne sont pas conservées au delà de 6 ans après la demande de droit
+
+Pièce d’identité fournie au titre d’une demande d’exercice d’un droit
+
+Vérifier l’identité du demandeur
+
+Ne sont pas conservées au delà du traitement de la demande de droit
+
+6.6 Données relatives aux utilisateurs de nos services
+Catégories de données
+
+Traitements
+
+Durée de conservation
+
+Données liées à votre navigation sur nos services en ligne
+
+Fonctionnement
+Mesure d’audience et web analyse
+Réseaux sociaux
+Affiliation
+Services proposés par des tiers
+Ciblage publicitaire*
+Gestion et accès aux contenus
+
+13 mois maximum à compter du dépôt des cookies sur votre appareil
+
+Conservation du consentement exprimé sur nos sites et applications
+
+Recueil du consentement
+
+6 mois en cas d'acceptation, 1 mois en cas de refus. Ces durées s’appliquent également au choix que vous exprimez dans le cadre du dispositif de gestion des traceurs non essentiels permettant de financer la version gratuite du site par la publicité. Au‑delà de ces durées, nous vous demanderons à nouveau de confirmer votre choix, y compris si vous décidez d’opter pour une offre d’abonnement sans traceurs publicitaires
+
+Données liées à votre navigation sur nos services en ligne
+
+Publicité personnalisée de l’éditeur
+
+6 mois à compter du dépôt des cookies sur votre appareil sous réserve de votre consentement préalable
+
+Données déduites d’informations renseignées dans votre compte utilisateur (ex : tranche d’âge estimé, genre estimé, localisation estimée…) si vous disposez d’un compte utilisateur
+
+Personnaliser les contenus éditoriaux, les produits et services proposés, améliorer l’expérience utilisateur, les parcours de navigation et qualifier les audiences du site
+
+Pendant la durée d’utilisation de nos services et 3 ans après la fin de l’utilisation ou du dernier contact
+
+6.7 Données relatives à nos traceurs
+Catégorie de données
+
+Traitements
+
+Durée de conservation
+
+Données liées à votre navigation sur nos services en ligne
+
+Mesure d’audience et web analyse
+Activation des réseaux sociaux
+Activation de l’affiliation
+Activation des services interactifs proposés par des tiers
+Publicité et contenus personnalisés de Tiers*
+Publicité personnalisée de l’Editeur*
+
+13 mois maximum à compter du dépôt des cookies sur votre appareil
+
+Données liées à votre navigation, votre profil, vos centres d’intérêt
+
+Publicité et contenus personnalisés de l’Editeur*
+Améliorer votre expérience publicitaire sur notre site*
+
+6 mois à compter de l’acceptation
+
+6.8 Données relatives au suivi des interactions avec nos emails
+Suivi des interactions avec nos emails
+Lorsque nous vous adressons des emails, newsletters ou communications liées à nos services, nous pouvons utiliser certains dispositifs techniques, tels que des pixels de suivi ou des liens personnalisés.
+Ces dispositifs peuvent nous permettre de collecter des informations relatives à vos interactions avec nos emails, notamment l’ouverture du message, la date de consultation, le terminal ou logiciel de messagerie utilisé, ainsi que les liens activés.
+Ces informations peuvent être utilisées pour les finalités suivantes :
+mesurer l’audience et la performance de nos campagnes email ;
+améliorer la pertinence des contenus que nous vous adressons ;
+adapter la fréquence d’envoi de nos communications ;
+limiter l’envoi de messages peu pertinents ;
+améliorer la délivrabilité de nos emails ;
+assurer, dans certains cas, la sécurité de nos services ou la preuve de l’envoi ou de la consultation d’une information importante.
+
+Lorsque ces dispositifs sont utilisés pour mesurer individuellement vos interactions, personnaliser les contenus ou adapter nos communications à vos centres d’intérêt, vous pouvez vous y opposer à tout moment ou retirer votre choix depuis le lien de gestion des préférences figurant dans nos emails ou depuis votre compte.
+Votre opposition au suivi des emails n’entraîne pas votre désinscription aux newsletters ou communications auxquelles vous êtes inscrit(e). Vous continuerez à les recevoir, mais sans suivi individualisé d’ouverture ou de clics, hors dispositifs strictement nécessaires ou exemptés dans les conditions prévues par la réglementation.
+Certains traitements strictement limités peuvent être mis en œuvre sans consentement lorsqu’ils sont nécessaires à la sécurité de l’authentification, à la délivrabilité des emails demandés par le destinataire ou au nettoyage de nos bases, dans les limites prévues par la réglementation applicable.
+Suivi des interactions avec les newsletters 20 Minutes
+Lorsque vous recevez les newsletters ou communications de 20 Minutes, nous pouvons utiliser des dispositifs de suivi dans les emails, notamment des pixels ou liens personnalisés.
+Ces dispositifs peuvent permettre à 20 Minutes et à ses prestataires techniques de mesurer la réception, l’ouverture ou la consultation des emails, d’identifier les liens activés, d’améliorer la délivrabilité des messages, d’adapter la fréquence de nos envois et, lorsque cela est applicable, de personnaliser les contenus proposés.
+Vous pouvez vous opposer à tout moment à ce suivi depuis le lien de gestion des préférences présent dans nos emails ou depuis votre compte. Cette opposition n’entraîne pas votre désinscription aux newsletters : vous continuerez à les recevoir, mais sans suivi individualisé d’ouverture ou de clics, hors dispositifs strictement nécessaires ou exemptés dans les conditions prévues par la réglementation.
+Catégories de données
+
+Traitements
+
+Durées de conservation
+
+Données relatives au suivi des interactions avec nos emails
+
+Les données susceptibles d’être traitées dans ce cadre sont notamment : votre adresse email, votre identifiant client ou abonné, l’identifiant de la campagne email, le statut de réception, d’ouverture ou de clic, la date de l’interaction, le type de terminal ou de logiciel de messagerie utilisé, ainsi que des données techniques de connexion nécessaires au fonctionnement du dispositif.
+
+Les données issues du suivi des emails sont conservées pendant une durée limitée, proportionnée aux finalités poursuivies.
+Lorsque le suivi est utilisé uniquement à des fins de délivrabilité ou de nettoyage de base, seules les informations strictement nécessaires sont conservées, notamment la date de dernière ouverture connue, à la journée, sans conservation de l’heure, et mise à jour lors d’une nouvelle ouverture.
+Les données utilisées à des fins de mesure, de personnalisation ou d’adaptation des communications sont conservées pendant la durée nécessaire à la gestion de vos préférences et de nos campagnes, sauf opposition ou retrait de votre choix.
+
+7. Destinataires de vos données personnelles et transfert hors de l’Union Européenne
+20 Minutes collecte des données personnelles collectées à partir du site web : www.20minutes.fr, de ses applications et de ses sous-domaines. 20 Minutes a mis en place une politique d’habilitation de ses salariés et collaborateurs de sorte que ne puissent accéder à vos données personnelles que les salariés ou collaborateurs ayant un intérêt professionnel à y accéder dans le cadre de leurs fonctions.
+20 Minutes transfère, avec votre consentement, les données personnelles vous concernant à son partenaire, responsable de traitement conjoint 366, pour les traitements publicitaires identifiés par un astérisque (« * ») aux paragraphes 5 et 6 ci-dessus. La politique de protection des données personnelles de 366 est accessible sur le site : https://www.366.fr/politique-de-confidentialite-de-la-regie/.
+366 a signé avec les Éditeurs un accord de responsabilité conjointe portant sur la réalisation d’opérations liées à ces finalités. Dans tous ces contrats, Les Parties se sont accordées sur les modalités de traitement des données (durée, absence de transfert hors UE, etc.). Elles ont également mis en place un processus de fourniture des informations obligatoires, de recueil de consentement et de gestion des demandes d’exercice des droits des personnes concernées pour assurer leur effectivité.
+Pour des raisons purement techniques, 20 Minutes peut être amenée à sous-traiter certaines prestations à sa charge (comme par exemple l’hébergement du site web www.20minutes.fr). Dans tous les cas de sous-traitance du traitement de certaines de vos données personnelles, 20 Minutes a mis en place une politique contractuelle avec chacun de ses sous-traitants de sorte que la sécurité de vos données soit assurée par chacun des sous-traitants de 20 Minutes dans des conditions au moins aussi élevées que celles mises en place par 20 Minutes. 20 Minutes a pris un soin particulier à veiller à ce qu’aucun de ses sous-traitants ayant un accès direct à vos données personnelles ait le droit de reproduire ni à son profit ni au profit de qui que ce soit vos données, ni bien sûr de les commercialiser.
+Dans l’hypothèse où 20 Minutes viendrait à sous-traiter tout ou partie des données personnelles vous concernant, 20 Minutes demeurera seul responsable du traitement à votre égard. De manière générale, 20 Minutes a mis en place une politique interne lui permettant de veiller à ce que chacun de ses sous-traitants concernés respecte l’ensemble des dispositions juridiques et techniques de protection de vos données personnelles conformément au présent engagement de 20 Minutes à votre égard.
+Les prestations assurées pour notre compte par des partenaires sous-traitants peuvent être :
+la gestion de votre compte et de vos abonnements
+la collecte d’abonnement aux newsletters ou de créations de compte
+le paiement en ligne, la facturation, la sécurisation de ce paiement et la lutte contre la fraude
+la gestion et l’expédition des commandes, primes, dotations
+la recommandation de contenus ou de produits, fourniture de contenus informationnels
+la personnalisation des contenus des sites et applications et des services type newsletters
+l’organisation et la gestion de jeux, événements
+la billetterie et la gestion de salons, congrès, conférences, événements
+la gestion de campagnes marketing et la prospection commerciale
+la publicité ciblée, le profilage publicitaire, le retargeting (reciblage)
+la gestion de la relation client
+la gestion des avis, commentaires, contributions et débats
+le recueil des avis clients, réclamations, signalement de bugs
+les études et enquêtes en ligne
+les solutions de liseuses numériques dont vidéos
+la gestion des communications numériques (emails, notifications, tchat)
+la fourniture de solutions analytiques ou de statistiques de mesure d’audience
+l’hébergement, la réalisation d’opérations techniques de maintenance et de développement
+
+L’utilisation des réseaux sociaux ou l’intégration de contenus tiers (embeds) pour interagir avec nos sites et applications (notamment les boutons « partager » de Facebook, Twitter, Instagram, Linkedin, Youtube, Pinterest, Flipboard…) ou vous connecter via votre compte du réseau social, est susceptible d’entraîner la collecte de vos données personnelles par ces réseaux sociaux.
+L’accès au site web www.20minutes.fr est gratuit. En contrepartie du service gratuit qui vous est proposé en ligne par 20 Minutes, 20 Minutes commercialise des espaces publicitaires sur son site web. De manière à personnaliser les publicités qui apparaissent sur les pages web de son site, 20 Minutes opère un traitement à des fins de prospection/profilage de vos données personnelles.
+20 Minutes respecte votre choix de refuser la publicité ciblé, mais peut être amené à mettre en place sur ses Sites et Applications des mécaniques pédagogiques rappelant l’importance pour 20 Minutes de la publicité ciblé, comme le bandeau “Vous nous brisez le coeur” visible sur www.20minutes.fr lorsque celle-ci est refusée.
+Nous vous invitons à consulter les politiques de gestion des données personnelles des différents réseaux sociaux pour avoir connaissance des collectes et traitements qu’ils effectuent sur vos données. Pour accéder à ces documents et en savoir plus, veuillez consulter notre politique cookies : https://www.20minutes.fr/gestion-cookies.
+Enfin, 20 Minutes vous rappelle que vos données personnelles sont stockées sur des serveurs situés exclusivement sur le territoire de l’Union Européenne et vous garantit qu’aucun transfert de vos données vers un pays hors de l’Union Européenne n’aura lieu, sauf (i) à vous en informer au préalable et, éventuellement, à vous demander votre accord ou (ii) si le pays concerné bénéficie d’une décision officielle d’adéquation de l’Union Européenne qui garantit que vos données seront protégées de manière équivalente dans le pays concerné.
+8. Comment exercer vos droits ?
+Pour exercer vos "droits RGPD" rappelés ci-dessous, vous devez vous adresser directement à 20 Minutes dans les conditions fixées ci-dessous. En cas de "doutes raisonnables" quant à votre identité, 20 Minutes peut vous demander de fournir des informations supplémentaires nécessaires pour confirmer votre identité et d’attendre de recevoir ces informations supplémentaires avant toute action relative à vos données.
+Afin de garantir à ses Lecteurs une parfaite transparence sur le traitement de leurs données personnelles, 20 Minutes a choisi de nommer un Délégué à la Protection des Données personnelles (le "DPD"). Pour l’exercice de vos "droits RGPD" ou pour répondre à toute question sur le traitement des données personnelles par 20 Minutes, vous pouvez contacter le DPD de 20 Minutes par email à l’adresse : dpo@20minutes.fr
+Conformément à la législation en vigueur, vous disposez des droits suivants :
+8.1 Droit d’accès à vos données (article 15 - RGPD)
+Vous disposez du droit de demander directement, sans frais, à 20 Minutes de vous confirmer (ou non) l’existence du traitement de données personnelles vous concernant. Si 20 Minutes traite effectivement des données personnelles vous concernant, 20 Minutes s’engage à vous adresser dans les trente (30) jours de votre demande, par voie électronique, à l’adresse mail que vous indiquerez (i) une copie intégrale desdites données et informations vous concernant et (ii) l’ensemble des informations supplémentaires (notamment les finalités et les destinataires du traitement, les catégories et la durée de conservation des données) fixées par l’article 13 RGPD.
+20 Minutes vous rappelle toutefois que l’exercice du droit d’accès et de recevoir copie de vos données est gratuit si vous l’exercez dans des conditions raisonnables. Si vos demandes de droit d’accès sont « manifestement infondées ou excessives, notamment en raison de leur caractère répétitif » (art. 12.5 RGPD), 20 Minutes peut refuser de vous répondre ou vous demander une participation financière pour la fourniture de ces informations.
+8.2 Droit de rectification (article 16 RGPD)
+Si effectivement vous êtes Lecteur du site web www.20minutes.fr, vous pouvez obtenir de 20 Minutes, dans les meilleurs délais, la rectification des données personnelles vous concernant si ces données venaient à être inexactes.
+Pour exercer votre droit de rectification sur les données que vous avez vous-même saisi lors de la création ou de la modification de votre espace membre en ligne, il vous appartient d’effectuer vous-même cette rectification en ligne sur votre espace membre.
+8.3 Droit à l’effacement (« droit à l’oubli ») (RGPD – art. 17)
+Vous pouvez demander l’effacement de vos données personnelles si les conditions suivantes sont réunies :
+si les données concernées ne sont plus nécessaires au regard des finalités pour lesquelles elles ont été collectées, ou si elles ont été traitées de manière non-conforme aux informations initialement communiquées
+si vous retirez votre consentement, alors que celui-ci est la seule et unique base légale autorisant le traitement des données
+si vous vous opposez au traitement de vos données alors qu’il n’existe pas de motif légitime justifiant ce traitement, ou vous vous opposez au traitement de vos données à des fins de prospection
+si vos données ont fait l’objet d’un traitement illicite
+Si vous étiez mineur (moins de 15 ans) au moment de la collecte de vos données, vous bénéficiez d’une procédure accélérée pour exercer votre droit d’effacement. A ce titre, 20 Minutes dispose d’un délai d’un mois maximum pour vous répondre.
+
+En revanche, votre demande d’effacement ne pourra être acceptée lorsque le traitement est nécessaire :
+dans le but de respecter nos obligations légales en matière de durées de conservation des données
+à la constatation, à l’exercice ou à la défense de droits en justice
+
+8.4 Droit à l’oubli dans nos contenus éditoriaux
+20 Minutes peut publier sur son Site et ses Applications des données personnelles à des fins journalistiques et remplit alors son devoir d’information. La protection des données personnelles devant être conciliée avec l’exercice de la liberté d’expression et d’information, 20 Minutes se réserve le droit de refuser de retirer les données personnelles vous concernant, en motivant et justifiant cette décision.
+8.5 Droit à la limitation du traitement (RGPD – art. 18)
+Vous pouvez demander la limitation d’un traitement de vos données.
+8.6 Droit à la portabilité des données (RGPD – art. 20)
+Vous avez le droit de recevoir les données personnelles que vous nous avez fournies dans un format couramment utilisé et lisible, et le droit de transmettre ces données à un autre responsable de traitement.
+8.7 Droit d’opposition au profilage marketing, si consenti (RGPD – art. 22)
+Après réception au préalable de votre consentement, des cookies et traceurs nous permettent de déduire vos préférences, centres d’intérêt et usages de nos produits et services d’après votre navigation sur nos sites et applications. Le ciblage publicitaire (profilage marketing) concerne également l’affichage de publicités et contenus personnalisés par nos partenaires et nous.
+Vous pouvez à tout moment vous opposer à ce traitement depuis notre plateforme de consentement cookies accessible
+Sur nos sites : tout en bas de page en cliquant sur « Choix de consentement »
+Dans nos applications : dans les réglages de l’application en cliquant sur « Paramètres de confidentialité »
+
+Si vous exercez votre droit d’opposition ou retirez votre consentement aux opérations de profilage marketing et de publicité personnalisée, nous cesserons d’utiliser les traceurs non essentiels correspondants dans le cadre de la version gratuite de nos services. Vous pourrez continuer à accéder au site, soit en acceptant à nouveau ces traceurs, soit en souscrivant notre offre d’abonnement sans traceurs publicitaires à 1,99 euros par mois.
+8.8 Droit d’opposition (RGPD – art. 21)
+Vous pouvez vous opposer à tout moment au traitement de vos données personnelles, sauf en cas de motif légitime prévalant sur vos intérêts ou si nous avons besoin de vos données pour la constatation, l’exercice ou la défense de droits en justice. Vous pouvez également vous opposer à ce que vos données personnelles soient utilisées à des fins de prospection commerciale : voir l’article 9 de cette Politique de Protection des Données Personnelles.
+Droit d’opposition et d’effacement à la connaissance de nos lectrices et lecteurs (personnaliser les contenus éditoriaux, les produits et services proposés, améliorer l’expérience utilisateur, les parcours de navigation et qualifier les audiences du site).
+Vous ne souhaitez pas que vos données personnelles déclarées dans votre compte utilisateur soient utilisées pour déduire par exemple votre genre estimé, votre âge estimé et votre localisation estimée afin de personnaliser les contenus éditoriaux, les produits et services proposés, améliorer l’expérience utilisateur, les parcours de navigation et qualifier les audiences du site.
+Pour que votre demande soit recevable, vous devez :
+Disposer d’un compte utilisateur pour accéder à nos Sites ou applications
+Nous contacter avec l’adresse email que vous avez déclarée dans votre compte utilisateur. Dans le cas contraire, afin d’éviter toute usurpation d’identité, nous vous demanderons un justificatif d’identité. En l’absence de justificatif d’identité votre demande ne sera pas traitée.
+
+Pour nous adresser votre demande : cliquez ici.
+Si ce lien ne fonctionne pas, adressez-nous votre demande par email à l’adresse dpo@20minutes.fr en indiquant dans l’objet : Demande d’opposition et d’effacement pour la connaissance lecteurs.
+8.9 Personne décédée ayant laissé des directives sur le traitement de ses données à caractère personnel (art. 85 de la loi Informatique et Libertés modifiée)
+Vous pouvez communiquer des directives relatives à la conservation, à l’effacement et à la communication de vos données personnelles en cas de décès. Dans cette hypothèse, directives seront mises en œuvre sur demande de la personne chargée de leur ces exécution.
+8.10 Notification des violations de données personnelles (article 34 RGPD)
+Toute "violation" de vos données personnelles qui serait constatée par 20 Minutes (et qui entraînerait, de manière accidentelle ou illicite, l’accès ou la divulgation non autorisée, l’altération, la perte ou la destruction de tout ou partie de vos données personnelles) fera l’objet d’une information à la Commission Nationale Informatique et Libertés au plus tard dans les 72 heures de la découverte par 20 Minutes de cette violation. Pour le cas où cette violation de vos données personnelles entraînerait un risque élevé pour vos droits et libertés, 20 Minutes s’engage à vous en informer dans les meilleurs délais, sauf :
+si 20 Minutes a mis en œuvre des mesures de protection techniques et organisationnelles et si ces mesures ont été appliquées à vos données personnelles affectées par ladite violation, comme par exemple des mesures qui rendent vos données [personnelles] incompréhensibles pour toute personne qui ne serait pas autorisée à y avoir accès
+si 20 Minutes a pris des mesures ultérieures qui garantissent que le risque élevé pour vos droits et libertés n’est plus susceptible de se matérialiser
+si cette information exigerait des efforts disproportionnés pour 20 Minutes. Dans ce cas, 20 Minutes s’engage à une communication publique ou à une mesure similaire vous permettant d’être informé(e) de manière tout aussi efficace
+
+Comment exercer vos droits ?
+Vous pouvez exercer votre droit d’accès auprès du Délégué à la Protection des Données Personnelles de 20 Minutes :
+par courrier électronique, en écrivant à l’adresse : dpo@20minutes.fr
+par voie postale, en écrivant à l’adresse :
+
+20 Minutes - à l’attention du Délégué à la Protection des Données
+20 Minutes France
+Bâtiment B
+159 rue Anatole France
+CS 50216,
+92309 Levallois-Perret Cedex
+Pour assurer le traitement de votre demande et vérifier votre identité, 20 Minutes pourra vous demander de communiquer une copie recto/verso de votre carte d’identité en cas de doute raisonnable. 20 Minutes s’engage alors à vous donner accès en ligne à l’ensemble de vos données et aux informations que 20 Minutes est tenue de vous communiquer. Il ne sera procédé par 20 Minutes à aucun envoi "papier" de ces informations.
+9. Opposition aux offres commerciales
+20 Minutes est susceptible d’utiliser vos données personnelles à des fins de promotion de ses produits ou services. Si vous ne souhaitez pas que 20 Minutes utilise vos données personnelles à cette fin précise, vous disposez du droit gratuit et permanent de vous y opposer :
+En cas de sollicitations par email - en cliquant sur le lien de désabonnement présent dans chaque email ou en gérant vos abonnements newsletters dans votre espace membre
+En cas de sollicitations sur nos sites et applications - en vous rendant dans le menu Mes Alertes sur application mobile ou dans les réglages de votre navigateur pour les notifications web
+De manière générale par email en écrivant à l’adresse suivante : dpo@20minutes.fr.
+Ce droit d’opposition aux offres commerciales vous sera rappelé dans chaque communication électronique de prospection de 20 Minutes qui vous serait adressée.
+10. Comment 20 Minutes protège vos données personnelles ?
+20 Minutes, en tant que responsable de traitement, prend toutes les mesures nécessaires à la préservation de la sécurité et de la confidentialité des données. Nous veillons aussi à empêcher qu’elles soient endommagées, ou que des tiers non autorisés puissent y accéder.
+Mesures techniques sur nos sites
+Afin de vous permettre de lire les contenus proposés sur le site web www.20minutes.fr, 20 Minutes a mis en place des mesures d’authentification des ses sites par un certificat de sécurité. Ainsi, votre connexion au site web www.20minutes.fr est plus sécurisée si vous voyez apparaître l’adresse https:// ("s" comme sécurisé) dans l’URL de votre navigateur. Cette connexion sécurisée entre votre terminal et nos serveurs vous offre des garanties maximales de sécurisation de transfert de vos données.
+Mesures organisationnelles
+Afin de protéger les données personnelles de ses lecteurs, 20 Minutes a pris les mesures suivantes :
+la nomination d’un délégué à la protection des données
+la mobilisation du service numérique de 20 Minutes sur la sécurité des systèmes d’information
+un travail de sensibilisation et de formation aux exigences de confidentialité de nos collaborateurs pouvant avoir accès à vos données personnelles
+la sécurisation de l’accès à nos locaux et à nos différentes plates-formes informatiques
+la sécurisation de l’accès aux données personnelles, de leur partage et transferts à nos sous-traitants
+le haut degré d’exigence en matière de protection des données lors de la sélection de nos sous-traitants et partenaires
+la mise en place d’un registre listant les différents traitements de données effectués sur les sites et applications de 20 Minutes
+
+11. Mise à jour de la Politique de Protection des Données Personnelles
+Nous pouvons être amenés à modifier la présente Politique de Protection des Données Personnelles. Nous vous invitons donc à la consulter régulièrement afin de prendre connaissance de sa dernière version.
+Dernière modification le 17 juillet 2026.

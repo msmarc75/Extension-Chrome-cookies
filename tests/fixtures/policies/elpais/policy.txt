@@ -1,0 +1,110 @@
+Skip to content
+
+Cookies policy
+
+Scope of the policy, responsible and cookies settings
+This cookies policy will be applicable to the web pages, to certain accesses optimized for mobile devices (Accelerated Mobile Pages, hereinafter AMP) and/or to mobile applications (hereinafter, jointly, the Services) managed by the Responsible indicated below. The responsible is EDICIONES EL PAÍS, S.L., with address at Calle Miguel Yuste, 40 - 28037 Madrid, with Corporate Tax ID No. B-85635910, entered at the Mercantile Registry of Madrid in volume 26,455, folio 157, section 8, sheet M-476760, 1st entry (hereinafter, the Responsible). E-mail address of the PRISA Group Data Protection Officer: dpo@prisa.com Likewise, we inform you that the user may reject or configure the use of Cookies at any time, through the following types of configuration depending on the way the user navigates:
+Browsing through the website using a computer or mobile device: users may access the configuration by clicking on the following link: configuration
+Browsing through the AMP web page: users may set up the use of Cookies by accessing the Cookie Policy through the link at the bottom of the website.
+Use of Responsible's mobile applications: users may configure the use of Cookies by accessing to the section of the application's Settings/Configuration of Cookies.
+
+What are cookies?
+Cookies, and other similar technologies, are text files, images or routines that the Services being accessed installs or runs on the computer or device (PC, Smartphone, Tablet, etc.) of the user to record the activity of his/her navigation through the pages and sections of the Services.
+Cookies are associated exclusively with a code (ID) that identifies the device and/or browser used on each visit, and thus do not provide any information that could be used to infer the user's personal data.
+
+How do the services use cookies?
+The Services of the Responsible use Cookies:
+with the aim of offering the user content and information that will be more suited to their interests and facilitate browsing through our Services.
+to register user preferences and provide faster access.
+to personalize the Services offered by the Responsible, thereby facilitating and offering each user information that is or might be of interest to them, based on their use of these Services.
+to learn which Services offered are requested by users, so that the former may provide or offer information that is more relevant to the tastes and preferences of each user.
+personalize the advertisements that are inserted in the Services based on the preferences and interests of the user, whether they are selected by the Responsible or by the advertisers themselves or their representatives through intermediaries and advertising operators.
+
+In addition, users who register, or who log in to a session and navigate, after being authenticated, may benefit from Services that are more personalized and targeted to their profile. Users expressly authorize the use of this registration information for these purposes, without prejudice to their right to reject or disable Cookies. All information will be treated as indicated in the Privacy Policy or Clause that has been accepted by the user when they registered, and as indicated in this Cookies Policy.
+
+What types of cookies do the services use and what are their purposes?
+Depending on their duration, Cookies may be classified as:
+Session Cookies: These expire when the user closes the browser and are then immediately deleted from the computer or device.
+Persistent Cookies: Their expiration will depend on when their purpose is fulfilled (for example, they may ensure that the user remains identified to the Services) or when they are manually deleted.
+
+Depending on who creates the Cookie, they may be classified as:
+First-party Cookies: These are the ones that our Services send to the user’s computer or device and are exclusively managed by the Responsible.
+Third-party Cookies: These are sent by entities from outside the Responsibleand are activated when accessing social networks from our Services to view videos or when accessing advertisements.
+
+Which cookies can be installed on the services?
+Access to Services implies that the following Cookies will be installed. These are detailed in the table below:
+Cookie type
+Description
+Purpose / Information
+Expiration
+
+Performance
+These Cookies are used to improve navigationand optimize the operation of our Services. They store service settings, so you do not have to reconfigure them every time you visit.
+Volume settings of video or audio players.
+Video transmission speeds that are compatible with your browser.
+Objects stored in your shopping cart
+Persistent
+
+Analytical
+Every time a user visits a Service, an External Provider Tool generates an analytical Cookie on the user’s computer. This Cookie, which is only created during the visit, will serve on future visits to anonymously identify the visitor to the Services
+To allow for the anonymous identification of users through the Cookie (which identifies browsers and devices, but not individuals) and therefore an approximate estimate of the number of visitors and the amount of time they spend using the Service.
+To anonymously identify the content that is most visited and therefore the most attractive to users.
+To determine if the user accessing the Service is a new or a repeat visitor.
+NB: Except in those cases in which a user decides to register with a service of the Responsible, the Cookie will never be associated with any data of a personal nature that could be used to identify them. Said Cookies will only be used for statistical purposes that help optimize the user’s experience on the Services.
+
+Persistent
+
+First-party Advertising
+This type of Cookie allows for improvements in the advertising information displayed to each anonymous user of the Services.
+Among other things, they store the duration or the frequency with which display ads are viewed, interactions with ads, navigator patterns and/or user behaviour, on the basis that these helps to build up a profile of advertising interests. This makes it possible to offer advertising that is tailored to the user's interests contest.
+Persistent
+
+Third-party Advertising
+In addition to the advertising managed by its own Services, the Responsible offers advertisers the option of serving adverts through third parties. (“Ad-Servers”).
+In this way, advertisers, advertising operators and other intermediaries can store Cookies through the Services in users’ browsers or applications, as well as access any data stored on them. Companies that generate these Cookies have their own privacy policies.
+Persistent
+
+Behavioral advertising
+Advertising model based on consumer behavior and sees a Cookie collect anonymous information on browsing habits...
+The purpose is to offer the user advertising tailored to their interests.
+Persistent
+
+Registration
+They keep the user identified, even if he or she closes our site or the browser, so that when he or she returns to the same site, he or she will still be identified. If the user closes the session, however, this Cookie will be deleted and the next time he/she enters the Service he will have to log in to be identified.
+They check if the user is authorized to access certain Services, for example, to participate in a contest.
+Additionally, some Services may use connectors with social networks such as Facebook or Twitter. When the user registers to use a Service with credentials from a social network, the Cookie authorizes the social network to maintain a persistent Cookie that remembers the user’s identity and guarantees access to the Services until it expires. The user may delete this Cookie and revoke access to the Services through social networks by updating their preferences in the social network that they specify.
+Persistent
+
+Geolocation
+These Cookies are completely anonymous and are only used to help provide content that is appropriate to the location.
+These Cookies are used to ascertain in which country users are located when they request a Service
+Session
+
+How can cookies be rejected?
+As indicated in paragraph 1 of this policy, when accessing the Service, the user will be shown a Cookie warning which will inform him or her how they may give or reject their consent to the installation of Cookies.
+In addition, the user may reject the use of certain Cookies through the following services:
+https://www.criteo.com/es/privacy/disable-criteo-services-on-internet-browsers/
+https://youronlinechoices.eu/
+https://www.networkadvertising.org/choices/
+https://www.aboutads.info/choices/
+
+Likewise, the user may, at any time, reject the installation of Cookies via their browser settings:
+Configuración de cookies para Google Chrome
+Configuración de cookies para Mozilla Firefox
+Configuración de cookies para Internet Explorer
+Configuración de cookies para Safari
+
+What happens if cookies are disabled?
+If Cookies are disabled, we will not be able to maintain your preferences and some functionalities and features of the Responsible’s Services may be inoperative. Furthermore, we will not be able to offer you personalized services.
+
+Who are the recipients of the information and how does the use of cookies affect the protection of my personal data?
+Information obtained through the use of Cookies on the Services will be available to the collaborating partner companies,as well as advertisers and other operators, such as intermediaries and advertising agents, for the purposes described in this policy.
+Information on all collaborating companies using Cookies on our Services and what each company does, what data they collect and how they use it, is available via the View our Partners button in the settings panel.
+Although most Cookies are anonymous and do not allow third-parties to infer or obtain the identity of the user, some of the codes that they include serve to customize or individualize the browser or application of your device. Therefore, in these cases, personal data protection regulations may be applicable. We thereby inform users that any information obtained through Cookies will be incorporated into the files of those companies responsible for the Services, with the purposes and expiration periods indicated in this Policy.
+Likewise, this information will also be incorporated into the files of those companies supplying any Third-Party Cookies indicated in this document, being treated for the purposes as indicated in their respective privacy policies, linked from the button View our Partners in the settings panel.
+However, given that these codes do not allow the identification of the user, the rights of access, rectification, deletion, opposition, limitation and portability – as recognized in the data protection regulations – will not be applicable, unless the user proves able to provide additional information showing that his or her identity could to be linked to the Cookies.
+In the event that the user feels his or her right to data protection has been violated, he or she may file a complaint with the Spanish Data Protection Agency (www.aepd.es) or with the Data Protection Officer of Grupo Prisa to which the responsible belongs (dpo@prisa.com).
+We inform users that some of our suppliers, partners and collaborators, as well as the advertisers, operators and advertising agents mentioned above, may be located in the United States or other countries whose legislation does not offer a level of data protection equivalent to European standards. By consenting to the use of cookies and data sharing, you consent to the transfer of your personal data.
+
+Updates and changes to the privacy/cookies policy:
+The Responsible may modify this Cookies Policy in compliance with legal or regulatory requirements, or with the aim of adapting said policy to instructions issued by the Spanish Data Protection Agency. Users are therefore advised to consult it regularly.
