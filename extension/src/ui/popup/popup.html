@@ -32,6 +32,20 @@
         <button class="ca-button" type="button" data-action="open-settings">
           Open extension details
         </button>
+        <!--
+          The second mode, decided in phase 3 and owed to the user here rather
+          than only in the roadmap: auditing in the ordinary profile answers a
+          different question — does this site honour the choice I already made —
+          and the result says so everywhere it appears.
+        -->
+        <button class="ca-button ca-button--quiet" type="button" data-action="audit-current">
+          Audit in this profile instead
+        </button>
+        <p class="ca-caveat">
+          That measures a <em>returning</em> visit: the site may already hold a choice you made,
+          so what it deposits before you are asked cannot be established. The report says so on
+          every finding it affects.
+        </p>
       </section>
 
       <!-- Ready to audit. -->
@@ -155,6 +169,7 @@
           </div>
         </dl>
 
+        <p class="ca-caveat" data-field="result-when" hidden></p>
         <p class="ca-caveat" data-field="profile-note"></p>
         <p class="ca-caveat" data-field="capture-notes" hidden></p>
 

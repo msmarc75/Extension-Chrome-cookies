@@ -65,7 +65,7 @@ The order is the product. Step 5 is observable exactly once.
 | 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | **built; the live measurement needs a key** |
 | 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | **done** |
 | 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | **built; the test purchase needs Stripe keys** |
-| 8 | Publication | Extension privacy policy, written justification per permission, screenshots, store listing | not started |
+| 8 | Publication | Extension privacy policy, written justification per permission, screenshots, store listing | **done** |
 
 ### Phase 1 — what shipped
 
@@ -491,15 +491,98 @@ for the webhook and checks the licence verifies as the extension expects.
 Verified: 305 unit tests and 46 end-to-end tests green, `npm run check:tokens`
 and `npm run build` clean.
 
-### Open for phase 8
+### Phase 8 — what shipped
+
+Everything the Chrome Web Store submission needs, in the repository rather than
+in somebody's browser tab, so that a change to the product and a change to what
+is claimed about it arrive in the same commit.
+
+- [`docs/store/privacy-policy.md`](store/privacy-policy.md) — the extension's
+  own policy, written against the checklist the extension applies to other
+  people: who the controller is, what stays local (nearly everything), the two
+  things that leave the browser and when, what the licence service stores, the
+  legal basis for holding it, and the rights. If it would fail one of the
+  product's own rules, that is a defect worth reporting.
+- [`docs/store/permissions.md`](store/permissions.md) — a justification per
+  permission, written for the reviewer's form and for the user. It says what each
+  permission allows *in principle*, not only what this extension does with it,
+  and it records the two that were removed for being conveniences: `scripting`,
+  which would have dragged `<all_urls>` in with it, and `downloads`, which the
+  report does not need.
+- [`docs/store/listing.md`](store/listing.md) — name, 129-character summary,
+  category, description, single-purpose statement, the data-usage answers with
+  their three certifications, and a pre-submission checklist.
+- [`docs/store/screenshots/`](store/screenshots) — 1280×800, produced by
+  `npm run store:screenshots` from a live audit of a real site. Not mock-ups: the
+  store shows these to people deciding whether to trust the thing, and a
+  screenshot assembled by hand is a claim nobody checked. Four of the five are
+  committed; the privacy-policy one needs a deployed analysis service, and the
+  generator says so rather than inventing one.
+- `README.md`, rewritten for a repository that is now eight phases old rather
+  than three.
+
+Two product defects were found by producing all of that, both of them the kind
+that only appear when you use the thing rather than test it:
+
+- **The popup blocked entirely without incognito access.** Phase 3 decided that
+  a current-profile mode ships alongside the incognito default; the popup never
+  offered it, so a user who had not ticked Chrome's box could not audit at all.
+  It now offers to audit in the ordinary profile, with the sentence that says
+  what that measurement is worth.
+- **The popup lost its result the moment it closed.** An MV3 popup closes on any
+  click elsewhere, and losing a five-second measurement to a stray click is a bad
+  way to treat somebody's attention. It now shows the last audit when reopened,
+  dated, so it is never mistaken for a reading taken just now.
+
+**Where it stands against the criteria.**
+
+| Criterion | Status |
+|---|---|
+| Extension privacy policy | met |
+| Written justification per permission | met |
+| Screenshots centred on the timeline | met — the timeline is the first image, and the set is generated from a real audit |
+| Store listing | met |
+
+What is not met, and cannot be from here: the item is not submitted. Submission
+needs a Chrome Web Store developer account, the service deployed at the host in
+`host_permissions`, and live Stripe prices — none of which exist yet, and all of
+which are in the checklist at the end of the listing.
+
+Verified: 305 unit tests and 47 end-to-end tests green, `npm run check:tokens`
+and `npm run build` clean.
+
+## Where the project stands
+
+Eight phases, built in order, each closing on criteria that were checked rather
+than asserted. Three of those criteria could not be measured from inside this
+container and each says so in its own section rather than being quietly counted
+as met:
+
+| Phase | What is outstanding |
+|---|---|
+| 3 | The refusal rate was measured from a non-EU exit IP with filtered egress: 21 of 38, against a target of 22 of 30. A run from Europe is what would settle it |
+| 5 | The >90 % detection figure needs `ANTHROPIC_API_KEY` |
+| 7 | The Stripe test purchase needs Stripe test keys |
+| 8 | Submission needs a developer account and a deployed service |
+
+Everything else in this repository is checked by something that runs: 305 unit
+tests, 47 end-to-end tests against a real Chromium with the real extension
+loaded, and the verification runs recorded in
+[`verification/`](verification).
+
+### What is left, and what it needs
+
+None of this is code waiting to be written; each item is a run that needs
+something this container does not have.
 
 - **The detection measurement.** `ANTHROPIC_API_KEY=… npm run verify:policies --
   --live`. Nothing in the code needs to change for it, and the document it
   writes is the phase 5 evidence.
 - **The service has no home yet.** `DEFAULT_SERVICE_ORIGIN` names
   `api.consent-audit.dev`, which is where the manifest's host permission points
-  and where nothing is deployed. Deployment belongs with the licence server in
-  phase 7.
+  and where nothing is deployed. Until it is, an installation that buys a licence
+  has nothing to verify against — which is why the pre-submission checklist puts
+  the deployment before the store listing.
 - **A measurement from Europe.** The refusal figure in phase 3 is a floor taken
   from a non-EU exit IP with a filtered egress. Re-running `npm run
   verify:banners --live` from a European network is what would settle whether

@@ -194,6 +194,28 @@ test('earlier audits are listed, and forgetting them means forgetting them', asy
   await report.close();
 });
 
+test('the popup shows the audit again after it has been closed', async ({
+  extensionPage,
+  context,
+  extensionId,
+}) => {
+  /* An MV3 popup closes on any click elsewhere. Losing a five-second
+     measurement to a stray click is a bad way to treat somebody's attention. */
+  const result = await audit(extensionPage);
+
+  const popup = await context.newPage();
+  await popup.goto(`chrome-extension://${extensionId}/src/ui/popup/popup.html`);
+  await popup.waitForSelector('[data-view="result"]:not([hidden])');
+
+  await expect(popup.locator('[data-field="result-target"]')).toContainText(site.origin);
+  await expect(popup.locator('[data-field="score"]')).toHaveText(String(result.report.score));
+  /* And it is dated, so it is never mistaken for a reading taken just now. */
+  await expect(popup.locator('[data-field="result-when"]')).toContainText('Audit again');
+  await expect(popup.locator('[data-field="open-report"]')).toBeVisible();
+
+  await popup.close();
+});
+
 test('a report id that no longer exists falls back rather than showing a blank page', async ({
   extensionPage,
   context,

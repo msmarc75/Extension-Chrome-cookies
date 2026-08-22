@@ -3,6 +3,7 @@
   "name": "Consent Audit",
   "version": "0.1.0",
   "description": "Audit what a site drops before consent, how its cookie banner is built, and what its privacy policy states.",
+  "homepage_url": "https://github.com/msmarc75/Extension-Chrome-cookies",
   "minimum_chrome_version": "116",
   "icons": {
     "16": "assets/icons/icon-16.png",

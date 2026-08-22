@@ -14,6 +14,8 @@
  * the shelf is full.
  */
 
+import { summarise } from '../ui/popup/summary.js';
+
 const INDEX_KEY = 'auditHistory';
 const ENTRY_PREFIX = 'audit:';
 
@@ -56,6 +58,13 @@ export function trimForHistory(result, { id = auditId(), at = Date.now() } = {})
     id,
     at,
     target: result?.target ?? null,
+    /*
+     * The four figures, computed from the *whole* capture before it is trimmed.
+     * Recomputing them from the stored record would count only the third-party
+     * requests that were kept and quietly report a smaller total than was
+     * observed.
+     */
+    summary: summarise(capture.requests ? capture : { requests: [], cookies: [], storage: [] }),
     finalUrl: result?.finalUrl ?? null,
     profile: capture.profile ?? null,
     capture: {

@@ -1,107 +1,112 @@
 # Consent Audit
 
-A Chrome extension that measures what a website deposits **before** the visitor
-consents, examines how its cookie banner is built, reads its privacy policy,
-and produces an exportable report.
+A Chrome extension that measures what a website does before you answer its
+cookie banner, and reports it against published data-protection guidance.
+
+It states what happened — *"this call to an ad exchange went out 412 ms after
+load, before any interaction with the banner"* — and which text that observation
+engages. It never states that a site is unlawful: that depends on records,
+contracts and purposes no browser can see.
 
 Built for people who have to prove things: outsourced DPOs, privacy
 consultants, agencies demonstrating that what they shipped is compliant,
 lawyers in practice. Every finding travels with the observation behind it —
-what a consultant bills for is the evidence, not the verdict.
+what a consultant bills for is the evidence, not the verdict. Not legal advice;
+see [`docs/methodology.md`](docs/methodology.md).
 
-Consent Audit records facts and cites guidance. It does not say a site is
-unlawful, and it is not legal advice. See [`docs/methodology.md`](docs/methodology.md).
+## What it does
 
-## Status
+1. Opens a clean window and attaches Chrome's debugger **before** the page
+   navigates, because the requests that matter are the first ones.
+2. Watches for five seconds **without touching the page** — no click, no scroll,
+   no keystroke. Several consent platforms read any input as agreement, so a
+   single stray event would contaminate the measurement.
+3. Finds the banner, names the consent platform, and measures how the choice is
+   offered: same layer, equal prominence, nothing pre-ticked, refusal free.
+4. Refuses through the platform's own API where one exists — then asks that API
+   what it recorded, because a click that closes a banner without withdrawing
+   consent is the failure that matters most.
+5. Reads the privacy policy and, if asked to, has it analysed against the
+   articles of the GDPR — with every claim checked, word for word, against the
+   document itself.
+6. Scores what it found, and produces a report a consultant can attach to their
+   own work.
 
-Phase 3 of 8. The extension measures what a site deposits **before consent** —
-requests, cookies and storage, each dated against the moment the page began
-loading — then identifies the consent platform, locates the banner, and can
-drive a refusal and an acceptance, checking afterwards that each actually took.
-No rule engine and no report page yet. See [`docs/roadmap.md`](docs/roadmap.md),
-and [`docs/verification/`](docs/verification/) for what it finds on real sites.
-
-An audit runs in an incognito window, which Chrome only permits if you turn on
-*Allow in Incognito* in the extension's details. That is not a formality: in
-your normal profile a site may find a stored choice, show no banner, and load
-everything — a measurement of a returning visitor, not of a new one.
-
-## Getting started
+## Running it
 
 ```sh
 npm install
-npm run build          # validates, then writes dist/extension
-npm test               # tokens + unit + build + end-to-end
+npm run build          # validate and copy to dist/extension
+npm test               # token discipline, unit tests, build, end-to-end
 ```
 
-Load `dist/extension` through `chrome://extensions` → Developer mode → *Load
-unpacked*.
+Then load `dist/extension` in `chrome://extensions` with developer mode on, and
+turn on *Allow in Incognito*. That is not a formality: in your normal profile a
+site may find a stored choice, show no banner and load everything — a
+measurement of a *returning* visitor, not a new one. The extension will audit in
+the ordinary profile if you prefer, and labels the result as such everywhere it
+appears.
 
-| Script | What it does |
-|---|---|
-| `npm run icons` | Regenerates the icon set from the palette in `tokens.css` |
-| `npm run check:tokens` | Fails if any colour, length, type family, weight or duration is written outside `tokens.css` |
-| `npm run build` | Validates the manifest, document references and import specifiers, then copies to `dist/extension` |
-| `npm run test:unit` | Node's built-in runner, no browser |
-| `npm run test:e2e` | Loads the built extension into a real Chromium profile |
-| `npm run verify:capture` | Runs capture A against real sites and writes the evidence to `docs/verification/`. Needs the open internet; not part of `npm test` |
-| `npm run capture:fixtures` | Re-records the banner corpus in `tests/fixtures/banners/` from live sites |
-| `npm run rederive:profiles` | Re-reads the saved pages with the current collector, without touching the network |
-| `npm run verify:banners` | Detection over the committed corpus. `--live` also drives a refusal and an acceptance on each site |
+`debugger` makes Chrome show a warning bar on the audited window. That is
+unavoidable and visible; the popup says so before the first audit rather than
+let it read as a malfunction.
 
-The end-to-end suite uses the Chromium already present on the machine when
-there is one (`/opt/pw-browsers/chromium`, override with `CHROMIUM_PATH`),
-otherwise Playwright's own download.
+The end-to-end suite uses the Chromium already on the machine where there is one
+(`/opt/pw-browsers/chromium`, override with `CHROMIUM_PATH`), otherwise
+Playwright's own download.
 
 ## Layout
 
-```
-extension/
-  manifest.json
-  src/
-    background/     service worker, debugger session, capture, page instrument
-    content/        page profile, CMP adapters, banner detector, interaction driver
-    shared/         message protocol, host classification
-    ui/
-      tokens.css    design system, single source of truth
-      popup/        400 × 600 popup
-  assets/icons/     generated by scripts/gen-icons.mjs
-shared/schema/      the capture contract, shared with the server
-scripts/            build, token check, icon generation, real-site verification
-tests/unit/         browserless
-tests/e2e/          real Chromium, real extension, local two-host fixture site
-tests/fixtures/     recorded CDP sessions, the banner corpus, site lists
-docs/               methodology (published), roadmap, verification runs
-```
-
-## Permissions
-
-Declared in the manifest, each tied to the phase that activates it. The Chrome
-Web Store listing will carry a written justification for every one of these,
-and no permission is requested that the product does not use.
-
-| Permission | What it is for |
+| Path | What lives there |
 |---|---|
-| `activeTab` | Act on the tab the user explicitly asked to audit |
-| `cookies` | Read the cookie jar to measure what was written before consent |
-| `debugger` | Attach the CDP Network domain **before** navigation — the only way to observe the earliest requests under MV3 |
-| `storage` | Keep audit history and settings locally, on the user's machine |
+| `extension/src/background/` | The service worker, the debugger session, capture A, the licence and history stores |
+| `extension/src/content/` | Reading the page: profile, CMP adapters, banner detection, the interaction driver, policy extraction. **Not** content scripts — see the note at the top of `page-profile.js` |
+| `extension/src/engine/` | The rulebook: 21 rules, their evidence, and the score |
+| `extension/src/ui/` | Popup and report, over one set of design tokens |
+| `server/` | The analysis and licence service: `POST /analyze-policy`, Stripe, licences |
+| `shared/schema/` | The contracts, and a validator that throws on anything it does not implement |
+| `tests/` | Unit tests, end-to-end tests, and the recorded corpora they run against |
+| `docs/` | Methodology, roadmap, store submission, and the verification runs |
 
-`scripting` was declared in phase 1 and has been **removed**: the banner is read
-and driven through the debugger session the audit already holds, so the
-extension needs neither `chrome.scripting` nor the `<all_urls>` host permission
-that reaching a page's main world through it would require.
+## The documents worth reading first
 
-`debugger` makes Chrome show a warning bar at the top of the audited tab. That
-is unavoidable and visible; the popup will say so before the first audit rather
-than let the user read it as a malfunction.
+- [`docs/methodology.md`](docs/methodology.md) — what each measurement can and
+  cannot establish, and the legal questions this project deliberately leaves
+  open with the conservative reading it ships.
+- [`docs/roadmap.md`](docs/roadmap.md) — the eight phases, what each delivered,
+  and what it found out.
+- [`docs/store/permissions.md`](docs/store/permissions.md) — why each permission
+  is asked for, and the two that were removed for being conveniences.
+- [`docs/verification/`](docs/verification) — the runs behind the claims: real
+  captures, the whole corpus through the rulebook, an exported report.
 
 ## Design
 
 The register is the inspection report, not the marketing dashboard: precise,
-dense, legible in a screenshot pasted into a client deliverable. Verdict
-colours never carry meaning alone — every state also has a mark and a label, so
-the report survives greyscale printing and colour vision deficiency.
+dense, legible in a screenshot pasted into a client deliverable. Verdict colours
+never carry meaning alone — every state also has a mark and a label, so the
+report survives greyscale printing and colour vision deficiency. All design
+values live in `extension/src/ui/tokens.css` and nowhere else;
+`npm run check:tokens` enforces it mechanically.
 
-All design values live in `extension/src/ui/tokens.css` and nowhere else.
-`npm run check:tokens` enforces it.
+## Verification you can run yourself
+
+Each of these touches the network or an API and is deliberately outside
+`npm test`:
+
+```sh
+npm run verify:capture      # capture A against real sites
+npm run verify:banners      # banner detection and refusal over the corpus
+npm run verify:rules        # every rule over every recorded fixture
+npm run verify:policies     # the policy analysis (needs ANTHROPIC_API_KEY for --live)
+npm run verify:report       # a real audit, exported as PDF and CSV
+npm run verify:stripe       # a Stripe test-mode purchase (needs test keys)
+npm run capture:fixtures    # re-record the banner corpus from live sites
+npm run capture:policies    # re-record the policy corpus, the way the extension finds them
+npm run store:screenshots   # the store images, from a real audit
+```
+
+## Licence
+
+Not yet decided. The extension is a commercial product; this repository is its
+source, and the source of the service it talks to.

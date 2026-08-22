@@ -22,7 +22,8 @@
     "verify:rules": "node scripts/verify-rules.mjs",
     "verify:policies": "node scripts/verify-policies.mjs",
     "verify:report": "node scripts/verify-report.mjs",
-    "verify:stripe": "node scripts/verify-stripe.mjs"
+    "verify:stripe": "node scripts/verify-stripe.mjs",
+    "store:screenshots": "node scripts/store-screenshots.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"

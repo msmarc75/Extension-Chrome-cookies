@@ -69,13 +69,17 @@ function renderScore(report) {
     `${report.counts.not_applicable} not applicable`;
 }
 
-function renderResult(probe) {
-  const capture = probe.captureA;
-  const summary = summarise(capture);
+/**
+ * The result panel, from either a fresh audit or a stored one.
+ *
+ * Both paths render the same figures from the same summary, so what a user sees
+ * when they reopen the popup is what they saw when it finished — not a second
+ * reading that might differ.
+ */
+function renderFigures({ summary, cmp, banner, report, profile, notes, target, at = null }) {
+  renderScore(report ?? null);
 
-  renderScore(probe.report ?? null);
-
-  field('result-target').textContent = capture.target.finalUrl ?? capture.target.requestedUrl;
+  field('result-target').textContent = target ?? 'unknown page';
   field('third-party-requests').textContent =
     `${summary.thirdPartyRequests} of ${summary.totalRequests}`;
   field('cookies').textContent =
@@ -87,10 +91,16 @@ function renderResult(probe) {
     summary.firstDepositMs === null ? 'nothing observed' : formatOffset(summary.firstDepositMs);
 
   field('cmp').textContent =
-    probe.cmp.id === null ? 'none recognised' : `${probe.cmp.name} (${probe.cmp.confidence})`;
-  field('banner').textContent = BANNER_METHOD[probe.banner.method] ?? probe.banner.method;
+    !cmp || cmp.id === null ? 'none recognised' : `${cmp.name} (${cmp.confidence})`;
+  field('banner').textContent = BANNER_METHOD[banner?.method] ?? banner?.method ?? '—';
 
-  field('profile-note').textContent = PROFILE_NOTE[capture.profile] ?? '';
+  /* An audit read back later says when it was taken; a fresh one needs no
+     such qualification and does not carry it. */
+  field('result-when').hidden = at === null;
+  field('result-when').textContent =
+    at === null ? '' : `Measured ${new Date(at).toLocaleString()}. Audit again for a current reading.`;
+
+  field('profile-note').textContent = PROFILE_NOTE[profile] ?? '';
 
   /*
    * Everything that limits how far these figures can be trusted, on the same
@@ -98,21 +108,66 @@ function renderResult(probe) {
    * nobody reads.
    */
   const caveats = [
-    ...(probe.report?.disclosures ?? []),
-    ...(probe.banner.disclosure ? [probe.banner.disclosure] : []),
-    ...(capture.notes.length > 0
-      ? [`Limitations recorded: ${capture.notes.map((n) => n.code).join(', ')}.`]
+    ...(report?.disclosures ?? []),
+    ...(banner?.disclosure ? [banner.disclosure] : []),
+    ...((notes ?? []).length > 0
+      ? [`Limitations recorded: ${notes.map((n) => n.code).join(', ')}.`]
       : []),
   ];
-  const notes = field('capture-notes');
-  notes.hidden = caveats.length === 0;
-  notes.textContent = caveats.join(' ');
+  const caveatLine = field('capture-notes');
+  caveatLine.hidden = caveats.length === 0;
+  caveatLine.textContent = caveats.join(' ');
+
+  show('result');
+}
+
+function renderResult(probe) {
+  renderFigures({
+    summary: summarise(probe.captureA),
+    cmp: probe.cmp,
+    banner: probe.banner,
+    report: probe.report,
+    profile: probe.captureA.profile,
+    notes: probe.captureA.notes,
+    target: probe.captureA.target.finalUrl ?? probe.captureA.target.requestedUrl,
+  });
 
   /* The popup is the summary; the report is where the evidence lives. */
   lastAuditId = probe.auditId ?? null;
   field('open-report').hidden = lastAuditId === null;
+}
 
-  show('result');
+/**
+ * The audit that was run last, when the popup is opened again.
+ *
+ * An MV3 popup closes the moment the user clicks anywhere else, and losing the
+ * result of a five-second measurement to a stray click is a bad way to treat
+ * somebody's attention. What comes back is dated, so it is never mistaken for a
+ * reading taken just now.
+ */
+async function renderLastAudit() {
+  const index = await request(MessageType.HISTORY_LIST);
+  const newest = index.ok ? index.data[0] : null;
+  if (!newest) return false;
+
+  const stored = await request(MessageType.HISTORY_GET, { id: newest.id });
+  const record = stored.ok ? stored.data : null;
+  if (!record?.summary) return false;
+
+  renderFigures({
+    summary: record.summary,
+    cmp: record.cmp,
+    banner: record.banner,
+    report: record.report,
+    profile: record.profile,
+    notes: record.capture?.notes ?? [],
+    target: record.finalUrl ?? record.target,
+    at: record.at,
+  });
+
+  lastAuditId = record.id;
+  field('open-report').hidden = false;
+  return true;
 }
 
 function fail(message) {
@@ -185,7 +240,7 @@ async function refreshCapability() {
   return url;
 }
 
-async function runAudit() {
+async function runAudit({ mode = 'incognito' } = {}) {
   const url = await activeTabUrl();
   if (!url) {
     fail('No page to audit.');
@@ -194,7 +249,9 @@ async function runAudit() {
 
   show('running');
   field('running-detail').textContent =
-    'Watching the page without touching it. Do not interact with the audit window.';
+    mode === 'current'
+      ? 'Watching the page in this profile without touching it. Do not interact with the audit tab.'
+      : 'Watching the page without touching it. Do not interact with the audit window.';
 
   /*
    * `act: false` — the popup measures and identifies, it does not refuse or
@@ -205,8 +262,13 @@ async function runAudit() {
    * posted the page's documents to a server the first time it was pressed would
    * be doing to its user what it exists to report other people for.
    */
-  const analysePolicy = field('analyse-policy').checked === true;
-  const response = await request(MessageType.PROBE_BANNER, { url, act: false, analysePolicy });
+  const analysePolicy = field('analyse-policy')?.checked === true;
+  const response = await request(MessageType.PROBE_BANNER, {
+    url,
+    mode,
+    act: false,
+    analysePolicy,
+  });
 
   if (response.ok) {
     renderResult(response.data);
@@ -221,6 +283,8 @@ document.addEventListener('click', async (event) => {
 
   if (action === 'audit') {
     await runAudit();
+  } else if (action === 'audit-current') {
+    await runAudit({ mode: 'current' });
   } else if (action === 'acknowledge') {
     await chrome.storage.local.set({ [ACKNOWLEDGED_KEY]: true });
     field('debugger-notice').hidden = true;
@@ -261,5 +325,13 @@ document.addEventListener('click', async (event) => {
   }
 });
 
-refreshCapability();
-void refreshPlan();
+/*
+ * Order matters: the capability check decides which screen is *offered*, and a
+ * stored audit — if there is one — is what the user sees instead of an empty
+ * launcher.
+ */
+void (async () => {
+  await refreshCapability();
+  await refreshPlan();
+  await renderLastAudit();
+})();
