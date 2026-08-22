@@ -1,0 +1,1737 @@
+{
+  "url": "https://www.sudouest.fr/",
+  "title": "Sud Ouest : actualités du jour et info locale en continu",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 360,
+        "width": 1280,
+        "height": 440
+      },
+      "viewportShare": 0.55,
+      "namedForConsent": true,
+      "text": "Refuser et s'abonner Le contenu de ce site est le fruit du travail de journalistes qui s’engagent chaque jour pour vous apporter une information locale de qualité, fiable et complète. Ce travail ne pourrait se faire sans les revenus complémentaires de la publicité et de l’abonnement. Accéder gratuitement en acceptant l’utilisation de cookies. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation par Sud Ouest et ses partenaires de vos données personnelles (données de navigation, adresse IP...) collectées via des cookies et technologies ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing > a.deny-subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "deny-subscribe"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "«données personnelles»",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 666,
+            "y": 672,
+            "width": 122,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 312 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 299,
+            "y": 684,
+            "width": 681,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": "Accepter et continuer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 269,
+        "y": 364,
+        "width": 741,
+        "height": 435
+      },
+      "viewportShare": 0.3149,
+      "namedForConsent": true,
+      "text": "Refuser et s'abonner Le contenu de ce site est le fruit du travail de journalistes qui s’engagent chaque jour pour vous apporter une information locale de qualité, fiable et complète. Ce travail ne pourrait se faire sans les revenus complémentaires de la publicité et de l’abonnement. Accéder gratuitement en acceptant l’utilisation de cookies. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation par Sud Ouest et ses partenaires de vos données personnelles (données de navigation, adresse IP...) collectées via des cookies et technologies ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing > a.deny-subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "deny-subscribe"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "«données personnelles»",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 666,
+            "y": 672,
+            "width": 122,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 312 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 299,
+            "y": 684,
+            "width": 681,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": "Accepter et continuer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 299,
+        "y": 394,
+        "width": 681,
+        "height": 405
+      },
+      "viewportShare": 0.2694,
+      "namedForConsent": true,
+      "text": "Refuser et s'abonner Le contenu de ce site est le fruit du travail de journalistes qui s’engagent chaque jour pour vous apporter une information locale de qualité, fiable et complète. Ce travail ne pourrait se faire sans les revenus complémentaires de la publicité et de l’abonnement. Accéder gratuitement en acceptant l’utilisation de cookies. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation par Sud Ouest et ses partenaires de vos données personnelles (données de navigation, adresse IP...) collectées via des cookies et technologies ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing > a.deny-subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "deny-subscribe"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 847,
+            "y": 424,
+            "width": 104,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "«données personnelles»",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 666,
+            "y": 672,
+            "width": 122,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 312 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 299,
+            "y": 684,
+            "width": 681,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": "Accepter et continuer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 299,
+        "y": 474,
+        "width": 681,
+        "height": 234
+      },
+      "viewportShare": 0.1557,
+      "namedForConsent": true,
+      "text": "Le contenu de ce site est le fruit du travail de journalistes qui s’engagent chaque jour pour vous apporter une information locale de qualité, fiable et complète. Ce travail ne pourrait se faire sans les revenus complémentaires de la publicité et de l’abonnement. Accéder gratuitement en acceptant l’utilisation de cookies. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation par Sud Ouest et ses partenaires de vos données personnelles (données de navigation, adresse IP...) collectées via des cookies et technologies similaires à des fins",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "«données personnelles»",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 666,
+            "y": 672,
+            "width": 122,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 312 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 299,
+            "y": 684,
+            "width": 681,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 299,
+        "y": 474,
+        "width": 681,
+        "height": 200
+      },
+      "viewportShare": 0.1331,
+      "namedForConsent": true,
+      "text": "Le contenu de ce site est le fruit du travail de journalistes qui s’engagent chaque jour pour vous apporter une information locale de qualité, fiable et complète. Ce travail ne pourrait se faire sans les revenus complémentaires de la publicité et de l’abonnement. Accéder gratuitement en acceptant l’utilisation de cookies. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation par Sud Ouest et ses partenaires de vos données personnelles (données de navigation, adresse IP...) collectées via des cookies et technologies similaires à des fins",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "«données personnelles»",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 666,
+            "y": 672,
+            "width": 122,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 435,
+        "y": 718,
+        "width": 410,
+        "height": 40
+      },
+      "viewportShare": 0.016,
+      "namedForConsent": true,
+      "text": "En savoir plus → Accepter et continuer",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": "Accepter et continuer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 718,
+            "width": 200,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "didomi-notice-view-partners-link"
+      ],
+      "role": "button",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 299,
+        "y": 684,
+        "width": 681,
+        "height": 24
+      },
+      "viewportShare": 0.016,
+      "namedForConsent": true,
+      "text": "Voir nos 312 partenaires",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-learn-more-button",
+      "tag": "button",
+      "id": "didomi-notice-learn-more-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-learn-more-button",
+        "didomi-button-standard",
+        "standard-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 435,
+        "y": 718,
+        "width": 200,
+        "height": 40
+      },
+      "viewportShare": 0.0078,
+      "namedForConsent": true,
+      "text": "En savoir plus →",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 645,
+        "y": 718,
+        "width": 200,
+        "height": 40
+      },
+      "viewportShare": 0.0078,
+      "namedForConsent": true,
+      "text": "Accepter et continuer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#footer-links-cookies-choices",
+      "tag": "a",
+      "id": "footer-links-cookies-choices",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 522,
+        "y": 19720,
+        "width": 188,
+        "height": 14
+      },
+      "viewportShare": 0.0026,
+      "namedForConsent": true,
+      "text": "Modifier mes choix de cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#footer-links-cookies-charter",
+      "tag": "a",
+      "id": "footer-links-cookies-charter",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 381,
+        "y": 19720,
+        "width": 126,
+        "height": 14
+      },
+      "viewportShare": 0.0017,
+      "namedForConsent": true,
+      "text": "Gestion des cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "aside#drawer_menu_container",
+      "tag": "aside",
+      "id": "drawer_menu_container",
+      "classes": [
+        "drawer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": -778,
+        "width": 1280,
+        "height": 778
+      },
+      "viewportShare": 0.9727,
+      "namedForConsent": false,
+      "text": "TOUTES LES RUBRIQUES Fermer RECHERCHER VOTRE RÉGION EXPLORER 📍 CHARENTE MARITIME DORDOGNE GIRONDE BÉARN TROUVER MON DÉPARTEMENT LANDES LOT-ET-GARONNE PYRÉNÉES-ATLANTIQUES PAYS BASQUE COMMMUNES EXPLORER 📍 BORDEAUX LA ROCHELLE MONT-DE-MARSAN PÉRIGUEUX PAU ANGOULÊME LIBOURNE BISCARROSSE ROYAN LANGON MÉDOC BAYONNE BIARRITZ HENDAYE ANGLET DAX AGEN COGNAC ARCACHON SAINTES VILLENEUVE S/ LOT BERGERAC MÉRIGNAC GRADIGNAN TROUVER MA COMMUNE ACTUALITÉ & SERVICES À LA UNE FAITS DIVERS ÉCONOMIE CULTURE POLITIQUE INTERNATIONAL SOCIÉTÉ ENVIRONNEMENT RESULTATS ÉLECTIONS PRÉSIDENTIELLE 2027 RÉSULTATS EXAMENS ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "aside#drawer_menu_container > section.drawer-logo-section.drawer-section > button.ico.ico-close",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ico",
+            "ico-close",
+            "ico-size-xs"
+          ],
+          "text": "",
+          "ariaLabel": "Fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-top-nav-section.drawer-section > menu.drawer-top-menu > li > a.menu-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu-link"
+          ],
+          "text": "Accueil",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-top-nav-section.drawer-section > menu.drawer-top-menu > li > a.menu-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu-link"
+          ],
+          "text": "Journal",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-top-nav-section.drawer-section > menu.drawer-top-menu > li > a.menu-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu-link"
+          ],
+          "text": "Mon actu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-top-desktop.hidden-ml > button.close-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "close-button"
+          ],
+          "text": "Fermer",
+          "ariaLabel": "Fermer",
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": -760,
+            "width": 33,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-search-section.drawer-section > a.btn-search",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "btn-search"
+          ],
+          "text": "RECHERCHER",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": -680,
+            "width": 600,
+            "height": 55
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > a.drawer-title",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "drawer-title"
+          ],
+          "text": "VOTRE RÉGION",
+          "ariaLabel": null,
+          "title": "Votre Région",
+          "rect": {
+            "x": 40,
+            "y": -587,
+            "width": 138,
+            "height": 26
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "EXPLORER 📍",
+          "ariaLabel": null,
+          "title": "Explorer 📍",
+          "rect": {
+            "x": 34,
+            "y": -553,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "CHARENTE MARITIME",
+          "ariaLabel": null,
+          "title": "Charente Maritime",
+          "rect": {
+            "x": 34,
+            "y": -529,
+            "width": 122,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DORDOGNE",
+          "ariaLabel": null,
+          "title": "Dordogne",
+          "rect": {
+            "x": 34,
+            "y": -493,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "GIRONDE",
+          "ariaLabel": null,
+          "title": "Gironde",
+          "rect": {
+            "x": 34,
+            "y": -469,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "BÉARN",
+          "ariaLabel": null,
+          "title": "Béarn",
+          "rect": {
+            "x": 34,
+            "y": -445,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "TROUVER MON DÉPARTEMENT",
+          "ariaLabel": null,
+          "title": "Trouver mon département",
+          "rect": {
+            "x": 164,
+            "y": -553,
+            "width": 122,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LANDES",
+          "ariaLabel": null,
+          "title": "Landes",
+          "rect": {
+            "x": 164,
+            "y": -517,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LOT-ET-GARONNE",
+          "ariaLabel": null,
+          "title": "Lot-et-Garonne",
+          "rect": {
+            "x": 164,
+            "y": -493,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "PYRÉNÉES-ATLANTIQUES",
+          "ariaLabel": null,
+          "title": "Pyrénées-Atlantiques",
+          "rect": {
+            "x": 164,
+            "y": -469,
+            "width": 122,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "PAYS BASQUE",
+          "ariaLabel": null,
+          "title": "Pays Basque",
+          "rect": {
+            "x": 164,
+            "y": -433,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "aside#drawer_menu_container > section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > a.drawer-title",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "drawer-title"
+          ],
+          "text": "COMMMUNES",
+          "ariaLabel": null,
+          "title": "Commmunes",
+          "rect": {
+            "x": 40,
+            "y": -399,
+            "width": 124,
+            "height": 26
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "EXPLORER 📍",
+          "ariaLabel": null,
+          "title": "Explorer 📍",
+          "rect": {
+            "x": 34,
+            "y": -364,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "BORDEAUX",
+          "ariaLabel": null,
+          "title": "Bordeaux",
+          "rect": {
+            "x": 34,
+            "y": -340,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LA ROCHELLE",
+          "ariaLabel": null,
+          "title": "La Rochelle",
+          "rect": {
+            "x": 34,
+            "y": -316,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "MONT-DE-MARSAN",
+          "ariaLabel": null,
+          "title": "Mont-de-Marsan",
+          "rect": {
+            "x": 34,
+            "y": -292,
+            "width": 122,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "PÉRIGUEUX",
+          "ariaLabel": null,
+          "title": "Périgueux",
+          "rect": {
+            "x": 34,
+            "y": -256,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "PAU",
+          "ariaLabel": null,
+          "title": "Pau",
+          "rect": {
+            "x": 34,
+            "y": -232,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ANGOULÊME",
+          "ariaLabel": null,
+          "title": "Angoulême",
+          "rect": {
+            "x": 34,
+            "y": -208,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LIBOURNE",
+          "ariaLabel": null,
+          "title": "Libourne",
+          "rect": {
+            "x": 34,
+            "y": -184,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "BISCARROSSE",
+          "ariaLabel": null,
+          "title": "Biscarrosse",
+          "rect": {
+            "x": 34,
+            "y": -160,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ROYAN",
+          "ariaLabel": null,
+          "title": "Royan",
+          "rect": {
+            "x": 34,
+            "y": -136,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LANGON",
+          "ariaLabel": null,
+          "title": "Langon",
+          "rect": {
+            "x": 34,
+            "y": -112,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "MÉDOC",
+          "ariaLabel": null,
+          "title": "Médoc",
+          "rect": {
+            "x": 34,
+            "y": -88,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "BAYONNE",
+          "ariaLabel": null,
+          "title": "Bayonne",
+          "rect": {
+            "x": 34,
+            "y": -64,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "BIARRITZ",
+          "ariaLabel": null,
+          "title": "Biarritz",
+          "rect": {
+            "x": 164,
+            "y": -364,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "HENDAYE",
+          "ariaLabel": null,
+          "title": "Hendaye",
+          "rect": {
+            "x": 164,
+            "y": -340,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ANGLET",
+          "ariaLabel": null,
+          "title": "Anglet",
+          "rect": {
+            "x": 164,
+            "y": -316,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DAX",
+          "ariaLabel": null,
+          "title": "Dax",
+          "rect": {
+            "x": 164,
+            "y": -292,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "AGEN",
+          "ariaLabel": null,
+          "title": "Agen",
+          "rect": {
+            "x": 164,
+            "y": -268,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COGNAC",
+          "ariaLabel": null,
+          "title": "Cognac",
+          "rect": {
+            "x": 164,
+            "y": -244,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ARCACHON",
+          "ariaLabel": null,
+          "title": "Arcachon",
+          "rect": {
+            "x": 164,
+            "y": -220,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "SAINTES",
+          "ariaLabel": null,
+          "title": "Saintes",
+          "rect": {
+            "x": 164,
+            "y": -196,
+            "width": 122,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "section.drawer-list-items.drawer-section > div.col-lg-2-8.col-xl-1-5 > div.thema-sudouest.md-half-margin-bottom > div.row > div.col-xs-4-8 > ul.drawer-list > li.drawer_menu_element.downfrom-large-desktop > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "VILLENEUVE S/ LOT",
+          "ariaLabel": null,
+          "title": "Villeneuve s/ Lot",
+          "rect": {
+            "x": 164,
+            "y": -172,
+            "width": 122,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "body#page-large > div.modal-overlay",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "modal-overlay"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "-1",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#page-large > div.header-blocks > div.session-status-container > div.session-status.unlogged",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "session-status",
+        "unlogged"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "10000",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 22
+      },
+      "viewportShare": 0.028,
+      "namedForConsent": false,
+      "text": "SUDOUEST.FR JEUX LES NEWSLETTERS SUD OUEST S'ABONNER",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#page-large > div.header-blocks > div.session-status-container > div.session-status.unlogged > div.gutter > div.brand > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "SUDOUEST.FR",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 140,
+            "y": 0,
+            "width": 92,
+            "height": 27
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#page-large > div.header-blocks > div.session-status-container > div.session-status.unlogged > div.gutter > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "JEUX",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 817,
+            "y": 0,
+            "width": 43,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#page-large > div.header-blocks > div.session-status-container > div.session-status.unlogged > div.gutter > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "LES NEWSLETTERS SUD OUEST",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 864,
+            "y": 0,
+            "width": 191,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#page-large > div.header-blocks > div.session-status-container > div.session-status.unlogged > div.gutter > a.premium",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "premium"
+          ],
+          "text": "S'ABONNER",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1060,
+            "y": 0,
+            "width": 80,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

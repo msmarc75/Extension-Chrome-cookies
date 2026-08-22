@@ -1,0 +1,37 @@
+{
+  "slug": "sudouest",
+  "requestedUrl": "https://www.sudouest.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "assets.poool.fr",
+    "assets.sudouest.fr",
+    "media.sudouest.fr",
+    "sdk.privacy-center.org",
+    "tag.aticdn.net",
+    "try.abtasty.com",
+    "widget.beop.io",
+    "widget.collectiveaudience.co",
+    "www.googletagmanager.com",
+    "www.sudouest.fr"
+  ],
+  "finalUrl": "https://www.sudouest.fr/",
+  "title": "Sud Ouest : actualités du jour et info locale en continu",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 42
+}

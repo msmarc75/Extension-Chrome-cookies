@@ -1,0 +1,417 @@
+{
+  "url": "https://www.gov.uk/",
+  "title": "Welcome to GOV.UK",
+  "lang": "en",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [],
+  "tcf": null,
+  "containers": [
+    {
+      "path": "div#global-cookie-message",
+      "tag": "div",
+      "id": "global-cookie-message",
+      "classes": [
+        "gem-c-cookie-banner",
+        "govuk-clearfix",
+        "govuk-cookie-banner",
+        "js-banner-wrapper"
+      ],
+      "role": "region",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 325
+      },
+      "viewportShare": 0.4063,
+      "namedForConsent": true,
+      "text": "Cookies on GOV.UK We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services. Accept additional cookies Reject additional cookies View cookies",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--accepted.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-button",
+            "govuk-button"
+          ],
+          "text": "Accept additional cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 160,
+            "y": 255,
+            "width": 238,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-button",
+            "govuk-button"
+          ],
+          "text": "Reject additional cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 255,
+            "width": 234,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "View cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 663,
+            "y": 265,
+            "width": 111,
+            "height": 19
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-hide-button.govuk-button-group > button.gem-c-cookie-banner__hide-button.govuk-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-cookie-banner__hide-button",
+            "govuk-button"
+          ],
+          "text": "Hide cookie message",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "govuk-cookie-banner__message",
+        "govuk-width-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 160,
+        "y": 20,
+        "width": 960,
+        "height": 290
+      },
+      "viewportShare": 0.2719,
+      "namedForConsent": true,
+      "text": "Cookies on GOV.UK We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services. Accept additional cookies Reject additional cookies View cookies",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--accepted.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-button",
+            "govuk-button"
+          ],
+          "text": "Accept additional cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 160,
+            "y": 255,
+            "width": 238,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-button",
+            "govuk-button"
+          ],
+          "text": "Reject additional cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 255,
+            "width": 234,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "View cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 663,
+            "y": 265,
+            "width": 111,
+            "height": 19
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-hide-button.govuk-button-group > button.gem-c-cookie-banner__hide-button.govuk-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gem-c-cookie-banner__hide-button",
+            "govuk-button"
+          ],
+          "text": "Hide cookie message",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "govuk-cookie-banner__content",
+        "gem-c-cookie-banner__confirmation"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 160,
+        "y": 70,
+        "width": 630,
+        "height": 165
+      },
+      "viewportShare": 0.1015,
+      "namedForConsent": true,
+      "text": "We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services.",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--accepted.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "govuk-link"
+          ],
+          "text": "change your cookie settings",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > h2.govuk-cookie-banner__heading.govuk-heading-m",
+      "tag": "h2",
+      "id": null,
+      "classes": [
+        "govuk-cookie-banner__heading",
+        "govuk-heading-m"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 160,
+        "y": 20,
+        "width": 630,
+        "height": 30
+      },
+      "viewportShare": 0.0185,
+      "namedForConsent": true,
+      "text": "Cookies on GOV.UK",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

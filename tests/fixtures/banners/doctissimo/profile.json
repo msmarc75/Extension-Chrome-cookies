@@ -1,0 +1,993 @@
+{
+  "url": "https://www.doctissimo.fr/",
+  "title": "Doctissimo : toutes les actualité santé",
+  "lang": "fr-FR",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 447,
+            "y": 209,
+            "width": 111,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 524,
+            "width": 326,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 606,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 137,
+        "width": 730,
+        "height": 526
+      },
+      "viewportShare": 0.375,
+      "namedForConsent": true,
+      "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 447,
+            "y": 209,
+            "width": 111,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 524,
+            "width": 326,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 606,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 274,
+        "y": 136,
+        "width": 732,
+        "height": 528
+      },
+      "viewportShare": 0.3774,
+      "namedForConsent": true,
+      "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 447,
+            "y": 209,
+            "width": 111,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 524,
+            "width": 326,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 606,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 177,
+        "width": 630,
+        "height": 481
+      },
+      "viewportShare": 0.2959,
+      "namedForConsent": true,
+      "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 447,
+            "y": 209,
+            "width": 111,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 524,
+            "width": 326,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 606,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 207,
+        "width": 630,
+        "height": 336
+      },
+      "viewportShare": 0.2067,
+      "namedForConsent": true,
+      "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 447,
+            "y": 209,
+            "width": 111,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 524,
+            "width": 326,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1122 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 593,
+        "width": 630,
+        "height": 65
+      },
+      "viewportShare": 0.04,
+      "namedForConsent": true,
+      "text": "Paramétrer Je n'accepte rien J'accepte tout",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 606,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 606,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 177,
+        "width": 630,
+        "height": 30
+      },
+      "viewportShare": 0.0185,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-disagree-button",
+      "tag": "button",
+      "id": "didomi-notice-disagree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-disagree-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 488,
+        "y": 606,
+        "width": 204,
+        "height": 40
+      },
+      "viewportShare": 0.008,
+      "namedForConsent": true,
+      "text": "Je n'accepte rien",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 701,
+        "y": 606,
+        "width": 204,
+        "height": 40
+      },
+      "viewportShare": 0.008,
+      "namedForConsent": true,
+      "text": "J'accepte tout",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-learn-more-button",
+      "tag": "button",
+      "id": "didomi-notice-learn-more-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-learn-more-button",
+        "didomi-button-standard",
+        "standard-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 606,
+        "width": 203,
+        "height": 40
+      },
+      "viewportShare": 0.0079,
+      "namedForConsent": true,
+      "text": "Paramétrer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "span#cmp_preferences",
+      "tag": "span",
+      "id": "cmp_preferences",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 424,
+        "y": 13167,
+        "width": 127,
+        "height": 16
+      },
+      "viewportShare": 0.002,
+      "namedForConsent": true,
+      "text": "Préférences cookies",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

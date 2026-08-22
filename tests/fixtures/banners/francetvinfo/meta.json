@@ -1,0 +1,14 @@
+{
+  "slug": "francetvinfo",
+  "requestedUrl": "https://www.francetvinfo.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [],
+  "finalUrl": "https://www.franceinfo.fr/",
+  "title": "Access Denied",
+  "lang": null,
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 3
+}

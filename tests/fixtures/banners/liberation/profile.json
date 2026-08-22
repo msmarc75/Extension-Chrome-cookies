@@ -1,0 +1,20 @@
+{
+  "url": "https://www.liberation.fr/",
+  "title": "liberation.fr",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [],
+  "tcf": null,
+  "containers": [],
+  "frames": [
+    {
+      "src": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAnITJnnR-P2gAoE9qgA%3D%3D&hash=958DF912BE33985C7219A32ECDAAAF&cid=6cZE5bh1wI56vgBbBCzy2M~oXv42XrJ_DNBy~a8X69vjCQ4PfjnEsKxI6zJEA_zmwE~OJM1bi9~FCPcSJvVk72Gp8p~2ZGxTf1KInZmwwWnz_yQKGN4Nwb~uUU0OTmim&t=fe&referer=https%3A%2F%2Fwww.liberation",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

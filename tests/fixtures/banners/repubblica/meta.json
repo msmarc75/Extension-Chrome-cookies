@@ -1,0 +1,41 @@
+{
+  "slug": "repubblica",
+  "requestedUrl": "https://www.repubblica.it/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "apis.google.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.iubenda.com",
+    "cdns.eu1.gigya.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "scripts.kataweb.it",
+    "sdk.mrf.io",
+    "securepubads.g.doubleclick.net",
+    "tlh.gedidigital.it",
+    "www.gedistatic.it",
+    "www.googletagmanager.com",
+    "www.repstatic.it"
+  ],
+  "finalUrl": "https://www.repubblica.it/",
+  "title": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+  "lang": "it",
+  "globals": [
+    "__tcfapi",
+    "gtag",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "cmpVersion": 387,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 21
+}

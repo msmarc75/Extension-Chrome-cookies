@@ -1,0 +1,1865 @@
+{
+  "url": "https://www.leparisien.fr/",
+  "title": "Actualités en direct et info en continu - Le Parisien",
+  "lang": "fr-FR",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "S’abonner et refuser les cookies Nos 400 journalistes proposent chaque jour une information fiable, au plus proche de vous. C'est pourquoi nous vous proposons deux options : Accéder au contenu gratuit en acceptant les cookies Pour soutenir le travail de notre rédaction et améliorer notre offre, nous et nos 183 partenaires utilisons des cookies pour accéder à des données personnelles telles que vos adresses IP et données de navigation afin de personnaliser la publicité et les contenus, d’analyser l’audience, d’interagir avec les réseaux sociaux (voir la liste complète des finalités). Pour accéd",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-header.lp-mb_8 > a.lp-mr_4.lp-font-btn",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-mr_4",
+            "lp-font-btn"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 791,
+            "y": 57,
+            "width": 200,
+            "height": 8
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos 183 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 813,
+            "y": 274,
+            "width": 141,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "liste complète",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 346,
+            "width": 98,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 558,
+            "y": 418,
+            "width": 103,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-font-text"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 523,
+            "y": 546,
+            "width": 229,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-cmp-button",
+            "lp-font-btn",
+            "lp-bold",
+            "lp-mb_16"
+          ],
+          "text": "Accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 289,
+            "y": 615,
+            "width": 702,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 646,
+            "y": 669,
+            "width": 83,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes choix",
+          "ariaLabel": "Gérer mes choix: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter",
+          "ariaLabel": "Accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 240,
+        "y": 40,
+        "width": 800,
+        "height": 720
+      },
+      "viewportShare": 0.5625,
+      "namedForConsent": true,
+      "text": "S’abonner et refuser les cookies Nos 400 journalistes proposent chaque jour une information fiable, au plus proche de vous. C'est pourquoi nous vous proposons deux options : Accéder au contenu gratuit en acceptant les cookies Pour soutenir le travail de notre rédaction et améliorer notre offre, nous et nos 183 partenaires utilisons des cookies pour accéder à des données personnelles telles que vos adresses IP et données de navigation afin de personnaliser la publicité et les contenus, d’analyser l’audience, d’interagir avec les réseaux sociaux (voir la liste complète des finalités). Pour accéd",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-header.lp-mb_8 > a.lp-mr_4.lp-font-btn",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-mr_4",
+            "lp-font-btn"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 791,
+            "y": 57,
+            "width": 200,
+            "height": 8
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos 183 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 813,
+            "y": 274,
+            "width": 141,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "liste complète",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 346,
+            "width": 98,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 558,
+            "y": 418,
+            "width": 103,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-font-text"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 523,
+            "y": 546,
+            "width": 229,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-cmp-button",
+            "lp-font-btn",
+            "lp-bold",
+            "lp-mb_16"
+          ],
+          "text": "Accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 289,
+            "y": 615,
+            "width": 702,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 646,
+            "y": 669,
+            "width": 83,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes choix",
+          "ariaLabel": "Gérer mes choix: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter",
+          "ariaLabel": "Accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 241,
+        "y": 41,
+        "width": 798,
+        "height": 670
+      },
+      "viewportShare": 0.5221,
+      "namedForConsent": true,
+      "text": "S’abonner et refuser les cookies Nos 400 journalistes proposent chaque jour une information fiable, au plus proche de vous. C'est pourquoi nous vous proposons deux options : Accéder au contenu gratuit en acceptant les cookies Pour soutenir le travail de notre rédaction et améliorer notre offre, nous et nos 183 partenaires utilisons des cookies pour accéder à des données personnelles telles que vos adresses IP et données de navigation afin de personnaliser la publicité et les contenus, d’analyser l’audience, d’interagir avec les réseaux sociaux (voir la liste complète des finalités). Pour accéd",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-header.lp-mb_8 > a.lp-mr_4.lp-font-btn",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-mr_4",
+            "lp-font-btn"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 791,
+            "y": 57,
+            "width": 200,
+            "height": 8
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos 183 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 813,
+            "y": 274,
+            "width": 141,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "liste complète",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 346,
+            "width": 98,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 558,
+            "y": 418,
+            "width": 103,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-font-text"
+          ],
+          "text": "S’abonner et refuser les cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 523,
+            "y": 546,
+            "width": 229,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-cmp-button",
+            "lp-font-btn",
+            "lp-bold",
+            "lp-mb_16"
+          ],
+          "text": "Accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 289,
+            "y": 615,
+            "width": 702,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 646,
+            "y": 669,
+            "width": 83,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "charte cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes choix",
+          "ariaLabel": "Gérer mes choix: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter",
+          "ariaLabel": "Accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#fusion-app > div.layout-homepage.is-header-big > div.menu > aside.lp-sidebar.lp-sidebar--left",
+      "tag": "aside",
+      "id": null,
+      "classes": [
+        "lp-sidebar",
+        "lp-sidebar--left"
+      ],
+      "role": "dialog",
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "-1",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "Fermer le menu latéral Rechercher sur Le Parisien À la une En continu Paris & Île-de-France Faits divers Politique International Sports Culture & loisirs Immobilier Économie Futurs Société Santé Météo En région Le Parisien Week-end Le Parisien Étudiant Le Parisien Jardin Le Parisien Jeux Guide d'achat Boutique Vidéos Podcasts Newsletters Annonces Services Contacter la rédaction Accessibilité Nouveau",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#fusion-app > div.layout-homepage.is-header-big > div.menu > aside.lp-sidebar.lp-sidebar--left > div.lp-sidebar__content > div.lp-sidebar__close > button.lp-control.lp-control--outline",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-control",
+            "lp-control--outline",
+            "lp-control--size-40"
+          ],
+          "text": "Fermer le menu latéral",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -56,
+            "y": 16,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "À la une",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 158,
+            "width": 109,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "En continu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 196,
+            "width": 145,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "Paris & Île-de-France",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 240,
+            "width": 307,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Paris",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Essonne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Hauts-de-Seine",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Seine-Saint-Denis",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Val-d'Oise",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Val-de-Marne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Seine-et-Marne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Yvelines",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Oise",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Transports IDF",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "Faits divers",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 284,
+            "width": 156,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "Politique",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 328,
+            "width": 146,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Emmanuel Macron",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Sébastien Lecornu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Élections",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Présidentielle 2027",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Résultats élections",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "International",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 372,
+            "width": 196,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "États-Unis",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Iran",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Guerre au Proche-Orient",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Guerre en Ukraine",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Syrie",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--default",
+            "lp-box-sizing",
+            "lp-f-subtitle-01"
+          ],
+          "text": "Sports",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -376,
+            "y": 416,
+            "width": 117,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Football",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "PSG",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Ligue 1",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Ligue des champions",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Cyclisme",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Rugby",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Basket",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Formule 1",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Tennis",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Handball",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "Hippisme",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "menu__link",
+            "menu__link--dropdown"
+          ],
+          "text": "MMA",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "lp-cmp-button",
+        "lp-font-btn",
+        "lp-bold",
+        "lp-mb_16"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 289,
+        "y": 615,
+        "width": 702,
+        "height": 36
+      },
+      "viewportShare": 0.0247,
+      "namedForConsent": true,
+      "text": "Accepter",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "header#header",
+      "tag": "header",
+      "id": "header",
+      "classes": [
+        "header"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "10",
+      "rect": {
+        "x": 0,
+        "y": 38,
+        "width": 1280,
+        "height": 92
+      },
+      "viewportShare": 0.115,
+      "namedForConsent": false,
+      "text": "Menu Accueil - Le Parisien Se connecter S'abonner",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "header#header > div.header__container > div.header__left > div.header__toggle > button.lp-button.lp-button--outline",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-button",
+            "lp-button--outline",
+            "lp-button--size-40",
+            "lp-button--icon-left"
+          ],
+          "text": "Menu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 16,
+            "y": 64,
+            "width": 111,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#header > div.header__container > div.header__logo > h1 > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Accueil - Le Parisien",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 544,
+            "y": 54,
+            "width": 192,
+            "height": 60
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#header > div.header__container > div.header__right > div.header__login > button.lp-button.lp-button--outline",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-button",
+            "lp-button--outline",
+            "lp-button--size-40",
+            "lp-button--icon-left"
+          ],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 951,
+            "y": 64,
+            "width": 172,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#header > div.header__container > div.header__right > div.header__subscription > a.lp-button.lp-button--subscription",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "lp-button",
+            "lp-button--subscription",
+            "lp-button--size-40"
+          ],
+          "text": "S'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1136,
+            "y": 64,
+            "width": 128,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://news.google.com/swg/ui/v1/serviceiframe?_=1787388246622&publicationId=www.leparisien.fr",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

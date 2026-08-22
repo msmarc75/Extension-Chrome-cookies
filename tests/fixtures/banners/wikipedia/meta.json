@@ -1,0 +1,16 @@
+{
+  "slug": "wikipedia",
+  "requestedUrl": "https://www.wikipedia.org/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "www.wikipedia.org"
+  ],
+  "finalUrl": "https://www.wikipedia.org/",
+  "title": "Wikipedia",
+  "lang": "fr",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 6
+}

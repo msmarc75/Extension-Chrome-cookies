@@ -1,0 +1,1514 @@
+{
+  "url": "https://www.irishtimes.com/",
+  "title": "The Irish Times | Latest news and headlines - Irish news, world news, video and podcasts",
+  "lang": "en",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "OneTrust",
+    "Optanon",
+    "OptanonWrapper"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#onetrust-consent-sdk > div.onetrust-pc-dark-filter.ot-fade-in",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "onetrust-pc-dark-filter",
+        "ot-fade-in"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483645",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#onetrust-banner-sdk",
+      "tag": "div",
+      "id": "onetrust-banner-sdk",
+      "classes": [
+        "otFlat",
+        "ot-iab-2",
+        "bottom",
+        "vertical-align-content",
+        "ot-buttons-fw"
+      ],
+      "role": "region",
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483645",
+      "rect": {
+        "x": 0,
+        "y": 515,
+        "width": 1280,
+        "height": 285
+      },
+      "viewportShare": 0.3557,
+      "namedForConsent": true,
+      "text": "We value your privacy We and our 82 partner(s) store and access personal data, like browsing data or unique identifiers, on your device. Selecting I ACCEPT enables tracking technologies to support the purposes shown under we and our partners process data to provide. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Cookie Settings link on the bottom of the webpage. Your choices will have effect within our Website. For more details, refer to our Privacy Policy.C",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-cookie-policy-link"
+          ],
+          "text": "Cookie Policy",
+          "ariaLabel": "More information about your privacy, opens in a new tab",
+          "title": null,
+          "rect": {
+            "x": 327,
+            "y": 688,
+            "width": 85,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-link-btn",
+            "onetrust-vendors-list-handler"
+          ],
+          "text": "List of Partners (vendors)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 570,
+            "y": 641,
+            "width": 162,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#onetrust-accept-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-accept-btn-handler",
+          "classes": [],
+          "text": "I ACCEPT",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 607,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#onetrust-pc-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-pc-btn-handler",
+          "classes": [],
+          "text": "MANAGE SETTINGS",
+          "ariaLabel": "MANAGE SETTINGS, Opens the preference center dialog",
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 664,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#onetrust-group-container",
+      "tag": "div",
+      "id": "onetrust-group-container",
+      "classes": [
+        "ot-sdk-columns",
+        "ot-sdk-ten"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 515,
+        "width": 1058,
+        "height": 285
+      },
+      "viewportShare": 0.294,
+      "namedForConsent": true,
+      "text": "We value your privacy We and our 82 partner(s) store and access personal data, like browsing data or unique identifiers, on your device. Selecting I ACCEPT enables tracking technologies to support the purposes shown under we and our partners process data to provide. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Cookie Settings link on the bottom of the webpage. Your choices will have effect within our Website. For more details, refer to our Privacy Policy.C",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-cookie-policy-link"
+          ],
+          "text": "Cookie Policy",
+          "ariaLabel": "More information about your privacy, opens in a new tab",
+          "title": null,
+          "rect": {
+            "x": 327,
+            "y": 688,
+            "width": 85,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-link-btn",
+            "onetrust-vendors-list-handler"
+          ],
+          "text": "List of Partners (vendors)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 570,
+            "y": 641,
+            "width": 162,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#onetrust-policy",
+      "tag": "div",
+      "id": "onetrust-policy",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 16,
+        "y": 535,
+        "width": 1042,
+        "height": 255
+      },
+      "viewportShare": 0.2591,
+      "namedForConsent": true,
+      "text": "We value your privacy We and our 82 partner(s) store and access personal data, like browsing data or unique identifiers, on your device. Selecting I ACCEPT enables tracking technologies to support the purposes shown under we and our partners process data to provide. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Cookie Settings link on the bottom of the webpage. Your choices will have effect within our Website. For more details, refer to our Privacy Policy.C",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-cookie-policy-link"
+          ],
+          "text": "Cookie Policy",
+          "ariaLabel": "More information about your privacy, opens in a new tab",
+          "title": null,
+          "rect": {
+            "x": 327,
+            "y": 688,
+            "width": 85,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-link-btn",
+            "onetrust-vendors-list-handler"
+          ],
+          "text": "List of Partners (vendors)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 570,
+            "y": 641,
+            "width": 162,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#onetrust-policy-text",
+      "tag": "div",
+      "id": "onetrust-policy-text",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 16,
+        "y": 569,
+        "width": 538,
+        "height": 150
+      },
+      "viewportShare": 0.0786,
+      "namedForConsent": true,
+      "text": "We and our 82 partner(s) store and access personal data, like browsing data or unique identifiers, on your device. Selecting I ACCEPT enables tracking technologies to support the purposes shown under we and our partners process data to provide. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Cookie Settings link on the bottom of the webpage. Your choices will have effect within our Website. For more details, refer to our Privacy Policy.Cookie Policy",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ot-cookie-policy-link"
+          ],
+          "text": "Cookie Policy",
+          "ariaLabel": "More information about your privacy, opens in a new tab",
+          "title": null,
+          "rect": {
+            "x": 327,
+            "y": 688,
+            "width": 85,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#onetrust-button-group",
+      "tag": "div",
+      "id": "onetrust-button-group",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1058,
+        "y": 595,
+        "width": 178,
+        "height": 125
+      },
+      "viewportShare": 0.0217,
+      "namedForConsent": true,
+      "text": "I ACCEPT MANAGE SETTINGS",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#onetrust-accept-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-accept-btn-handler",
+          "classes": [],
+          "text": "I ACCEPT",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 607,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#onetrust-pc-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-pc-btn-handler",
+          "classes": [],
+          "text": "MANAGE SETTINGS",
+          "ariaLabel": "MANAGE SETTINGS, Opens the preference center dialog",
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 664,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#onetrust-button-group-parent",
+      "tag": "div",
+      "id": "onetrust-button-group-parent",
+      "classes": [
+        "ot-sdk-columns",
+        "ot-sdk-two"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1058,
+        "y": 595,
+        "width": 171,
+        "height": 125
+      },
+      "viewportShare": 0.0208,
+      "namedForConsent": true,
+      "text": "I ACCEPT MANAGE SETTINGS",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#onetrust-accept-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-accept-btn-handler",
+          "classes": [],
+          "text": "I ACCEPT",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 607,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#onetrust-pc-btn-handler",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "onetrust-pc-btn-handler",
+          "classes": [],
+          "text": "MANAGE SETTINGS",
+          "ariaLabel": "MANAGE SETTINGS, Opens the preference center dialog",
+          "title": null,
+          "rect": {
+            "x": 1058,
+            "y": 664,
+            "width": 166,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "h2#onetrust-policy-title",
+      "tag": "h2",
+      "id": "onetrust-policy-title",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 16,
+        "y": 535,
+        "width": 521,
+        "height": 23
+      },
+      "viewportShare": 0.0119,
+      "namedForConsent": true,
+      "text": "We value your privacy",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#onetrust-accept-btn-handler",
+      "tag": "button",
+      "id": "onetrust-accept-btn-handler",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1058,
+        "y": 607,
+        "width": 166,
+        "height": 40
+      },
+      "viewportShare": 0.0065,
+      "namedForConsent": true,
+      "text": "I ACCEPT",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#onetrust-pc-btn-handler",
+      "tag": "button",
+      "id": "onetrust-pc-btn-handler",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1058,
+        "y": 664,
+        "width": 166,
+        "height": 40
+      },
+      "viewportShare": 0.0065,
+      "namedForConsent": true,
+      "text": "MANAGE SETTINGS",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "ot-link-btn",
+        "onetrust-vendors-list-handler"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 570,
+        "y": 641,
+        "width": 162,
+        "height": 15
+      },
+      "viewportShare": 0.0024,
+      "namedForConsent": true,
+      "text": "List of Partners (vendors)",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "ot-cookie-policy-link"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 327,
+        "y": 688,
+        "width": 85,
+        "height": 15
+      },
+      "viewportShare": 0.0012,
+      "namedForConsent": true,
+      "text": "Cookie Policy",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#fusion-app > div.b-it-right-rail-advanced > header.c-stack.b-it-right-rail-advanced__navigation",
+      "tag": "header",
+      "id": null,
+      "classes": [
+        "c-stack",
+        "b-it-right-rail-advanced__navigation",
+        "page-header"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "9",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 48
+      },
+      "viewportShare": 0.06,
+      "namedForConsent": false,
+      "text": "Search Sections Sections Leaving Cert Climate Crisis ePaper Crosswords & Puzzles Podcasts Newsletters Subscriber Only Help Centre Opens in new window Subscribe Sign In Close Home Latest Subscriber Only Crosswords & Puzzles Show Crosswords & Puzzles sub sections Ireland Show Ireland sub sections Politics Show Politics sub sections Opinion Show Opinion sub sections Business Show Business sub sections World Show World sub sections Sport Show Sport sub sections Your Money Show Your Money sub sections Crime & Law Show Crime & Law sub sections Property Show Property sub sections Food Show Food sub s",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-left > div.nav-components--mobile > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse"
+          ],
+          "text": "Sections",
+          "ariaLabel": "Sections",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-left > div.nav-components--desktop > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse"
+          ],
+          "text": "Search",
+          "ariaLabel": "Search",
+          "title": null,
+          "rect": {
+            "x": 16,
+            "y": 7,
+            "width": 34,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-left > div.nav-components--desktop > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse"
+          ],
+          "text": "Sections Sections",
+          "ariaLabel": "Sections",
+          "title": null,
+          "rect": {
+            "x": 66,
+            "y": 7,
+            "width": 109,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > a.c-link.b-it-header-nav-chain__logo",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link",
+            "b-it-header-nav-chain__logo",
+            "nav-logo-hidden",
+            "svg-logo"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": "The Irish Times",
+          "rect": {
+            "x": 199,
+            "y": 12,
+            "width": 16,
+            "height": 24
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Leaving Cert",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 239,
+            "y": 12,
+            "width": 79,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Climate Crisis",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 12,
+            "width": 86,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "ePaper",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 449,
+            "y": 12,
+            "width": 45,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Crosswords & Puzzles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 516,
+            "y": 12,
+            "width": 140,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Podcasts",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 678,
+            "y": 12,
+            "width": 58,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Newsletters",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 757,
+            "y": 12,
+            "width": 73,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Subscriber Only",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 253,
+            "y": 41,
+            "width": 100,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Help Centre Opens in new window",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 374,
+            "y": 41,
+            "width": 75,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--mobile > div.c-stack.b-signin-subscribe-block > a.c-button.c-button--link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--link",
+            "c-button--small",
+            "c-button--primary",
+            "b-signin-subscribe-block__subscribe"
+          ],
+          "text": "Subscribe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--mobile > div.c-stack.b-signin-subscribe-block > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse",
+            "b-signin-subscribe-block__btn--signin"
+          ],
+          "text": "Sign In",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--desktop > div.c-stack.b-signin-subscribe-block > a.c-button.c-button--link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--link",
+            "c-button--small",
+            "c-button--primary",
+            "b-signin-subscribe-block__subscribe"
+          ],
+          "text": "Subscribe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1059,
+            "y": 7,
+            "width": 95,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--desktop > div.c-stack.b-signin-subscribe-block > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse",
+            "b-signin-subscribe-block__btn--signin"
+          ],
+          "text": "Sign In",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1171,
+            "y": 7,
+            "width": 93,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.b-it-header-nav-chain__flyout-close-button > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse"
+          ],
+          "text": "Close",
+          "ariaLabel": "Close",
+          "title": null,
+          "rect": {
+            "x": -26,
+            "y": 49,
+            "width": 16,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.nav-menu > div.c-stack.nav-components--mobile > div.b-subscribe-button-block.do-not-show-on-print > a.c-button.c-button--link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--link",
+            "c-button--full-width",
+            "c-button--medium",
+            "c-button--primary"
+          ],
+          "text": "Subscribe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.nav-menu > div.c-stack.nav-components--mobile > button.c-button.c-button--small",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--small",
+            "c-button--secondary-reverse"
+          ],
+          "text": "Search",
+          "ariaLabel": "Search",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Home",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 72,
+            "width": 329,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Latest",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 120,
+            "width": 329,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Subscriber Only",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 168,
+            "width": 329,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Crosswords & Puzzles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 216,
+            "width": 291,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--medium",
+            "c-button--default",
+            "submenu-caret"
+          ],
+          "text": "Show Crosswords & Puzzles sub sections",
+          "ariaLabel": "Show Crosswords & Puzzles sub sections",
+          "title": null,
+          "rect": {
+            "x": -24,
+            "y": 221,
+            "width": 38,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "The Daily Eight",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Crosaire",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Simplex",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Sudoku",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "News Quiz",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Ireland",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 264,
+            "width": 291,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--medium",
+            "c-button--default",
+            "submenu-caret"
+          ],
+          "text": "Show Ireland sub sections",
+          "ariaLabel": "Show Ireland sub sections",
+          "title": null,
+          "rect": {
+            "x": -24,
+            "y": 269,
+            "width": 38,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Dublin",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Education",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Housing & Planning",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Social Affairs",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Stardust",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Politics",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -315,
+            "y": 312,
+            "width": 291,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-button",
+            "c-button--medium",
+            "c-button--default",
+            "submenu-caret"
+          ],
+          "text": "Show Politics sub sections",
+          "ariaLabel": "Show Politics sub sections",
+          "title": null,
+          "rect": {
+            "x": -24,
+            "y": 317,
+            "width": 38,
+            "height": 38
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_politics > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Poll",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#header_sub_section_politics > li.subsection-item > a.c-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-link"
+          ],
+          "text": "Oireachtas",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#webpush-custom-prompt",
+      "tag": "div",
+      "id": "webpush-custom-prompt",
+      "classes": [
+        "webpush-reset"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "9999999",
+      "rect": {
+        "x": 470,
+        "y": 0,
+        "width": 340,
+        "height": 139
+      },
+      "viewportShare": 0.0462,
+      "namedForConsent": false,
+      "text": "The Irish Times would like to send you push notifications. Website notifications can be changed in browser notifications preferences. Don't AllowAllow",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://lw.foreca.net/v4/en/site/irishtimes/widget/?name=Dublin&id=102964574",
+      "name": null
+    },
+    {
+      "src": "https://www.recruitireland.com/embed/search/jobs ",
+      "name": null
+    },
+    {
+      "src": "https://www.irishtimes.com/frame.html?id=7881896339&key=bdSn11V2jXiiS2Ttnc-7PM-VLDR-MvVO",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

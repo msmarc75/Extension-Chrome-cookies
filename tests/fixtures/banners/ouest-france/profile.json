@@ -1,0 +1,68 @@
+{
+  "url": "https://www.ouest-france.fr/",
+  "title": "Ouest-France : toute l'actualité en direct, l'info en continu en France, dans les régions et dans le monde",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "unresponsive": true
+  },
+  "containers": [
+    {
+      "path": "div#footer_top__parentOf__newsletter > p.su-text-xsmall.texte-rgpd",
+      "tag": "p",
+      "id": null,
+      "classes": [
+        "su-text-xsmall",
+        "texte-rgpd",
+        "su-margin-top-s"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 8,
+        "y": 44081,
+        "width": 1264,
+        "height": 18
+      },
+      "viewportShare": 0.0222,
+      "namedForConsent": true,
+      "text": "Votre e-mail, avec votre consentement, est utilisé par Ouest-France pour recevoir notre newsletter. En savoir plus.",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#footer_top__parentOf__newsletter > p.su-text-xsmall.texte-rgpd > a.su-link-light",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "su-link-light"
+          ],
+          "text": "En savoir plus",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 44081,
+            "width": 92,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

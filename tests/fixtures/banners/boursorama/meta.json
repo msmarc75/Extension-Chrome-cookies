@@ -1,0 +1,28 @@
+{
+  "slug": "boursorama",
+  "requestedUrl": "https://www.boursorama.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "cdn.brsimg.com",
+    "www.boursorama.com"
+  ],
+  "finalUrl": "https://www.boursorama.com/",
+  "title": "Actualité économique, Bourse, Banque en ligne - Boursorama",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 34
+}

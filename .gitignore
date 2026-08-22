@@ -5,3 +5,4 @@ playwright-report/
 .playwright/
 *.log
 docs/verification/*.json
+tests/fixtures/banners/*/page.html

@@ -1,0 +1,154 @@
+{
+  "url": "https://www.focus.de/",
+  "title": "FOCUS online - Aktuelle Nachrichten",
+  "lang": "de",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 35,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sp_message_container_1456518",
+      "tag": "div",
+      "id": "sp_message_container_1456518",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#isl-73-FooterPrivacyLink",
+      "tag": "div",
+      "id": "isl-73-FooterPrivacyLink",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 444,
+        "y": 29962,
+        "width": 127,
+        "height": 16
+      },
+      "viewportShare": 0.002,
+      "namedForConsent": true,
+      "text": "Datenschutzeinstellungen",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#isl-73-FooterPrivacyLink > a.mr-sm",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "mr-sm"
+          ],
+          "text": "Datenschutzeinstellungen",
+          "ariaLabel": null,
+          "title": "Datenschutzeinstellungen",
+          "rect": {
+            "x": 444,
+            "y": 29964,
+            "width": 119,
+            "height": 11
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#isl-3-OopAdSlots > aside.Ad-Slot-Sticky--Right > div.Ad-Slot.Ad-Slot-oop",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Ad-Slot",
+        "Ad-Slot-oop",
+        "Fireplace-Oop",
+        "Fireplace-Oop--Home",
+        "Ad-Slot-placement--Oop1",
+        "Ad-Slot-Skyscraper--Float-Active"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1218,
+        "y": 156,
+        "width": 160,
+        "height": 600
+      },
+      "viewportShare": 0.0938,
+      "namedForConsent": false,
+      "text": "ANZEIGE",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#isl-3-OopAdSlots > aside.Ad-Slot-Sticky--Left > div.Ad-Slot.Ad-Slot-oop",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Ad-Slot",
+        "Ad-Slot-oop",
+        "Fireplace-Oop",
+        "Fireplace-Oop--Home",
+        "Ad-Slot-placement--Oop2",
+        "Ad-Slot-Skyscraper--Float-Active"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": -98,
+        "y": 156,
+        "width": 160,
+        "height": 600
+      },
+      "viewportShare": 0.0938,
+      "namedForConsent": false,
+      "text": "ANZEIGE",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://cmp.focus.de/index.html?hasCsp=true&message_id=1456518&consentUUID=null&consent_origin=https%3A%2F%2Fcmp.focus.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

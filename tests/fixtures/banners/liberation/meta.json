@@ -1,0 +1,17 @@
+{
+  "slug": "liberation",
+  "requestedUrl": "https://www.liberation.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "ct.captcha-delivery.com"
+  ],
+  "finalUrl": "https://www.liberation.fr/",
+  "title": "liberation.fr",
+  "lang": "fr",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 3
+}

@@ -1,0 +1,193 @@
+{
+  "url": "https://www.cnil.fr/fr",
+  "title": "Particulier | CNIL",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "tarteaucitron"
+  ],
+  "tcf": null,
+  "containers": [
+    {
+      "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.nav--top-nav > a.cookies",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "cookies"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1100,
+        "y": 0,
+        "width": 164,
+        "height": 40
+      },
+      "viewportShare": 0.0064,
+      "namedForConsent": true,
+      "text": "Gestionnaire de cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "html.js > body.path-frontpage.has-glyphicons > div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sticky-large-screen-only"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "3",
+      "rect": {
+        "x": 6,
+        "y": 0,
+        "width": 1268,
+        "height": 40
+      },
+      "viewportShare": 0.0495,
+      "namedForConsent": false,
+      "text": "PARTICULIERSPROFESSIONNELSPRESSE FrEnGestionnaire de cookies",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.user-space-switcher > a.particulier.active",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "particulier",
+            "active"
+          ],
+          "text": "PARTICULIERS",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 26,
+            "y": 0,
+            "width": 157,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.user-space-switcher > a.professionnel",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "professionnel"
+          ],
+          "text": "PROFESSIONNELS",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 187,
+            "y": 0,
+            "width": 179,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.user-space-switcher > a.presse",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "presse"
+          ],
+          "text": "PRESSE",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 370,
+            "y": 0,
+            "width": 110,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.nav--top-nav > a.fr.is-active",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "fr",
+            "is-active"
+          ],
+          "text": "Fr",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1030,
+            "y": 0,
+            "width": 33,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.nav--top-nav > a.en",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "en"
+          ],
+          "text": "En",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1063,
+            "y": 0,
+            "width": 37,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.dialog-off-canvas-main-canvas > header.page--header.notsticky > div.custom-collapse.navbar-collapse > div.region.region-header > div.inner > div.sticky-large-screen-only > div.nav--top-nav > a.cookies",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cookies"
+          ],
+          "text": "Gestionnaire de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1100,
+            "y": 0,
+            "width": 164,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

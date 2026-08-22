@@ -1,0 +1,2276 @@
+{
+  "url": "https://www.bfmtv.com/",
+  "title": "Actualités en continu et info en direct et replay - BFM",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter Bienvenue sur les sites du groupe ! RMC BFM, ses 155 partenaires IAB et ses 18 autres partenaires peuvent stocker et/ou accéder à des informations stockées sur votre terminal (telles que données d'identification, de navigation, de géolocalisation) au moyen de cookies ou technologies similaires (incluant ). Avec votre accord RMC BFM et ses partenaires utilisent des traceurs afin de produire des statistiques d'usage ou personnaliser votre expérience (identification par analyse du terminal, publicités et contenus personnalisés, mesure de performance des publicités et conte",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 887,
+            "y": 81,
+            "width": 163,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 155 partenaires IAB et ses 18 autres partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 329,
+            "y": 228,
+            "width": 350,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 276,
+            "width": 29,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 654,
+            "y": 636,
+            "width": 330,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 542,
+            "y": 734,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "connexion internet compatible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 855,
+            "y": 734,
+            "width": 204,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 521,
+            "y": 854,
+            "width": 123,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 635,
+            "y": 1134,
+            "width": 203,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "la Politique de protection des données personnelles d'Utiq.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 1158,
+            "width": 390,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 311,
+            "y": 1254,
+            "width": 177,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer",
+          "title": null,
+          "rect": {
+            "x": 398,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer vos choix",
+          "ariaLabel": "Paramétrer vos choix",
+          "title": null,
+          "rect": {
+            "x": 643,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 190,
+        "y": 70,
+        "width": 900,
+        "height": 660
+      },
+      "viewportShare": 0.5801,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter Bienvenue sur les sites du groupe ! RMC BFM, ses 155 partenaires IAB et ses 18 autres partenaires peuvent stocker et/ou accéder à des informations stockées sur votre terminal (telles que données d'identification, de navigation, de géolocalisation) au moyen de cookies ou technologies similaires (incluant ). Avec votre accord RMC BFM et ses partenaires utilisent des traceurs afin de produire des statistiques d'usage ou personnaliser votre expérience (identification par analyse du terminal, publicités et contenus personnalisés, mesure de performance des publicités et conte",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 887,
+            "y": 81,
+            "width": 163,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 155 partenaires IAB et ses 18 autres partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 329,
+            "y": 228,
+            "width": 350,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 276,
+            "width": 29,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 654,
+            "y": 636,
+            "width": 330,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 542,
+            "y": 734,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "connexion internet compatible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 855,
+            "y": 734,
+            "width": 204,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 521,
+            "y": 854,
+            "width": 123,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 635,
+            "y": 1134,
+            "width": 203,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "la Politique de protection des données personnelles d'Utiq.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 1158,
+            "width": 390,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 311,
+            "y": 1254,
+            "width": 177,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer",
+          "title": null,
+          "rect": {
+            "x": 398,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer vos choix",
+          "ariaLabel": "Paramétrer vos choix",
+          "title": null,
+          "rect": {
+            "x": 643,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#utiq_consent_text",
+      "tag": "div",
+      "id": "utiq_consent_text",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 251,
+        "y": 673,
+        "width": 808,
+        "height": 602
+      },
+      "viewportShare": 0.475,
+      "namedForConsent": true,
+      "text": "Utilisation de la technologie Utiq, alimentée par votre opérateur télécom Nous, RMC BFM, utilisons la technologie Utiq pour nos activités digitales (telles que décrites dans cette notice de consentement) et liées à votre navigation sur nos sites (seulement si vous utilisez une connexion internet compatible fournie par un opérateur télécom partenaire et que vous consentez sur chaque site). La technologie Utiq a été conçue pour la protection de vos données personnelles en vous offrant choix et contrôle. Elle utilise un identifiant créé par votre opérateur télécom basé sur votre adresse IP et une",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 542,
+            "y": 734,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "connexion internet compatible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 855,
+            "y": 734,
+            "width": 204,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 521,
+            "y": 854,
+            "width": 123,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 635,
+            "y": 1134,
+            "width": 203,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "la Politique de protection des données personnelles d'Utiq.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 1158,
+            "width": 390,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 311,
+            "y": 1254,
+            "width": 177,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 251,
+        "y": 119,
+        "width": 808,
+        "height": 591
+      },
+      "viewportShare": 0.4663,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter Bienvenue sur les sites du groupe ! RMC BFM, ses 155 partenaires IAB et ses 18 autres partenaires peuvent stocker et/ou accéder à des informations stockées sur votre terminal (telles que données d'identification, de navigation, de géolocalisation) au moyen de cookies ou technologies similaires (incluant ). Avec votre accord RMC BFM et ses partenaires utilisent des traceurs afin de produire des statistiques d'usage ou personnaliser votre expérience (identification par analyse du terminal, publicités et contenus personnalisés, mesure de performance des publicités et conte",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 887,
+            "y": 81,
+            "width": 163,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 155 partenaires IAB et ses 18 autres partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 329,
+            "y": 228,
+            "width": 350,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 276,
+            "width": 29,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 654,
+            "y": 636,
+            "width": 330,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 542,
+            "y": 734,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "connexion internet compatible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 855,
+            "y": 734,
+            "width": 204,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 521,
+            "y": 854,
+            "width": 123,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 635,
+            "y": 1134,
+            "width": 203,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "la Politique de protection des données personnelles d'Utiq.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 1158,
+            "width": 390,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 311,
+            "y": 1254,
+            "width": 177,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer",
+          "title": null,
+          "rect": {
+            "x": 398,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer vos choix",
+          "ariaLabel": "Paramétrer vos choix",
+          "title": null,
+          "rect": {
+            "x": 643,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 251,
+        "y": 176,
+        "width": 808,
+        "height": 460
+      },
+      "viewportShare": 0.363,
+      "namedForConsent": true,
+      "text": "Bienvenue sur les sites du groupe ! RMC BFM, ses 155 partenaires IAB et ses 18 autres partenaires peuvent stocker et/ou accéder à des informations stockées sur votre terminal (telles que données d'identification, de navigation, de géolocalisation) au moyen de cookies ou technologies similaires (incluant ). Avec votre accord RMC BFM et ses partenaires utilisent des traceurs afin de produire des statistiques d'usage ou personnaliser votre expérience (identification par analyse du terminal, publicités et contenus personnalisés, mesure de performance des publicités et contenus, production de donné",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 155 partenaires IAB et ses 18 autres partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 329,
+            "y": 228,
+            "width": 350,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 276,
+            "width": 29,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 654,
+            "y": 636,
+            "width": 330,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 542,
+            "y": 734,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "connexion internet compatible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 855,
+            "y": 734,
+            "width": 204,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 521,
+            "y": 854,
+            "width": 123,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 635,
+            "y": 1134,
+            "width": 203,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "la Politique de protection des données personnelles d'Utiq.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 640,
+            "y": 1158,
+            "width": 390,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#utiq_consent_text > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 311,
+            "y": 1254,
+            "width": 177,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 251,
+        "y": 119,
+        "width": 808,
+        "height": 57
+      },
+      "viewportShare": 0.045,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 251,
+        "y": 666,
+        "width": 808,
+        "height": 44
+      },
+      "viewportShare": 0.0347,
+      "namedForConsent": true,
+      "text": "Accepter et fermer Paramétrer vos choix",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer",
+          "title": null,
+          "rect": {
+            "x": 398,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer vos choix",
+          "ariaLabel": "Paramétrer vos choix",
+          "title": null,
+          "rect": {
+            "x": 643,
+            "y": 666,
+            "width": 235,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 398,
+        "y": 666,
+        "width": 235,
+        "height": 44
+      },
+      "viewportShare": 0.0101,
+      "namedForConsent": true,
+      "text": "Accepter et fermer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-learn-more-button",
+      "tag": "button",
+      "id": "didomi-notice-learn-more-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-learn-more-button",
+        "didomi-button-standard",
+        "standard-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 643,
+        "y": 666,
+        "width": 235,
+        "height": 44
+      },
+      "viewportShare": 0.0101,
+      "namedForConsent": true,
+      "text": "Paramétrer vos choix",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container > img.didomi-popup-notice-logo",
+      "tag": "img",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo"
+      ],
+      "role": "heading",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 515,
+        "y": 119,
+        "width": 245,
+        "height": 40
+      },
+      "viewportShare": 0.0096,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "span#cmp_trigger_phrase",
+      "tag": "span",
+      "id": "cmp_trigger_phrase",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 290,
+        "y": 676,
+        "width": 233,
+        "height": 17
+      },
+      "viewportShare": 0.0039,
+      "namedForConsent": true,
+      "text": "Utilisation de la technologie Utiq",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "didomi-continue-without-agreeing"
+      ],
+      "role": "button",
+      "ariaModal": false,
+      "position": "absolute",
+      "zIndex": "1000",
+      "rect": {
+        "x": 887,
+        "y": 81,
+        "width": 163,
+        "height": 24
+      },
+      "viewportShare": 0.0038,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "header#main_header",
+      "tag": "header",
+      "id": "main_header",
+      "classes": [
+        "main_header"
+      ],
+      "role": "banner",
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "999999",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 130
+      },
+      "viewportShare": 0.1625,
+      "namedForConsent": false,
+      "text": "MENU Replay Radio Direct Sonia Bellina Guerre en Ukraine International Politique Police-Justice Société Économie Tech Sport Culture Régions Météo Shopping Code promo En ce moment Précédent Suivant Sonia Bellina Guerre en Ukraine Rentrée politique Droits de douane Ligue 1 Sophie Adenot Longs Formats Tous les directs BFMTV Direct TV Direct Radio Tous les formats Vidéos Longs formats Newsletters Émissions Podcasts Univers BFM Précédent Suivant Toutes les rubriques Politique Toute l’actu Politique Gouvernement Élysée Sondages Les Écologistes La France insoumise Horizons Modem Parti communiste fran",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#header_menu_show",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "header_menu_show",
+          "classes": [
+            "header_menu"
+          ],
+          "text": "MENU",
+          "ariaLabel": "Ouvrir le menu",
+          "title": null,
+          "rect": {
+            "x": 32,
+            "y": 26,
+            "width": 32,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header_top > div.header_left > h1 > a.header_brand",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header_brand"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": "BFM",
+          "rect": {
+            "x": 64,
+            "y": 26,
+            "width": 176,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header_top > div.header_direct > a.header_replay",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header_replay"
+          ],
+          "text": "Replay",
+          "ariaLabel": null,
+          "title": "Replay",
+          "rect": {
+            "x": 949,
+            "y": 25,
+            "width": 97,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header_top > div.header_direct > a.direct_radio",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "direct_radio"
+          ],
+          "text": "Radio",
+          "ariaLabel": null,
+          "title": "Direct Radio",
+          "rect": {
+            "x": 1056,
+            "y": 25,
+            "width": 88,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header_top > div.header_direct > a.direct_tv",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "direct_tv"
+          ],
+          "text": "Direct",
+          "ariaLabel": null,
+          "title": "Direct tv",
+          "rect": {
+            "x": 1154,
+            "y": 25,
+            "width": 94,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li.nav_slider_topics > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Sonia Bellina",
+          "ariaLabel": null,
+          "title": "Sonia Bellina",
+          "rect": {
+            "x": 35,
+            "y": 95,
+            "width": 82,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li.nav_slider_topics.nav_slider_topics_separator > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Guerre en Ukraine",
+          "ariaLabel": null,
+          "title": "Guerre en Ukraine",
+          "rect": {
+            "x": 137,
+            "y": 95,
+            "width": 115,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "International",
+          "ariaLabel": null,
+          "title": "International",
+          "rect": {
+            "x": 292,
+            "y": 95,
+            "width": 77,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique",
+          "ariaLabel": null,
+          "title": "Politique",
+          "rect": {
+            "x": 389,
+            "y": 95,
+            "width": 54,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Police-Justice",
+          "ariaLabel": null,
+          "title": "Police-Justice",
+          "rect": {
+            "x": 463,
+            "y": 95,
+            "width": 86,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Société",
+          "ariaLabel": null,
+          "title": "Société",
+          "rect": {
+            "x": 569,
+            "y": 95,
+            "width": 47,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Économie",
+          "ariaLabel": null,
+          "title": "Économie",
+          "rect": {
+            "x": 636,
+            "y": 95,
+            "width": 62,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Tech",
+          "ariaLabel": null,
+          "title": "Tech",
+          "rect": {
+            "x": 718,
+            "y": 95,
+            "width": 30,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Sport",
+          "ariaLabel": null,
+          "title": "Sport",
+          "rect": {
+            "x": 768,
+            "y": 95,
+            "width": 33,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Culture",
+          "ariaLabel": null,
+          "title": "Culture",
+          "rect": {
+            "x": 821,
+            "y": 95,
+            "width": 45,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Régions",
+          "ariaLabel": null,
+          "title": "Régions",
+          "rect": {
+            "x": 886,
+            "y": 95,
+            "width": 51,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Météo",
+          "ariaLabel": null,
+          "title": "Météo",
+          "rect": {
+            "x": 958,
+            "y": 95,
+            "width": 39,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li.nav_service > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Shopping",
+          "ariaLabel": null,
+          "title": "Shopping",
+          "rect": {
+            "x": 1017,
+            "y": 95,
+            "width": 59,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "header#main_header > nav.nav_primary > ul.nav_primary_with_topics > li.nav_service > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Code promo",
+          "ariaLabel": null,
+          "title": "Code promo",
+          "rect": {
+            "x": 1096,
+            "y": 95,
+            "width": 77,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.carousel_arrow > button.slider_prev.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_prev",
+            "slider_arrow",
+            "carousel_arrow_hide"
+          ],
+          "text": "Précédent",
+          "ariaLabel": "Précédent - Topics",
+          "title": null,
+          "rect": {
+            "x": -55,
+            "y": 106,
+            "width": 15,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.carousel_arrow > button.slider_next.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_next",
+            "slider_arrow"
+          ],
+          "text": "Suivant",
+          "ariaLabel": "Suivant - Topics",
+          "title": null,
+          "rect": {
+            "x": -34,
+            "y": 106,
+            "width": 18,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Sonia Bellina",
+          "ariaLabel": null,
+          "title": "Sonia Bellina",
+          "rect": {
+            "x": -327,
+            "y": 155,
+            "width": 82,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Guerre en Ukraine",
+          "ariaLabel": null,
+          "title": "Guerre en Ukraine",
+          "rect": {
+            "x": -195,
+            "y": 155,
+            "width": 115,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Rentrée politique",
+          "ariaLabel": null,
+          "title": "Rentrée politique",
+          "rect": {
+            "x": -30,
+            "y": 155,
+            "width": 106,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Droits de douane",
+          "ariaLabel": null,
+          "title": "Droits de douane",
+          "rect": {
+            "x": 126,
+            "y": 155,
+            "width": 107,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Ligue 1",
+          "ariaLabel": null,
+          "title": "Ligue 1",
+          "rect": {
+            "x": 282,
+            "y": 155,
+            "width": 46,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Sophie Adenot",
+          "ariaLabel": null,
+          "title": "Sophie Adenot",
+          "rect": {
+            "x": 378,
+            "y": 155,
+            "width": 91,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_slider_topics__slider > div.slider_wrapper > ul.slider_container > li.slider_topic__item.menu_slider_topics_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Longs Formats",
+          "ariaLabel": null,
+          "title": "Longs Formats",
+          "rect": {
+            "x": 519,
+            "y": 155,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Direct TV",
+          "ariaLabel": null,
+          "title": "Direct TV",
+          "rect": {
+            "x": -344,
+            "y": 262,
+            "width": 113,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > span.live_wrapper_infos.cta_button",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "live_wrapper_infos",
+            "cta_button"
+          ],
+          "text": "Direct Radio",
+          "ariaLabel": "Écouter BFM Radio",
+          "title": "Écouter BFM Radio",
+          "rect": {
+            "x": -223,
+            "y": 262,
+            "width": 134,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Vidéos",
+          "ariaLabel": null,
+          "title": "Vidéos",
+          "rect": {
+            "x": -344,
+            "y": 375,
+            "width": 82,
+            "height": 30
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Longs formats",
+          "ariaLabel": null,
+          "title": "Longs formats",
+          "rect": {
+            "x": -254,
+            "y": 375,
+            "width": 133,
+            "height": 30
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Newsletters",
+          "ariaLabel": null,
+          "title": "Newsletters",
+          "rect": {
+            "x": -344,
+            "y": 413,
+            "width": 115,
+            "height": 30
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Émissions",
+          "ariaLabel": null,
+          "title": "Émissions",
+          "rect": {
+            "x": -221,
+            "y": 413,
+            "width": 106,
+            "height": 30
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#main_menu_nav > div.menu_nav > div.menu_right > div.menu_center_left > div.menu_center_cta > a.cta_button",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "cta_button"
+          ],
+          "text": "Podcasts",
+          "ariaLabel": null,
+          "title": "Podcasts",
+          "rect": {
+            "x": -344,
+            "y": 451,
+            "width": 98,
+            "height": 30
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_pastille__slider > div.carousel_arrow > button.slider_prev.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_prev",
+            "slider_arrow"
+          ],
+          "text": "Précédent",
+          "ariaLabel": "Précédent - Slider pastilles",
+          "title": null,
+          "rect": {
+            "x": -55,
+            "y": 525,
+            "width": 15,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_pastille__slider > div.carousel_arrow > button.slider_next.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_next",
+            "slider_arrow"
+          ],
+          "text": "Suivant",
+          "ariaLabel": "Suivant - Slider pastilles",
+          "title": null,
+          "rect": {
+            "x": -34,
+            "y": 525,
+            "width": 18,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_pastille__slider > div.slider_wrapper > ul.slider_container > li.pastille_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": "BFM Business",
+          "rect": {
+            "x": -344,
+            "y": 566,
+            "width": 64,
+            "height": 64
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_pastille__slider > div.slider_wrapper > ul.slider_container > li.pastille_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": "BFM Lyon",
+          "rect": {
+            "x": -268,
+            "y": 566,
+            "width": 64,
+            "height": 64
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_pastille__slider > div.slider_wrapper > ul.slider_container > li.pastille_item > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": "BFM Marseille Provence",
+          "rect": {
+            "x": -192,
+            "y": 566,
+            "width": 64,
+            "height": 64
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#main_menu_nav > div.menu_bottom",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "menu_bottom"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "2",
+      "rect": {
+        "x": -360,
+        "y": 680,
+        "width": 360,
+        "height": 120
+      },
+      "viewportShare": 0.0422,
+      "namedForConsent": false,
+      "text": "Tous les sites du groupe Précédent Suivant",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#menu_bottom__slider > div.carousel_arrow > button.slider_prev.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_prev",
+            "slider_arrow"
+          ],
+          "text": "Précédent",
+          "ariaLabel": "Précédent - Sites du groupe",
+          "title": null,
+          "rect": {
+            "x": -55,
+            "y": 692,
+            "width": 15,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#menu_bottom__slider > div.carousel_arrow > button.slider_next.slider_arrow",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "slider_next",
+            "slider_arrow"
+          ],
+          "text": "Suivant",
+          "ariaLabel": "Suivant - Sites du groupe",
+          "title": null,
+          "rect": {
+            "x": -33,
+            "y": 692,
+            "width": 18,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

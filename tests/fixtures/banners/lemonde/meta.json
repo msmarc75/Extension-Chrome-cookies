@@ -1,0 +1,25 @@
+{
+  "slug": "lemonde",
+  "requestedUrl": "https://www.lemonde.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "applets.ebxcdn.com",
+    "cmp.lemonde.fr",
+    "forecast.lemonde.fr",
+    "www.lemonde.fr"
+  ],
+  "finalUrl": "https://www.lemonde.fr/",
+  "title": "Le Monde.fr - Actualités et Infos en France et dans le monde",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "timedOut": true
+  },
+  "shadowHosts": [
+    ":root > forecast-creative-custom"
+  ],
+  "bodyChildCount": 29
+}

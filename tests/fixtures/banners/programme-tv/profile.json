@@ -1,0 +1,585 @@
+{
+  "url": "https://www.programme-tv.net/",
+  "title": "Programme TV par Télé-Loisirs, TNT, box télé et satellite",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue",
+    "consentmanager"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": null,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sp_message_container_1460331",
+      "tag": "div",
+      "id": "sp_message_container_1460331",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ads-tabletDesktop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 746,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "Publicité",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ads-tabletDesktop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 2223,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "Publicité",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#Pave-Bas_6a8961f0721c0",
+      "tag": "div",
+      "id": "Pave-Bas_6a8961f0721c0",
+      "classes": [
+        "ads-core-placer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 2224,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ads-tabletDesktop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 3840,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "Publicité",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#Pave-Bas2_6a8961f073974",
+      "tag": "div",
+      "id": "Pave-Bas2_6a8961f073974",
+      "classes": [
+        "ads-core-placer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 3841,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-sidebar > div.homeSidebar > div.homeSidebar-ad",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "homeSidebar-ad"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 8270,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "Publicité",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#Pave-Bas2_6a8961f07500c",
+      "tag": "div",
+      "id": "Pave-Bas2_6a8961f07500c",
+      "classes": [
+        "ads-core-placer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 8271,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#Pave-Haut_6a8961f0708ad",
+      "tag": "div",
+      "id": "Pave-Haut_6a8961f0708ad",
+      "classes": [
+        "ads-core-placer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 821,
+        "y": 747,
+        "width": 298,
+        "height": 600
+      },
+      "viewportShare": 0.1746,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "header#header > div.header-topbar",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "header-topbar"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "1",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 60
+      },
+      "viewportShare": 0.075,
+      "namedForConsent": false,
+      "text": "Menu Télé-Loisirs Avatar Me connecter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#headerMenuButton",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "headerMenuButton",
+          "classes": [
+            "headerTopbar-menuButton"
+          ],
+          "text": "Menu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 150,
+            "y": 8,
+            "width": 89,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerTopbar > div.headerTopbar-logo > a.headerTopbar-logoLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerTopbar-logoLink"
+          ],
+          "text": "Télé-Loisirs",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 477,
+            "y": 8,
+            "width": 327,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerTopbarProfil > button.headerTopbar-profilButton",
+          "tag": "button",
+          "type": null,
+          "role": "link",
+          "id": null,
+          "classes": [
+            "headerTopbar-profilButton"
+          ],
+          "text": "Avatar Me connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 983,
+            "y": 8,
+            "width": 147,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerTopbarProfil > div.headerTopbar-menuAccount > a.headerTopbar-menuAccountLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerTopbar-menuAccountLink"
+          ],
+          "text": "Mon espace",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 980,
+            "y": 54,
+            "width": 146,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#headerTopbarProfil > div.headerTopbar-menuAccount > a.headerTopbar-menuAccountLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerTopbar-menuAccountLink"
+          ],
+          "text": "Se déconnecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 980,
+            "y": 94,
+            "width": 146,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "header#header > div.header-navbar",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "header-navbar"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 60,
+        "width": 1280,
+        "height": 54
+      },
+      "viewportShare": 0.0675,
+      "namedForConsent": false,
+      "text": "Actualités À la TV Cinéma En streaming Canal+ Disney+ Netflix",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-primaryList > li.headerNavbar-primaryListItem > a.headerNavbar-primaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-primaryListItemLink"
+          ],
+          "text": "Actualités",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 148,
+            "y": 60,
+            "width": 161,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-primaryList > li.headerNavbar-primaryListItem > a.headerNavbar-primaryListItemLink.active",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-primaryListItemLink",
+            "active"
+          ],
+          "text": "À la TV",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 309,
+            "y": 60,
+            "width": 161,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-primaryList > li.headerNavbar-primaryListItem > a.headerNavbar-primaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-primaryListItemLink"
+          ],
+          "text": "Cinéma",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 471,
+            "y": 60,
+            "width": 161,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-secondaryListItemLink"
+          ],
+          "text": "En streaming",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 648,
+            "y": 60,
+            "width": 121,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-secondaryListItemLink"
+          ],
+          "text": "Canal+",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 769,
+            "y": 60,
+            "width": 121,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-secondaryListItemLink"
+          ],
+          "text": "Disney+",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 890,
+            "y": 60,
+            "width": 121,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "headerNavbar-secondaryListItemLink"
+          ],
+          "text": "Netflix",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1011,
+            "y": 60,
+            "width": 121,
+            "height": 54
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://6910133613ed3f8bdbad9b8984f63d03.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+      "name": null
+    },
+    {
+      "src": "https://6910133613ed3f8bdbad9b8984f63d03.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+      "name": null
+    },
+    {
+      "src": "https://6910133613ed3f8bdbad9b8984f63d03.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+      "name": null
+    },
+    {
+      "src": "https://6910133613ed3f8bdbad9b8984f63d03.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+      "name": null
+    },
+    {
+      "src": "https://consent.programme-tv.net/index.html?hasCsp=true&message_id=1460331&consentUUID=null&consent_origin=https%3A%2F%2Fconsent.programme-tv.net%2Fconsent%2Ftcfv2&preload_message=true&version=v1",
+      "name": null
+    },
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api2/aframe",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.programme-tv.net%2F",
+      "name": null
+    },
+    {
+      "src": "https://acdn.adnxs.com/dmp/async_usersync.html",
+      "name": null
+    },
+    {
+      "src": "https://js-sec.indexww.com/um/ixmatch.html",
+      "name": null
+    },
+    {
+      "src": "https://ms-cookie-sync.presage.io/user-sync.html?gdpr=0&gdpr_consent=&us_privacy=&source=prebids2s&redirect=https%3A%2F%2Ffast.nexx360.io%2Fsetuid%3Fbidder%3Dogury%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%7B%7BOGURY_UID%7D%7D",
+      "name": null
+    },
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.programme-tv.net&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.05940764142157451%22,%22tld%22:%22www.programme-tv.net%22,%22topUrl%22:%22www.programme-tv.net%22,%22version%22:%2210",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

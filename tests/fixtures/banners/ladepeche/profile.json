@@ -1,0 +1,1212 @@
+{
+  "url": "https://www.ladepeche.fr/",
+  "title": "La Dépêche : Actualités en temps réel et l'info en continu - ladepeche.fr",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop",
+        "didomi-support-full-height",
+        "didomi-max-height-reached"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Le contenu de notre site est le résultat du travail de toute notre équipe de journalistes qui vous apportent chaque jour une information fiable et de qualité. Cela est réalisable grâce aux revenus publicitaires et d’abonnement. C’est pourquoi nous vous proposons de choisir entre deux options : Accéder gratuitement en acceptant l’utilisation de cookies. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez impérativement accepter l’affichage de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation. Sous réserve de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link-in-text"
+          ],
+          "text": "321 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 626,
+            "y": 330,
+            "width": 104,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COOKIES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 721,
+            "width": 68,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DONNEES PERSONNELLES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 614,
+            "y": 769,
+            "width": 199,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-custom-subscribe-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-custom-subscribe-link",
+          "classes": [
+            "didomi-custom-subscribe-link",
+            "didomi-components-button",
+            "didomi-button"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 639,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 688,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 680,
+            "width": 200,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-custom-login-link > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Connectez-vous",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 637,
+            "y": 739,
+            "width": 108,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 290,
+        "y": 20,
+        "width": 700,
+        "height": 760
+      },
+      "viewportShare": 0.5195,
+      "namedForConsent": true,
+      "text": "Le contenu de notre site est le résultat du travail de toute notre équipe de journalistes qui vous apportent chaque jour une information fiable et de qualité. Cela est réalisable grâce aux revenus publicitaires et d’abonnement. C’est pourquoi nous vous proposons de choisir entre deux options : Accéder gratuitement en acceptant l’utilisation de cookies. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez impérativement accepter l’affichage de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation. Sous réserve de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link-in-text"
+          ],
+          "text": "321 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 626,
+            "y": 330,
+            "width": 104,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COOKIES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 721,
+            "width": 68,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DONNEES PERSONNELLES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 614,
+            "y": 769,
+            "width": 199,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-custom-subscribe-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-custom-subscribe-link",
+          "classes": [
+            "didomi-custom-subscribe-link",
+            "didomi-components-button",
+            "didomi-button"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 639,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 688,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 680,
+            "width": 200,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-custom-login-link > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Connectez-vous",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 637,
+            "y": 739,
+            "width": 108,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 270,
+        "y": 0,
+        "width": 740,
+        "height": 800
+      },
+      "viewportShare": 0.5781,
+      "namedForConsent": true,
+      "text": "Le contenu de notre site est le résultat du travail de toute notre équipe de journalistes qui vous apportent chaque jour une information fiable et de qualité. Cela est réalisable grâce aux revenus publicitaires et d’abonnement. C’est pourquoi nous vous proposons de choisir entre deux options : Accéder gratuitement en acceptant l’utilisation de cookies. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez impérativement accepter l’affichage de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation. Sous réserve de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link-in-text"
+          ],
+          "text": "321 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 626,
+            "y": 330,
+            "width": 104,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COOKIES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 721,
+            "width": 68,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DONNEES PERSONNELLES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 614,
+            "y": 769,
+            "width": 199,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-custom-subscribe-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-custom-subscribe-link",
+          "classes": [
+            "didomi-custom-subscribe-link",
+            "didomi-components-button",
+            "didomi-button"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 639,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 688,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 680,
+            "width": 200,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-custom-login-link > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Connectez-vous",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 637,
+            "y": 739,
+            "width": 108,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 80,
+        "width": 600,
+        "height": 710
+      },
+      "viewportShare": 0.4157,
+      "namedForConsent": true,
+      "text": "Le contenu de notre site est le résultat du travail de toute notre équipe de journalistes qui vous apportent chaque jour une information fiable et de qualité. Cela est réalisable grâce aux revenus publicitaires et d’abonnement. C’est pourquoi nous vous proposons de choisir entre deux options : Accéder gratuitement en acceptant l’utilisation de cookies. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez impérativement accepter l’affichage de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation. Sous réserve de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link-in-text"
+          ],
+          "text": "321 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 626,
+            "y": 330,
+            "width": 104,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COOKIES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 721,
+            "width": 68,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DONNEES PERSONNELLES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 614,
+            "y": 769,
+            "width": 199,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 290,
+        "y": 80,
+        "width": 700,
+        "height": 539
+      },
+      "viewportShare": 0.3686,
+      "namedForConsent": true,
+      "text": "Le contenu de notre site est le résultat du travail de toute notre équipe de journalistes qui vous apportent chaque jour une information fiable et de qualité. Cela est réalisable grâce aux revenus publicitaires et d’abonnement. C’est pourquoi nous vous proposons de choisir entre deux options : Accéder gratuitement en acceptant l’utilisation de cookies. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez impérativement accepter l’affichage de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation. Sous réserve de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link-in-text"
+          ],
+          "text": "321 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 626,
+            "y": 330,
+            "width": 104,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "COOKIES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 721,
+            "width": 68,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DONNEES PERSONNELLES",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 614,
+            "y": 769,
+            "width": 199,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 290,
+        "y": 619,
+        "width": 700,
+        "height": 161
+      },
+      "viewportShare": 0.1099,
+      "namedForConsent": true,
+      "text": "Refuser et s'abonner Accepter et fermer Déjà abonné ? Connectez-vous",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-custom-subscribe-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-custom-subscribe-link",
+          "classes": [
+            "didomi-custom-subscribe-link",
+            "didomi-components-button",
+            "didomi-button"
+          ],
+          "text": "Refuser et s'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 639,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter et fermer",
+          "ariaLabel": "Accepter et fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 688,
+            "width": 600,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 340,
+            "y": 680,
+            "width": 200,
+            "height": 40
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-custom-login-link > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Connectez-vous",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 637,
+            "y": 739,
+            "width": 108,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "2147483640",
+      "rect": {
+        "x": 290,
+        "y": 20,
+        "width": 700,
+        "height": 60
+      },
+      "viewportShare": 0.041,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-custom-subscribe-link",
+      "tag": "button",
+      "id": "didomi-custom-subscribe-link",
+      "classes": [
+        "didomi-custom-subscribe-link",
+        "didomi-components-button",
+        "didomi-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 639,
+        "width": 600,
+        "height": 40
+      },
+      "viewportShare": 0.0237,
+      "namedForConsent": true,
+      "text": "Refuser et s'abonner",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 688,
+        "width": 600,
+        "height": 40
+      },
+      "viewportShare": 0.0237,
+      "namedForConsent": true,
+      "text": "Accepter et fermer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#didomi-custom-login-link",
+      "tag": "div",
+      "id": "didomi-custom-login-link",
+      "classes": [
+        "didomi-custom-login"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 736,
+        "width": 600,
+        "height": 24
+      },
+      "viewportShare": 0.0141,
+      "namedForConsent": true,
+      "text": "Déjà abonné ? Connectez-vous",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-custom-login-link > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Connectez-vous",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 637,
+            "y": 739,
+            "width": 108,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a.didomi-notice-view-partners-link-in-text",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "didomi-notice-view-partners-link-in-text"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 626,
+        "y": 330,
+        "width": 104,
+        "height": 17
+      },
+      "viewportShare": 0.0017,
+      "namedForConsent": true,
+      "text": "321 partenaires",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "html > body.topic-home.body--home > div.side-nav",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "side-nav"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "1010",
+      "rect": {
+        "x": -300,
+        "y": 0,
+        "width": 300,
+        "height": 800
+      },
+      "viewportShare": 0.2344,
+      "namedForConsent": false,
+      "text": "Rechercher... Journal Le club Jeux Newsletters Pour profiter pleinement de l'info, abonnez-vous ! S'abonner",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__utilities.hide-on-large-only > button.navbar-ajax__search.btn",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "navbar-ajax__search",
+            "btn"
+          ],
+          "text": "Rechercher...",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__utilities.hide-on-large-only > div.navbar-ajax__header > a.navbar-ajax__newspaper-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "navbar-ajax__newspaper-link"
+          ],
+          "text": "Journal",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__utilities.hide-on-large-only > div.navbar-ajax__header > a.navbar-ajax__club-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "navbar-ajax__club-link"
+          ],
+          "text": "Le club",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__utilities.hide-on-large-only > div.navbar-ajax__header > a.navbar-ajax__gaming-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "navbar-ajax__gaming-link"
+          ],
+          "text": "Jeux",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__utilities.hide-on-large-only > div.navbar-ajax__header > a.navbar-ajax__newsletters-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "navbar-ajax__newsletters-link"
+          ],
+          "text": "Newsletters",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html > body.topic-home.body--home > div.side-nav > div.navbar-ajax__subscription.hide-on-large-only > div.center-align.u-mb-15 > a.btn.btn--sub",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "btn",
+            "btn--sub"
+          ],
+          "text": "S'abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "//videofeed.digiteka.com?launcher=1&parent=https://www.ladepeche.fr/",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

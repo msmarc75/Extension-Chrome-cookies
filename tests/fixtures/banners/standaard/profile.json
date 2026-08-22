@@ -1,0 +1,39 @@
+{
+  "url": "https://www.standaard.be/",
+  "title": "Un instant…",
+  "lang": "en-US",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [],
+  "tcf": null,
+  "containers": [
+    {
+      "path": "html > body > div.footer > div.footer-inner > div.footer-wrapper > div.footer-link-wrapper > a.footer-text",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "footer-text"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 725,
+        "y": 766,
+        "width": 88,
+        "height": 18
+      },
+      "viewportShare": 0.0015,
+      "namedForConsent": true,
+      "text": "Confidentialité",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

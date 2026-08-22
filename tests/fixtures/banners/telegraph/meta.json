@@ -1,0 +1,14 @@
+{
+  "slug": "telegraph",
+  "requestedUrl": "https://www.telegraph.co.uk/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [],
+  "finalUrl": "https://www.telegraph.co.uk/",
+  "title": "",
+  "lang": null,
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 7
+}

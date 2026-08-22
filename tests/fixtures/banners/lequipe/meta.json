@@ -1,0 +1,36 @@
+{
+  "slug": "lequipe",
+  "requestedUrl": "https://www.lequipe.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "0f948b7e-5b98-42a8-b9a9-eb4b49478b1f.edge.permutive.app",
+    "accounts.google.com",
+    "boot.pbstck.com",
+    "cdn.facil-iti.app",
+    "news.google.com",
+    "static.chartbeat.com",
+    "www.gstatic.com",
+    "www.lequipe.fr"
+  ],
+  "finalUrl": "https://www.lequipe.fr/",
+  "title": "L'Équipe - L'actualité du sport en continu.",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 21
+}

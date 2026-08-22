@@ -15,6 +15,7 @@ export const MessageType = Object.freeze({
   GET_STATUS: 'get_status',
   AUDIT_CAPABILITY: 'audit_capability',
   CAPTURE_PRE_CONSENT: 'capture_pre_consent',
+  PROBE_BANNER: 'probe_banner',
 });
 
 /** Error codes carried by a failed response envelope. */

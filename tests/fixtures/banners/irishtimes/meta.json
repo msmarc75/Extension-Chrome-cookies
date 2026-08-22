@@ -1,0 +1,48 @@
+{
+  "slug": "irishtimes",
+  "requestedUrl": "https://www.irishtimes.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "cdn.cookielaw.org",
+    "cdn.sophi.io",
+    "fce2b75e-f11a-48ad-a60f-7e004eb1d340.edge.permutive.app",
+    "irishtimes.video-player.arcpublishing.com",
+    "lw.foreca.net",
+    "prod.webpu.sh",
+    "unpkg.com",
+    "www.googletagmanager.com",
+    "www.irishtimes.com",
+    "www.queryly.com"
+  ],
+  "finalUrl": "https://www.irishtimes.com/",
+  "title": "The Irish Times | Latest news and headlines - Irish news, world news, video and podcasts",
+  "lang": "en",
+  "globals": [
+    "__tcfapi",
+    "OneTrust",
+    "OptanonWrapper",
+    "Optanon",
+    "gtag",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 28,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [
+    ":root > div",
+    ":root > div",
+    ":root > div",
+    ":root > div",
+    ":root > div",
+    ":root > div",
+    ":root > div"
+  ],
+  "bodyChildCount": 13
+}

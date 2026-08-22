@@ -1,0 +1,30 @@
+{
+  "slug": "spiegel",
+  "requestedUrl": "https://www.spiegel.de/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "assets.adobedtm.com",
+    "cdn.prod.www.spiegel.de",
+    "sp-spiegel-de.spiegel.de",
+    "www.spiegel.de"
+  ],
+  "finalUrl": "https://www.spiegel.de/",
+  "title": "DER SPIEGEL | Online-Nachrichten",
+  "lang": "de",
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 69
+}

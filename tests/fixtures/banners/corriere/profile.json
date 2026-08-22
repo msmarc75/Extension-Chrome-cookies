@@ -1,0 +1,954 @@
+{
+  "url": "https://www.corriere.it/",
+  "title": "Corriere della Sera: News e Ultime notizie in tempo reale da Italia e Mondo",
+  "lang": "it-IT",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "failed": true
+  },
+  "containers": [
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "10000001",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1265,
+        "height": 800
+      },
+      "viewportShare": 0.9883,
+      "namedForConsent": true,
+      "text": "Rifiuta e abbonati Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#privacy-cp-wall-reject-and-subscribe-mobile",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-reject-and-subscribe-mobile",
+          "classes": [],
+          "text": "Rifiuta e abbonati",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-reject-and-subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-reject-and-subscribe",
+          "classes": [],
+          "text": "Rifiuta e abbonati",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 800,
+            "y": 108,
+            "width": 179,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "cookie policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 324,
+            "width": 89,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-partnersList",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-partnersList",
+          "classes": [
+            "link"
+          ],
+          "text": "in questa lista",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 739,
+            "y": 390,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#privacy-cp-wall-accept",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-accept",
+          "classes": [
+            "privacy-cp-footer__button_cmp",
+            "privacy-cp-footer__button_cmp--big",
+            "privacy-cp-footer__button_cmp--main"
+          ],
+          "text": "ACCETTA E CONTINUA",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 270,
+            "y": 632,
+            "width": 725,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#privacy-cp-wall-settings",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-settings",
+          "classes": [
+            "privacy-cp-footer__button_cmp",
+            "privacy-cp-footer__button_cmp--big",
+            "privacy-cp-footer__button_cmp--main"
+          ],
+          "text": "PREFERENZE",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 270,
+            "y": 684,
+            "width": 725,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-login",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-login",
+          "classes": [],
+          "text": "Accedi",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 670,
+            "y": 741,
+            "width": 49,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__wrapper_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 246,
+        "y": 62,
+        "width": 773,
+        "height": 720
+      },
+      "viewportShare": 0.5436,
+      "namedForConsent": true,
+      "text": "Rifiuta e abbonati Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#privacy-cp-wall-reject-and-subscribe-mobile",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-reject-and-subscribe-mobile",
+          "classes": [],
+          "text": "Rifiuta e abbonati",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-reject-and-subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-reject-and-subscribe",
+          "classes": [],
+          "text": "Rifiuta e abbonati",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 800,
+            "y": 108,
+            "width": 179,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "cookie policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 324,
+            "width": 89,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-partnersList",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-partnersList",
+          "classes": [
+            "link"
+          ],
+          "text": "in questa lista",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 739,
+            "y": 390,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#privacy-cp-wall-accept",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-accept",
+          "classes": [
+            "privacy-cp-footer__button_cmp",
+            "privacy-cp-footer__button_cmp--big",
+            "privacy-cp-footer__button_cmp--main"
+          ],
+          "text": "ACCETTA E CONTINUA",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 270,
+            "y": 632,
+            "width": 725,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#privacy-cp-wall-settings",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-settings",
+          "classes": [
+            "privacy-cp-footer__button_cmp",
+            "privacy-cp-footer__button_cmp--big",
+            "privacy-cp-footer__button_cmp--main"
+          ],
+          "text": "PREFERENZE",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 270,
+            "y": 684,
+            "width": 725,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-login",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-login",
+          "classes": [],
+          "text": "Accedi",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 670,
+            "y": 741,
+            "width": 49,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__body_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 270,
+        "y": 153,
+        "width": 725,
+        "height": 479
+      },
+      "viewportShare": 0.3391,
+      "namedForConsent": true,
+      "text": "Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o aderendo a un piano",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "cookie policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 324,
+            "width": 89,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-partnersList",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-partnersList",
+          "classes": [
+            "link"
+          ],
+          "text": "in questa lista",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 739,
+            "y": 390,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__container_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 286,
+        "y": 153,
+        "width": 693,
+        "height": 454
+      },
+      "viewportShare": 0.3072,
+      "namedForConsent": true,
+      "text": "Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o aderendo a un piano",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "cookie policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 324,
+            "width": 89,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-partnersList",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-partnersList",
+          "classes": [
+            "link"
+          ],
+          "text": "in questa lista",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 739,
+            "y": 390,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__container_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 286,
+        "y": 321,
+        "width": 693,
+        "height": 286
+      },
+      "viewportShare": 0.1936,
+      "namedForConsent": true,
+      "text": "Come indicato nella cookie policy, noi e terze parti facciamo uso di tecnologie, quali i cookie, per raccogliere ed elaborare dati personali dai dispositivi (ad esempio l'indirizzo IP, tracciamenti precisi dei dispositivi e della posizione geografica). Per installare i cookie che garantiscono le funzionalità tecniche, non è necessario il tuo consenso. Con il tuo consenso, noi e alcune tra 1202 terze parti presenti in questa lista - inserzionisti nonché intermediari del mercato pubblicitario di volta in volta coinvolti -, potremo archiviare informazioni sul tuo dispositivo e/o accedervi, utiliz",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "cookie policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 413,
+            "y": 324,
+            "width": 89,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#privacy-cp-wall-partnersList",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-partnersList",
+          "classes": [
+            "link"
+          ],
+          "text": "in questa lista",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 739,
+            "y": 390,
+            "width": 93,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__container__text_cmp",
+        "privacy-cp-wall__container__answer_first"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 286,
+        "y": 153,
+        "width": 693,
+        "height": 158
+      },
+      "viewportShare": 0.1069,
+      "namedForConsent": true,
+      "text": "Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o aderendo a un piano",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp",
+      "tag": "p",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__container__answer_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 286,
+        "y": 153,
+        "width": 693,
+        "height": 132
+      },
+      "viewportShare": 0.0893,
+      "namedForConsent": true,
+      "text": "Il Corriere della Sera si impegna quotidianamente a fornirti informazione di qualità attraverso il lavoro di centinaia di giornalisti, grafici e tecnici. Per garantire un'informazione libera e accessibile facciamo ricorso a pubblicità profilata che copre i costi della navigazione così da permetterti di usufruire di una parte dei contenuti gratuitamente. Senza la pubblicità l'accesso ai nostri servizi avviene previo pagamento a pacchetti di abbonamento crescenti per contenuti e costo. Scegli se accedere al servizio di base permettendoci di erogare pubblicità personalizzata o aderendo a un piano",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "link"
+          ],
+          "text": "servizio di base",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 710,
+            "y": 244,
+            "width": 104,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "button#privacy-cp-wall-accept",
+      "tag": "button",
+      "id": "privacy-cp-wall-accept",
+      "classes": [
+        "privacy-cp-footer__button_cmp",
+        "privacy-cp-footer__button_cmp--big",
+        "privacy-cp-footer__button_cmp--main"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 270,
+        "y": 632,
+        "width": 725,
+        "height": 42
+      },
+      "viewportShare": 0.0297,
+      "namedForConsent": true,
+      "text": "ACCETTA E CONTINUA",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#privacy-cp-wall-settings",
+      "tag": "button",
+      "id": "privacy-cp-wall-settings",
+      "classes": [
+        "privacy-cp-footer__button_cmp",
+        "privacy-cp-footer__button_cmp--big",
+        "privacy-cp-footer__button_cmp--main"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 270,
+        "y": 684,
+        "width": 725,
+        "height": 42
+      },
+      "viewportShare": 0.0297,
+      "namedForConsent": true,
+      "text": "PREFERENZE",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > footer > p.privacy-cp-login__link_cmp",
+      "tag": "p",
+      "id": null,
+      "classes": [
+        "privacy-cp-login__link_cmp"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 270,
+        "y": 742,
+        "width": 725,
+        "height": 16
+      },
+      "viewportShare": 0.0113,
+      "namedForConsent": true,
+      "text": "Sei già abbonato? Accedi",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#privacy-cp-wall-login",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "privacy-cp-wall-login",
+          "classes": [],
+          "text": "Accedi",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 670,
+            "y": 741,
+            "width": 49,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#wall-accedi > div.privacy-cp-wall__container_cmp.privacy-cp-wall__container_cmp-header",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "privacy-cp-wall__container_cmp",
+        "privacy-cp-wall__container_cmp-header"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 286,
+        "y": 102,
+        "width": 163,
+        "height": 35
+      },
+      "viewportShare": 0.0056,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#privacy-cp-wall-reject-and-subscribe",
+      "tag": "a",
+      "id": "privacy-cp-wall-reject-and-subscribe",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 800,
+        "y": 108,
+        "width": 179,
+        "height": 22
+      },
+      "viewportShare": 0.0039,
+      "namedForConsent": true,
+      "text": "Rifiuta e abbonati",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#privacy-cp-wall-partnersList",
+      "tag": "a",
+      "id": "privacy-cp-wall-partnersList",
+      "classes": [
+        "link"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 739,
+        "y": 390,
+        "width": 93,
+        "height": 16
+      },
+      "viewportShare": 0.0015,
+      "namedForConsent": true,
+      "text": "in questa lista",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#privacy-cp-wall-login",
+      "tag": "a",
+      "id": "privacy-cp-wall-login",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 670,
+        "y": 741,
+        "width": 49,
+        "height": 17
+      },
+      "viewportShare": 0.0008,
+      "namedForConsent": true,
+      "text": "Accedi",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://buy.tinypass.com/checkout/template/cacheableShow.html?aid=aG4QZwTKpu&templateId=OTQTX0VPTHXB&templateVariantId=OTV6KGIMGF7YR&offerId=fakeOfferId&experienceId=EXGU4WIRLKSX&iframeId=offer_8f0cc0879d3a27e068c7-1&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template",
+      "name": "offer_8f0cc0879d3a27e068c7-1"
+    },
+    {
+      "src": "https://buy.tinypass.com/checkout/template/cacheableShow.html?aid=aG4QZwTKpu&templateId=OTQTX0VPTHXB&templateVariantId=OTV6KGIMGF7YR&offerId=fakeOfferId&experienceId=EXGU4WIRLKSX&iframeId=offer_8f0cc0879d3a27e068c7-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template",
+      "name": "offer_8f0cc0879d3a27e068c7-0"
+    },
+    {
+      "src": "https://buy.tinypass.com/checkout/template/cacheableShow.html?aid=aG4QZwTKpu&templateId=OT34ZVS5LPNY&templateVariantId=OTV3544SH5Q4Q&offerId=fakeOfferId&experienceId=EX1R9FV0G6SH&iframeId=offer_d0e53e2ba20ecd495a50-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template",
+      "name": "offer_d0e53e2ba20ecd495a50-0"
+    },
+    {
+      "src": "https://buy.tinypass.com/checkout/template/cacheableShow.html?aid=aG4QZwTKpu&templateId=OTGX4KBUZFV7&templateVariantId=OTV4296480FFQ&offerId=fakeOfferId&experienceId=EX1R9FV0G6SH&iframeId=offer_724b1db870a53370006c-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&widget=template",
+      "name": "offer_724b1db870a53370006c-0"
+    },
+    {
+      "src": "https://components2.rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml?userId=0",
+      "name": null
+    },
+    {
+      "src": "about:blank",
+      "name": "googlefcInactive"
+    },
+    {
+      "src": "about:blank",
+      "name": "googlefcLoaded"
+    },
+    {
+      "src": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+      "name": null
+    },
+    {
+      "src": "https://rcsmediagroupspa.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.corriere.it",
+      "name": "destination_publishing_iframe_rcsmediagroupspa_0_name"
+    },
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

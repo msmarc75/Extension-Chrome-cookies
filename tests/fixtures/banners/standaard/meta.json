@@ -1,0 +1,18 @@
+{
+  "slug": "standaard",
+  "requestedUrl": "https://www.standaard.be/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "challenges.cloudflare.com",
+    "www.standaard.be"
+  ],
+  "finalUrl": "https://www.standaard.be/",
+  "title": "Un instant…",
+  "lang": "en-US",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 3
+}

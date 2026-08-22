@@ -1,0 +1,50 @@
+{
+  "url": "https://www.bbc.com/",
+  "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+  "lang": "en-GB",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "__gpp",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": null,
+    "purposeConsents": []
+  },
+  "containers": [],
+  "frames": [
+    {
+      "src": "https://34b07258d67f5f3cbe3f6b6d5ff0eeae.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+      "name": null
+    },
+    {
+      "src": "https://buy-eu.piano.io/checkout/offer/show?displayMode=inline&containerSelector=%23subliminal-banner&templateId=OTH6KUW51OTD&offerId=OFR1N7V2XJPI&formNameByTermId=%7B%7D&hideCompletedFields=true&showCloseButton=false&checkoutFlowId=CFG71371VU4B&experienceActionId=showOfferOBJ6Z9UEQ9AN21&offerType=p",
+      "name": "offer-0-iXYRS"
+    },
+    {
+      "src": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+      "name": null
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api2/aframe",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&gpp_sid=-1&url=https%3A%2F%2Fwww.bbc.com%2F",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

@@ -1,0 +1,840 @@
+{
+  "url": "https://www.boursorama.com/",
+  "title": "Actualité économique, Bourse, Banque en ligne - Boursorama",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter → Boursorama et ses 33 partenaires souhaitent utiliser des cookies ou technologies équivalentes sur les pages du site www.boursorama.com pour stocker et/ou accéder à des informations sur votre appareil. Les données personnelles non nominatives (adresse IP, données de navigation, identifiant publicitaire, etc.) et les données non personnelles collectées via ces cookies permettent de diffuser des publicités et du contenu personnalisés ou non, mesurer la performance du contenu et des publicités, produire des données d’audience, et développer et améliorer les produits et se",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 758,
+            "y": 53,
+            "width": 182,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "33 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 470,
+            "y": 180,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 586,
+            "y": 492,
+            "width": 132,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes cookies",
+          "ariaLabel": "Gérer mes cookies: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Tout accepter",
+          "ariaLabel": "Tout accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 289,
+        "y": 12,
+        "width": 702,
+        "height": 776
+      },
+      "viewportShare": 0.532,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter → Boursorama et ses 33 partenaires souhaitent utiliser des cookies ou technologies équivalentes sur les pages du site www.boursorama.com pour stocker et/ou accéder à des informations sur votre appareil. Les données personnelles non nominatives (adresse IP, données de navigation, identifiant publicitaire, etc.) et les données non personnelles collectées via ces cookies permettent de diffuser des publicités et du contenu personnalisés ou non, mesurer la performance du contenu et des publicités, produire des données d’audience, et développer et améliorer les produits et se",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 758,
+            "y": 53,
+            "width": 182,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "33 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 470,
+            "y": 180,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 586,
+            "y": 492,
+            "width": 132,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes cookies",
+          "ariaLabel": "Gérer mes cookies: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Tout accepter",
+          "ariaLabel": "Tout accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 287,
+        "y": 10,
+        "width": 706,
+        "height": 780
+      },
+      "viewportShare": 0.5378,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter → Boursorama et ses 33 partenaires souhaitent utiliser des cookies ou technologies équivalentes sur les pages du site www.boursorama.com pour stocker et/ou accéder à des informations sur votre appareil. Les données personnelles non nominatives (adresse IP, données de navigation, identifiant publicitaire, etc.) et les données non personnelles collectées via ces cookies permettent de diffuser des publicités et du contenu personnalisés ou non, mesurer la performance du contenu et des publicités, produire des données d’audience, et développer et améliorer les produits et se",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 758,
+            "y": 53,
+            "width": 182,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "33 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 470,
+            "y": 180,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 586,
+            "y": 492,
+            "width": 132,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes cookies",
+          "ariaLabel": "Gérer mes cookies: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Tout accepter",
+          "ariaLabel": "Tout accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view",
+        "focus-visible"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 63,
+        "width": 600,
+        "height": 674
+      },
+      "viewportShare": 0.3949,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter → Boursorama et ses 33 partenaires souhaitent utiliser des cookies ou technologies équivalentes sur les pages du site www.boursorama.com pour stocker et/ou accéder à des informations sur votre appareil. Les données personnelles non nominatives (adresse IP, données de navigation, identifiant publicitaire, etc.) et les données non personnelles collectées via ces cookies permettent de diffuser des publicités et du contenu personnalisés ou non, mesurer la performance du contenu et des publicités, produire des données d’audience, et développer et améliorer les produits et se",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > span.didomi-continue-without-agreeing",
+          "tag": "span",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-continue-without-agreeing"
+          ],
+          "text": "Continuer sans accepter →",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 758,
+            "y": 53,
+            "width": 182,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "33 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 470,
+            "y": 180,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 586,
+            "y": 492,
+            "width": 132,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes cookies",
+          "ariaLabel": "Gérer mes cookies: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Tout accepter",
+          "ariaLabel": "Tout accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 177,
+        "width": 600,
+        "height": 480
+      },
+      "viewportShare": 0.2813,
+      "namedForConsent": true,
+      "text": "Boursorama et ses 33 partenaires souhaitent utiliser des cookies ou technologies équivalentes sur les pages du site www.boursorama.com pour stocker et/ou accéder à des informations sur votre appareil. Les données personnelles non nominatives (adresse IP, données de navigation, identifiant publicitaire, etc.) et les données non personnelles collectées via ces cookies permettent de diffuser des publicités et du contenu personnalisés ou non, mesurer la performance du contenu et des publicités, produire des données d’audience, et développer et améliorer les produits et services des partenaires. Le",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "33 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 470,
+            "y": 180,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 586,
+            "y": 492,
+            "width": 132,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 117,
+        "width": 600,
+        "height": 60
+      },
+      "viewportShare": 0.0352,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 340,
+        "y": 687,
+        "width": 600,
+        "height": 50
+      },
+      "viewportShare": 0.0293,
+      "namedForConsent": true,
+      "text": "Gérer mes cookies Tout accepter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Gérer mes cookies",
+          "ariaLabel": "Gérer mes cookies: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 435,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Tout accepter",
+          "ariaLabel": "Tout accepter: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 645,
+            "y": 687,
+            "width": 200,
+            "height": 50
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "button#didomi-notice-learn-more-button",
+      "tag": "button",
+      "id": "didomi-notice-learn-more-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-learn-more-button",
+        "didomi-button-standard",
+        "standard-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 435,
+        "y": 687,
+        "width": 200,
+        "height": 50
+      },
+      "viewportShare": 0.0098,
+      "namedForConsent": true,
+      "text": "Gérer mes cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 645,
+        "y": 687,
+        "width": 200,
+        "height": 50
+      },
+      "viewportShare": 0.0098,
+      "namedForConsent": true,
+      "text": "Tout accepter",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > div.didomi-popup-notice-logo-container > img.didomi-popup-notice-logo",
+      "tag": "img",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo"
+      ],
+      "role": "heading",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 540,
+        "y": 117,
+        "width": 200,
+        "height": 30
+      },
+      "viewportShare": 0.0059,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view.focus-visible > span.didomi-continue-without-agreeing",
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "didomi-continue-without-agreeing"
+      ],
+      "role": "button",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 758,
+        "y": 53,
+        "width": 182,
+        "height": 24
+      },
+      "viewportShare": 0.0043,
+      "namedForConsent": true,
+      "text": "Continuer sans accepter →",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "//www.ultimedia.com/deliver/generic/iframe/mdtk/01684514/owner_id/s03mx/zone/54/src/3upl55k?tagparam=chaine%3Decorama",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

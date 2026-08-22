@@ -1,0 +1,2435 @@
+{
+  "url": "https://www.marmiton.org/",
+  "title": "Marmiton : 78399 recettes de cuisine commentées et notées pour toutes les cuisines !",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Marmiton et ses 1117 partenaires souhaitent utiliser des cookies ou technologies similaires (incluant ) et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisati",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 416,
+            "y": 238,
+            "width": 90,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 869,
+            "y": 238,
+            "width": 29,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 601,
+            "y": 478,
+            "width": 266,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 643,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 100,
+        "width": 730,
+        "height": 600
+      },
+      "viewportShare": 0.4277,
+      "namedForConsent": true,
+      "text": "Marmiton et ses 1117 partenaires souhaitent utiliser des cookies ou technologies similaires (incluant ) et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisati",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 416,
+            "y": 238,
+            "width": 90,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 869,
+            "y": 238,
+            "width": 29,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 601,
+            "y": 478,
+            "width": 266,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 643,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 274,
+        "y": 99,
+        "width": 732,
+        "height": 602
+      },
+      "viewportShare": 0.4303,
+      "namedForConsent": true,
+      "text": "Marmiton et ses 1117 partenaires souhaitent utiliser des cookies ou technologies similaires (incluant ) et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisati",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 416,
+            "y": 238,
+            "width": 90,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 869,
+            "y": 238,
+            "width": 29,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 601,
+            "y": 478,
+            "width": 266,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 643,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 140,
+        "width": 630,
+        "height": 555
+      },
+      "viewportShare": 0.3415,
+      "namedForConsent": true,
+      "text": "Marmiton et ses 1117 partenaires souhaitent utiliser des cookies ou technologies similaires (incluant ) et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisati",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 416,
+            "y": 238,
+            "width": 90,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 869,
+            "y": 238,
+            "width": 29,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 601,
+            "y": 478,
+            "width": 266,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 643,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 220,
+        "width": 630,
+        "height": 360
+      },
+      "viewportShare": 0.2215,
+      "namedForConsent": true,
+      "text": "Marmiton et ses 1117 partenaires souhaitent utiliser des cookies ou technologies similaires (incluant ) et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisati",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 416,
+            "y": 238,
+            "width": 90,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 869,
+            "y": 238,
+            "width": 29,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de protection des données personnelles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 601,
+            "y": 478,
+            "width": 266,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
+          "tag": "a",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "didomi-notice-view-partners-link"
+          ],
+          "text": "Voir nos 1117 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-text-utiq",
+      "tag": "div",
+      "id": "didomi-text-utiq",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 510,
+        "width": 630,
+        "height": 327
+      },
+      "viewportShare": 0.2015,
+      "namedForConsent": true,
+      "text": "Utilisation de la technologie , alimentée par votre opérateur télécom Nous, Reworld Media, utilisons la technologie Utiq pour nos activités digitales (telles que décrites dans cette notice de consentement) et liées à votre navigation sur nos sites (seulement si vous utilisez une connexion internet fournie par un opérateur télécom participant et que vous consentez sur chaque site). La technologie Utiq a été conçue pour la protection de vos données personnelles en vous offrant choix et contrôle. Elle utilise un identifiant créé par votre opérateur télécom basé sur votre adresse IP et une référen",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "sur nos sites",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 569,
+            "y": 564,
+            "width": 69,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "opérateur télécom",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 363,
+            "y": 582,
+            "width": 99,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "portail d'Utiq (\"consenthub\")",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 562,
+            "y": 804,
+            "width": 151,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#didomi-text-utiq > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de protection des données personnelles d'Utiq",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 822,
+            "width": 302,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 325,
+        "y": 140,
+        "width": 630,
+        "height": 80
+      },
+      "viewportShare": 0.0492,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#buttons",
+      "tag": "div",
+      "id": "buttons",
+      "classes": [
+        "multiple",
+        "didomi-buttons",
+        "didomi-popup-notice-buttons"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 630,
+        "width": 630,
+        "height": 65
+      },
+      "viewportShare": 0.04,
+      "namedForConsent": true,
+      "text": "Paramétrer Je n'accepte rien J'accepte tout",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "Paramétrer",
+          "ariaLabel": "Paramétrer: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 275,
+            "y": 643,
+            "width": 203,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Je n'accepte rien",
+          "ariaLabel": "Je n'accepte rien: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 488,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "J'accepte tout",
+          "ariaLabel": "J'accepte tout: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 701,
+            "y": 643,
+            "width": 204,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container > img.didomi-popup-notice-logo",
+      "tag": "img",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo"
+      ],
+      "role": "heading",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 540,
+        "y": 140,
+        "width": 200,
+        "height": 50
+      },
+      "viewportShare": 0.0098,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-disagree-button",
+      "tag": "button",
+      "id": "didomi-notice-disagree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-disagree-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 488,
+        "y": 643,
+        "width": 204,
+        "height": 40
+      },
+      "viewportShare": 0.008,
+      "namedForConsent": true,
+      "text": "Je n'accepte rien",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-agree-button",
+      "tag": "button",
+      "id": "didomi-notice-agree-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-dismiss-button",
+        "didomi-components-button--color",
+        "didomi-button-highlight",
+        "highlight-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 701,
+        "y": 643,
+        "width": 204,
+        "height": 40
+      },
+      "viewportShare": 0.008,
+      "namedForConsent": true,
+      "text": "J'accepte tout",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "button#didomi-notice-learn-more-button",
+      "tag": "button",
+      "id": "didomi-notice-learn-more-button",
+      "classes": [
+        "didomi-components-button",
+        "didomi-button",
+        "didomi-learn-more-button",
+        "didomi-button-standard",
+        "standard-button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 275,
+        "y": 643,
+        "width": 203,
+        "height": 40
+      },
+      "viewportShare": 0.0079,
+      "namedForConsent": true,
+      "text": "Paramétrer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body",
+      "tag": "header",
+      "id": null,
+      "classes": [
+        "header",
+        "marmiton-body"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "5500022",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 160
+      },
+      "viewportShare": 0.2,
+      "namedForConsent": false,
+      "text": "Je cherche Se connecter Qu'est-ce qu'on mange ce soir ? Univers Electroménager Actus Food Du caddie à l'assiette À fond le Petit Déj’ 100% recettes d’été Faites chauffer le barbecue !",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-left > a.header__content-logo",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-logo"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 57,
+            "y": 11,
+            "width": 220,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > form.header__content-search > button.header__content-search-icon",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-search-icon"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": "Recherche...",
+          "rect": {
+            "x": 351,
+            "y": 20,
+            "width": 34,
+            "height": 24
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-right > button.mealz",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "mealz"
+          ],
+          "text": "",
+          "ariaLabel": "panier",
+          "title": null,
+          "rect": {
+            "x": 952,
+            "y": 13,
+            "width": 39,
+            "height": 39
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-right > div.header__content-icon-logged-in > a.header__content-icon-recipes",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-icon-recipes"
+          ],
+          "text": "Mes recettes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-right > div.header__content-icon-logged-in > div > div.header__content-icon-logged-in-content-actions > a.header__content-icon-link--logged-in",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-icon-link--logged-in"
+          ],
+          "text": "Paramètres de compte",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-right > a.header__content-icon-link.header__content-icon-link--newsletter",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-icon-link",
+            "header__content-icon-link--newsletter"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1171,
+            "y": 20,
+            "width": 25,
+            "height": 25
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "html.no-js.homepage > body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__content > div.header__content-right > a.header__content-icon-link.header__content-icon-link--magazine",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__content-icon-link",
+            "header__content-icon-link--magazine"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1228,
+            "y": 20,
+            "width": 28,
+            "height": 25
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__menu > div.header__menu-user > div.header__menu-user-logged-in > div.header__menu-user-logged-in-infos > div.header__menu-user-logged-in-cta > a.header__menu-user-logged-in-cta-recipes",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-user-logged-in-cta-recipes"
+          ],
+          "text": "Mes recettes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > div.header__menu-column-item-title > a.header__menu-column-title-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-title-link"
+          ],
+          "text": "Actualités",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 70,
+            "width": 69,
+            "height": 32
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Apéro",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 190,
+            "width": 43,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Entrées",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 224,
+            "width": 55,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Plats",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 258,
+            "width": 36,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Desserts",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 292,
+            "width": 63,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Boissons",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 326,
+            "width": 65,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Brunch & Petit Déj",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 360,
+            "width": 131,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Au menu ce soir avec Cookeo de",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 394,
+            "width": 280,
+            "height": 72
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes rapides et faciles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 554,
+            "width": 188,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Nos menus 3€, 2€, 1€ avec",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 588,
+            "width": 249,
+            "height": 90
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes anti-gaspi",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 694,
+            "width": 137,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Nouvelles Recettes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 728,
+            "width": 138,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "L’excellence italienne au quotidien avec",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 762,
+            "width": 280,
+            "height": 106
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Top des recettes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 884,
+            "width": 117,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Proposer une recette",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 40,
+            "y": 918,
+            "width": 149,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Healthy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 118,
+            "width": 122,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Végétariennes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 152,
+            "width": 171,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Vegan",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 186,
+            "width": 113,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Sans Gluten",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 220,
+            "width": 156,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Noël",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 326,
+            "width": 33,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Chandeleur",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 360,
+            "width": 83,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Pâques",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 394,
+            "width": 54,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Saint-Valentin",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 428,
+            "width": 98,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Halloween",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 462,
+            "width": 75,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Ramadan",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 362,
+            "y": 496,
+            "width": 69,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > div.header__menu-column-item-title > a.header__menu-column-title-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-title-link"
+          ],
+          "text": "Univers Electroménager",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 70,
+            "width": 172,
+            "height": 32
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Gros Electroménager",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 118,
+            "width": 152,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Petit Electroménager",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 152,
+            "width": 149,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body.body-domuser-fr.didomi-popup-open > header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > div.header__menu-column-item-title > a.header__menu-column-title-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-title-link"
+          ],
+          "text": "Cuisine du Monde",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 210,
+            "width": 129,
+            "height": 32
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Italiennes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 258,
+            "width": 136,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Japonaises",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 292,
+            "width": 149,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "header.header.marmiton-body > div.header__menu > div.header__menu-content > div.header__menu-column > div.header__menu-column-item > ul.header__menu-column-item-submenu > li.header__menu-column-item-submenu-item > a.header__menu-column-item-submenu-item-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "header__menu-column-item-submenu-item-link"
+          ],
+          "text": "Recettes Indiennes",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 682,
+            "y": 326,
+            "width": 137,
+            "height": 18
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

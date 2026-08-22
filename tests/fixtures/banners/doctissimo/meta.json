@@ -1,0 +1,39 @@
+{
+  "slug": "doctissimo",
+  "requestedUrl": "https://www.doctissimo.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "assets.sparteo.com",
+    "cdn.viously.com",
+    "experiences.mrf.io",
+    "sdk.mrf.io",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "sonar.viously.com",
+    "sync.sparteo.com",
+    "www.doctissimo.fr",
+    "www.flashb.id",
+    "www.googletagmanager.com",
+    "www.wysistat.com"
+  ],
+  "finalUrl": "https://www.doctissimo.fr/",
+  "title": "Doctissimo : toutes les actualité santé",
+  "lang": "fr-FR",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 56
+}

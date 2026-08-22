@@ -1,0 +1,106 @@
+{
+  "url": "https://www.theguardian.com/us",
+  "title": "Latest news, sport and opinion from the Guardian",
+  "lang": "en",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__gpp",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": null,
+  "containers": [
+    {
+      "path": "div#sp_message_container_1498198",
+      "tag": "div",
+      "id": "sp_message_container_1498198",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 470,
+        "width": 1280,
+        "height": 330
+      },
+      "viewportShare": 0.4125,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://sourcepoint.theguardian.com/us_pm/index.html?hasCsp=true&usNatOrigin=https%3A%2F%2Fsourcepoint.theguardian.com%2Fusnat&uuid=null&message_id=1498198&site_id=7417&mms_origin=https%3A%2F%2Fsourcepoint.theguardian.com%2Fmms%2Fv2&is_usnat_notice=true&version=v1",
+      "name": null
+    },
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    },
+    {
+      "src": "about:blank",
+      "name": "__bm_locator"
+    },
+    {
+      "src": "https://assets.guim.co.uk/commercial/tpc-test/v2/index.html",
+      "name": null
+    },
+    {
+      "src": "https://google-bidout-d.openx.net/w/1.0/pd?plm=5",
+      "name": null
+    },
+    {
+      "src": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=ox-db5_gg_n-vmg_n-index_n-adYouLike_n-MediaNet_n-Seedtag_rx_3lift_smrt_n-blis_an-db5_pm-db5_n-Ogury",
+      "name": null
+    },
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=www.theguardian.com&gpp=DBABRg~BVoAACA&gpp_sid=9#{\"bundle\":{\"origin\":0},\"optout\":{\"value\":false,\"origin\":0},\"tld\":\"theguardian.com\",\"topUrl\":\"www.theguardian.com\",\"version\":108604,\"origin\":\"publishertagids\",\"requestId\":\"0.314769977631417",
+      "name": null
+    },
+    {
+      "src": "about:blank",
+      "name": null
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api2/aframe",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gpp=DBABRg~BVoAACA&gpp_sid=9&url=https%3A%2F%2Fwww.theguardian.com%2Fus",
+      "name": null
+    },
+    {
+      "src": "https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=157206&gpp=DBABRg~BVoAACA&gpp_sid=9",
+      "name": null
+    },
+    {
+      "src": "https://eb2.3lift.com/sync?gpp=DBABRg~BVoAACA&gpp_sid=9&",
+      "name": null
+    },
+    {
+      "src": "https://elb.the-ozone-project.com/static/load-cookie.html?gdpr=0&gdpr_consent=&usp_consent=&gpp=DBABRg~BVoAACA&gpp_sid=9&pubcid.org=256a7f6c-57b8-4795-a2f6-67ac2a2dc2e0&publisherId=OZONEGMG0001&siteId=4204204209&cb=1787388447811&bidder=ozone",
+      "name": null
+    },
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.theguardian.com&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9974352707573605%22,%22tld%22:%22www.theguardian.com%22,%22topUrl%22:%22www.theguardian.com%22",
+      "name": null
+    },
+    {
+      "src": "https://js-sec.indexww.com/um/ixmatch.html",
+      "name": null
+    },
+    {
+      "src": "https://eus.rubiconproject.com/usync.html?gpp=DBABRg~BVoAACA&gpp_sid=9",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

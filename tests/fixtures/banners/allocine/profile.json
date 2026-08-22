@@ -1,0 +1,1344 @@
+{
+  "url": "https://www.allocine.fr/",
+  "title": "AlloCiné : Cinéma, Séries TV, BO de films et séries, Vidéos, DVD et VOD",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#didomi-popup",
+      "tag": "div",
+      "id": "didomi-popup",
+      "classes": [
+        "didomi-popup-backdrop",
+        "didomi-notice-popup",
+        "didomi-popup__backdrop"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483641",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Exprimez vos choix Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-subscription",
+            "jad_cmp_paywall_subscription",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 346,
+            "y": 672,
+            "width": 117,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-cookies",
+            "jad_cmp_paywall_cookies",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 672,
+            "width": 92,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 693,
+            "y": 736,
+            "width": 133,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Refuser",
+          "ariaLabel": "Refuser: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter & Fermer",
+          "ariaLabel": "Accepter & Fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-container",
+        "didomi-popup__dialog",
+        "didomi-popup-notice",
+        "didomi-popup-notice-optin-type",
+        "didomi-popup-notice-with-data-processing"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 178,
+        "y": 1,
+        "width": 925,
+        "height": 912
+      },
+      "viewportShare": 0.8238,
+      "namedForConsent": true,
+      "text": "Exprimez vos choix Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-subscription",
+            "jad_cmp_paywall_subscription",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 346,
+            "y": 672,
+            "width": 117,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-cookies",
+            "jad_cmp_paywall_cookies",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 672,
+            "width": 92,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 693,
+            "y": 736,
+            "width": 133,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Refuser",
+          "ariaLabel": "Refuser: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter & Fermer",
+          "ariaLabel": "Accepter & Fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-exterior-border",
+        "didomi-popup__exterior-border"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 177,
+        "y": 0,
+        "width": 927,
+        "height": 914
+      },
+      "viewportShare": 0.8274,
+      "namedForConsent": true,
+      "text": "Exprimez vos choix Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-subscription",
+            "jad_cmp_paywall_subscription",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 346,
+            "y": 672,
+            "width": 117,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-cookies",
+            "jad_cmp_paywall_cookies",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 672,
+            "width": 92,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 693,
+            "y": 736,
+            "width": 133,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Refuser",
+          "ariaLabel": "Refuser: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter & Fermer",
+          "ariaLabel": "Accepter & Fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-view"
+      ],
+      "role": "document",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 47,
+        "width": 873,
+        "height": 820
+      },
+      "viewportShare": 0.6991,
+      "namedForConsent": true,
+      "text": "Exprimez vos choix Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-subscription",
+            "jad_cmp_paywall_subscription",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 346,
+            "y": 672,
+            "width": 117,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-cookies",
+            "jad_cmp_paywall_cookies",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 672,
+            "width": 92,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 693,
+            "y": 736,
+            "width": 133,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-learn-more-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-learn-more-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-learn-more-button",
+            "didomi-button-standard",
+            "standard-button"
+          ],
+          "text": "En savoir plus →",
+          "ariaLabel": "En savoir plus: Configurer vos consentements",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-disagree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-disagree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-disagree-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Refuser",
+          "ariaLabel": "Refuser: Refuser notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#didomi-notice-agree-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "didomi-notice-agree-button",
+          "classes": [
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "Accepter & Fermer",
+          "ariaLabel": "Accepter & Fermer: Accepter notre traitement des données et fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-text-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 101,
+        "width": 873,
+        "height": 766
+      },
+      "viewportShare": 0.653,
+      "namedForConsent": true,
+      "text": "Exprimez vos choix Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-subscription",
+            "jad_cmp_paywall_subscription",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 346,
+            "y": 672,
+            "width": 117,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "jad_cmp_paywall_button",
+            "jad_cmp_paywall_button-cookies",
+            "jad_cmp_paywall_cookies",
+            "didomi-components-button",
+            "didomi-button",
+            "didomi-dismiss-button",
+            "didomi-components-button--color",
+            "didomi-button-highlight",
+            "highlight-button"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 672,
+            "width": 92,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politique de cookies",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 693,
+            "y": 736,
+            "width": 133,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_section",
+        "jad_cmp_paywall_section-cookies",
+        "jad_cmp_paywall_cookies"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 656,
+        "y": 126,
+        "width": 420,
+        "height": 526
+      },
+      "viewportShare": 0.2159,
+      "namedForConsent": true,
+      "text": "au site gratuitement en acceptant les cookies publicitaires Si vous choisissez d’accéder au site gratuitement, vous consentez à ce que Webedia et ses 1031 partenaires (dont 1015 partenaires IAB) collectent des informations personnelles (ex. visites sur ce site, profil de navigation, votre identifiant unique...) et déposent des cookies publicitaires ou utilisent des technologies similaires sur pour : stocker et/ou accéder à des informations sur un appareil, utiliser des données limitées pour sélectionner la publicité et le contenu, créer des profils pour la publicité personnalisée, utiliser des",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_text",
+        "jad_cmp_paywall_text-cookies",
+        "jad_cmp_paywall_cookies",
+        "collapsed"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 656,
+        "y": 172,
+        "width": 420,
+        "height": 480
+      },
+      "viewportShare": 0.197,
+      "namedForConsent": true,
+      "text": "Si vous choisissez d’accéder au site gratuitement, vous consentez à ce que Webedia et ses 1031 partenaires (dont 1015 partenaires IAB) collectent des informations personnelles (ex. visites sur ce site, profil de navigation, votre identifiant unique...) et déposent des cookies publicitaires ou utilisent des technologies similaires sur pour : stocker et/ou accéder à des informations sur un appareil, utiliser des données limitées pour sélectionner la publicité et le contenu, créer des profils pour la publicité personnalisée, utiliser des profils pour sélectionner des publicités personnalisées, cr",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "ses 1031 partenaires (dont 1015 partenaires IAB)",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 656,
+            "y": 186,
+            "width": 393,
+            "height": 32
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_intro",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_intro"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 752,
+        "width": 873,
+        "height": 115
+      },
+      "viewportShare": 0.098,
+      "namedForConsent": true,
+      "text": "Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre les deux alternati",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_section",
+        "jad_cmp_paywall_section-subscription",
+        "jad_cmp_paywall_subscription"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 126,
+        "width": 403,
+        "height": 241
+      },
+      "viewportShare": 0.0948,
+      "namedForConsent": true,
+      "text": "au site pour TTC pendant 1 mois sans cookie publicitaire Si vous choisissez de bénéficier de l'offre payante, aucun cookie publicitaire ne sera déposé pour analyser votre navigation. Seuls les cookies strictement nécessaires au bon fonctionnement du site et à l’analyse de son audience seront déposés et lus lors de votre connexion et navigation. Ces cookies ne sont pas soumis à votre consentement. Si vous bénéficiez déjà de l’offre, vous pouvez vous reconnecter en cliquant ici. Si vous souscrivez à cette offre, veuillez toutefois noter que des publicités seront toujours visibles lorsque vous ac",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_intro > div.jad_cmp_paywall_intro-text.mobile-collapsed",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_intro-text",
+        "mobile-collapsed"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 767,
+        "width": 873,
+        "height": 90
+      },
+      "viewportShare": 0.0767,
+      "namedForConsent": true,
+      "text": "Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre les deux alternati",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription > div.jad_cmp_paywall_text.jad_cmp_paywall_text-subscription",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_text",
+        "jad_cmp_paywall_text-subscription",
+        "jad_cmp_paywall_subscription",
+        "collapsed"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 172,
+        "width": 403,
+        "height": 195
+      },
+      "viewportShare": 0.0767,
+      "namedForConsent": true,
+      "text": "Si vous choisissez de bénéficier de l'offre payante, aucun cookie publicitaire ne sera déposé pour analyser votre navigation. Seuls les cookies strictement nécessaires au bon fonctionnement du site et à l’analyse de son audience seront déposés et lus lors de votre connexion et navigation. Ces cookies ne sont pas soumis à votre consentement. Si vous bénéficiez déjà de l’offre, vous pouvez vous reconnecter en cliquant ici. Si vous souscrivez à cette offre, veuillez toutefois noter que des publicités seront toujours visibles lorsque vous accéderez au site. Cependant, celles-ci ne seront pas basée",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "a#cmp-paywall-tos1",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "cmp-paywall-tos1",
+          "classes": [],
+          "text": "Voir les conditions de l’offre",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 204,
+            "y": 351,
+            "width": 182,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo-container"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 47,
+        "width": 873,
+        "height": 54
+      },
+      "viewportShare": 0.046,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription > div.jad_cmp_paywall_text.jad_cmp_paywall_text-subscription > p > span.jad_cmp_paywall_small-text",
+      "tag": "span",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_small-text"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 204,
+        "y": 291,
+        "width": 394,
+        "height": 62
+      },
+      "viewportShare": 0.0239,
+      "namedForConsent": true,
+      "text": "Si vous souscrivez à cette offre, veuillez toutefois noter que des publicités seront toujours visibles lorsque vous accéderez au site. Cependant, celles-ci ne seront pas basées sur des cookies publicitaires.",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > h4.jad_cmp_paywall_title.jad_cmp_paywall_title-cookies",
+      "tag": "h4",
+      "id": null,
+      "classes": [
+        "jad_cmp_paywall_title",
+        "jad_cmp_paywall_title-cookies",
+        "jad_cmp_paywall_cookies"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 656,
+        "y": 126,
+        "width": 420,
+        "height": 30
+      },
+      "viewportShare": 0.0123,
+      "namedForConsent": true,
+      "text": "au site gratuitement en acceptant les cookies publicitaires",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

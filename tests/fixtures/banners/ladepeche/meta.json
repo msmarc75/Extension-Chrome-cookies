@@ -1,0 +1,41 @@
+{
+  "slug": "ladepeche",
+  "requestedUrl": "https://www.ladepeche.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "accounts.google.com",
+    "ads.videoadex.com",
+    "assets.ladepeche.fr",
+    "carrousel.digiteka.com",
+    "play.audiomoney.fr",
+    "profil.ladepeche.fr",
+    "sdk.privacy-center.org",
+    "tag.aticdn.net",
+    "videofeed.digiteka.com",
+    "www.googletagmanager.com",
+    "www.ladepeche.fr",
+    "ylbnnybjum.kameleoon.eu"
+  ],
+  "finalUrl": "https://www.ladepeche.fr/",
+  "title": "La Dépêche : Actualités en temps réel et l'info en continu - ladepeche.fr",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [
+    ":root > dtk-carrousel"
+  ],
+  "bodyChildCount": 27
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "journaldunet",
+  "requestedUrl": "https://www.journaldunet.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "agent.intentiq.com",
+    "ajax.googleapis.com",
+    "astatic.ccmbg.com",
+    "ats-wrapper.privacymanager.io",
+    "cdn-analytics.alketech.eu",
+    "cdn.adsafeprotected.com",
+    "cdn.appconsent.io",
+    "cdn.binsiad.com",
+    "cdn.browsiprod.com",
+    "cdn.opecloud.com",
+    "dpm.zebestof.com",
+    "ep2.adtrafficquality.google",
+    "lib.nexx360.io",
+    "mv.outbrainimg.com",
+    "pagead2.googlesyndication.com",
+    "sb.scorecardresearch.com",
+    "secure.adnxs.com",
+    "securepubads.g.doubleclick.net",
+    "static-lists.linternaute.com",
+    "static.criteo.net",
+    "utiq.journaldunet.com",
+    "widgets.teads-xo.com",
+    "www.googletagmanager.com",
+    "www.wysistat.com"
+  ],
+  "finalUrl": "https://www.journaldunet.com/",
+  "title": "JDN : Business, IA, Tech-Média, Cybersécurité, Action publique",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "gtag",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 2,
+    "cmpVersion": 10,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": false,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 132
+}

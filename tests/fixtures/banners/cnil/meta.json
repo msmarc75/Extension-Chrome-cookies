@@ -1,0 +1,20 @@
+{
+  "slug": "cnil",
+  "requestedUrl": "https://www.cnil.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "piwik.cnil.fr",
+    "www.cnil.fr"
+  ],
+  "finalUrl": "https://www.cnil.fr/fr",
+  "title": "Particulier | CNIL",
+  "lang": "fr",
+  "globals": [
+    "tarteaucitron",
+    "dataLayer"
+  ],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 63
+}

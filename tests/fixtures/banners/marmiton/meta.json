@@ -1,0 +1,43 @@
+{
+  "slug": "marmiton",
+  "requestedUrl": "https://www.marmiton.org/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "assets.sparteo.com",
+    "cdn.jsdelivr.net",
+    "implcit.afcdn.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "plausible.io",
+    "sc.affilizz.com",
+    "sdk.mrf.io",
+    "sdk.privacy-center.org",
+    "securepubads.g.doubleclick.net",
+    "static-rmr.reworldmediafactory.com",
+    "static.afcdn.com",
+    "statics.marmiton.fr",
+    "sync.sparteo.com",
+    "unpkg.com",
+    "www.flashb.id",
+    "www.googletagmanager.com",
+    "www.wysistat.com"
+  ],
+  "finalUrl": "https://www.marmiton.org/",
+  "title": "Marmiton : 78399 recettes de cuisine commentées et notées pour toutes les cuisines !",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 102
+}

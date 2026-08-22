@@ -14,113 +14,22 @@
  * be passed. Run it with `npm run verify:capture`.
  */
 
-import { execFileSync } from 'node:child_process';
-import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { chromium } from '@playwright/test';
 import { registrableDomain } from '../extension/src/shared/hosts.js';
+import { SANDBOX_CAVEAT, launchHarness, sandboxed } from './lib/harness.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
-const EXTENSION = join(ROOT, 'dist', 'extension');
 const OUT_DIR = join(ROOT, 'docs', 'verification');
 const SITES = JSON.parse(readFileSync(join(ROOT, 'tests/fixtures/sites/phase2.json'), 'utf8'));
 
 const OBSERVATION_MS = 5_000;
 
-/*
- * --- Sandbox accommodations -------------------------------------------------
- *
- * None of this belongs to the product; it is what makes a browser reach the
- * internet from inside this container, and it is confined to this script.
- *
- * Outbound HTTPS is tunnelled through a local proxy that re-terminates TLS. The
- * standard CA environment variables point every other tool at its bundle, but
- * Chromium reads neither those nor the system store — it uses its own root
- * store plus the NSS user database, and there is no `certutil` here to populate
- * one. So the interception CAs are extracted from the bundle and allowed by
- * public-key hash: the same trust decision the rest of the toolchain already
- * makes, expressed the only way Chromium accepts it. Certificate verification
- * stays on for everything else.
- *
- * Chromium also resolves names over DNS-over-HTTPS by default, directly rather
- * than through the proxy, which simply fails here. With the proxy doing
- * resolution, DoH has nothing to add.
- *
- * Finally, the egress gateway resets Chromium's TLS 1.3 ClientHello — 1785
- * bytes of it, most of them the post-quantum key share — while accepting the
- * same handshake from `openssl` and from TLS 1.2. Capping the harness browser
- * at 1.2 is transport-level only: it changes nothing about which scripts a page
- * loads or which trackers it calls, but it is an artefact of this container and
- * is recorded in the run's own report so no reader mistakes it for a finding.
- */
-function sandboxArgs() {
-  const proxy = process.env.HTTPS_PROXY ?? process.env.https_proxy;
-  if (!proxy) return [];
-
-  const bundlePath = process.env.SSL_CERT_FILE ?? '/root/.ccr/ca-bundle.crt';
-  const spki = interceptionCaSpki(bundlePath);
-
-  return [
-    `--proxy-server=${proxy}`,
-    '--disable-features=DnsOverHttps',
-    '--ssl-version-max=tls1.2',
-    ...(spki.length > 0 ? [`--ignore-certificate-errors-spki-list=${spki.join(',')}`] : []),
-  ];
-}
-
-/** True when the run was taken through the container's inspecting proxy. */
-const sandboxed = () => sandboxArgs().length > 0;
-
-/** SHA-256 public-key hashes of the self-signed interception CAs in a bundle. */
-function interceptionCaSpki(bundlePath) {
-  let bundle;
-  try {
-    bundle = readFileSync(bundlePath, 'utf8');
-  } catch {
-    return [];
-  }
-
-  const certificates = bundle.match(
-    /-----BEGIN CERTIFICATE-----[\s\S]*?-----END CERTIFICATE-----/g,
-  );
-  const hashes = [];
-
-  for (const certificate of certificates ?? []) {
-    const subject = openssl(['x509', '-noout', '-subject'], certificate);
-    if (!/O\s*=\s*Anthropic/.test(subject)) continue;
-    const publicKey = openssl(['x509', '-pubkey', '-noout'], certificate);
-    const hash = execFileSync(
-      'sh',
-      [
-        '-c',
-        'openssl pkey -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64',
-      ],
-      { input: publicKey, encoding: 'utf8' },
-    ).trim();
-    if (!hashes.includes(hash)) hashes.push(hash);
-  }
-  return hashes;
-}
-
-function openssl(args, input) {
-  return execFileSync('openssl', args, { input, encoding: 'utf8' });
-}
-
 /* --- The run --------------------------------------------------------------- */
 
 async function main() {
-  const profile = mkdtempSync(join(tmpdir(), 'consent-audit-verify-'));
-  const context = await chromium.launchPersistentContext(profile, {
-    executablePath: '/opt/pw-browsers/chromium',
-    args: [
-      `--disable-extensions-except=${EXTENSION}`,
-      `--load-extension=${EXTENSION}`,
-      '--no-sandbox',
-      ...sandboxArgs(),
-    ],
-  });
+  const { context, close } = await launchHarness({ extension: true });
 
   const worker =
     context.serviceWorkers()[0] ?? (await context.waitForEvent('serviceworker'));
@@ -151,8 +60,7 @@ async function main() {
     );
   }
 
-  await context.close();
-  rmSync(profile, { recursive: true, force: true });
+  await close();
 
   mkdirSync(OUT_DIR, { recursive: true });
   const stamp = new Date().toISOString().slice(0, 10);
@@ -183,15 +91,7 @@ function renderReport(results, stamp) {
     'loaded in a clean profile, watched for five seconds, and never touched. Whatever',
     'appears here, the visitor received before being asked anything.',
     '',
-    ...(sandboxed()
-      ? [
-          '> Taken from inside a sandbox whose egress gateway re-terminates TLS, caps the',
-          '> browser at TLS 1.2, and may refuse hosts a normal network would allow. Counts',
-          '> here are therefore a floor, not a measurement of what these sites do in the',
-          '> wild. What the run establishes is that capture A sees what the page asks for.',
-          '',
-        ]
-      : []),
+    ...(sandboxed() ? [...SANDBOX_CAVEAT, '', ...['> What the run establishes is that capture A sees what the page asks for.', '']] : []),
     '| Site | 3rd-party domains | Requests | Cookies (3rd) | Storage | First deposit |',
     '|---|---|---|---|---|---|',
   ];

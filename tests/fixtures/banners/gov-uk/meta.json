@@ -1,0 +1,16 @@
+{
+  "slug": "gov-uk",
+  "requestedUrl": "https://www.gov.uk/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "www.gov.uk"
+  ],
+  "finalUrl": "https://www.gov.uk/",
+  "title": "Welcome to GOV.UK",
+  "lang": "en",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 8
+}

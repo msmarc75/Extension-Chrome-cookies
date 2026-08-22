@@ -1,0 +1,14 @@
+{
+  "slug": "nu-nl",
+  "requestedUrl": "https://www.nu.nl/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [],
+  "finalUrl": "https://myprivacy.dpgmedia.nl/consent?siteKey=ucf98legs1caotgh&callbackUrl=https%3A%2F%2Fwww.nu.nl%2Fprivacy-gate%2Faccept%3FredirectUri%3D%252F&isLoggedIn=false",
+  "title": "Access Denied",
+  "lang": null,
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 4
+}

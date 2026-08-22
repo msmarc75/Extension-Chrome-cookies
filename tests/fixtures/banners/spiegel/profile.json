@@ -1,0 +1,278 @@
+{
+  "url": "https://www.spiegel.de/",
+  "title": "DER SPIEGEL | Online-Nachrichten",
+  "lang": "de",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sp_message_container_1426772",
+      "tag": "div",
+      "id": "sp_message_container_1426772",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "html.print:text-xs.hide-conditional > body.bg-shade-lightest.dark:bg-black > header.sticky.print:absolute",
+      "tag": "header",
+      "id": null,
+      "classes": [
+        "sticky",
+        "print:absolute",
+        "print:w-full",
+        "top-0",
+        "-mt-8",
+        "z-30",
+        "pointer-events-none"
+      ],
+      "role": "banner",
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "30",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 80
+      },
+      "viewportShare": 0.1,
+      "namedForConsent": false,
+      "text": "Abonnement Anmelden",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > span.flex.flex-auto > span.shrink-0.text-white > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "DER SPIEGEL",
+          "ariaLabel": "DER SPIEGEL",
+          "title": "DER SPIEGEL",
+          "rect": {
+            "x": 162,
+            "y": 29,
+            "width": 175,
+            "height": 23
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > div.flex.items-center > a.font-bold.bg-primary-base",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "font-bold",
+            "bg-primary-base",
+            "dark:bg-dm-primary-base",
+            "inline-block",
+            "text-white",
+            "font-sansUI",
+            "py-12",
+            "text-s",
+            "md:hidden",
+            "lg:hidden"
+          ],
+          "text": "Anmelden",
+          "ariaLabel": null,
+          "title": "Jetzt anmelden",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > div.flex.items-center > a.sm:hidden.font-bold",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "sm:hidden",
+            "font-bold",
+            "bg-primary-base",
+            "dark:bg-dm-primary-base",
+            "inline-block",
+            "text-white",
+            "font-sansUI",
+            "py-12",
+            "text-s"
+          ],
+          "text": "Abonnement",
+          "ariaLabel": null,
+          "title": "Abonnement",
+          "rect": {
+            "x": 897,
+            "y": 19,
+            "width": 81,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > div.flex.items-center > span.sm:hidden > a.inline-flex.items-center",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "inline-flex",
+            "items-center",
+            "font-bold",
+            "font-sansUI",
+            "rounded",
+            "text-primary-base",
+            "bg-white",
+            "hover:text-primary-dark",
+            "focus:text-primary-darker",
+            "dark:text-primary-base",
+            "px-16",
+            "min-h-44"
+          ],
+          "text": "Anmelden",
+          "ariaLabel": null,
+          "title": "Jetzt anmelden",
+          "rect": {
+            "x": 1002,
+            "y": 18,
+            "width": 116,
+            "height": 44
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > div.flex.items-center > button.bg-white.sm:h-32",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "bg-white",
+            "sm:h-32",
+            "md:h-40",
+            "lg:h-40",
+            "sm:w-32",
+            "md:w-40",
+            "lg:w-40",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "rounded-circle",
+            "text-primary-base"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": "Für Mich",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#header-bar > div.bg-primary-base.dark:bg-dm-primary-base > div.mx-auto.flex > button.text-white.dark:text-shade-lightest",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "text-white",
+            "dark:text-shade-lightest",
+            "leading-none",
+            "outline-focus",
+            "transition-fade",
+            "duration-300",
+            "ease-out",
+            "lg:absolute",
+            "lg:h-full",
+            "lg:top-0",
+            "lg:invisible",
+            "lg:opacity-none"
+          ],
+          "text": "Menü öffnen",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 158,
+            "y": 0,
+            "width": 24,
+            "height": 80
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "html.print:text-xs.hide-conditional > body.bg-shade-lightest.dark:bg-black > header.sticky.print:absolute > div > div.hidden.print:flex > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": "DER SPIEGEL",
+          "title": "DER SPIEGEL",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://sp-spiegel-de.spiegel.de/index.html?hasCsp=true&message_id=1426772&consentUUID=null&consent_origin=https%3A%2F%2Fsp-spiegel-de.spiegel.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=en",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

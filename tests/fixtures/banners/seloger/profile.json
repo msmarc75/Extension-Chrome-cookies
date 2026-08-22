@@ -1,0 +1,20 @@
+{
+  "url": "https://www.seloger.com/",
+  "title": "seloger.com",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [],
+  "tcf": null,
+  "containers": [],
+  "frames": [
+    {
+      "src": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAln4vvTQU0vgAoE9qhQ%3D%3D&hash=8C7191D8AA1BF5FBB1B84DC7268196&cid=ls~abL779e_W9A7fD1EyXrx6doUPhxkkuZi6xrroi9xyq3wzG3uwSiAiWOvYjLoQOYOU2DbZssPuk9rjtyrxgH81wIbZMzDerLvTUmjd9GSfcZgcW~ZcccAoHvAGCTLL&referer=https%3A%2F%2Fwww.seloger.co",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

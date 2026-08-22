@@ -1,0 +1,49 @@
+{
+  "slug": "programme-tv",
+  "requestedUrl": "https://www.programme-tv.net/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "accounts.google.com",
+    "ads.pubmatic.com",
+    "cdn.jsdelivr.net",
+    "consent.programme-tv.net",
+    "ep2.adtrafficquality.google",
+    "eus.rubiconproject.com",
+    "flashnetic.com",
+    "hb.adpone.com",
+    "html-load.com",
+    "ib.adnxs.com",
+    "mv.outbrain.com",
+    "pagead2.googlesyndication.com",
+    "securepubads.g.doubleclick.net",
+    "stg.html-load.com",
+    "tpc.googlesyndication.com",
+    "tra.scds.pmdstatic.net",
+    "widgets.outbrain.com",
+    "www.datadoghq-browser-agent.com",
+    "www.programme-tv.net",
+    "www.wysistat.com"
+  ],
+  "finalUrl": "https://www.programme-tv.net/",
+  "title": "Programme TV par Télé-Loisirs, TNT, box télé et satellite",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue",
+    "consentmanager",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": false,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 22
+}

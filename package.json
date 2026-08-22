@@ -14,7 +14,10 @@
     "test:unit": "node --test \"tests/unit/**/*.test.mjs\"",
     "test:e2e": "playwright test",
     "test": "npm run check:tokens && npm run test:unit && npm run build && npm run test:e2e",
-    "verify:capture": "node scripts/verify-capture.mjs"
+    "verify:capture": "node scripts/verify-capture.mjs",
+    "capture:fixtures": "node scripts/capture-fixtures.mjs",
+    "rederive:profiles": "node scripts/rederive-profiles.mjs",
+    "verify:banners": "node scripts/verify-banners.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"

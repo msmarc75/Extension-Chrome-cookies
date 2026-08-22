@@ -1,0 +1,315 @@
+{
+  "url": "https://www.journaldunet.com/",
+  "title": "JDN : Business, IA, Tech-Média, Cybersécurité, Action publique",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "cmpId": 2,
+    "cmpVersion": 10,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": null,
+    "purposeConsents": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "containers": [
+    {
+      "path": "div#footer_internal_links > ul > li > a.jConsentChoice",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "jConsentChoice"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 774,
+        "y": 3729,
+        "width": 134,
+        "height": 14
+      },
+      "viewportShare": 0.0018,
+      "namedForConsent": true,
+      "text": "Paramétrer les cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sticky-element"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 1660,
+        "width": 300,
+        "height": 1047
+      },
+      "viewportShare": 0.3068,
+      "namedForConsent": false,
+      "text": "Articles les plus lus Monique Barbut envisage de financer l'adaptation au changement climatique via l'épargne des Français Le PIB de la zone euro a progressé de 0,4% au deuxième trimestre 2026, confirmant la résilience de l'union monétaire Olivier Faure critique Emmanuel Macron pour avoir fait du jet ski à Brégançon pendant la canicule Roland Lescure relance la piste d'un gel partiel des retraites pour le budget 2027 À NE PAS RATER Bientôt la dernière éclipse de l'année : en France, il faudra être bien placé pour la voir Aides pour une voiture électrique : 30 nouvelles voitures rejoignent la l",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Monique Barbut envisage de financer l'adaptation au changement climatique via l'épargne des Français",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 1683,
+            "width": 300,
+            "height": 116
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Le PIB de la zone euro a progressé de 0,4% au deuxième trimestre 2026, confirmant la résilience de l'union monétaire",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 1800,
+            "width": 300,
+            "height": 116
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Olivier Faure critique Emmanuel Macron pour avoir fait du jet ski à Brégançon pendant la canicule",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 1917,
+            "width": 300,
+            "height": 92
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Roland Lescure relance la piste d'un gel partiel des retraites pour le budget 2027",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 820,
+            "y": 2010,
+            "width": 300,
+            "height": 92
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Bientôt la dernière éclipse de l'année : en France, il faudra être bien placé pour la voir",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 840,
+            "y": 2447,
+            "width": 259,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Aides pour une voiture électrique : 30 nouvelles voitures rejoignent la liste officielle pour être éligible",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 840,
+            "y": 2511,
+            "width": 250,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Vous n'aurez plus jamais de guêpes à table grâce à ces techniques d'expert en lutte antiparasitaire",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 840,
+            "y": 2574,
+            "width": 247,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Il obtient 67 000 euros d'heures sup en justice : son employeur estimait qu'un \"bon salaire\" suffisait à les couvrir",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 840,
+            "y": 2638,
+            "width": 249,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sticky-element"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 820,
+        "y": 840,
+        "width": 300,
+        "height": 143
+      },
+      "viewportShare": 0.0419,
+      "namedForConsent": false,
+      "text": "NEWSLETTER QUOTIDIENNE Voir un exemple",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "form#frmSS7 > fieldset > input",
+          "tag": "input",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1065,
+            "y": 889,
+            "width": 55,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "form#frmSS7 > fieldset > div.nl-box__link.nl-box__link--solo > a.a_hover",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "a_hover"
+          ],
+          "text": "Voir un exemple",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1031,
+            "y": 937,
+            "width": 89,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=www.journaldunet.com&gdpr=0&gdpr_consent=#{\"bundle\":{\"origin\":0},\"optout\":{\"value\":false,\"origin\":0},\"tld\":\"journaldunet.com\",\"topUrl\":\"www.journaldunet.com\",\"version\":108604,\"origin\":\"publishertagids\",\"requestId\":\"0.9226013534868852\"}",
+      "name": null
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api2/aframe",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.journaldunet.com%2F",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

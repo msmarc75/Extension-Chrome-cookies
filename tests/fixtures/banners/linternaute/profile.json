@@ -1,0 +1,135 @@
+{
+  "url": "https://www.linternaute.com/",
+  "title": "Linternaute.com : Information, loisirs, culture et découvertes...",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "cmpId": 2,
+    "cmpVersion": 10,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": null,
+    "purposeConsents": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ]
+  },
+  "containers": [
+    {
+      "path": "div#footer_internal_links > ul > li > a.jConsentChoice",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "jConsentChoice"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 915,
+        "y": 7228,
+        "width": 135,
+        "height": 14
+      },
+      "viewportShare": 0.0018,
+      "namedForConsent": true,
+      "text": "Paramétrer les cookies",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    },
+    {
+      "src": "https://www.google.com/recaptcha/api2/aframe",
+      "name": null
+    },
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=www.linternaute.com&gdpr=0&gdpr_consent=#{\"bundle\":{\"value\":\"LgR4hF9LNTNSVWhLJTJGVkdlJTJGTlp1S0RTcFJaWk02eTNSbXF1em1kRVdxNUl1VmhLZWdyRFl3Z3B3ZU5OWUFRNWZKMDVQcGFmZ2J4SnZLaElQRzZTUFhyenUlMkZXS0FFNnNwWDhYbFJac1BnVndNQ0JjUG5GTXRIWE40YVNzZnow",
+      "name": null
+    },
+    {
+      "src": "https://google-bidout-d.openx.net/w/1.0/pd?plm=5",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&url=https%3A%2F%2Fwww.linternaute.com%2F",
+      "name": null
+    },
+    {
+      "src": "https://sync.richaudience.com/dcf3528a0b8aa83634892d50e91c306e/?ord=7413367407",
+      "name": null
+    },
+    {
+      "src": "https://eb2.3lift.com/sync?",
+      "name": null
+    },
+    {
+      "src": "https://elb.the-ozone-project.com/static/load-cookie.html?gdpr=0&gdpr_consent=&usp_consent=&gpp=&gpp_sid=&criteo.com=Xos4rl93ZjBZbEFFUndEZGx3akw5S1AlMkZodE5QUkR0cDFhQkNkcHlBRERiOVdIVXJGUFMlMkZkNTlNQjlETTZGRGFZNUdCJTJCWml5R0tobmZHNjR0TlBFeTFnRWRjVFZUdGxBb1g3MDAlMkJhNktMNk1YQWIzZmU5UEhkJTJCSUYxRVFPSkp",
+      "name": null
+    },
+    {
+      "src": "https://apps.smartadserver.com/diff/templates/asset/csync.html?nwid=3395&gdpr=0&",
+      "name": null
+    },
+    {
+      "src": "https://js-sec.indexww.com/um/ixmatch.html",
+      "name": null
+    },
+    {
+      "src": "https://eus.rubiconproject.com/usync.html?gdpr=0",
+      "name": null
+    },
+    {
+      "src": "https://onetag-sys.com/usync/?redir=https%3A%2F%2Ffast.nexx360.io%2Fsetuid%3Fbidder%3Donetag%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%24%7BUSER_TOKEN%7D&gdpr=0&gdpr_consent=&us_privacy=",
+      "name": null
+    },
+    {
+      "src": "https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=160684&gdpr=0&gdpr_consent=",
+      "name": null
+    },
+    {
+      "src": "https://acdn.adnxs.com/dmp/async_usersync.html",
+      "name": null
+    },
+    {
+      "src": "https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.linternaute.com&gpp=#{%22cw%22:false,%22lsw%22:false,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6600904697096737%22,%22tld%22:%22www.linternaute.com%22,%22topUrl%22:%22www.linternaute.com%22,%22version%22:%2211_1",
+      "name": null
+    },
+    {
+      "src": "https://acdn.adnxs.com/dmp/async_usersync.html",
+      "name": null
+    },
+    {
+      "src": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&usprivacy=&r=https%3A%2F%2Ffast.nexx360.io%2Fsetuid%3Fbidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26uid%3D",
+      "name": null
+    },
+    {
+      "src": "https://cs.emxdgt.com/um?ssp=pbs&gdpr=0&gdpr_consent=&us_privacy=&redirect=https%3A%2F%2Ffast.nexx360.io%2Fsetuid%3Fbidder%3Daperturemx%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%24UID",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

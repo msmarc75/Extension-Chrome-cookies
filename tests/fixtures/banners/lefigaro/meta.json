@@ -1,0 +1,39 @@
+{
+  "slug": "lefigaro",
+  "requestedUrl": "https://www.lefigaro.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "c.amazon-adsystem.com",
+    "cdn.adsafeprotected.com",
+    "cdn.appconsent.io",
+    "cdn.opecloud.com",
+    "cdn.taboola.com",
+    "marfeelexperimentsexperienceengine.mrf.io",
+    "pagead2.googlesyndication.com",
+    "sdk.mrf.io",
+    "static.lefigaro.fr",
+    "trc.taboola.com",
+    "wst.lefigaro.fr",
+    "www.googletagmanager.com",
+    "www.lefigaro.fr"
+  ],
+  "finalUrl": "https://www.lefigaro.fr/",
+  "title": "Le Figaro - Actualité en direct et informations en continu",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "gtag",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 2,
+    "cmpVersion": 10,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 31
+}

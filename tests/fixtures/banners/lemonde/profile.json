@@ -1,0 +1,1717 @@
+{
+  "url": "https://www.lemonde.fr/",
+  "title": "Le Monde.fr - Actualités et Infos en France et dans le monde",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "unresponsive": true
+  },
+  "containers": [
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall",
+        "gdpr-lmd-wall--no-blur"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "10000001",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "Soutenez un journalisme fiable Accéder gratuitement en acceptant l’utilisation de vos données. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation de vos données personnelles (telles que : adresse IP, données de navigation, informations renseignées à la création de votre compte utilisateur) à des fins de personnalisation des communications et pour améliorer et développer nos produits et services. Le Monde et ses partenaires (305) traitent et associent des données vous concernant, collectées via des cookies et technologies similaires, ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "À quoi servent les cookies ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 752,
+            "width": 213,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos conditions générales de vente et d’utilisation.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://beop.collectiveaudience.co/fr/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://legal.dailymotion.com/fr/politique-de-confidentialite/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.facebook.com/privacy/policy/version/20220104",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://help.instagram.com/519522125107875/?helpref=uf_share",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://fr.linkedin.com/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://snap.com/fr-FR/privacy/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://corporate.sparteo.com/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.spotify.com/fr/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://twitter.com/fr/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://policies.google.com/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le cadre de transparence et de consentement de l’IAB.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-wall__tcfbutton",
+            "c-explanation__question"
+          ],
+          "text": "En savoir plus sur les finalités publicitaires ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "Pourquoi le Monde vous demande d'accepter ces traitements de vos données",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 791,
+            "width": 508,
+            "height": 41
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--slate-darker"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 575,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--wide",
+            "gdpr-lmd-button--white",
+            "js-gdpr-deny-subscribe"
+          ],
+          "text": "S’abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 629,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 647,
+            "y": 686,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__wrapper"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 326,
+        "y": 65,
+        "width": 628,
+        "height": 670
+      },
+      "viewportShare": 0.4109,
+      "namedForConsent": true,
+      "text": "Soutenez un journalisme fiable Accéder gratuitement en acceptant l’utilisation de vos données. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation de vos données personnelles (telles que : adresse IP, données de navigation, informations renseignées à la création de votre compte utilisateur) à des fins de personnalisation des communications et pour améliorer et développer nos produits et services. Le Monde et ses partenaires (305) traitent et associent des données vous concernant, collectées via des cookies et technologies similaires, ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "À quoi servent les cookies ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 752,
+            "width": 213,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos conditions générales de vente et d’utilisation.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://beop.collectiveaudience.co/fr/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://legal.dailymotion.com/fr/politique-de-confidentialite/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.facebook.com/privacy/policy/version/20220104",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://help.instagram.com/519522125107875/?helpref=uf_share",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://fr.linkedin.com/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://snap.com/fr-FR/privacy/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://corporate.sparteo.com/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.spotify.com/fr/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://twitter.com/fr/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://policies.google.com/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le cadre de transparence et de consentement de l’IAB.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-wall__tcfbutton",
+            "c-explanation__question"
+          ],
+          "text": "En savoir plus sur les finalités publicitaires ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "Pourquoi le Monde vous demande d'accepter ces traitements de vos données",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 791,
+            "width": 508,
+            "height": 41
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--slate-darker"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 575,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--wide",
+            "gdpr-lmd-button--white",
+            "js-gdpr-deny-subscribe"
+          ],
+          "text": "S’abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 629,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 647,
+            "y": 686,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__content"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 326,
+        "y": 153,
+        "width": 628,
+        "height": 405
+      },
+      "viewportShare": 0.2484,
+      "namedForConsent": true,
+      "text": "Accéder gratuitement en acceptant l’utilisation de vos données. L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation de vos données personnelles (telles que : adresse IP, données de navigation, informations renseignées à la création de votre compte utilisateur) à des fins de personnalisation des communications et pour améliorer et développer nos produits et services. Le Monde et ses partenaires (305) traitent et associent des données vous concernant, collectées via des cookies et technologies similaires, pour stocker et/ou accéder à de",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "À quoi servent les cookies ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 752,
+            "width": 213,
+            "height": 21
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "nos conditions générales de vente et d’utilisation.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://beop.collectiveaudience.co/fr/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://legal.dailymotion.com/fr/politique-de-confidentialite/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.facebook.com/privacy/policy/version/20220104",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://help.instagram.com/519522125107875/?helpref=uf_share",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://fr.linkedin.com/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://snap.com/fr-FR/privacy/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://corporate.sparteo.com/privacy-policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://www.spotify.com/fr/legal/privacy-policy/",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://twitter.com/fr/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "https://policies.google.com/privacy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "le cadre de transparence et de consentement de l’IAB.",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-wall__tcfbutton",
+            "c-explanation__question"
+          ],
+          "text": "En savoir plus sur les finalités publicitaires ?",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "c-explanation__question"
+          ],
+          "text": "Pourquoi le Monde vous demande d'accepter ces traitements de vos données",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 791,
+            "width": 508,
+            "height": 41
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer",
+      "tag": "footer",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__footer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 326,
+        "y": 559,
+        "width": 628,
+        "height": 176
+      },
+      "viewportShare": 0.1079,
+      "namedForConsent": true,
+      "text": "Accepter et continuer S’abonner Déjà abonné ? Se connecter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--slate-darker"
+          ],
+          "text": "Accepter et continuer",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 575,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "gdpr-lmd-button",
+            "gdpr-lmd-button--big",
+            "gdpr-lmd-button--wide",
+            "gdpr-lmd-button--white",
+            "js-gdpr-deny-subscribe"
+          ],
+          "text": "S’abonner",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 386,
+            "y": 629,
+            "width": 508,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 647,
+            "y": 686,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > header.gdpr-lmd-wall__header",
+      "tag": "header",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__header"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 326,
+        "y": 65,
+        "width": 628,
+        "height": 88
+      },
+      "viewportShare": 0.054,
+      "namedForConsent": true,
+      "text": "Soutenez un journalisme fiable",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-button",
+        "gdpr-lmd-button--big",
+        "gdpr-lmd-button--slate-darker"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 386,
+        "y": 575,
+        "width": 508,
+        "height": 42
+      },
+      "viewportShare": 0.0208,
+      "namedForConsent": true,
+      "text": "Accepter et continuer",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-button",
+        "gdpr-lmd-button--big",
+        "gdpr-lmd-button--wide",
+        "gdpr-lmd-button--white",
+        "js-gdpr-deny-subscribe"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 386,
+        "y": 629,
+        "width": 508,
+        "height": 42
+      },
+      "viewportShare": 0.0208,
+      "namedForConsent": true,
+      "text": "S’abonner",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > header.gdpr-lmd-wall__header > div.gdpr-lmd-wall__title",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__title"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 386,
+        "y": 101,
+        "width": 508,
+        "height": 36
+      },
+      "viewportShare": 0.0179,
+      "namedForConsent": true,
+      "text": "Soutenez un journalisme fiable",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login",
+      "tag": "p",
+      "id": null,
+      "classes": [
+        "c-explanation__login",
+        "js-gdpr-login"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 545,
+        "y": 687,
+        "width": 190,
+        "height": 16
+      },
+      "viewportShare": 0.003,
+      "namedForConsent": true,
+      "text": "Déjà abonné ? Se connecter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 647,
+            "y": 686,
+            "width": 88,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "footer#footer > div.footer__container > div.footer__legal > ul.footer__sub-nav.bullet > li.footer__sub-nav__item > a.ds-link.footer__link",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "ds-link",
+        "footer__link",
+        "gdpr-cs-parameters-link"
+      ],
+      "role": "button",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 611,
+        "y": 10886,
+        "width": 117,
+        "height": 17
+      },
+      "viewportShare": 0.0019,
+      "namedForConsent": true,
+      "text": "Gestion des cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__separator",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "gdpr-lmd-wall__separator"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 386,
+        "y": 558,
+        "width": 508,
+        "height": 1
+      },
+      "viewportShare": 0.0005,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#ds-anchor-target-content > div.ds-popin.ds-en-continu-popin",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ds-popin",
+        "ds-en-continu-popin"
+      ],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "static",
+      "zIndex": "1",
+      "rect": {
+        "x": 0,
+        "y": 141,
+        "width": 1280,
+        "height": 129
+      },
+      "viewportShare": 0.1613,
+      "namedForConsent": false,
+      "text": "10:31 LIVE EN COURS Guerre en Ukraine : les dernières informations 10:31 Mayotte : E. Philippe et J.-L. Mélenchon s’opposent sur l’immigration 10:05 ALERTE Les syndicats, alertés par les reculs sociaux dans les pays dirigés par l’extrême droite, essaient de se mobiliser contre le RN 09:04 Fontainebleau : la forêt rouvre samedi après l’incendie de juillet 08:07 ALERTE Etudes hors de prix, défiance alimentée par Donald Trump… Les universités américaines traversent une crise sans précédent d’actualité en continu Voir plus d’actualité en continu",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "button#en-continu",
+          "tag": "button",
+          "type": "button",
+          "role": null,
+          "id": "en-continu",
+          "classes": [
+            "ds-btn",
+            "ds-btn--tertiary",
+            "ds-btn--s",
+            "ds-popin__close",
+            "ds-en-continu-popin__close"
+          ],
+          "text": "Fermer Fermer les actualités en continu",
+          "ariaLabel": "Fermer",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ds-en-continu-popin__card-link",
+            "js-ds-en-continu-popin__card-link"
+          ],
+          "text": "10:31 LIVE EN COURS Guerre en Ukraine : les dernières informations",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 32,
+            "y": 157,
+            "width": 173,
+            "height": 96
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ds-en-continu-popin__card-link",
+            "js-ds-en-continu-popin__card-link"
+          ],
+          "text": "10:31 Mayotte : E. Philippe et J.-L. Mélenchon s’opposent sur l’immigration",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 253,
+            "y": 157,
+            "width": 173,
+            "height": 96
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ds-en-continu-popin__card-link",
+            "js-ds-en-continu-popin__card-link"
+          ],
+          "text": "10:05 ALERTE Les syndicats, alertés par les reculs sociaux dans les pays dirigés par l’extrême droite, essaient de se mobiliser contre le RN",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 474,
+            "y": 157,
+            "width": 173,
+            "height": 96
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ds-en-continu-popin__card-link",
+            "js-ds-en-continu-popin__card-link"
+          ],
+          "text": "09:04 Fontainebleau : la forêt rouvre samedi après l’incendie de juillet",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 695,
+            "y": 157,
+            "width": 173,
+            "height": 96
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "ds-en-continu-popin__card-link",
+            "js-ds-en-continu-popin__card-link"
+          ],
+          "text": "08:07 ALERTE Etudes hors de prix, défiance alimentée par Donald Trump… Les universités américaines traversent une crise sans précédent",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 915,
+            "y": 157,
+            "width": 173,
+            "height": 96
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#en-continu",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "en-continu",
+          "classes": [
+            "ds-link",
+            "has-icon",
+            "ds-en-continu-popin__more__link",
+            "ds-en-continu-popin__more__link--desktop",
+            "js-ds-en-continu-popin__more-link",
+            "ds-btn",
+            "ds-btn--secondary",
+            "ds-btn--s",
+            "ds-btn--storm",
+            "ds-btn--rounded"
+          ],
+          "text": "d’actualité en continu Voir plus d’actualité en continu",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 1136,
+            "y": 157,
+            "width": 112,
+            "height": 26
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#en-continu",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "en-continu",
+          "classes": [
+            "ds-link",
+            "has-icon",
+            "ds-en-continu-popin__more__link",
+            "ds-en-continu-popin__more__link--mobile",
+            "js-ds-en-continu-popin__more-link",
+            "ds-btn",
+            "ds-btn--primary",
+            "ds-btn--l",
+            "ds-btn--storm"
+          ],
+          "text": "Voir plus d’articles Voir plus d’articles Voir plus d’articles",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#habillagepub > section.ds-area.ds-area--top > aside.ds-home-aside > ul.ds-home-aside__list > div.ds-ad-slot-ctn.ds-ad-slot-ctn--pave_haut",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ds-ad-slot-ctn",
+        "ds-ad-slot-ctn--pave_haut"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 816,
+        "y": 1038,
+        "width": 300,
+        "height": 310
+      },
+      "viewportShare": 0.0908,
+      "namedForConsent": false,
+      "text": "LA SUITE APRÈS CETTE PUBLICITÉ",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#habillagepub > div.ds-area.ds-area--more > div.ds-area.ds-area--standard > aside.ds-home-aside > div.ds-ad-slot-ctn.ds-ad-slot-ctn--pave_milieu",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "ds-ad-slot-ctn",
+        "ds-ad-slot-ctn--pave_milieu"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 869,
+        "y": 4763,
+        "width": 300,
+        "height": 310
+      },
+      "viewportShare": 0.0908,
+      "namedForConsent": false,
+      "text": "LA SUITE APRÈS CETTE PUBLICITÉ",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://eus.rubiconproject.com/account/19358.html",
+      "name": null
+    },
+    {
+      "src": "https://forecast.lemonde.fr/ls.html?origin=www.lemonde.fr",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

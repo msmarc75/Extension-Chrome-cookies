@@ -1,0 +1,35 @@
+{
+  "slug": "20minutes",
+  "requestedUrl": "https://www.20minutes.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "boot.pbstck.com",
+    "cdn-adm.pbstck.com",
+    "l.20minutes.fr",
+    "membre.20minutes.fr",
+    "sdk.privacy-center.org",
+    "static.20mn.fr",
+    "www.20minutes.fr",
+    "www.ultimedia.com"
+  ],
+  "finalUrl": "https://www.20minutes.fr/",
+  "title": "20 Minutes - Toute l’actualité en direct et les dernières infos en continu",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 25
+}

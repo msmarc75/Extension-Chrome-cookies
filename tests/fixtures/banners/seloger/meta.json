@@ -1,0 +1,17 @@
+{
+  "slug": "seloger",
+  "requestedUrl": "https://www.seloger.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "ct.captcha-delivery.com"
+  ],
+  "finalUrl": "https://www.seloger.com/",
+  "title": "seloger.com",
+  "lang": "fr",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 3
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "allocine",
+  "requestedUrl": "https://www.allocine.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "assets.allocine.fr",
+    "boot.pbstck.com",
+    "cdn.id5-sync.com",
+    "cdn.lib.getjad.io",
+    "cdn.lib.getjan.io",
+    "client.aps.amazon-adsystem.com",
+    "config.aps.amazon-adsystem.com",
+    "sdk.privacy-center.org",
+    "secure.cdn.fastclick.net",
+    "securepubads.g.doubleclick.net",
+    "static.cloudflareinsights.com",
+    "tags.crwdcntrl.net",
+    "www.allocine.fr"
+  ],
+  "finalUrl": "https://www.allocine.fr/",
+  "title": "AlloCiné : Cinéma, Séries TV, BO de films et séries, Vidéos, DVD et VOD",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 7
+}

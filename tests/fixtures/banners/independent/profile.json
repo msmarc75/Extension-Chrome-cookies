@@ -1,0 +1,163 @@
+{
+  "url": "https://www.independent.co.uk/us",
+  "title": "The Independent | Latest news and features from US, UK and worldwide",
+  "lang": "en",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "__gpp",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": null,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sectionContent > div.sc-1mj8max-0.kyDUXP > div.sc-jMpmlX.bfdNfc > div.section-component > div.sc-jdeof9-2.sc-jdeof9-5 > div.sc-jdeof9-1.sc-x21piv-0 > div.sc-1gucua1-0.TwmQy",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sc-1gucua1-0",
+        "TwmQy",
+        "sc-1fw75da-0",
+        "eFsqvE"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 824,
+        "y": 4696,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#sectionContent > div.sc-1mj8max-0.kyDUXP > div.sc-jMpmlX.bfdNfc > div.section-component > div.sc-jdeof9-2.sc-jdeof9-5 > div.sc-jdeof9-1.sc-x21piv-0 > div.sc-1gucua1-0.TwmQy",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sc-1gucua1-0",
+        "TwmQy",
+        "sc-1fw75da-0",
+        "eFsqvE"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 824,
+        "y": 8879,
+        "width": 300,
+        "height": 600
+      },
+      "viewportShare": 0.1758,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#footerPrompt",
+      "tag": "div",
+      "id": "footerPrompt",
+      "classes": [
+        "sc-7lnyz3-0",
+        "kCUtkB"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "1000004",
+      "rect": {
+        "x": 0,
+        "y": 781,
+        "width": 1280,
+        "height": 19
+      },
+      "viewportShare": 0.024,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://vx-piano.independent.co.uk/checkout/template/cacheableShow.html?aid=SEz5CAOYyJ&templateId=OTCQYMAQJI5P&offerId=fakeOfferId&experienceId=EXI6NOQT0VFW&iframeId=offer_6ffcdd14262af9a7f84f-0&displayMode=inline&pianoIdUrl=https%3A%2F%2Fid-piano.independent.co.uk%2Fid%2F&widget=template&url=https%",
+      "name": "offer_6ffcdd14262af9a7f84f-0"
+    },
+    {
+      "src": "https://static.independent.co.uk/iframe/native-cookiesync-frames.html",
+      "name": null
+    },
+    {
+      "src": "about:blank",
+      "name": "__pb_locator__"
+    },
+    {
+      "src": "https://google-bidout-d.openx.net/w/1.0/pd?plm=5",
+      "name": null
+    },
+    {
+      "src": "https://account.anonymised.io/login/experiment/silent-ifl/comb?client_id=https%3A%2F%2Fwww.independent.co.uk&redirect_uri=https%3A%2F%2Fwww.independent.co.uk%2Fus%3Fcallback%3Din&response_type=code&scope=token+profile+id_token&state=8ddce2ba259b4865996cd536397fd998&code_challenge=IiRLS3XLSi4YUmGv-bk",
+      "name": null
+    },
+    {
+      "src": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&gdpr=0&dl=ox-db5_n-Tappx_n-adYouLike_ym_pm-db5_an-db5_3lift_cnv_rx_n-index_n-blis_n-nativo_n-Rise_smrt_n-Ogury_n-MediaNet_gg_n-minuteMedia_sovrn",
+      "name": null
+    },
+    {
+      "src": "https://i.liadm.com/sync-container?duid=186259d88473--01m0maf7zy6trxm5jgrj9tcsfk&ds=did-0010&euns=1&s=&gpp_s=DBAA&gpp_as=-1&version=v3.17.0&cd=.independent.co.uk&pv=bcc7b5f1-cde8-469e-bdef-ef73e5735baf",
+      "name": null
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/partnerpixels?gdpr=0&gpp_sid=-1&url=https%3A%2F%2Fwww.independent.co.uk%2Fus",
+      "name": null
+    },
+    {
+      "src": "https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=160736",
+      "name": null
+    },
+    {
+      "src": "https://elb.the-ozone-project.com/static/load-cookie.html?gdpr=0&gdpr_consent=&usp_consent=&gpp=&gpp_sid=&pubcid.org=1c5f6fb9-77c6-498d-b4e4-569d3ff15c04&publisherId=OZONEESI0001&siteId=1500000385&cb=1787388469602&bidder=ozone",
+      "name": null
+    },
+    {
+      "src": "https://acdn.adnxs.com/dmp/async_usersync.html",
+      "name": null
+    },
+    {
+      "src": "https://cdn.taboola.com/scripts/prebid_iframe_sync.html",
+      "name": null
+    },
+    {
+      "src": "https://js-sec.indexww.com/um/ixmatch.html",
+      "name": null
+    },
+    {
+      "src": "https://sync.richaudience.com/74889303289e27f327ad0c6de7be7264/?consentString=&r=https%3A%2F%2Ffast.nexx360.io%2Fsetuid%3Fbidder%3Drichaudience%26gdpr%3D0%26gdpr_consent%3D%26uid%3D%5BPDID%5D",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

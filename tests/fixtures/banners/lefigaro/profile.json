@@ -1,0 +1,51 @@
+{
+  "url": "https://www.lefigaro.fr/",
+  "title": "Le Figaro - Actualité en direct et informations en continu",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "cmpId": 2,
+    "cmpVersion": 10,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#tnt-widget-45a7d4ea > video.seo-player.figaro-player__consent-placeholder",
+      "tag": "video",
+      "id": null,
+      "classes": [
+        "seo-player",
+        "figaro-player__consent-placeholder"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 480,
+        "y": 2742,
+        "width": 616,
+        "height": 347
+      },
+      "viewportShare": 0.2084,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "focus",
+  "requestedUrl": "https://www.focus.de/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "a.bf-ad.net",
+    "app.varify.io",
+    "assets.sp.focus.de",
+    "cdn.auth0.com",
+    "cmp.focus.de",
+    "cp.focus.de",
+    "securepubads.g.doubleclick.net",
+    "tags.focus.de",
+    "www.focus.de"
+  ],
+  "finalUrl": "https://www.focus.de/",
+  "title": "FOCUS online - Aktuelle Nachrichten",
+  "lang": "de",
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 35,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 26
+}

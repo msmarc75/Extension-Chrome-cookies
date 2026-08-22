@@ -1,0 +1,1033 @@
+{
+  "url": "https://www.lequipe.fr/",
+  "title": "L'Équipe - L'actualité du sport en continu.",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.CmpContainer__overlay",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "CmpContainer__overlay"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "110",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp",
+        "CmpUnsubscriber",
+        "CmpUnsubscriber--swg",
+        "Cmp--unsubscriber"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "510",
+      "rect": {
+        "x": 80,
+        "y": 330,
+        "width": 1200,
+        "height": 470
+      },
+      "viewportShare": 0.5508,
+      "namedForConsent": true,
+      "text": "En vous abonnant, vous accédez à la source de référence sur l'actu sportive. je m'abonne déja abonné ? se connecter accepter les cookies et accéder à L'Équipe gratuitement L'Équipe, les sociétés de son groupe et leurs 278 partenaires utilisent des cookies ou traceurs pour stocker et/ou accéder à des informations sur votre terminal et traiter des données personnelles vous concernant. Cela nous permet de vous afficher de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation, de personnaliser le contenu éditorial, de mesurer l'audience de no",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--offer"
+          ],
+          "text": "je m'abonne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 345,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--desktop",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 410,
+            "y": 477,
+            "width": 197,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--swg"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 688,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > button.Cmp__button--signIn.Cmp--mobile",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--mobile",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "les sociétés de son groupe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 243,
+            "y": 574,
+            "width": 167,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "leurs 278 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 429,
+            "y": 572,
+            "width": 132,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "paramétrer mon consentement",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 672,
+            "width": 191,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 940,
+            "y": 674,
+            "width": 161,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__action",
+            "Cmp__action--yes",
+            "button"
+          ],
+          "text": "oui, j'accepte",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 517,
+            "y": 736,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__container",
+        "layout"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 176,
+        "y": 331,
+        "width": 1008,
+        "height": 469
+      },
+      "viewportShare": 0.4617,
+      "namedForConsent": true,
+      "text": "En vous abonnant, vous accédez à la source de référence sur l'actu sportive. je m'abonne déja abonné ? se connecter accepter les cookies et accéder à L'Équipe gratuitement L'Équipe, les sociétés de son groupe et leurs 278 partenaires utilisent des cookies ou traceurs pour stocker et/ou accéder à des informations sur votre terminal et traiter des données personnelles vous concernant. Cela nous permet de vous afficher de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation, de personnaliser le contenu éditorial, de mesurer l'audience de no",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--offer"
+          ],
+          "text": "je m'abonne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 345,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--desktop",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 410,
+            "y": 477,
+            "width": 197,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--swg"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 688,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > button.Cmp__button--signIn.Cmp--mobile",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--mobile",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "les sociétés de son groupe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 243,
+            "y": 574,
+            "width": 167,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "leurs 278 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 429,
+            "y": 572,
+            "width": 132,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "paramétrer mon consentement",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 672,
+            "width": 191,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 940,
+            "y": 674,
+            "width": 161,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__action",
+            "Cmp__action--yes",
+            "button"
+          ],
+          "text": "oui, j'accepte",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 517,
+            "y": 736,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__policyContent"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 176,
+        "y": 572,
+        "width": 1008,
+        "height": 120
+      },
+      "viewportShare": 0.1181,
+      "namedForConsent": true,
+      "text": "L'Équipe, les sociétés de son groupe et leurs 278 partenaires utilisent des cookies ou traceurs pour stocker et/ou accéder à des informations sur votre terminal et traiter des données personnelles vous concernant. Cela nous permet de vous afficher de la publicité personnalisée en fonction de votre navigation, de vos données de profil ou de votre localisation, de personnaliser le contenu éditorial, de mesurer l'audience de notre site et de permettre l'interaction avec les réseaux sociaux. Pour accéder gratuitement au site (hors contenus exclusifs abonnés), vous devez accepter l'utilisation des ",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "les sociétés de son groupe",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 243,
+            "y": 574,
+            "width": 167,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "leurs 278 partenaires",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 429,
+            "y": 572,
+            "width": 132,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button--unstyled",
+            "link"
+          ],
+          "text": "paramétrer mon consentement",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 599,
+            "y": 672,
+            "width": 191,
+            "height": 20
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Link"
+          ],
+          "text": "politique de confidentialité",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 940,
+            "y": 674,
+            "width": 161,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__actionContainer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "absolute",
+      "zIndex": "auto",
+      "rect": {
+        "x": 80,
+        "y": 712,
+        "width": 1200,
+        "height": 88
+      },
+      "viewportShare": 0.1031,
+      "namedForConsent": true,
+      "text": "oui, j'accepte",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__action",
+            "Cmp__action--yes",
+            "button"
+          ],
+          "text": "oui, j'accepte",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 517,
+            "y": 736,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__row"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 176,
+        "y": 421,
+        "width": 1008,
+        "height": 72
+      },
+      "viewportShare": 0.0709,
+      "namedForConsent": true,
+      "text": "je m'abonne déja abonné ? se connecter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--offer"
+          ],
+          "text": "je m'abonne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 345,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--desktop",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 410,
+            "y": 477,
+            "width": 197,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--swg"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 688,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__col",
+        "Cmp__buttonContainer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 337,
+        "y": 421,
+        "width": 343,
+        "height": 72
+      },
+      "viewportShare": 0.0241,
+      "namedForConsent": true,
+      "text": "je m'abonne déja abonné ? se connecter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--offer"
+          ],
+          "text": "je m'abonne",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 345,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "Cmp__button--signIn",
+            "Cmp--desktop",
+            "button--unstyled",
+            "link"
+          ],
+          "text": "déja abonné ? se connecter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 410,
+            "y": 477,
+            "width": 197,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__col",
+        "Cmp__buttonContainer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 680,
+        "y": 421,
+        "width": 343,
+        "height": 72
+      },
+      "viewportShare": 0.0241,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "button",
+            "Cmp__button",
+            "Cmp__button--swg"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 688,
+            "y": 421,
+            "width": 327,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyTitle",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__policyTitle"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 176,
+        "y": 542,
+        "width": 1008,
+        "height": 22
+      },
+      "viewportShare": 0.0217,
+      "namedForConsent": true,
+      "text": "accepter les cookies et accéder à L'Équipe gratuitement",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__title",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "Cmp__title"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 332,
+        "y": 363,
+        "width": 695,
+        "height": 26
+      },
+      "viewportShare": 0.0177,
+      "namedForConsent": true,
+      "text": "En vous abonnant, vous accédez à la source de référence sur l'actu sportive.",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "button",
+        "Cmp__button",
+        "Cmp__button--offer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 345,
+        "y": 421,
+        "width": 327,
+        "height": 40
+      },
+      "viewportShare": 0.0128,
+      "namedForConsent": true,
+      "text": "je m'abonne",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "button",
+        "Cmp__button",
+        "Cmp__button--swg"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 688,
+        "y": 421,
+        "width": 327,
+        "height": 40
+      },
+      "viewportShare": 0.0128,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "Cmp__action",
+        "Cmp__action--yes",
+        "button"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "auto",
+      "rect": {
+        "x": 517,
+        "y": 736,
+        "width": 327,
+        "height": 40
+      },
+      "viewportShare": 0.0128,
+      "namedForConsent": true,
+      "text": "oui, j'accepte",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
+      "tag": "button",
+      "id": null,
+      "classes": [
+        "Cmp__button--signIn",
+        "Cmp--desktop",
+        "button--unstyled",
+        "link"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 410,
+        "y": 477,
+        "width": 197,
+        "height": 16
+      },
+      "viewportShare": 0.0031,
+      "namedForConsent": true,
+      "text": "déja abonné ? se connecter",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://news.google.com/swg/ui/v1/serviceiframe?_=1787388280033&publicationId=lequipe.fr",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

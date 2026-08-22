@@ -1,0 +1,31 @@
+{
+  "slug": "heise",
+  "requestedUrl": "https://www.heise.de/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "cdn.mateti.net",
+    "cmp.heise.de",
+    "responder.wt.heise.de",
+    "www.heise.de",
+    "zwjvbnvhnzme.heise.de"
+  ],
+  "finalUrl": "https://www.heise.de/",
+  "title": "heise online - IT-News, Nachrichten und Hintergründe | heise online",
+  "lang": "de",
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 14
+}

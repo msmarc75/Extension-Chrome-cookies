@@ -1,0 +1,32 @@
+{
+  "slug": "bfmtv",
+  "requestedUrl": "https://www.bfmtv.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "ced-ns.sascdn.com",
+    "imasdk.googleapis.com",
+    "sdk.privacy-center.org",
+    "tag.aticdn.net",
+    "utiq.bfmtv.com",
+    "www.bfmtv.com"
+  ],
+  "finalUrl": "https://www.bfmtv.com/",
+  "title": "Actualités en continu et info en direct et replay - BFM",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "Didomi",
+    "didomiOnReady"
+  ],
+  "tcf": {
+    "cmpId": 7,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "gdprApplies": true,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown"
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 27
+}

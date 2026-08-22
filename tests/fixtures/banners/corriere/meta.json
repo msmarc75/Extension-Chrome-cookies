@@ -1,0 +1,48 @@
+{
+  "slug": "corriere",
+  "requestedUrl": "https://www.corriere.it/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "api-esp.piano.io",
+    "buy.tinypass.com",
+    "cdn-gl.imrworldwide.com",
+    "cdn.cxense.com",
+    "cdn.jsdelivr.net",
+    "cdn.permutive.app",
+    "cdn.tinypass.com",
+    "cdn1.anonymised.io",
+    "cdnjs.cloudflare.com",
+    "client.aps.amazon-adsystem.com",
+    "components2.corriereobjects.it",
+    "components2.rcsobjects.it",
+    "config.aps.amazon-adsystem.com",
+    "d1pp3br6kljy5b.cloudfront.net",
+    "fundingchoicesmessages.google.com",
+    "id.cxense.com",
+    "js2.corriereobjects.it",
+    "micro.rubiconproject.com",
+    "pagead2.googlesyndication.com",
+    "sdk.mrf.io",
+    "secure.cdn.fastclick.net",
+    "securepubads.g.doubleclick.net",
+    "static.anonymised.io",
+    "static.chartbeat.com",
+    "storage.googleapis.com",
+    "websdk.appsflyer.com",
+    "www.googletagmanager.com"
+  ],
+  "finalUrl": "https://www.corriere.it/",
+  "title": "Corriere della Sera: News e Ultime notizie in tempo reale da Italia e Mondo",
+  "lang": "it-IT",
+  "globals": [
+    "__tcfapi",
+    "dataLayer"
+  ],
+  "tcf": {
+    "success": false
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 32
+}

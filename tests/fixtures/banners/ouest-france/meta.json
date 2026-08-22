@@ -1,0 +1,23 @@
+{
+  "slug": "ouest-france",
+  "requestedUrl": "https://www.ouest-france.fr/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "media.ouest-france.fr",
+    "www.googletagmanager.com"
+  ],
+  "finalUrl": "https://www.ouest-france.fr/",
+  "title": "Ouest-France : toute l'actualité en direct, l'info en continu en France, dans les régions et dans le monde",
+  "lang": "fr",
+  "globals": [
+    "__tcfapi",
+    "didomiOnReady",
+    "dataLayer"
+  ],
+  "tcf": {
+    "timedOut": true
+  },
+  "shadowHosts": [],
+  "bodyChildCount": 47
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://elpais.com/us/",
+  "title": "elpais.com",
+  "lang": "fr",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [],
+  "tcf": null,
+  "containers": [],
+  "frames": [
+    {
+      "src": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAIVDrMgOe2F4AoE9qig%3D%3D&hash=04152210A438DDFD27083ABE40645B&cid=kN6zKiq2ZcpuD~IUlX~q8kxq5Ejq~o67KYF0p2OHBS0yM_tN_7SocA1UynBK2vOUd44SSv7BzsnPZuRF_zVYti7W1~bwNl4LcAYDxYXIYm542AG6feYoDSuhsWw~BqDr&referer=https%3A%2F%2Felpais.com%2Fu",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

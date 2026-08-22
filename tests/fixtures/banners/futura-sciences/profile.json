@@ -1,0 +1,126 @@
+{
+  "url": "https://www.futura-sciences.com/",
+  "title": "Futura, le média qui explore le monde",
+  "lang": "fr-FR",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "cmpId": 388,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 2,
+    "cmpStatus": "loaded",
+    "eventStatus": "tcloaded",
+    "gdprApplies": false,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#footer-info > ul.footer-links.col-sm-12 > li > a.cmp-cookie-notice",
+      "tag": "a",
+      "id": null,
+      "classes": [
+        "cmp-cookie-notice"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 173,
+        "y": 24222,
+        "width": 128,
+        "height": 17
+      },
+      "viewportShare": 0.0021,
+      "namedForConsent": true,
+      "text": "Gestion des cookies",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#nadzU_softAskingDiv > div.nadzUBox > div.nadzContainer",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "nadzContainer"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 120,
+        "y": 0,
+        "width": 320,
+        "height": 656
+      },
+      "viewportShare": 0.2051,
+      "namedForConsent": false,
+      "text": "www.futura-sciences.com souhaite Afficher les notifications Bloquer Autoriser Soyez notifié.e de nos actualités et offres partenaires en temps réel Aucun email requis. Autoriser les notifications pour continuer. ' Protection des données",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://ssum-sec.casalemedia.com/usermatch?s=195671&gdpr=0&gdpr_consent=&us_privacy=1---&gpp=&gpp_sid=&cb=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dix%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D",
+      "name": null
+    },
+    {
+      "src": "https://ssp-sync.criteo.com/user-sync/iframe?gdprapplies=0&gdpr=&ccpa=1---&gpp=&gpp_sid=&redir=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dcriteo%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24%7BCRITEO_USER_ID%7D&profile=230",
+      "name": null
+    },
+    {
+      "src": "https://sync.richaudience.com/74889303289e27f327ad0c6de7be7264/?consentString=&r=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Drichaudience%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%5BPDID%5D",
+      "name": null
+    },
+    {
+      "src": "https://eb2.3lift.com/sync?gdpr=0&cmp_cs=&us_privacy=1---&gpp=&gpp_sid=&redir=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dtriplelift%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24UID",
+      "name": null
+    },
+    {
+      "src": "https://ad.360yield.com/user_sync?rt=html&gdpr=0&gdpr_consent=&us_privacy=1---&gpp=&gpp_sid=&r=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dimprovedigital%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%7BPUB_USER_ID%7D",
+      "name": null
+    },
+    {
+      "src": "https://visitor.omnitagjs.com/visitor/isync?uid=19340f4f097d16f41f34fc0274981ca4&name=PrebidServer&gdpr=0&gdpr_consent=&us_privacy=1---&url=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dadyoulike%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%2",
+      "name": null
+    },
+    {
+      "src": "https://user-sync.fwmrm.net/ad/u?mode=pbs-user-sync&gdpr=0&gdpr_consent=&us_privacy=1---&pbs_redirect=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dfwssp%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%23%7Buser.id%7D",
+      "name": null
+    },
+    {
+      "src": "https://ap.lijit.com/beacon/prebid-server/?gdpr=0&gdpr_consent=&us_privacy=1---&gpp=&gpp_sid=&url=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dsovrn%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24UID",
+      "name": null
+    },
+    {
+      "src": "https://prebid.a-mo.net/isyn?gdpr=0&gdpr_consent=&us_privacy=1---&gpp=&gpp_sid=&s=pbs&cb=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Damx%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D",
+      "name": null
+    },
+    {
+      "src": "https://onetag-sys.com/usync/?redir=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Donetag%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24%7BUSER_TOKEN%7D&gdpr=0&gdpr_consent=&us_privacy=1---",
+      "name": null
+    },
+    {
+      "src": "https://sync.connectad.io/iFrameSyncer?gdpr=0&consent=&us_privacy=1---&gpp=&gpp_sid=&cb=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dconnectad%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D",
+      "name": null
+    },
+    {
+      "src": "https://rtb.gumgum.com/usync/prbds2s?gdpr=0&gdpr_consent=&us_privacy=1---&r=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Dgumgum%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D",
+      "name": null
+    },
+    {
+      "src": "https://ads.us.e-planning.net/uspd/1/?du=https%3A%2F%2Fpbsj.bricks-co.com%2Fsetuid%3Fpslabel%3Dnull%26bidder%3Deplanning%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3D1---%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24UID",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

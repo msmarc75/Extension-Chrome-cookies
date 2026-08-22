@@ -1,0 +1,146 @@
+{
+  "url": "https://www.zeit.de/index",
+  "title": "DIE ZEIT | Nachrichten, News, Hintergründe und Debatten",
+  "lang": "de",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sp_message_container_1476394",
+      "tag": "div",
+      "id": "sp_message_container_1476394",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "main#main > div.cp-region.cp-region--standard > section.cp-area.cp-area--headed > article.zon-teaser.zon-teaser--wide > div.embed-wrapper.js-embed-consent",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "embed-wrapper",
+        "js-embed-consent",
+        "embed-wrapper--blocked"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "relative",
+      "zIndex": "3",
+      "rect": {
+        "x": 194,
+        "y": 34849,
+        "width": 892,
+        "height": 502
+      },
+      "viewportShare": 0.4371,
+      "namedForConsent": true,
+      "text": "An dieser Stelle ist ein externer Inhalt eingebunden Zum Anschauen benötigen wir Ihre Zustimmung Weiter",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "section.cp-area.cp-area--headed > article.zon-teaser.zon-teaser--wide > div.embed-wrapper.js-embed-consent > div.embed-consent > div.embed-wrapper__inner > div.embed-wrapper__text > div.embed-wrapper__textright > button.z-button.z-button--primary",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "z-button",
+            "z-button--primary",
+            "js-show-embed-dialog"
+          ],
+          "text": "Weiter",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 936,
+            "y": 35253,
+            "width": 81,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#iqd_rightAd",
+      "tag": "div",
+      "id": "iqd_rightAd",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": 1150,
+        "y": 0,
+        "width": 130,
+        "height": 800
+      },
+      "viewportShare": 0.1016,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#iqd_leftAd",
+      "tag": "div",
+      "id": "iqd_leftAd",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 130,
+        "height": 800
+      },
+      "viewportShare": 0.1016,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://consent-cdn.zeit.de/index.html?message_id=1476394&consentUUID=undefined&preload_message=true&hasCsp=true&version=v1&consent_origin=https%3A%2F%2Fconsent-cdn.zeit.de%2Fconsent%2Ftcfv2&mms_origin=https%3A%2F%2Fconsent-cdn.zeit.de%2Fmms%2Fv2",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

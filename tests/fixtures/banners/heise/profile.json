@@ -1,0 +1,152 @@
+{
+  "url": "https://www.heise.de/",
+  "title": "heise online - IT-News, Nachrichten und Hintergründe | heise online",
+  "lang": "de",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi",
+    "_sp_",
+    "_sp_queue"
+  ],
+  "tcf": {
+    "cmpId": 6,
+    "cmpVersion": 1,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#sp_message_container_1454968",
+      "tag": "div",
+      "id": "sp_message_container_1454968",
+      "classes": [],
+      "role": "dialog",
+      "ariaModal": true,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#wtma-sticky-footer > a-with-access > div > a-sticky-footer.inset-x-0.z-[var(--z-index-sticky-footer)]",
+      "tag": "a-sticky-footer",
+      "id": null,
+      "classes": [
+        "inset-x-0",
+        "z-[var(--z-index-sticky-footer)]",
+        "mx-auto",
+        "max-w-[1104px]",
+        "xl:z-[var(--z-index-sticky-footer--desktop)]",
+        "theme-heiseplus"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "5999996",
+      "rect": {
+        "x": 88,
+        "y": 694,
+        "width": 1104,
+        "height": 106
+      },
+      "viewportShare": 0.1143,
+      "namedForConsent": false,
+      "text": "Jetzt 50 % Rabatt sichern: heise+ 30 Wochen für 60 € Alles Wichtige. Und alles, was dahintersteckt. Mit heise+ 30 Wochen lang für 60 € Zugriff auf Tests, Ratgeber und alle digitalen Magazine des heise-Kosmos erhalten. Jetzt entdecken",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#wtma-sticky-footer > a-with-access > div > a-sticky-footer.inset-x-0.z-[var(--z-index-sticky-footer)] > div.container.relative > div.relative.flex > button.hover:bg-hover.absolute",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "hover:bg-hover",
+            "absolute",
+            "right-0",
+            "top-0",
+            "flex",
+            "h-10",
+            "w-10",
+            "items-center",
+            "justify-center",
+            "rounded",
+            "focus-visible:outline",
+            "focus-visible:outline-2"
+          ],
+          "text": "",
+          "ariaLabel": "Footer schließen",
+          "title": null,
+          "rect": {
+            "x": 1144,
+            "y": 702,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#wtma-sticky-footer > a-with-access > div > a-sticky-footer.inset-x-0.z-[var(--z-index-sticky-footer)] > div.container.relative > div.relative.flex > a.inline-block.whitespace-nowrap",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "inline-block",
+            "whitespace-nowrap",
+            "text-center",
+            "leading-none",
+            "border",
+            "rounded",
+            "disabled:pointer-events-none",
+            "disabled:opacity-50",
+            "dark:border-gray-100",
+            "border-purchase",
+            "dark:border-purchase-darker",
+            "text-white"
+          ],
+          "text": "Jetzt entdecken",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 962,
+            "y": 724,
+            "width": 174,
+            "height": 42
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://688012155290337.mateti.net/mcp/ls.html?trackId=688012155290337",
+      "name": null
+    },
+    {
+      "src": "https://cmp.heise.de/index.html?hasCsp=true&message_id=1454968&consentUUID=null&consent_origin=https%3A%2F%2Fcmp.heise.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

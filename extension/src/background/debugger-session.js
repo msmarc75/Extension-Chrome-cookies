@@ -100,14 +100,69 @@ export class DebuggerSession {
     this.onEvent = onEvent;
     this.attached = false;
     this.detachReason = null;
+    /** @type {Map<number, {id: number, origin: string|null, name: string|null, frameId: string|null}>} */
+    this.contexts = new Map();
+    /** @type {Map<string, {sessionId: string, type: string|null, url: string|null, targetId: string|null}>} */
+    this.children = new Map();
   }
 
   receive(method, params) {
+    this.#trackContext(method, params);
     try {
       this.onEvent(method, params);
     } catch {
       /* A malformed event must not take the audit down with it. */
     }
+  }
+
+  /*
+   * Several consent platforms render their banner inside a cross-origin
+   * iframe, where an evaluation against the main frame sees an empty wrapper
+   * and nothing else. Reaching into those frames means evaluating against
+   * their execution context, and the only way to learn a context id is to have
+   * been listening when it was created.
+   */
+  #trackContext(method, params) {
+    if (method === 'Runtime.executionContextCreated') {
+      const context = params?.context;
+      if (!context || context.auxData?.isDefault !== true) return;
+      this.contexts.set(context.id, {
+        id: context.id,
+        origin: context.origin ?? null,
+        name: context.name ?? null,
+        frameId: context.auxData?.frameId ?? null,
+      });
+    } else if (method === 'Runtime.executionContextDestroyed') {
+      this.contexts.delete(params?.executionContextId);
+    } else if (method === 'Runtime.executionContextsCleared') {
+      this.contexts.clear();
+    } else if (method === 'Target.attachedToTarget') {
+      /*
+       * A cross-site iframe runs in its own renderer process, and a session
+       * attached to the tab never sees its execution contexts at all. The only
+       * way in is a session of its own, which auto-attach hands us here.
+       */
+      const info = params?.targetInfo;
+      if (!params?.sessionId || !info) return;
+      this.children.set(params.sessionId, {
+        sessionId: params.sessionId,
+        type: info.type ?? null,
+        url: info.url ?? null,
+        targetId: info.targetId ?? null,
+      });
+    } else if (method === 'Target.detachedFromTarget') {
+      this.children.delete(params?.sessionId);
+    }
+  }
+
+  /** Default execution contexts currently alive in this process, one per frame. */
+  frameContexts() {
+    return [...this.contexts.values()];
+  }
+
+  /** Sessions attached to out-of-process frames. */
+  childSessions() {
+    return [...this.children.values()].filter((child) => child.type === 'iframe');
   }
 
   async attach() {
@@ -129,15 +184,16 @@ export class DebuggerSession {
    * still pending will hold `Runtime.evaluate` open indefinitely, which is
    * exactly the case the caller wants a short budget for.
    */
-  async send(method, params = {}, { timeoutMs = COMMAND_TIMEOUT_MS } = {}) {
+  async send(method, params = {}, { timeoutMs = COMMAND_TIMEOUT_MS, sessionId } = {}) {
     if (!this.attached) {
       throw new Error(`Cannot send ${method}: the debugger is not attached`);
     }
 
+    const target = sessionId ? { tabId: this.tabId, sessionId } : { tabId: this.tabId };
     let timer;
     try {
       return await Promise.race([
-        chrome.debugger.sendCommand({ tabId: this.tabId }, method, params),
+        chrome.debugger.sendCommand(target, method, params),
         new Promise((_resolve, reject) => {
           timer = setTimeout(
             () => reject(new Error(`${method} did not answer within ${timeoutMs} ms`)),
@@ -163,6 +219,8 @@ export class DebuggerSession {
     live.delete(this.tabId);
     if (!this.attached) return false;
     this.attached = false;
+    this.children.clear();
+    this.contexts.clear();
     try {
       await chrome.debugger.detach({ tabId: this.tabId });
       return true;

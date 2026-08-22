@@ -1,0 +1,1601 @@
+{
+  "url": "https://www.repubblica.it/",
+  "title": "la Repubblica - News in tempo reale - Le notizie e i video di politica, cronaca, economia, sport",
+  "lang": "it",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "globals": [
+    "__tcfapi"
+  ],
+  "tcf": {
+    "cmpId": 123,
+    "cmpVersion": 387,
+    "tcfPolicyVersion": 5,
+    "cmpStatus": "loaded",
+    "eventStatus": "cmpuishown",
+    "gdprApplies": true,
+    "isServiceSpecific": true,
+    "purposeConsents": []
+  },
+  "containers": [
+    {
+      "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "iubenda-cs-opt-group-consent"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 264,
+        "y": 373,
+        "width": 752,
+        "height": 48
+      },
+      "viewportShare": 0.0352,
+      "namedForConsent": true,
+      "text": "RIFIUTA E ABBONATI ACCETTA",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-reject-btn.iubenda-cs-btn-primary",
+          "tag": "button",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-reject-btn",
+            "iubenda-cs-btn-primary"
+          ],
+          "text": "RIFIUTA E ABBONATI",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 793,
+            "y": 373,
+            "width": 223,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-accept-btn.iubenda-cs-btn-primary",
+          "tag": "button",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-accept-btn",
+            "iubenda-cs-btn-primary"
+          ],
+          "text": "ACCETTA",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 264,
+            "y": 373,
+            "width": 137,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "a#kw-cookie-link",
+      "tag": "a",
+      "id": "kw-cookie-link",
+      "classes": [
+        "iubenda-advertising-preferences-link"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 698,
+        "y": 36507,
+        "width": 99,
+        "height": 24
+      },
+      "viewportShare": 0.0023,
+      "namedForConsent": true,
+      "text": "Gestione Cookie",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#iub_cmp_subscribe_custom_btn",
+      "tag": "a",
+      "id": "iub_cmp_subscribe_custom_btn",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 668,
+        "y": 460,
+        "width": 85,
+        "height": 26
+      },
+      "viewportShare": 0.0022,
+      "namedForConsent": true,
+      "text": "ACCEDI",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#kw-cookie-policy-link",
+      "tag": "a",
+      "id": "kw-cookie-policy-link",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 854,
+        "y": 36507,
+        "width": 83,
+        "height": 24
+      },
+      "viewportShare": 0.0019,
+      "namedForConsent": true,
+      "text": "Cookie Policy",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "a#kw-privacy-link",
+      "tag": "a",
+      "id": "kw-privacy-link",
+      "classes": [],
+      "role": null,
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 800,
+        "y": 36507,
+        "width": 49,
+        "height": 24
+      },
+      "viewportShare": 0.0012,
+      "namedForConsent": true,
+      "text": "Privacy",
+      "inShadow": false,
+      "controls": []
+    },
+    {
+      "path": "div#repNetworkNav",
+      "tag": "div",
+      "id": "repNetworkNav",
+      "classes": [
+        "rep-left-nav"
+      ],
+      "role": "navigation",
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "2147483647",
+      "rect": {
+        "x": -640,
+        "y": 0,
+        "width": 640,
+        "height": 800
+      },
+      "viewportShare": 0.5,
+      "namedForConsent": false,
+      "text": "Cerca articoli o argomenti su Repubblica Menu di navigazione ABBONATI SCARICA L'APP SFOGLIA IL QUOTIDIANO IN EVIDENZA Newsletter Giochi Repubblica 50 SEZIONI Politica Economia Esteri Cronaca Commenti Scuola Cultura Sport Spettacoli Serie TV Video Rubriche Podcast Salute Green&Blue Italian Tech Il Gusto Motori Design Vaticano Londra Viaggi Elezioni Mondo Solidale Repubblica@Scuola EDIZIONI LOCALI Roma Milano Bari Bologna Firenze Genova Napoli Palermo Torino DIRETTE SPORTIVE Diretta Serie A Diretta Serie B Diretta Coppa Italia Diretta Champions League Diretta Europa League Diretta Formula 1 Dire",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#repNetworkNav > div.rep-left-nav__wrapper > form.rep-left-nav__search > button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": "Esegui ricerca",
+          "title": null,
+          "rect": {
+            "x": -242,
+            "y": 19,
+            "width": 45,
+            "height": 45
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#repHamCloseButton",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "repHamCloseButton",
+          "classes": [
+            "rep-left-nav__close-button",
+            "rep-toggle-menu"
+          ],
+          "text": "",
+          "ariaLabel": "Chiudi menu",
+          "title": null,
+          "rect": {
+            "x": -49,
+            "y": 17,
+            "width": 32,
+            "height": 49
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-left-nav__list__label"
+          ],
+          "text": "ABBONATI",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -639,
+            "y": 95,
+            "width": 638,
+            "height": 46
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-left-nav__list__label"
+          ],
+          "text": "SCARICA L'APP",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -639,
+            "y": 142,
+            "width": 638,
+            "height": 46
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-left-nav__list__label"
+          ],
+          "text": "SFOGLIA IL QUOTIDIANO",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": -639,
+            "y": 189,
+            "width": 638,
+            "height": 46
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Newsletter",
+          "ariaLabel": null,
+          "title": "Le Newsletter di Repubblica",
+          "rect": {
+            "x": -639,
+            "y": 283,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Giochi",
+          "ariaLabel": null,
+          "title": "Giochi online",
+          "rect": {
+            "x": -320,
+            "y": 283,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Repubblica 50",
+          "ariaLabel": null,
+          "title": "1976 2026 Repubblica 50 una storia di futuro",
+          "rect": {
+            "x": -639,
+            "y": 321,
+            "width": 638,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Politica",
+          "ariaLabel": null,
+          "title": "Notizie di politica",
+          "rect": {
+            "x": -639,
+            "y": 407,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Economia",
+          "ariaLabel": null,
+          "title": "Notizie di economia",
+          "rect": {
+            "x": -320,
+            "y": 407,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Esteri",
+          "ariaLabel": null,
+          "title": "Notizie di esteri",
+          "rect": {
+            "x": -639,
+            "y": 445,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Cronaca",
+          "ariaLabel": null,
+          "title": "Notizie di cronaca",
+          "rect": {
+            "x": -320,
+            "y": 445,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Commenti",
+          "ariaLabel": null,
+          "title": "I commenti",
+          "rect": {
+            "x": -639,
+            "y": 483,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Scuola",
+          "ariaLabel": null,
+          "title": "Scuola",
+          "rect": {
+            "x": -320,
+            "y": 483,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Cultura",
+          "ariaLabel": null,
+          "title": "Notizie di cultura",
+          "rect": {
+            "x": -639,
+            "y": 521,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Sport",
+          "ariaLabel": null,
+          "title": "Notizie di sport",
+          "rect": {
+            "x": -320,
+            "y": 521,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Spettacoli",
+          "ariaLabel": null,
+          "title": "TV e Spettacoli",
+          "rect": {
+            "x": -639,
+            "y": 559,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Serie TV",
+          "ariaLabel": null,
+          "title": "Serie TV",
+          "rect": {
+            "x": -320,
+            "y": 559,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Video",
+          "ariaLabel": null,
+          "title": "Video",
+          "rect": {
+            "x": -639,
+            "y": 597,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Rubriche",
+          "ariaLabel": null,
+          "title": "Rubriche",
+          "rect": {
+            "x": -320,
+            "y": 597,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Podcast",
+          "ariaLabel": null,
+          "title": "Podcast",
+          "rect": {
+            "x": -639,
+            "y": 635,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Salute",
+          "ariaLabel": null,
+          "title": "Salute",
+          "rect": {
+            "x": -320,
+            "y": 635,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Green&Blue",
+          "ariaLabel": null,
+          "title": "Green and Blue",
+          "rect": {
+            "x": -639,
+            "y": 673,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Italian Tech",
+          "ariaLabel": null,
+          "title": "Tecnologia",
+          "rect": {
+            "x": -320,
+            "y": 673,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Il Gusto",
+          "ariaLabel": null,
+          "title": "Il Gusto",
+          "rect": {
+            "x": -639,
+            "y": 711,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Motori",
+          "ariaLabel": null,
+          "title": "Notizie di motori",
+          "rect": {
+            "x": -320,
+            "y": 711,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Design",
+          "ariaLabel": null,
+          "title": "Design",
+          "rect": {
+            "x": -639,
+            "y": 749,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Vaticano",
+          "ariaLabel": null,
+          "title": "Vaticano",
+          "rect": {
+            "x": -320,
+            "y": 749,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Londra",
+          "ariaLabel": null,
+          "title": "Londra",
+          "rect": {
+            "x": -639,
+            "y": 787,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Viaggi",
+          "ariaLabel": null,
+          "title": "Viaggi",
+          "rect": {
+            "x": -320,
+            "y": 787,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Elezioni",
+          "ariaLabel": null,
+          "title": "Elezioni Politiche",
+          "rect": {
+            "x": -639,
+            "y": 825,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Mondo Solidale",
+          "ariaLabel": null,
+          "title": "Mondo solidale",
+          "rect": {
+            "x": -320,
+            "y": 825,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Repubblica@Scuola",
+          "ariaLabel": null,
+          "title": "Repubblica Scuola",
+          "rect": {
+            "x": -639,
+            "y": 863,
+            "width": 638,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Roma",
+          "ariaLabel": null,
+          "title": "Repubblica Roma: notizie e cronaca",
+          "rect": {
+            "x": -639,
+            "y": 949,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Milano",
+          "ariaLabel": null,
+          "title": "Repubblica Milano: notizie e cronaca",
+          "rect": {
+            "x": -320,
+            "y": 949,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Bari",
+          "ariaLabel": null,
+          "title": "Repubblica Bari: notizie e cronaca",
+          "rect": {
+            "x": -639,
+            "y": 987,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Bologna",
+          "ariaLabel": null,
+          "title": "Repubblica Bologna: notizie e cronaca",
+          "rect": {
+            "x": -320,
+            "y": 987,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Firenze",
+          "ariaLabel": null,
+          "title": "Repubblica Firenze: notizie e cronaca",
+          "rect": {
+            "x": -639,
+            "y": 1025,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Genova",
+          "ariaLabel": null,
+          "title": "Repubblica Genova: notizie e cronaca",
+          "rect": {
+            "x": -320,
+            "y": 1025,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Napoli",
+          "ariaLabel": null,
+          "title": "Repubblica Napoli: notizie e cronaca",
+          "rect": {
+            "x": -639,
+            "y": 1063,
+            "width": 319,
+            "height": 37
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#iubenda-cs-banner",
+      "tag": "div",
+      "id": "iubenda-cs-banner",
+      "classes": [
+        "iubenda-cs-black",
+        "iubenda-cs-default-floating",
+        "iubenda-cs-top",
+        "iubenda-cs-center",
+        "iubenda-cs-slidein",
+        "iubenda-cs-no-heading",
+        "iubenda-cs-visible"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "fixed",
+      "zIndex": "100000000",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewportShare": 1,
+      "namedForConsent": false,
+      "text": "powered by I ricavi ottenuti dalla pubblicità personalizzata ci aiutano a supportare il lavoro della nostra redazione che si impegna a fornirti ogni giorno una informazione di qualità. Per questo chiediamo il tuo consenso all'utilizzo di cookie o tecnologie simili per finalità diverse da quelle strettamente necessarie, come specificato nella Cookie Policy. Sei libero di rifiutare o revocare il consenso in qualsiasi momento, accedendo al pannello delle preferenze pubblicitarie; in tal caso, ti chiederemo di acquistare uno dei nostri abbonamenti. Il pannello delle preferenze pubblicitarie è semp",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > button.iubenda-cs-close-btn",
+          "tag": "button",
+          "type": "button",
+          "role": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-close-btn"
+          ],
+          "text": "Continua senza accettare",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Cookie Policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 426,
+            "y": 241,
+            "width": 96,
+            "height": 17
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div > a.btn-underline > button.iubenda-advertising-preferences-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "iubenda-advertising-preferences-link"
+          ],
+          "text": "pannello delle preferenze pubblicitarie",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 264,
+            "y": 283,
+            "width": 270,
+            "height": 22
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-reject-btn.iubenda-cs-btn-primary",
+          "tag": "button",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-reject-btn",
+            "iubenda-cs-btn-primary"
+          ],
+          "text": "RIFIUTA E ABBONATI",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 793,
+            "y": 373,
+            "width": 223,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-accept-btn.iubenda-cs-btn-primary",
+          "tag": "button",
+          "type": null,
+          "role": "button",
+          "id": null,
+          "classes": [
+            "iubenda-cs-accept-btn",
+            "iubenda-cs-btn-primary"
+          ],
+          "text": "ACCETTA",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 264,
+            "y": 373,
+            "width": 137,
+            "height": 48
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "a#iub_cmp_subscribe_custom_btn",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": "iub_cmp_subscribe_custom_btn",
+          "classes": [],
+          "text": "ACCEDI",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 668,
+            "y": 460,
+            "width": 85,
+            "height": 26
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Cookie Policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 730,
+            "y": 501,
+            "width": 79,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a.btn-underline > button.iubenda-vendor-list-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "iubenda-vendor-list-link"
+          ],
+          "text": "terze parti",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 585,
+            "y": 536,
+            "width": 58,
+            "height": 18
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a.btn-underline > button.iubenda-advertising-preferences-link",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "iubenda-advertising-preferences-link"
+          ],
+          "text": "pannello delle preferenze pubblicitarie",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 338,
+            "y": 609,
+            "width": 219,
+            "height": 18
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Cookie Policy",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 287,
+            "y": 646,
+            "width": 78,
+            "height": 15
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "main#main-content > div.gd-row > div.gd-column-4.sidebar > div.sidebar__sticky",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sidebar__sticky"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 822,
+        "y": 660,
+        "width": 299,
+        "height": 647
+      },
+      "viewportShare": 0.1888,
+      "namedForConsent": false,
+      "text": "Il video del giorno IL CASO Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo | L'articolo dal nostro inviato Cosimo Cito",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.gd-column-4.sidebar > div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > figure.entry__media > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 822,
+            "y": 726,
+            "width": 299,
+            "height": 532
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo |",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 838,
+            "y": 1068,
+            "width": 256,
+            "height": 149
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "L'articolo",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 850,
+            "y": 1188,
+            "width": 100,
+            "height": 29
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "path": "div#rep-slim-header",
+      "tag": "div",
+      "id": "rep-slim-header",
+      "classes": [
+        "rep-slim-header"
+      ],
+      "role": "banner",
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "1000002",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 51
+      },
+      "viewportShare": 0.0638,
+      "namedForConsent": false,
+      "text": "Menu Cerca ABBONATI Edicola Accedi Cerca articoli o argomenti su Repubblica",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > button.rep-slim-header__notification-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__notification-button"
+          ],
+          "text": "",
+          "ariaLabel": "Notifiche",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.rep-slim-header__top__subscribe",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__top__subscribe"
+          ],
+          "text": "Abbonati",
+          "ariaLabel": "Abbonati a Repubblica",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.hide-on-mobile.rep-slim-header__item--claim",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "hide-on-mobile",
+            "rep-slim-header__item--claim"
+          ],
+          "text": "Scarica l'app",
+          "ariaLabel": "Scarica l'app di Repubblica",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.rep-slim-header__top__premium",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__top__premium"
+          ],
+          "text": "",
+          "ariaLabel": "Edicola",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "button#repHamOpenButton",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "repHamOpenButton",
+          "classes": [
+            "rep-slim-header__item",
+            "rep-slim-header__menu-button",
+            "rep-toggle-menu"
+          ],
+          "text": "Menu",
+          "ariaLabel": "Menu di navigazione",
+          "title": null,
+          "rect": {
+            "x": 142,
+            "y": 8,
+            "width": 81,
+            "height": 34
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#repSearchToggleButton",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "repSearchToggleButton",
+          "classes": [
+            "rep-slim-header__item",
+            "rep-slim-header__search-button",
+            "hide-on-mobile"
+          ],
+          "text": "Cerca",
+          "ariaLabel": "Apri ricerca",
+          "title": null,
+          "rect": {
+            "x": 239,
+            "y": 17,
+            "width": 64,
+            "height": 16
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__left > button.rep-slim-header__item.rep-slim-header__notification-button",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__item",
+            "rep-slim-header__notification-button",
+            "hide-on-mobile"
+          ],
+          "text": "Notifiche",
+          "ariaLabel": "Notifiche",
+          "title": null,
+          "rect": {
+            "x": 320,
+            "y": 15,
+            "width": 84,
+            "height": 20
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__center > a.rep-slim-header__logo",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__logo"
+          ],
+          "text": "",
+          "ariaLabel": null,
+          "title": "la Repubblica",
+          "rect": {
+            "x": 640,
+            "y": 19,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__center > a.hide-on-mobile.rep-slim-header__item--claim",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "hide-on-mobile",
+            "rep-slim-header__item--claim"
+          ],
+          "text": "ABBONATI",
+          "ariaLabel": "Abbonati a Repubblica",
+          "title": null,
+          "rect": {
+            "x": 609,
+            "y": 19,
+            "width": 62,
+            "height": 12
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__right > a.rep-slim-header__item.hide-on-mobile",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__item",
+            "hide-on-mobile",
+            "rep-slim-header__item--subscribe"
+          ],
+          "text": "Abbonati",
+          "ariaLabel": "Abbonati a Repubblica",
+          "title": null,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__right > a.rep-slim-header__item.hide-on-mobile",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [
+            "rep-slim-header__item",
+            "hide-on-mobile",
+            "rep-slim-header__item--premium"
+          ],
+          "text": "Edicola",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 951,
+            "y": 18,
+            "width": 79,
+            "height": 14
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "div#repSearchForm > div.rep-slim-header__content > form.rep-slim-header__search > button",
+          "tag": "button",
+          "type": "submit",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": "Esegui ricerca",
+          "title": null,
+          "rect": {
+            "x": 1047,
+            "y": 64,
+            "width": 40,
+            "height": 40
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "path": "button#repSearchFormCloseButton",
+          "tag": "button",
+          "type": null,
+          "role": null,
+          "id": "repSearchFormCloseButton",
+          "classes": [
+            "rep-slim-header__search__close-button"
+          ],
+          "text": "",
+          "ariaLabel": "Chiudi ricerca",
+          "title": null,
+          "rect": {
+            "x": 1102,
+            "y": 66,
+            "width": 36,
+            "height": 36
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "src": "https://cdn-gl.imrworldwide.com/novms/html/ls.html",
+      "name": null
+    }
+  ],
+  "unreadable": false,
+  "rederivedFromSavedPage": true
+}

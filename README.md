@@ -14,12 +14,12 @@ unlawful, and it is not legal advice. See [`docs/methodology.md`](docs/methodolo
 
 ## Status
 
-Phase 2 of 8. The extension measures what a site deposits **before consent**:
+Phase 3 of 8. The extension measures what a site deposits **before consent** —
 requests, cookies and storage, each dated against the moment the page began
-loading. No banner detection, no rule engine, no report page yet. See
-[`docs/roadmap.md`](docs/roadmap.md), and
-[`docs/verification/`](docs/verification/) for what the capture finds on real
-sites.
+loading — then identifies the consent platform, locates the banner, and can
+drive a refusal and an acceptance, checking afterwards that each actually took.
+No rule engine and no report page yet. See [`docs/roadmap.md`](docs/roadmap.md),
+and [`docs/verification/`](docs/verification/) for what it finds on real sites.
 
 An audit runs in an incognito window, which Chrome only permits if you turn on
 *Allow in Incognito* in the extension's details. That is not a formality: in
@@ -45,6 +45,9 @@ unpacked*.
 | `npm run test:unit` | Node's built-in runner, no browser |
 | `npm run test:e2e` | Loads the built extension into a real Chromium profile |
 | `npm run verify:capture` | Runs capture A against real sites and writes the evidence to `docs/verification/`. Needs the open internet; not part of `npm test` |
+| `npm run capture:fixtures` | Re-records the banner corpus in `tests/fixtures/banners/` from live sites |
+| `npm run rederive:profiles` | Re-reads the saved pages with the current collector, without touching the network |
+| `npm run verify:banners` | Detection over the committed corpus. `--live` also drives a refusal and an acceptance on each site |
 
 The end-to-end suite uses the Chromium already present on the machine when
 there is one (`/opt/pw-browsers/chromium`, override with `CHROMIUM_PATH`),
@@ -57,6 +60,7 @@ extension/
   manifest.json
   src/
     background/     service worker, debugger session, capture, page instrument
+    content/        page profile, CMP adapters, banner detector, interaction driver
     shared/         message protocol, host classification
     ui/
       tokens.css    design system, single source of truth
@@ -66,7 +70,7 @@ shared/schema/      the capture contract, shared with the server
 scripts/            build, token check, icon generation, real-site verification
 tests/unit/         browserless
 tests/e2e/          real Chromium, real extension, local two-host fixture site
-tests/fixtures/     recorded CDP sessions, site lists
+tests/fixtures/     recorded CDP sessions, the banner corpus, site lists
 docs/               methodology (published), roadmap, verification runs
 ```
 
@@ -82,7 +86,11 @@ and no permission is requested that the product does not use.
 | `cookies` | Read the cookie jar to measure what was written before consent |
 | `debugger` | Attach the CDP Network domain **before** navigation — the only way to observe the earliest requests under MV3 |
 | `storage` | Keep audit history and settings locally, on the user's machine |
-| `scripting` | Inject the banner detector and interaction driver into the audited page |
+
+`scripting` was declared in phase 1 and has been **removed**: the banner is read
+and driven through the debugger session the audit already holds, so the
+extension needs neither `chrome.scripting` nor the `<all_urls>` host permission
+that reaching a page's main world through it would require.
 
 `debugger` makes Chrome show a warning bar at the top of the audited tab. That
 is unavoidable and visible; the popup will say so before the first audit rather

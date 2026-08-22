@@ -123,6 +123,91 @@ The classification is a convenience for reading a capture; it is not the basis
 of a finding. Tracker classification proper arrives with the Tracker Radar data
 and its entity ownership.
 
+## Identifying the consent platform
+
+Naming the platform matters because it decides how much the rest can be
+trusted. Four kinds of evidence, in descending order:
+
+| Evidence | Confidence | Why |
+|---|---|---|
+| A platform global — `window.Didomi`, `window.OneTrust`, `window._sp_` | certain | Only that platform's own script defines it |
+| A registered TCF `cmpId` | certain | The vendor identifies itself through a standard API |
+| The platform's own markup — id or class names | likely | Class names are copied, forked and left behind |
+| A consent iframe on the platform's own host | certain | The frame is served by the platform |
+
+Every finding carries the evidence that produced it. "Didomi, because
+`window.Didomi` exists and the TCF API reports CMP 7" is something a reader can
+check; "Didomi" is not.
+
+**The TCF id table is observed, not asserted.** The IAB registry is not
+available in a form this project can vendor, so an id is only attributed to a
+vendor where it was seen next to that vendor's own global across the recorded
+corpus — cmpId 7 with `window.Didomi` on a dozen French publishers, 6 and 35
+with `window._sp_`, 28 with `window.OneTrust`. An id never seen that way is
+reported as `TCF CMP #<id>`: the framework is named, the vendor is not, and the
+report does not pretend otherwise.
+
+## Finding the banner, and admitting when it was a guess
+
+Most of the web runs no platform this project will ever recognise by name. A
+banner is then located by what it looks like — pinned, dialog-shaped, occupying
+a plausible share of the viewport — and by what its buttons say, against a
+multilingual label table.
+
+That fallback works, and it is weaker. Which is why:
+
+- the report states the method, `platform-markup` or `heuristic`, on the report
+  itself and not only here;
+- a heuristically located banner carries the sentence *"No known consent
+  platform was identified. The banner was located by appearance and by what its
+  buttons say, so these findings are weaker than usual."*;
+- **"no banner" and "could not look" are different outcomes.** A consent frame
+  that could not be read is reported as exactly that. A site that looks
+  compliant because the tool went blind is the most expensive false negative
+  available, and it is not on offer.
+
+Cross-site iframes deserve their own note. Several large platforms render the
+whole banner inside one, in a separate renderer process where a session
+attached to the tab sees an empty wrapper. Each such frame is therefore read
+through a session of its own, and the buttons found in it are pressed there.
+
+## Driving a refusal, and proving it took
+
+Two routes, in order of how much they can be trusted. The platform's own call —
+`Didomi.setUserDisagreeToAll()`, `OneTrust.RejectAll()`,
+`Cookiebot.submitCustomConsent(false, false, false)` — is the same call the
+platform's own button makes and does not depend on a button still being where
+it was last week. Where no such call is documented, or the platform is
+unrecognised, the button is pressed: the service worker decides which label,
+the page finds it and presses it, so the label table lives in one place.
+
+Where an undocumented method might exist, this project does not guess at one. A
+refusal that silently does nothing, reported as a refusal, is the worst failure
+this tool can produce.
+
+**Nothing is taken on trust.** After the instruction, the banner is read again
+and, where the TCF API exists, it is asked what it now records. A refusal is
+only a refusal if consent is recorded for no purpose at all; where there is no
+TCF to ask, the banner going away is the fallback proof. A click that landed on
+a banner that closed while consent stayed recorded is reported as a failure.
+
+**When the refusal is one layer deeper.** Where the visitor's first screen
+offers acceptance and preferences but no refusal, the preferences panel is
+opened and the refusal looked for there. That the refusal took a second click
+is recorded, because it is the imbalance the guidelines are about. A panel whose
+toggles merely start switched off, saved with a neutral "Save" button, is not
+treated as a refusal — only an explicit refusal label counts.
+
+## Limits of the recorded corpus
+
+The banner corpus in `tests/fixtures/banners/` was recorded from a sandbox whose
+egress leaves the EU. Some sites therefore served their non-EU consent
+experience — theguardian.com resolved to `/us`, lemonde.fr to `/en` — and what
+was recorded for those is not what a European visitor sees. Sites that refused
+the automated visit outright are in the corpus as failures rather than quietly
+dropped. Neither limitation affects the extension: it runs in the user's own
+browser, from wherever they are.
+
 ## Open questions
 
 Legal points this project has deliberately not settled. Each one names the rule

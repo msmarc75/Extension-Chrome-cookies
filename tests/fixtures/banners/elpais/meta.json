@@ -1,0 +1,18 @@
+{
+  "slug": "elpais",
+  "requestedUrl": "https://elpais.com/",
+  "capturedAt": "2026-08-22",
+  "navigationError": null,
+  "scriptHosts": [
+    "",
+    "assets.adobedtm.com",
+    "ct.captcha-delivery.com"
+  ],
+  "finalUrl": "https://elpais.com/us/",
+  "title": "elpais.com",
+  "lang": "fr",
+  "globals": [],
+  "tcf": null,
+  "shadowHosts": [],
+  "bodyChildCount": 4
+}

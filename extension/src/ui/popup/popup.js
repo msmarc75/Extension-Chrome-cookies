@@ -1,10 +1,12 @@
 /*
  * Popup controller.
  *
- * The popup is a launcher and a summary, not the report. It shows the four
- * figures that decide whether the rest is worth reading, and it is honest
- * about the conditions the measurement was taken under — a capture from a
- * profile that already knew the site is worth less, and says so.
+ * The popup is a launcher and a summary, not the report. It shows the handful
+ * of figures that decide whether the rest is worth reading, and it is honest
+ * about the conditions the measurement was taken under: a capture from a
+ * profile that already knew the site is worth less, and a banner found by
+ * appearance rather than by its platform is weaker evidence. Both say so, here,
+ * next to the numbers.
  */
 
 import { MessageType, request } from '../../shared/messaging.js';
@@ -34,7 +36,15 @@ async function activeTabUrl() {
   return tab?.url ?? null;
 }
 
-function renderResult(capture) {
+const BANNER_METHOD = Object.freeze({
+  'platform-markup': 'found by its platform',
+  heuristic: 'found by appearance',
+  'frame-only': 'in an unreadable frame',
+  none: 'not found',
+});
+
+function renderResult(probe) {
+  const capture = probe.captureA;
   const summary = summarise(capture);
 
   field('result-target').textContent = capture.target.finalUrl ?? capture.target.requestedUrl;
@@ -48,15 +58,26 @@ function renderResult(capture) {
   field('first-deposit').textContent =
     summary.firstDepositMs === null ? 'nothing observed' : formatOffset(summary.firstDepositMs);
 
+  field('cmp').textContent =
+    probe.cmp.id === null ? 'none recognised' : `${probe.cmp.name} (${probe.cmp.confidence})`;
+  field('banner').textContent = BANNER_METHOD[probe.banner.method] ?? probe.banner.method;
+
   field('profile-note').textContent = PROFILE_NOTE[capture.profile] ?? '';
 
+  /*
+   * Everything that limits how far these figures can be trusted, on the same
+   * screen as the figures. A caveat kept in the documentation is a caveat
+   * nobody reads.
+   */
+  const caveats = [
+    ...(probe.banner.disclosure ? [probe.banner.disclosure] : []),
+    ...(capture.notes.length > 0
+      ? [`Limitations recorded: ${capture.notes.map((n) => n.code).join(', ')}.`]
+      : []),
+  ];
   const notes = field('capture-notes');
-  if (capture.notes.length > 0) {
-    notes.hidden = false;
-    notes.textContent = `Limitations recorded: ${capture.notes.map((n) => n.code).join(', ')}.`;
-  } else {
-    notes.hidden = true;
-  }
+  notes.hidden = caveats.length === 0;
+  notes.textContent = caveats.join(' ');
 
   show('result');
 }
@@ -109,7 +130,11 @@ async function runAudit() {
   field('running-detail').textContent =
     'Watching the page without touching it. Do not interact with the audit window.';
 
-  const response = await request(MessageType.CAPTURE_PRE_CONSENT, { url });
+  /*
+   * `act: false` — the popup measures and identifies, it does not refuse or
+   * accept on the user's behalf. Driving the banner belongs to the full audit.
+   */
+  const response = await request(MessageType.PROBE_BANNER, { url, act: false });
 
   if (response.ok) {
     renderResult(response.data);

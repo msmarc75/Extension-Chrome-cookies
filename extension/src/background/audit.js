@@ -19,6 +19,9 @@
 import { CaptureBuilder } from './capture.js';
 import { withSession } from './debugger-session.js';
 import { COLLECT_EXPRESSION, INSTRUMENT_SOURCE, parsePageMarks } from './page-instrument.js';
+import { locateBanner } from '../content/banner-detector.js';
+import { identifyCmp } from '../content/cmp-adapters/index.js';
+import { express, readProfile, resetOrigin } from '../content/interaction-driver.js';
 
 /** Length of the observation window, in milliseconds. */
 export const OBSERVATION_MS = 5_000;
@@ -127,6 +130,126 @@ async function openAuditSurface(mode) {
 }
 
 /**
+ * Watch a page for a fixed window and turn what happened into a capture.
+ *
+ * Shared by every phase of the cycle. Phase A is the one that must not be
+ * touched; B and C are taken after an interaction the caller has already
+ * performed, and say so in the capture they produce.
+ *
+ * @param {object} options
+ * @param {{send: Function, trySend: Function}} options.session
+ * @param {'A'|'B'|'C'} options.phase
+ * @param {string} options.target
+ * @param {string} options.profile which kind of browser profile this is
+ * @param {'none'|'refuse-all'|'accept-all'} options.interaction
+ * @param {number} options.observationMs
+ * @param {(builder: CaptureBuilder) => void} options.attach hands the caller the builder
+ * @returns {Promise<object>} a capture matching shared/schema/capture.schema.json
+ */
+async function observe({
+  session,
+  phase,
+  target,
+  profile,
+  interaction,
+  observationMs,
+  attach,
+  instrumented,
+}) {
+  const startedAt = Date.now();
+  const builder = new CaptureBuilder({
+    phase,
+    requestedUrl: target,
+    profile,
+    startedAt,
+    interaction,
+  });
+  attach(builder);
+
+  if (instrumented === null) {
+    builder.note(
+      'INSTRUMENT_NOT_INSTALLED',
+      'Storage writes and script-set cookies cannot be dated in this capture',
+    );
+  }
+
+  /*
+   * The navigation is started, not awaited. `Page.navigate` settles when the
+   * navigation commits, and a page that never answers would otherwise stretch
+   * the window to whatever the server felt like — or hang the audit outright.
+   */
+  let navigation = null;
+  void session
+    .send('Page.navigate', { url: target })
+    .then((result) => {
+      navigation = result ?? {};
+    })
+    .catch((cause) => {
+      navigation = { errorText: cause.message };
+    });
+
+  await sleep(Math.max(0, observationMs - (Date.now() - startedAt)));
+
+  if (navigation?.errorText) {
+    builder.note('NAVIGATION_FAILED', navigation.errorText);
+  } else if (navigation === null) {
+    builder.note('NAVIGATION_INCOMPLETE', `The page had not committed after ${observationMs} ms`);
+  }
+
+  /* Only now, with the window closed, may the page be questioned. */
+  const budget = { timeoutMs: SNAPSHOT_TIMEOUT_MS };
+  const jar = await session.trySend('Network.getCookies', {}, budget);
+  if (jar === null) builder.note('COOKIE_SNAPSHOT_UNAVAILABLE', 'Network.getCookies failed');
+
+  /*
+   * Nothing to read from a document that never arrived, and asking would block
+   * until the pending navigation resolves — which, for the page that provoked
+   * this branch, is never.
+   */
+  let pageMarks = null;
+  let usage = null;
+  if (builder.navigationCommittedAt !== null) {
+    const collected = await session.trySend(
+      'Runtime.evaluate',
+      { expression: COLLECT_EXPRESSION, returnByValue: true },
+      budget,
+    );
+    if (collected === null) {
+      builder.note('PAGE_MARKS_UNAVAILABLE', 'The page could not be read back');
+    }
+    pageMarks = parsePageMarks(collected?.result?.value);
+
+    const origin = safeOrigin(builder.finalUrl ?? target);
+    usage = origin ? await session.trySend('Storage.getUsageAndQuota', { origin }, budget) : null;
+  }
+
+  return builder.finish({
+    durationMs: Date.now() - startedAt,
+    jarCookies: jar?.cookies ?? [],
+    usageBreakdown: usage?.usageBreakdown ?? [],
+    pageMarks,
+  });
+}
+
+/** Bring up the domains and the in-page instrument. All of it before navigation. */
+async function arm(session) {
+  await session.send('Network.enable');
+  await session.send('Page.enable');
+  await session.send('Runtime.enable');
+  /*
+   * Auto-attach is what makes a cross-site consent frame readable at all: it
+   * runs in its own renderer, and the tab's own session is blind to it. The
+   * banner of several large platforms lives in exactly such a frame.
+   */
+  await session.trySend('Target.setAutoAttach', {
+    autoAttach: true,
+    waitForDebuggerOnStart: false,
+    flatten: true,
+  });
+  return session.trySend('Page.addScriptToEvaluateOnNewDocument', { source: INSTRUMENT_SOURCE });
+}
+
+/**
  * Run capture A against a URL.
  *
  * @param {object} options
@@ -155,91 +278,136 @@ export async function captureBeforeConsent({
       surface.tabId,
       (method, params) => builder?.onEvent(method, params),
       async (session) => {
-        /* Domains and instrumentation first. All of it live before navigation. */
-        await session.send('Network.enable');
-        await session.send('Page.enable');
-        await session.send('Runtime.enable');
-        const instrumented = await session.trySend('Page.addScriptToEvaluateOnNewDocument', {
-          source: INSTRUMENT_SOURCE,
-        });
-
-        const startedAt = Date.now();
-        builder = new CaptureBuilder({
+        const instrumented = await arm(session);
+        return observe({
+          session,
           phase: 'A',
-          requestedUrl: target,
+          target,
           profile: surface.profile,
-          startedAt,
           interaction: 'none',
+          observationMs,
+          instrumented,
+          attach: (created) => {
+            builder = created;
+          },
         });
-        if (instrumented === null) {
-          builder.note(
-            'INSTRUMENT_NOT_INSTALLED',
-            'Storage writes and script-set cookies cannot be dated in this capture',
-          );
-        }
+      },
+      { budgetMs: SESSION_BUDGET_MS },
+    );
+  } finally {
+    auditInFlight = false;
+    try {
+      await surface.close();
+    } catch {
+      /* The user may have closed it first. */
+    }
+  }
+}
 
-        /*
-         * The navigation is started, not awaited. `Page.navigate` settles when
-         * the navigation commits, and a page that never answers would otherwise
-         * stretch the five-second window to whatever the server felt like —
-         * or hang the audit outright.
-         */
-        let navigation = null;
-        void session
-          .send('Page.navigate', { url: target })
-          .then((result) => {
-            navigation = result ?? {};
-          })
-          .catch((cause) => {
-            navigation = { errorText: cause.message };
+/**
+ * Capture A, then find the banner, then try to refuse and to accept.
+ *
+ * The order is the same as the real cycle and for the same reason: the
+ * observation window runs first and untouched, and only once it has closed does
+ * anything reach for a button. Reversing that would make the measurement
+ * capture A exists for worthless.
+ *
+ * @param {object} options
+ * @param {string} options.url
+ * @param {'incognito'|'current'} [options.mode]
+ * @param {number} [options.observationMs]
+ * @param {boolean} [options.act] whether to attempt refusal and acceptance
+ */
+export async function probeBanner({
+  url,
+  mode = 'incognito',
+  observationMs = OBSERVATION_MS,
+  act = true,
+} = {}) {
+  if (auditInFlight) {
+    throw new AuditError('BUSY', 'An audit is already running');
+  }
+  const target = normaliseTargetUrl(url);
+  auditInFlight = true;
+
+  const surface = await openAuditSurface(mode);
+  /** @type {CaptureBuilder|null} */
+  let builder = null;
+
+  try {
+    return await withSession(
+      surface.tabId,
+      (method, params) => builder?.onEvent(method, params),
+      async (session) => {
+        const instrumented = await arm(session);
+        const captureA = await observe({
+          session,
+          phase: 'A',
+          target,
+          profile: surface.profile,
+          interaction: 'none',
+          observationMs,
+          instrumented,
+          attach: (created) => {
+            builder = created;
+          },
+        });
+
+        const profile = await readProfile(session);
+        const cmp = identifyCmp(profile);
+        const banner = locateBanner(profile, cmp);
+
+        const result = {
+          target,
+          finalUrl: captureA.target.finalUrl,
+          captureA,
+          cmp,
+          banner: {
+            found: banner.found,
+            method: banner.method,
+            confidence: banner.confidence,
+            reasons: banner.reasons,
+            disclosure: banner.disclosure,
+            container: banner.container
+              ? {
+                  path: banner.container.path,
+                  text: banner.container.text.slice(0, 300),
+                  viewportShare: banner.container.viewportShare,
+                }
+              : null,
+            controls: Object.fromEntries(
+              Object.entries(banner.controls).map(([intent, found]) => [
+                intent,
+                found ? { label: found.match.label, score: found.match.score } : null,
+              ]),
+            ),
+          },
+          framesExamined: profile.framesExamined ?? null,
+          refusal: null,
+          acceptance: null,
+        };
+
+        if (!act) return result;
+
+        result.refusal = await express({ session, cmp, banner, intent: 'refuse' });
+
+        /* Start over before asking the opposite question. */
+        const origin = safeOrigin(captureA.target.finalUrl ?? target);
+        if (origin) {
+          await resetOrigin(session, { origin, url: target });
+          await sleep(observationMs);
+          const freshProfile = await readProfile(session);
+          const freshCmp = identifyCmp(freshProfile);
+          const freshBanner = locateBanner(freshProfile, freshCmp);
+          result.acceptance = await express({
+            session,
+            cmp: freshCmp,
+            banner: freshBanner,
+            intent: 'accept',
           });
-
-        await sleep(Math.max(0, observationMs - (Date.now() - startedAt)));
-
-        if (navigation?.errorText) {
-          builder.note('NAVIGATION_FAILED', navigation.errorText);
-        } else if (navigation === null) {
-          builder.note(
-            'NAVIGATION_INCOMPLETE',
-            `The page had not committed after ${observationMs} ms`,
-          );
         }
 
-        /* Only now, with the window closed, may the page be questioned. */
-        const budget = { timeoutMs: SNAPSHOT_TIMEOUT_MS };
-        const jar = await session.trySend('Network.getCookies', {}, budget);
-        if (jar === null) builder.note('COOKIE_SNAPSHOT_UNAVAILABLE', 'Network.getCookies failed');
-
-        /*
-         * Nothing to read from a document that never arrived, and asking would
-         * block until the pending navigation resolves — which, for the page
-         * that provoked this branch, is never.
-         */
-        let pageMarks = null;
-        let usage = null;
-        if (builder.navigationCommittedAt !== null) {
-          const collected = await session.trySend(
-            'Runtime.evaluate',
-            { expression: COLLECT_EXPRESSION, returnByValue: true },
-            budget,
-          );
-          if (collected === null) {
-            builder.note('PAGE_MARKS_UNAVAILABLE', 'The page could not be read back');
-          }
-          pageMarks = parsePageMarks(collected?.result?.value);
-
-          const origin = safeOrigin(builder.finalUrl ?? target);
-          usage = origin
-            ? await session.trySend('Storage.getUsageAndQuota', { origin }, budget)
-            : null;
-        }
-
-        return builder.finish({
-          durationMs: Date.now() - startedAt,
-          jarCookies: jar?.cookies ?? [],
-          usageBreakdown: usage?.usageBreakdown ?? [],
-          pageMarks,
-        });
+        return result;
       },
       { budgetMs: SESSION_BUDGET_MS },
     );

@@ -7,7 +7,7 @@
  */
 
 import { MessageType, PROTOCOL_VERSION, bindRuntime, createRouter } from '../shared/messaging.js';
-import { AuditError, auditCapability, captureBeforeConsent } from './audit.js';
+import { AuditError, auditCapability, captureBeforeConsent, probeBanner } from './audit.js';
 import { liveSessionCount, sweepOrphans } from './debugger-session.js';
 
 /**
@@ -38,24 +38,40 @@ const router = createRouter()
     };
   })
   .on(MessageType.AUDIT_CAPABILITY, () => auditCapability())
-  .on(MessageType.CAPTURE_PRE_CONSENT, async (payload) => {
-    try {
-      return await captureBeforeConsent({
+  .on(MessageType.CAPTURE_PRE_CONSENT, (payload) =>
+    guarded(() =>
+      captureBeforeConsent({
         url: payload?.url,
         mode: payload?.mode ?? 'incognito',
         observationMs: payload?.observationMs,
-      });
-    } catch (cause) {
-      /*
-       * An audit that cannot run is an outcome, not a crash: the popup has a
-       * screen for each reason and needs the code, not a stack trace.
-       */
-      if (cause instanceof AuditError) {
-        throw new Error(`${cause.code}: ${cause.message}`);
-      }
-      throw cause;
+      }),
+    ),
+  )
+  .on(MessageType.PROBE_BANNER, (payload) =>
+    guarded(() =>
+      probeBanner({
+        url: payload?.url,
+        mode: payload?.mode ?? 'incognito',
+        observationMs: payload?.observationMs,
+        act: payload?.act !== false,
+      }),
+    ),
+  );
+
+/*
+ * An audit that cannot run is an outcome, not a crash: the popup has a screen
+ * for each reason and needs the code, not a stack trace.
+ */
+async function guarded(run) {
+  try {
+    return await run();
+  } catch (cause) {
+    if (cause instanceof AuditError) {
+      throw new Error(`${cause.code}: ${cause.message}`);
     }
-  });
+    throw cause;
+  }
+}
 
 bindRuntime(router);
 
