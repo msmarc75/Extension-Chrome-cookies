@@ -1,0 +1,100 @@
+/*
+ * Consent Audit — design tokens.
+ *
+ * SINGLE SOURCE OF TRUTH. No colour, spacing, radius, type family, type size
+ * or duration literal may appear in any other stylesheet, HTML file or script.
+ * `npm run check:tokens` enforces this mechanically.
+ *
+ * Register: regulatory inspection report. Dense, precise, legible in a
+ * screenshot pasted into a client deliverable — not a marketing dashboard.
+ * Verdict colours never carry meaning alone; every state also has an icon and
+ * a label so the report survives greyscale printing.
+ */
+
+:root {
+  /* ---- Ink & paper ------------------------------------------------------ */
+  --ca-ink: #16191d;
+  --ca-ink-muted: #5a6068;
+  --ca-ink-faint: #8b9098;
+  --ca-paper: #fbfaf7;
+  --ca-paper-raised: #ffffff;
+  --ca-paper-sunken: #f2efe9;
+  --ca-rule: #d9d5cc;
+  --ca-rule-strong: #b9b3a6;
+
+  /* ---- Verdicts --------------------------------------------------------- */
+  --ca-breach: #a4243b; /* manquement caractérisé */
+  --ca-caution: #b3762e; /* écart à corriger */
+  --ca-clear: #2e6b4f; /* conforme */
+  --ca-accent: #1f4a7a; /* éléments interactifs */
+
+  --ca-breach-tint: #f7e9ec;
+  --ca-caution-tint: #f9f1e5;
+  --ca-clear-tint: #e7f0eb;
+  --ca-accent-tint: #e8eef6;
+
+  --ca-accent-hover: #17395e;
+  --ca-accent-active: #10283f;
+
+  /* ---- Type families ---------------------------------------------------- */
+  /* No webfonts: the extension must render offline and under a strict CSP. */
+  --ca-font-display: "Inter", "Helvetica Neue", "Arial Nova", system-ui, sans-serif;
+  --ca-font-body: system-ui, -apple-system, "Segoe UI", "Roboto", "Noto Sans", sans-serif;
+  --ca-font-data: ui-monospace, "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+
+  /* ---- Type scale — 12 / 14 / 16 / 20 / 28 / 44 ------------------------- */
+  --ca-size-100: 0.75rem;
+  --ca-size-200: 0.875rem;
+  --ca-size-300: 1rem;
+  --ca-size-400: 1.25rem;
+  --ca-size-500: 1.75rem;
+  --ca-size-600: 2.75rem;
+
+  --ca-weight-regular: 400;
+  --ca-weight-medium: 500;
+  --ca-weight-display: 600;
+
+  --ca-leading-tight: 1.15;
+  --ca-leading-snug: 1.3;
+  --ca-leading-normal: 1.5;
+
+  --ca-tracking-caps: 0.08em;
+  --ca-tracking-tight: -0.01em;
+
+  /* ---- Space — 4px base ------------------------------------------------- */
+  --ca-space-0: 0;
+  --ca-space-1: 2px;
+  --ca-space-2: 4px;
+  --ca-space-3: 8px;
+  --ca-space-4: 12px;
+  --ca-space-5: 16px;
+  --ca-space-6: 24px;
+  --ca-space-7: 32px;
+  --ca-space-8: 48px;
+
+  /* ---- Lines & radii ---------------------------------------------------- */
+  --ca-border-hairline: 1px;
+  --ca-border-strong: 2px;
+  --ca-radius-none: 0;
+  --ca-radius-sm: 2px;
+  --ca-radius-md: 4px;
+
+  --ca-focus-ring-width: 2px;
+  --ca-focus-ring-offset: 2px;
+
+  /* ---- Surfaces --------------------------------------------------------- */
+  --ca-viewport-width: 400px;
+  --ca-viewport-height: 600px;
+
+  /* ---- Motion ----------------------------------------------------------- */
+  --ca-duration-instant: 80ms;
+  --ca-duration-quick: 140ms;
+  --ca-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ca-duration-instant: 0ms;
+    --ca-duration-quick: 0ms;
+  }
+}

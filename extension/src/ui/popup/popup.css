@@ -1,0 +1,209 @@
+/*
+ * Popup — 400 × 600.
+ *
+ * Every value here resolves to a token from ../tokens.css. Literal colours,
+ * sizes, spacings and type families are rejected by `npm run check:tokens`.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.ca-popup {
+  width: var(--ca-viewport-width);
+  height: var(--ca-viewport-height);
+  margin: var(--ca-space-0);
+  display: flex;
+  flex-direction: column;
+  background: var(--ca-paper);
+  color: var(--ca-ink);
+  font-family: var(--ca-font-body);
+  font-size: var(--ca-size-200);
+  line-height: var(--ca-leading-normal);
+}
+
+/* ---- Header ------------------------------------------------------------- */
+
+.ca-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ca-space-4);
+  padding: var(--ca-space-5) var(--ca-space-5) var(--ca-space-4);
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-wordmark {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-400);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-tight);
+  letter-spacing: var(--ca-tracking-tight);
+}
+
+.ca-version {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+/* ---- Main --------------------------------------------------------------- */
+
+.ca-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--ca-space-5);
+}
+
+.ca-panel {
+  background: var(--ca-paper-raised);
+  border: var(--ca-border-hairline) solid var(--ca-rule);
+  border-radius: var(--ca-radius-sm);
+  padding: var(--ca-space-5);
+}
+
+.ca-panel__title {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-4);
+  font-family: var(--ca-font-body);
+  font-size: var(--ca-size-100);
+  font-weight: var(--ca-weight-medium);
+  line-height: var(--ca-leading-snug);
+  letter-spacing: var(--ca-tracking-caps);
+  text-transform: uppercase;
+  color: var(--ca-ink-muted);
+}
+
+/* ---- Verdict ------------------------------------------------------------ */
+
+/*
+ * Colour never carries the state alone: the mark glyph and the label text
+ * both restate it, so the panel survives greyscale printing and colour
+ * vision deficiency.
+ */
+.ca-verdict {
+  display: flex;
+  align-items: center;
+  gap: var(--ca-space-3);
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+  padding: var(--ca-space-3) var(--ca-space-4);
+  border-left: var(--ca-border-strong) solid var(--ca-rule-strong);
+  background: var(--ca-paper-sunken);
+  font-size: var(--ca-size-200);
+}
+
+.ca-verdict__mark {
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-300);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-tight);
+}
+
+.ca-verdict__label {
+  font-weight: var(--ca-weight-medium);
+}
+
+.ca-verdict[data-state="clear"] {
+  border-left-color: var(--ca-clear);
+  background: var(--ca-clear-tint);
+  color: var(--ca-clear);
+}
+
+.ca-verdict[data-state="caution"] {
+  border-left-color: var(--ca-caution);
+  background: var(--ca-caution-tint);
+  color: var(--ca-caution);
+}
+
+.ca-verdict[data-state="breach"] {
+  border-left-color: var(--ca-breach);
+  background: var(--ca-breach-tint);
+  color: var(--ca-breach);
+}
+
+/* ---- Facts -------------------------------------------------------------- */
+
+.ca-facts {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+}
+
+.ca-facts__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ca-space-4);
+  padding: var(--ca-space-3) var(--ca-space-0);
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-facts__row:last-child {
+  border-bottom: var(--ca-border-hairline) solid transparent;
+}
+
+.ca-facts__term {
+  color: var(--ca-ink-muted);
+  font-size: var(--ca-size-100);
+}
+
+.ca-facts__value {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  text-align: right;
+}
+
+/* ---- Button ------------------------------------------------------------- */
+
+.ca-button {
+  display: block;
+  width: 100%;
+  padding: var(--ca-space-3) var(--ca-space-5);
+  border: var(--ca-border-hairline) solid var(--ca-accent);
+  border-radius: var(--ca-radius-sm);
+  background: var(--ca-accent);
+  color: var(--ca-paper-raised);
+  font-family: var(--ca-font-body);
+  font-size: var(--ca-size-200);
+  font-weight: var(--ca-weight-medium);
+  cursor: pointer;
+  transition: background var(--ca-duration-quick) var(--ca-ease-standard);
+}
+
+.ca-button:hover {
+  background: var(--ca-accent-hover);
+  border-color: var(--ca-accent-hover);
+}
+
+.ca-button:active {
+  background: var(--ca-accent-active);
+  border-color: var(--ca-accent-active);
+}
+
+.ca-button:focus-visible {
+  outline: var(--ca-focus-ring-width) solid var(--ca-ink);
+  outline-offset: var(--ca-focus-ring-offset);
+}
+
+.ca-button[disabled] {
+  background: var(--ca-rule);
+  border-color: var(--ca-rule);
+  color: var(--ca-ink-muted);
+  cursor: default;
+}
+
+/* ---- Footer ------------------------------------------------------------- */
+
+.ca-footer {
+  padding: var(--ca-space-4) var(--ca-space-5);
+  border-top: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-disclaimer {
+  margin: var(--ca-space-0);
+  font-size: var(--ca-size-100);
+  line-height: var(--ca-leading-snug);
+  color: var(--ca-ink-muted);
+}

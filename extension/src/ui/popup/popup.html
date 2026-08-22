@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Consent Audit</title>
+    <link rel="stylesheet" href="../tokens.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body class="ca-popup">
+    <header class="ca-header">
+      <h1 class="ca-wordmark">Consent Audit</h1>
+      <p class="ca-version" data-field="version">not connected</p>
+    </header>
+
+    <main class="ca-main">
+      <section class="ca-panel" aria-labelledby="ca-selfcheck-title">
+        <h2 class="ca-panel__title" id="ca-selfcheck-title">Extension self-check</h2>
+
+        <p class="ca-verdict" data-field="verdict" role="status" aria-live="polite">
+          <span class="ca-verdict__mark" data-field="verdict-mark" aria-hidden="true">·</span>
+          <span class="ca-verdict__label" data-field="verdict-label">Checking…</span>
+        </p>
+
+        <dl class="ca-facts">
+          <div class="ca-facts__row">
+            <dt class="ca-facts__term">Service worker</dt>
+            <dd class="ca-facts__value" data-field="worker">—</dd>
+          </div>
+          <div class="ca-facts__row">
+            <dt class="ca-facts__term">Message protocol</dt>
+            <dd class="ca-facts__value" data-field="protocol">—</dd>
+          </div>
+          <div class="ca-facts__row">
+            <dt class="ca-facts__term">Round trip</dt>
+            <dd class="ca-facts__value" data-field="latency">—</dd>
+          </div>
+        </dl>
+
+        <button class="ca-button" type="button" data-action="self-check">Run self-check</button>
+      </section>
+    </main>
+
+    <footer class="ca-footer">
+      <p class="ca-disclaimer">
+        Records observable facts about a site. Not a legal assessment.
+      </p>
+    </footer>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
