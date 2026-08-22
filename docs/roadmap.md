@@ -7,6 +7,26 @@ asserted. No phase writes code for a later one.
 
 Settled. Reopen only with a reason.
 
+### Taken during phase 3
+
+| Question | Decision | Why |
+|---|---|---|
+| Should the incognito gate be the only way to audit? | **No — two modes, incognito the default** | A hard gate before the tool does anything is the friction that loses a user before the first result. "Audit in my current profile" is also a real question a DPO asks — *does this site honour the refusal I already gave it?* The capture already records `profile: current` and the report already discloses it |
+| Model for policy analysis | **`claude-opus-5`** | Not downgraded for cost: that is the buyer's call, not the builder's. The task is adversarial reading of legal prose where a missed mention becomes a false clean bill of health |
+| How the literal quote is guaranteed | **Structured output, then verified by substring against the source** | The API's citation feature returns API-guaranteed verbatim spans but cannot be combined with a strict output schema. Verifying ourselves keeps the schema *and* is mechanically checkable: any mention whose quote is not found verbatim is downgraded to absent |
+| Batch mode for agencies | **Yes, strictly serial** | It is what turns a one-off tool into a subscription. Serial, user-initiated, one site at a time at the same pace a human visit produces — the plan's worry about pacing is real |
+| Separate web app for the Agency tier | **No, not yet** | A second product with its own auth, hosting and support surface. Defer until an agency asks and pays |
+| Scheduled monitoring | **Runs when Chrome is open, and says so** | An extension cannot audit while the browser is closed, and `chrome.debugger` has no server-side equivalent. A server-side crawler is a different product. The tier's promise must be worded as what it is |
+
+**Expected cost per policy analysis**, at the current published rate for
+`claude-opus-5` ($5 / 1M input, $25 / 1M output): a policy truncated at 50 000
+characters is roughly 15 000 input tokens, plus about 2 000 of prompt and
+schema, against an output of 2 500–4 000 tokens of structured findings —
+**about $0.17 per uncached analysis**. The SHA-256 cache the plan already calls
+for should take the effective figure under $0.10 once the corpus of shared
+policy templates starts repeating. Scheduled portfolio monitoring is
+non-latency-sensitive and belongs on the Batch API, at half that.
+
 | Subject | Decision | Why |
 |---|---|---|
 | Manifest | MV3 only | MV2 is no longer accepted by the Chrome Web Store |
@@ -161,12 +181,12 @@ cross-origin frame, and a page with nothing to consent to.
   a non-EU exit IP with a filtered egress. Re-running `npm run verify:banners
   --live` from a European network is what would settle whether the criterion is
   met; nothing in the code needs to change for it.
-- **The incognito gate.** An audit currently refuses to run without incognito
-  access, because a profile holding the site's data measures a returning
-  visitor. That is correct for the headline measurement and it is friction
-  before the tool does anything at all. Whether to offer a disclosed
-  current-profile audit as a second, clearly-labelled mode is a product call,
-  not a technical one.
+- **The second audit mode.** Decided (see Structural decisions): a
+  current-profile mode ships alongside the incognito default, labelled as a
+  returning visit everywhere it appears. Phase 4 must cap what can be concluded
+  from it — a deposit observed is still a deposit, but the *absence* of a banner
+  in a profile that may hold a stored choice establishes nothing, so category B
+  and C rules return `not_applicable` rather than `pass` on such a capture.
 - **Fingerprinting surface.** `PRE_CONSENT_FINGERPRINT` needs Canvas, WebGL and
   AudioContext hooks installed alongside the existing ones. The instrument is
   the right place; the rule that consumes them lands in phase 4, so the hooks
