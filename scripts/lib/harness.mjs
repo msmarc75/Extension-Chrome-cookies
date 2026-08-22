@@ -8,7 +8,7 @@
  */
 
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -16,7 +16,17 @@ import { chromium } from '@playwright/test';
 
 export const EXTENSION_PATH = fileURLToPath(new URL('../../dist/extension', import.meta.url));
 
-const CHROMIUM = '/opt/pw-browsers/chromium';
+/*
+ * This container ships a Chromium at a fixed path and blocks the download
+ * Playwright would otherwise do. Anywhere else that path does not exist, and
+ * Playwright's own browser is the right one — so the override is conditional,
+ * and `CHROMIUM_PATH` lets a caller name a third.
+ */
+function chromiumPath() {
+  const override = process.env.CHROMIUM_PATH;
+  if (override) return override;
+  return existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
+}
 
 /*
  * --- Sandbox accommodations -------------------------------------------------
@@ -109,7 +119,9 @@ function openssl(args, input) {
 function realisticUserAgent() {
   let version = '141.0.0.0';
   try {
-    const reported = execFileSync(CHROMIUM, ['--version'], { encoding: 'utf8' });
+    const reported = execFileSync(chromiumPath() ?? 'chromium', ['--version'], {
+      encoding: 'utf8',
+    });
     const match = /(\d+\.\d+\.\d+\.\d+)/.exec(reported);
     if (match) version = match[1];
   } catch {
@@ -128,7 +140,7 @@ function realisticUserAgent() {
 export async function launchHarness({ extension = false, deviceScaleFactor } = {}) {
   const profile = mkdtempSync(join(tmpdir(), 'consent-audit-harness-'));
   const context = await chromium.launchPersistentContext(profile, {
-    executablePath: CHROMIUM,
+    executablePath: chromiumPath(),
     deviceScaleFactor,
     userAgent: realisticUserAgent(),
     viewport: { width: 1280, height: 800 },
