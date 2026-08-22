@@ -14,6 +14,9 @@ import { formatOffset, summarise } from './summary.js';
 
 const ACKNOWLEDGED_KEY = 'debuggerNoticeAcknowledged';
 
+/** The audit just run, so the report opens on it rather than on the newest. */
+let lastAuditId = null;
+
 const field = (name) => document.querySelector(`[data-field="${name}"]`);
 const views = () => document.querySelectorAll('[data-view]');
 
@@ -104,6 +107,10 @@ function renderResult(probe) {
   notes.hidden = caveats.length === 0;
   notes.textContent = caveats.join(' ');
 
+  /* The popup is the summary; the report is where the evidence lives. */
+  lastAuditId = probe.auditId ?? null;
+  field('open-report').hidden = lastAuditId === null;
+
   show('result');
 }
 
@@ -183,6 +190,12 @@ document.addEventListener('click', async (event) => {
   } else if (action === 'acknowledge') {
     await chrome.storage.local.set({ [ACKNOWLEDGED_KEY]: true });
     field('debugger-notice').hidden = true;
+  } else if (action === 'open-report') {
+    await chrome.tabs.create({
+      url: chrome.runtime.getURL(
+        `src/ui/report/report.html${lastAuditId ? `?audit=${encodeURIComponent(lastAuditId)}` : ''}`,
+      ),
+    });
   } else if (action === 'open-settings') {
     await chrome.tabs.create({ url: `chrome://extensions/?id=${chrome.runtime.id}` });
   }

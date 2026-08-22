@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Consent Audit — report</title>
+    <link rel="stylesheet" href="../tokens.css" />
+    <link rel="stylesheet" href="report.css" />
+  </head>
+  <body class="ca-report">
+    <!--
+      A document, not a dashboard. It is written to be printed to PDF and sent
+      to a client as an annex, so every section states what it measured and
+      under what conditions, and nothing on the page depends on a tooltip or a
+      hover to be understood.
+    -->
+    <header class="ca-report__header">
+      <div>
+        <h1 class="ca-wordmark">Consent Audit</h1>
+        <p class="ca-report__subject" data-field="site">—</p>
+        <p class="ca-report__meta" data-field="meta">—</p>
+      </div>
+      <div class="ca-report__actions" data-field="actions">
+        <button class="ca-button" type="button" data-action="print">Save as PDF</button>
+        <button class="ca-button ca-button--quiet" type="button" data-action="csv-findings">
+          Findings (CSV)
+        </button>
+        <button class="ca-button ca-button--quiet" type="button" data-action="csv-deposits">
+          Deposits (CSV)
+        </button>
+      </div>
+    </header>
+
+    <main class="ca-report__main">
+      <p class="ca-report__empty" data-field="empty" hidden>
+        This report could not be loaded. It may have been deleted, or dropped to make room
+        for newer audits.
+      </p>
+
+      <section class="ca-report__section" data-field="verdict-section" hidden>
+        <div class="ca-score" data-field="score-block">
+          <p class="ca-score__value" data-field="score">—</p>
+          <div class="ca-score__gloss">
+            <p class="ca-score__band" data-field="band">—</p>
+            <p class="ca-score__counts" data-field="finding-counts">—</p>
+          </div>
+        </div>
+
+        <ul class="ca-disclosures" data-field="disclosures"></ul>
+      </section>
+
+      <!--
+        The signature element. Everything else in this report is an assessment
+        of something; this is the observation itself, drawn to scale.
+      -->
+      <section class="ca-report__section" data-field="timeline-section" hidden>
+        <h2 class="ca-report__heading">Deposit timeline</h2>
+        <p class="ca-report__lead">
+          What the site sent, wrote and read during the observation window, before anything
+          was clicked. Time runs from the moment the page began to load.
+        </p>
+
+        <div class="ca-timeline" data-field="timeline">
+          <div class="ca-timeline__axis" data-field="axis"></div>
+        </div>
+
+        <p class="ca-timeline__nothing" data-field="timeline-empty" hidden>
+          Nothing was observed in this window: no third-party call, no cookie, no storage
+          write. That is the finding.
+        </p>
+
+        <details class="ca-details" data-field="undated-details" hidden>
+          <summary class="ca-details__summary" data-field="undated-summary">Undated</summary>
+          <ul class="ca-list" data-field="undated"></ul>
+        </details>
+      </section>
+
+      <section class="ca-report__section" data-field="findings-section" hidden>
+        <h2 class="ca-report__heading">Findings</h2>
+        <p class="ca-report__lead">
+          Each finding carries the observation that produced it, the text it rests on, and
+          what would resolve it. Findings are statements about what was measured, not legal
+          conclusions.
+        </p>
+        <div data-field="findings"></div>
+      </section>
+
+      <section class="ca-report__section" data-field="policy-section" hidden>
+        <h2 class="ca-report__heading">Privacy policy</h2>
+        <p class="ca-report__lead" data-field="policy-source">—</p>
+        <table class="ca-table">
+          <thead>
+            <tr>
+              <th scope="col">Subject</th>
+              <th scope="col">Status</th>
+              <th scope="col">What the policy says</th>
+            </tr>
+          </thead>
+          <tbody data-field="policy-rows"></tbody>
+        </table>
+      </section>
+
+      <section class="ca-report__section ca-report__section--screen" data-field="history-section">
+        <h2 class="ca-report__heading">Earlier audits</h2>
+        <p class="ca-report__lead">
+          Kept on this computer only. Nothing about which sites you audit leaves your
+          browser.
+        </p>
+        <ul class="ca-history" data-field="history"></ul>
+        <button class="ca-button ca-button--quiet" type="button" data-action="clear-history">
+          Forget all audits
+        </button>
+      </section>
+    </main>
+
+    <footer class="ca-report__footer">
+      <p class="ca-disclaimer">
+        Consent Audit records observable facts about a site and compares them with published
+        guidance. It is an aid to analysis and not a legal assessment.
+      </p>
+      <p class="ca-disclaimer" data-field="footer-meta"></p>
+    </footer>
+
+    <script type="module" src="report.js"></script>
+  </body>
+</html>

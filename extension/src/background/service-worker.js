@@ -10,6 +10,7 @@ import { MessageType, PROTOCOL_VERSION, bindRuntime, createRouter } from '../sha
 import { AuditError, auditCapability, captureBeforeConsent, probeBanner } from './audit.js';
 import { liveSessionCount, sweepOrphans } from './debugger-session.js';
 import { analysePolicyText, serviceSettings } from './policy-client.js';
+import { clearHistory, deleteAudit, getAudit, listAudits, saveAudit } from './history.js';
 
 /**
  * Wall-clock instant at which this worker instance started. It resets on every
@@ -49,8 +50,8 @@ const router = createRouter()
     ),
   )
   .on(MessageType.PROBE_BANNER, (payload) =>
-    guarded(() =>
-      probeBanner({
+    guarded(async () => {
+      const result = await probeBanner({
         url: payload?.url,
         mode: payload?.mode ?? 'incognito',
         observationMs: payload?.observationMs,
@@ -69,10 +70,26 @@ const router = createRouter()
                   origin: payload?.serviceOrigin,
                   token: payload?.serviceToken ?? null,
                 }),
-      }),
-    ),
+      });
+
+      /*
+       * Kept before it is returned, so the report the user opens is the record
+       * that was stored rather than a second rendering of the same audit. The
+       * history is local; see history.js for why that is not negotiable.
+       */
+      if (payload?.remember !== false) {
+        const saved = await saveAudit(result);
+        result.auditId = saved.id;
+        result.auditAt = saved.at;
+      }
+      return result;
+    }),
   )
-  .on(MessageType.SERVICE_SETTINGS, () => serviceSettings());
+  .on(MessageType.SERVICE_SETTINGS, () => serviceSettings())
+  .on(MessageType.HISTORY_LIST, () => listAudits())
+  .on(MessageType.HISTORY_GET, (payload) => getAudit(payload?.id))
+  .on(MessageType.HISTORY_DELETE, (payload) => deleteAudit(payload?.id))
+  .on(MessageType.HISTORY_CLEAR, () => clearHistory());
 
 /*
  * An audit that cannot run is an outcome, not a crash: the popup has a screen

@@ -1,0 +1,618 @@
+/*
+ * The report — a document meant to be printed.
+ *
+ * Every value resolves to a token from ../tokens.css; `npm run check:tokens`
+ * rejects a literal. The print rules at the bottom are not an afterthought:
+ * the deliverable is a PDF a consultant attaches to their own work, so the
+ * page breaks, the ink and the hidden controls are part of the design.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.ca-report {
+  margin: var(--ca-space-0);
+  padding: var(--ca-space-0) var(--ca-space-6) var(--ca-space-8);
+  background: var(--ca-paper);
+  color: var(--ca-ink);
+  font-family: var(--ca-font-body);
+  font-size: var(--ca-size-200);
+  line-height: var(--ca-leading-normal);
+}
+
+/* ---- Header ------------------------------------------------------------- */
+
+.ca-report__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--ca-space-6);
+  max-width: var(--ca-page-width);
+  margin: var(--ca-space-0) auto;
+  padding: var(--ca-space-7) var(--ca-space-0) var(--ca-space-5);
+  border-bottom: var(--ca-border-strong) solid var(--ca-rule-strong);
+}
+
+.ca-wordmark {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-300);
+  font-weight: var(--ca-weight-display);
+  letter-spacing: var(--ca-tracking-caps);
+  text-transform: uppercase;
+  color: var(--ca-ink-muted);
+}
+
+.ca-report__subject {
+  margin: var(--ca-space-3) var(--ca-space-0) var(--ca-space-2);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-500);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-tight);
+  letter-spacing: var(--ca-tracking-tight);
+  overflow-wrap: anywhere;
+}
+
+.ca-report__meta {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+.ca-report__actions {
+  display: flex;
+  flex: none;
+  gap: var(--ca-space-3);
+}
+
+/* ---- Main --------------------------------------------------------------- */
+
+.ca-report__main {
+  max-width: var(--ca-page-width);
+  margin: var(--ca-space-0) auto;
+}
+
+.ca-report__section {
+  margin: var(--ca-space-7) var(--ca-space-0);
+}
+
+.ca-report__heading {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-3);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-400);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-snug);
+  padding-bottom: var(--ca-space-2);
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-report__lead {
+  max-width: var(--ca-page-measure);
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+  color: var(--ca-ink-muted);
+}
+
+.ca-report__empty {
+  max-width: var(--ca-page-measure);
+  margin: var(--ca-space-8) var(--ca-space-0);
+  padding: var(--ca-space-5);
+  border-left: var(--ca-border-strong) solid var(--ca-caution);
+  background: var(--ca-caution-tint);
+}
+
+/* ---- Score -------------------------------------------------------------- */
+
+.ca-score {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ca-space-5);
+  margin: var(--ca-space-6) var(--ca-space-0) var(--ca-space-5);
+  padding: var(--ca-space-5);
+  border-left: var(--ca-border-strong) solid var(--ca-rule-strong);
+  background: var(--ca-paper-sunken);
+}
+
+.ca-score[data-band='broadly-compliant'] {
+  border-left-color: var(--ca-clear);
+  background: var(--ca-clear-tint);
+}
+
+.ca-score[data-band='departures'] {
+  border-left-color: var(--ca-caution);
+  background: var(--ca-caution-tint);
+}
+
+.ca-score[data-band='characterised'] {
+  border-left-color: var(--ca-breach);
+  background: var(--ca-breach-tint);
+}
+
+.ca-score__value {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-600);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-tight);
+  letter-spacing: var(--ca-tracking-tight);
+}
+
+.ca-score__gloss {
+  flex: 1;
+}
+
+.ca-score__band {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-2);
+  font-size: var(--ca-size-300);
+  font-weight: var(--ca-weight-medium);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-score__counts {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+.ca-disclosures {
+  max-width: var(--ca-page-measure);
+  margin: var(--ca-space-0);
+  padding-left: var(--ca-space-6);
+  color: var(--ca-ink-muted);
+  font-size: var(--ca-size-100);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-disclosures li {
+  margin-bottom: var(--ca-space-2);
+}
+
+/* ---- Timeline ----------------------------------------------------------- */
+
+.ca-timeline {
+  border: var(--ca-border-hairline) solid var(--ca-rule);
+  background: var(--ca-paper-raised);
+  padding: var(--ca-space-4) var(--ca-space-5) var(--ca-space-3);
+}
+
+.ca-lane {
+  display: flex;
+  align-items: stretch;
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-lane:last-of-type {
+  border-bottom: var(--ca-border-hairline) solid transparent;
+}
+
+.ca-lane__label {
+  flex: none;
+  width: var(--ca-lane-label-width);
+  padding: var(--ca-space-2) var(--ca-space-3) var(--ca-space-2) var(--ca-space-0);
+  font-size: var(--ca-size-100);
+  line-height: var(--ca-leading-snug);
+  color: var(--ca-ink-muted);
+}
+
+.ca-lane__count {
+  font-family: var(--ca-font-data);
+  color: var(--ca-ink);
+}
+
+.ca-lane__track {
+  position: relative;
+  flex: 1;
+  min-height: var(--ca-lane-height);
+  border-left: var(--ca-border-hairline) solid var(--ca-rule-strong);
+}
+
+/*
+ * A marker is a stem and a head: the stem says exactly where in time, the head
+ * is what the eye finds. Both are needed — a dot alone at this density reads as
+ * an approximate position, and the position is the finding.
+ */
+.ca-marker {
+  position: absolute;
+  top: var(--ca-space-0);
+  bottom: var(--ca-space-0);
+  width: var(--ca-marker-stem);
+  background: var(--ca-ink-faint);
+  border: var(--ca-radius-none);
+  padding: var(--ca-space-0);
+  cursor: help;
+}
+
+.ca-marker::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--ca-marker-size);
+  height: var(--ca-marker-size);
+  margin-top: calc(var(--ca-marker-size) / -2);
+  margin-left: calc(var(--ca-marker-size) / -2);
+  border-radius: var(--ca-radius-sm);
+  background: var(--ca-ink);
+  border: var(--ca-border-hairline) solid var(--ca-paper-raised);
+}
+
+/* Category never carries the meaning alone: the tooltip and the register below
+   name it in words. Shape and ink only make the pattern visible. */
+.ca-marker[data-category='advertising']::after {
+  background: var(--ca-breach);
+}
+
+.ca-marker[data-category='analytics']::after {
+  background: var(--ca-caution);
+}
+
+.ca-marker[data-category='social']::after {
+  background: var(--ca-breach);
+  border-radius: var(--ca-radius-md);
+}
+
+.ca-marker[data-category='consent']::after,
+.ca-marker[data-category='cdn']::after,
+.ca-marker[data-category='essential']::after {
+  background: var(--ca-ink-faint);
+}
+
+.ca-marker:focus-visible {
+  outline: var(--ca-focus-ring-width) solid var(--ca-accent);
+  outline-offset: var(--ca-focus-ring-offset);
+}
+
+.ca-timeline__axis {
+  position: relative;
+  height: var(--ca-axis-height);
+  margin-left: var(--ca-lane-label-width);
+  border-top: var(--ca-border-hairline) solid var(--ca-rule-strong);
+}
+
+.ca-tick {
+  position: absolute;
+  top: var(--ca-space-0);
+  padding-left: var(--ca-space-2);
+  border-left: var(--ca-border-hairline) solid var(--ca-rule);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-faint);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-tick--end {
+  right: var(--ca-space-0);
+  padding-left: var(--ca-space-0);
+  padding-right: var(--ca-space-2);
+  border-left: var(--ca-border-hairline) solid transparent;
+  border-right: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-timeline__nothing {
+  max-width: var(--ca-page-measure);
+  margin: var(--ca-space-4) var(--ca-space-0) var(--ca-space-0);
+  padding: var(--ca-space-4);
+  background: var(--ca-clear-tint);
+  border-left: var(--ca-border-strong) solid var(--ca-clear);
+}
+
+/* ---- Findings ----------------------------------------------------------- */
+
+.ca-finding {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+  padding: var(--ca-space-4) var(--ca-space-5);
+  background: var(--ca-paper-raised);
+  border: var(--ca-border-hairline) solid var(--ca-rule);
+  border-left: var(--ca-border-strong) solid var(--ca-rule-strong);
+  break-inside: avoid;
+}
+
+.ca-finding[data-verdict='fail'] {
+  border-left-color: var(--ca-breach);
+}
+
+.ca-finding[data-verdict='warn'] {
+  border-left-color: var(--ca-caution);
+}
+
+.ca-finding[data-verdict='pass'] {
+  border-left-color: var(--ca-clear);
+}
+
+.ca-finding__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ca-space-3);
+}
+
+.ca-finding__mark {
+  font-family: var(--ca-font-data);
+  font-weight: var(--ca-weight-display);
+}
+
+.ca-finding[data-verdict='fail'] .ca-finding__mark {
+  color: var(--ca-breach);
+}
+
+.ca-finding[data-verdict='warn'] .ca-finding__mark {
+  color: var(--ca-caution);
+}
+
+.ca-finding[data-verdict='pass'] .ca-finding__mark {
+  color: var(--ca-clear);
+}
+
+.ca-finding__title {
+  margin: var(--ca-space-0);
+  font-size: var(--ca-size-300);
+  font-weight: var(--ca-weight-medium);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-finding__id {
+  margin-left: auto;
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-faint);
+}
+
+.ca-finding__body {
+  margin: var(--ca-space-3) var(--ca-space-0) var(--ca-space-0);
+}
+
+.ca-list {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-3);
+  padding-left: var(--ca-space-6);
+}
+
+.ca-list li {
+  margin-bottom: var(--ca-space-2);
+}
+
+.ca-list__detail {
+  display: block;
+  color: var(--ca-ink-muted);
+  font-size: var(--ca-size-100);
+  overflow-wrap: anywhere;
+}
+
+.ca-finding__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ca-space-2) var(--ca-space-5);
+  margin-top: var(--ca-space-3);
+  padding-top: var(--ca-space-3);
+  border-top: var(--ca-border-hairline) solid var(--ca-rule);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+.ca-finding__basis {
+  font-family: var(--ca-font-data);
+}
+
+.ca-finding__remedy {
+  flex: 1;
+}
+
+.ca-group {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-6);
+}
+
+.ca-group__title {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-3);
+  font-size: var(--ca-size-100);
+  font-weight: var(--ca-weight-medium);
+  letter-spacing: var(--ca-tracking-caps);
+  text-transform: uppercase;
+  color: var(--ca-ink-muted);
+}
+
+/* ---- Table -------------------------------------------------------------- */
+
+.ca-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--ca-size-200);
+}
+
+.ca-table th,
+.ca-table td {
+  padding: var(--ca-space-3);
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ca-table th {
+  font-size: var(--ca-size-100);
+  letter-spacing: var(--ca-tracking-caps);
+  text-transform: uppercase;
+  color: var(--ca-ink-muted);
+}
+
+.ca-table blockquote {
+  margin: var(--ca-space-0);
+  padding-left: var(--ca-space-4);
+  border-left: var(--ca-border-strong) solid var(--ca-rule);
+  color: var(--ca-ink);
+}
+
+.ca-table__note {
+  display: block;
+  margin-top: var(--ca-space-2);
+  color: var(--ca-ink-muted);
+  font-size: var(--ca-size-100);
+}
+
+.ca-status {
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+}
+
+.ca-status[data-status='absent'] {
+  color: var(--ca-breach);
+}
+
+.ca-status[data-status='partial'],
+.ca-status[data-status='unverified'] {
+  color: var(--ca-caution);
+}
+
+.ca-status[data-status='present'] {
+  color: var(--ca-clear);
+}
+
+/* ---- History ------------------------------------------------------------ */
+
+.ca-history {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+  padding: var(--ca-space-0);
+  list-style: none;
+}
+
+.ca-history__row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ca-space-4);
+  padding: var(--ca-space-3) var(--ca-space-0);
+  border-bottom: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-history__score {
+  flex: none;
+  font-family: var(--ca-font-data);
+  font-weight: var(--ca-weight-medium);
+}
+
+.ca-history__site {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.ca-history__when {
+  flex: none;
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+.ca-link {
+  color: var(--ca-accent);
+}
+
+/* ---- Details ------------------------------------------------------------ */
+
+.ca-details {
+  margin-top: var(--ca-space-4);
+  font-size: var(--ca-size-100);
+}
+
+.ca-details__summary {
+  cursor: pointer;
+  color: var(--ca-ink-muted);
+}
+
+/* ---- Buttons ------------------------------------------------------------ */
+
+.ca-button {
+  padding: var(--ca-space-3) var(--ca-space-5);
+  border: var(--ca-border-hairline) solid var(--ca-accent);
+  border-radius: var(--ca-radius-sm);
+  background: var(--ca-accent);
+  color: var(--ca-paper-raised);
+  font-family: var(--ca-font-body);
+  font-size: var(--ca-size-200);
+  font-weight: var(--ca-weight-medium);
+  cursor: pointer;
+  transition: background var(--ca-duration-quick) var(--ca-ease-standard);
+}
+
+.ca-button:hover {
+  background: var(--ca-accent-hover);
+  border-color: var(--ca-accent-hover);
+}
+
+.ca-button--quiet {
+  background: var(--ca-paper-raised);
+  border-color: var(--ca-rule-strong);
+  color: var(--ca-ink);
+}
+
+.ca-button--quiet:hover {
+  background: var(--ca-paper-sunken);
+  border-color: var(--ca-ink-muted);
+}
+
+.ca-button:focus-visible {
+  outline: var(--ca-focus-ring-width) solid var(--ca-ink);
+  outline-offset: var(--ca-focus-ring-offset);
+}
+
+/* ---- Footer ------------------------------------------------------------- */
+
+.ca-report__footer {
+  max-width: var(--ca-page-width);
+  margin: var(--ca-space-0) auto;
+  padding-top: var(--ca-space-5);
+  border-top: var(--ca-border-hairline) solid var(--ca-rule);
+}
+
+.ca-disclaimer {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-2);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+/* ---- Print -------------------------------------------------------------- */
+
+/*
+ * The PDF is the deliverable. Chrome's "Save as PDF" prints this stylesheet, so
+ * what is on paper is decided here: no controls, no interactive-only sections,
+ * ink that survives a monochrome printer, and findings that do not break across
+ * a page boundary halfway through their evidence.
+ */
+@media print {
+  .ca-report {
+    padding: var(--ca-space-0);
+    background: var(--ca-paper-raised);
+    font-size: var(--ca-size-100);
+  }
+
+  .ca-report__actions,
+  .ca-report__section--screen {
+    display: none;
+  }
+
+  .ca-report__header {
+    padding-top: var(--ca-space-0);
+  }
+
+  .ca-report__section {
+    break-inside: avoid-page;
+  }
+
+  .ca-report__heading {
+    break-after: avoid-page;
+  }
+
+  .ca-details[data-field='undated-details'] {
+    display: block;
+  }
+
+  .ca-marker::after {
+    /* Backgrounds are dropped by default when printing; the head of a marker
+       is the datum, so it is drawn as an outline that survives. */
+    background: var(--ca-paper-raised);
+    border-color: var(--ca-ink);
+    border-width: var(--ca-border-strong);
+  }
+}

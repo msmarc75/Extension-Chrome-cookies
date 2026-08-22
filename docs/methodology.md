@@ -346,6 +346,34 @@ may be acting on a choice made weeks ago; what was deposited is still a fact,
 but that it was deposited *before consent* is not established. The finding says
 so and points at re-running in a clean window.
 
+## What the report may draw
+
+The report is a view of a stored record, never a re-run. A client quoted a score
+on Tuesday must see that score on Friday, and a page that re-measured on opening
+would sometimes disagree with the document it is meant to be evidence for.
+
+**The timeline draws what was observed and nothing else.** An observation with
+no time is not placed at zero to make the picture tidy: it is listed apart,
+counted, and said to be undated. A first-party request is not drawn at all —
+the page asking for itself is the visit, not a deposit. The axis is the
+observation window rather than the last event, so the *shape* of the cluster is
+readable: everything in the first 300 ms of a five-second window is a different
+finding from the same count spread across it.
+
+**Nothing is shown shortened as though it were complete.** The stored record
+keeps a bounded number of observations; where any were dropped, the report says
+how many, next to the ones it does show.
+
+**Colour never carries a finding alone.** Each timeline marker carries its own
+observation as its accessible name, each verdict has a glyph and a word beside
+its colour, and the printed form is designed rather than inherited — because the
+deliverable is a PDF that will be read on paper and in monochrome.
+
+**The history stays on the machine.** A list of the pages someone audited is a
+list of the pages they visited. Nothing about it leaves the browser, and the
+site's own policy text is not kept at all — the analysis already carries every
+sentence the report quotes from it.
+
 ## Limits of the recorded corpus
 
 The banner corpus in `tests/fixtures/banners/` was recorded from a sandbox whose

@@ -6,12 +6,10 @@
  * at 0.4 s" that ends up quoted in a client report, and it has to be right.
  */
 
-/** Milliseconds since the observation window opened, as a figure a report can quote. */
-export function formatOffset(ms) {
-  if (typeof ms !== 'number' || !Number.isFinite(ms)) return 'undated';
-  if (ms < 1000) return `${Math.round(ms)} ms`;
-  return `${(ms / 1000).toFixed(1)} s`;
-}
+/* One definition of how an instant is printed, shared with the report and with
+   the exported file: the same deposit must not read as "413 ms" in one and
+   "0.4 s" in another. */
+export { formatOffset } from '../../shared/report-model.js';
 
 /**
  * @param {object} capture matching shared/schema/capture.schema.json

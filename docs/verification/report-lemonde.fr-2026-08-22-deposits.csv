@@ -1,0 +1,31 @@
+Site,Audited at,At (ms),At,Kind,What,Detail,Category,Party
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,2,2 ms,cookie,lmd_a_c,lemonde.fr · set-cookie,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,2,2 ms,cookie,lmd_rand_id,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,311,311 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/21/0/0/7999/5333/556/370/75/0/49a20d6_upload-1-ntayful4g1sg-000-b82x2we.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,312,312 ms,request,applets.ebxcdn.com,https://applets.ebxcdn.com/ebx.js,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,339,339 ms,request,img.lemde.fr,https://img.lemde.fr/2026/07/14/0/0/4820/3213/556/370/75/0/17c62f6_upload-1-ms0aliw9vcrl-ap25052626854935.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,339,339 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/22/0/0/6000/4000/556/370/75/0/96724bb_ftp-1-zoeisenuxsf8-5892651-01-06.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,339,339 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/18/0/0/7224/4816/556/370/75/0/9214dce_ftp-1-bepldogifwlc-5868445-01-06.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,339,339 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/22/1/0/4096/2730/556/370/75/0/5855bdc_upload-1-e6xh2m5u4cud-epalivenine281598.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,385,385 ms,request,eus.rubiconproject.com,https://eus.rubiconproject.com/account/19358.html,advertising,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,516,516 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/19/0/0/8256/5504/556/370/75/0/3fcdca1_upload-1-0uxalfxbdbtw-dsc-9126.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,517,517 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/17/0/130/3939/2626/556/370/75/0/6eea910_ftp-1-l6hsf1yvmx7g-2026-08-17t204739z-1211157575-rc2e0nar2iah-rtrmadp-3-canada-hydro.JPG,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,517,517 ms,request,img.lemde.fr,https://img.lemde.fr/2026/08/22/0/0/6000/4000/556/370/75/0/6b8b521_ftp-1-pcqzvmr230p1-5894218-01-06.jpg,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,522,522 ms,storage,lmd.batch.first.url,localStorage · event,,
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,590,590 ms,storage,auto-refresh,sessionStorage · event,,
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,643,643 ms,storage,__storage_test__,localStorage · event,,
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,644,644 ms,cookie,atauthority,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,663,663 ms,cookie,pa_privacy,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,667,667 ms,request,cdn.amplitude.com,https://cdn.amplitude.com/libs/amplitude-4.2.1-min.gz.js,analytics,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,699,699 ms,request,applets.ebxcdn.com,https://applets.ebxcdn.com/applets/www.lemonde.fr/scripts.js,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1133,1.1 s,storage,ebx_webtag_,sessionStorage · event,,
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1143,1.1 s,cookie,lmd_consent_tmp,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1218,1.2 s,request,campaign.services.forecast.sirius.press,https://campaign.services.forecast.sirius.press/forecast.campaigns.v1.EvaluateService/EvaluateCampaignBulk,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1218,1.2 s,request,campaign.services.forecast.sirius.press,https://campaign.services.forecast.sirius.press/forecast.campaigns.v1.EvaluateService/EvaluateCampaignBulk,unclassified,third
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1271,1.3 s,cookie,_pctx,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1272,1.3 s,cookie,atid,www.lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1272,1.3 s,cookie,atidx,www.lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1272,1.3 s,cookie,lmd_pa,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1424,1.4 s,cookie,lead,lemonde.fr · jar,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1424,1.4 s,cookie,lead_ads,lemonde.fr · set-cookie,,first
+https://www.lemonde.fr/,2026-08-22T12:55:13.746Z,1853,1.9 s,request,creative.services.forecast.sirius.press,https://creative.services.forecast.sirius.press/api/v1/creative?creativeID=019f2716-2b6c-788e-8748-04c618da3b38,unclassified,third

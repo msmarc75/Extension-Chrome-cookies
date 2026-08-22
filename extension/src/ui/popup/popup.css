@@ -262,6 +262,10 @@
 
 /* ---- Button ------------------------------------------------------------- */
 
+.ca-button + .ca-button {
+  margin-top: var(--ca-space-3);
+}
+
 .ca-button {
   display: block;
   width: 100%;

@@ -86,6 +86,19 @@
   --ca-viewport-width: 400px;
   --ca-viewport-height: 600px;
 
+  /* The report is a document, not an application: a measure that stays
+     readable on screen and prints onto A4 without reflowing into something
+     the client did not see. */
+  --ca-page-width: 60rem;
+  --ca-page-measure: 42rem;
+
+  /* ---- Timeline --------------------------------------------------------- */
+  --ca-lane-height: 28px;
+  --ca-lane-label-width: 11rem;
+  --ca-marker-size: 10px;
+  --ca-marker-stem: 1px;
+  --ca-axis-height: 20px;
+
   /* ---- Motion ----------------------------------------------------------- */
   --ca-duration-instant: 80ms;
   --ca-duration-quick: 140ms;

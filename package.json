@@ -20,7 +20,8 @@
     "rederive:profiles": "node scripts/rederive-profiles.mjs",
     "verify:banners": "node scripts/verify-banners.mjs",
     "verify:rules": "node scripts/verify-rules.mjs",
-    "verify:policies": "node scripts/verify-policies.mjs"
+    "verify:policies": "node scripts/verify-policies.mjs",
+    "verify:report": "node scripts/verify-report.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"

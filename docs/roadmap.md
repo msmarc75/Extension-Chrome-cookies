@@ -63,7 +63,7 @@ The order is the product. Step 5 is observable exactly once.
 | 3 | Banner detection | Thirty real fixtures: CMP identified in ≥25, refusal succeeds in ≥22 | **detection met, refusal short** |
 | 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | **done** |
 | 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | **built; the live measurement needs a key** |
-| 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | not started |
+| 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | **done** |
 | 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | not started |
 | 8 | Publication | Extension privacy policy, written justification per permission, screenshots, store listing | not started |
 
@@ -338,29 +338,89 @@ to hub page to policy to service to report — against a local service whose
 model is a stub, including the case that matters most: a fabricated sentence in
 the answer, which the server drops and the rules never see.
 
-### Open for phase 6
+### Phase 6 — what shipped
+
+**The report page.** `src/ui/report/`, opened in a tab from the popup, written
+as a document rather than a dashboard: it states what was measured, under what
+conditions, and what limits how far it can be read — on the page, not in the
+documentation. It renders a *stored record*, never a re-run, so what a client is
+shown is what was observed at the time and not a second measurement that might
+disagree with the figure they were quoted.
+
+**The deposit timeline** — the plan's signature element, and the one part of the
+report that is an observation rather than an assessment. Four lanes on one
+clock: third-party requests, cookies, storage writes, identification surface.
+Its rule is that it draws what was observed and nothing else:
+
+- a first-party request is not drawn, because the page asking for itself is the
+  visit, not a deposit — and two hundred of the site's own assets would bury the
+  four calls that matter;
+- an **undated** observation is never placed at zero to tidy the picture. It is
+  listed apart, counted, and said to be undated;
+- the axis is the observation window, not the last event, so a page whose
+  deposits all land in the first 300 ms has a short cluster on a five-second
+  axis — and that shape is itself the finding;
+- every marker carries its own observation as its accessible name, so the
+  picture survives greyscale printing and a screen reader.
+
+**Exports.** Two CSVs and a PDF.
+
+- `findings.csv` — one row per rule: verdict, evidence, legal basis,
+  remediation. RFC 4180 to the letter, because a remediation sentence contains
+  commas and a report that opens with its columns shifted is a report that gets
+  sent back.
+- `deposits.csv` — one row per observation, in the order they happened, undated
+  ones last and marked as such.
+- The PDF is Chrome's own "Save as PDF" over a print stylesheet that drops the
+  controls and the history, keeps the evidence, and stops a finding breaking
+  across a page halfway through its evidence. No dependency: a PDF library in an
+  extension would be a megabyte to reproduce what the browser already does well.
+
+**Local history.** The last 30 audits, in `chrome.storage.local`, listed on the
+report and openable from it. Local by design and not by omission: a history of
+the pages someone audited is a history of the pages they visited, and sending
+that anywhere would be a worse disclosure than any this tool reports. The stored
+record is trimmed to what the report renders — the capture's first-party
+requests are dropped and *counted*, so a shortened list is never shown as though
+it were complete — and the site's policy text is not kept at all, since the
+analysis already carries every sentence the report quotes.
+
+**Where it stands against the criteria.**
+
+| Criterion | Status |
+|---|---|
+| Deposit timeline | met |
+| PDF export | met — generated in the end-to-end run and checked to be a real PDF, not a blank page |
+| CSV export | met — both files, parsed back and checked against the audit they came from |
+| Local history | met — kept, listed, capped, and forgettable |
+| Usable as a client annex without retouching | see below |
+
+The last one is not something an assertion can establish, so
+`npm run verify:report` produces it: a live audit of a real site, printed
+exactly as the user's "Save as PDF" prints it, with both CSVs beside it —
+[`verification/report-lemonde.fr-2026-08-22.md`](verification/report-lemonde.fr-2026-08-22.md)
+and the PDF next to it. Reading that output is what found the three defects
+this phase closed: a duplicated timestamp under every timed finding, an axis
+label falling off the page, and five identical "did not apply" panels where a
+one-line note belonged.
+
+Verified: 273 unit tests and 39 end-to-end tests green, `npm run check:tokens`
+and `npm run build` clean.
+
+### Open for phase 7
 
 - **The detection measurement.** `ANTHROPIC_API_KEY=… npm run verify:policies --
   --live`. Nothing in the code needs to change for it, and the document it
   writes is the phase 5 evidence.
-- **The report is where category D becomes readable.** The findings carry the
-  quote the site's own policy gave them; the report has to print it beside the
-  deposit timeline, which is phase 6's signature element.
 - **The service has no home yet.** `DEFAULT_SERVICE_ORIGIN` names
   `api.consent-audit.dev`, which is where the manifest's host permission points
   and where nothing is deployed. Deployment belongs with the licence server in
   phase 7.
-
 - **A measurement from Europe.** The refusal figure in phase 3 is a floor taken
   from a non-EU exit IP with a filtered egress. Re-running `npm run
   verify:banners --live` from a European network is what would settle whether
   the criterion is met; nothing in the code needs to change for it. The same run
   would tighten the rule figures, which inherit the same corpus.
-- **Category C reads the banner; category D reads the policy.** That division
-  turned out to be the right one and is now settled: `PURPOSES_STATED` and its
-  neighbours judge what the visitor is told *at the moment of the choice*, which
-  is a different question from what the policy states, and both are worth
-  asking.
 - **The tracker table is short, and shipping it is not maintaining it.** The
   weekly refresh — JSON into `chrome.storage`, overriding the shipped copy —
   belongs with the licence server, in phase 7.
