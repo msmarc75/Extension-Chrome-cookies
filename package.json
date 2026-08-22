@@ -21,12 +21,14 @@
     "verify:banners": "node scripts/verify-banners.mjs",
     "verify:rules": "node scripts/verify-rules.mjs",
     "verify:policies": "node scripts/verify-policies.mjs",
-    "verify:report": "node scripts/verify-report.mjs"
+    "verify:report": "node scripts/verify-report.mjs",
+    "verify:stripe": "node scripts/verify-stripe.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.120.0"
+    "@anthropic-ai/sdk": "^0.120.0",
+    "stripe": "^22.5.0"
   }
 }

@@ -73,6 +73,34 @@
         </label>
 
         <button class="ca-button" type="button" data-action="audit">Audit this page</button>
+
+        <!--
+          What this installation may do, said plainly and without a sales
+          pitch: the plan, what is left of the free allowance, and — when the
+          licence service could not be reached — that the last answer is being
+          honoured rather than a tick nobody can justify.
+        -->
+        <p class="ca-plan" data-field="plan-line">—</p>
+        <p class="ca-caveat" data-field="plan-note" hidden></p>
+
+        <details class="ca-details" data-field="licence-details">
+          <summary class="ca-details__summary" data-field="licence-summary">Licence</summary>
+          <label class="ca-field">
+            <span class="ca-field__label">Licence key</span>
+            <input class="ca-field__input" type="text" data-field="licence-key"
+                   placeholder="CA-XXXX-XXXX-XXXX-XXXX" spellcheck="false" autocomplete="off">
+          </label>
+          <button class="ca-button ca-button--quiet" type="button" data-action="licence-save">
+            Save and check
+          </button>
+          <button class="ca-button ca-button--quiet" type="button" data-action="licence-buy">
+            Buy a Pro licence
+          </button>
+          <button class="ca-button ca-button--quiet" type="button" data-action="licence-forget"
+                  data-field="licence-forget" hidden>
+            Remove this licence
+          </button>
+        </details>
       </section>
 
       <!-- Observation window in progress. -->

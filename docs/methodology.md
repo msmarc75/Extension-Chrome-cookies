@@ -374,6 +374,26 @@ list of the pages they visited. Nothing about it leaves the browser, and the
 site's own policy text is not kept at all — the analysis already carries every
 sentence the report quotes from it.
 
+## What licensing may and may not know
+
+The licence server must never learn what its customers audit, and the only way
+to guarantee that is not to have the data. What it stores is a key's hash, a
+plan, a status, two dates and the Stripe ids needed to reconcile a refund. No
+site, no audit, no report.
+
+The free allowance is therefore **counted locally**. A quota enforced by a
+server would mean telling that server every time somebody audits a page — a
+record of their browsing, held by us, to protect five audits a month. That trade
+is refused. A determined user can reset the counter; that is the price, and it
+is the cheaper side of the bargain.
+
+A verification is trusted for seven days without any network call, and honoured
+for a further seven when the service cannot be reached — so an outage of ours
+never turns off a tool somebody paid for. Past that the installation drops to
+the free allowance rather than stopping: what lapses is the plan, not the
+product. An expiry or a revocation is different from an outage, because the
+answer arrived: it applies at once.
+
 ## Limits of the recorded corpus
 
 The banner corpus in `tests/fixtures/banners/` was recorded from a sandbox whose

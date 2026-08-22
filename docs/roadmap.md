@@ -64,7 +64,7 @@ The order is the product. Step 5 is observable exactly once.
 | 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | **done** |
 | 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | **built; the live measurement needs a key** |
 | 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | **done** |
-| 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | not started |
+| 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | **built; the test purchase needs Stripe keys** |
 | 8 | Publication | Extension privacy policy, written justification per permission, screenshots, store listing | not started |
 
 ### Phase 1 — what shipped
@@ -407,7 +407,91 @@ one-line note belonged.
 Verified: 273 unit tests and 39 end-to-end tests green, `npm run check:tokens`
 and `npm run build` clean.
 
-### Open for phase 7
+### Phase 7 — what shipped
+
+**The licence server**, three routes beside the analysis one: `POST /checkout`
+starts a purchase, `POST /stripe/webhook` turns a completed one into a key, and
+`POST /licence/verify` answers the question the extension asks at most once a
+week.
+
+One dependency added, `stripe`, and the justification is not convenience but
+**webhook signature verification**. That endpoint is the only one on this
+service that anyone on the internet can reach and that hands out something worth
+money; getting the verification wrong lets a stranger mint licences, and the
+failure is silent — a hand-written verifier that forgets the timestamp tolerance
+or compares with `===` passes every test you would think to write. The library
+also *generates* valid signatures, which is how the webhook path is exercised in
+the suite without a Stripe account.
+
+Three things about the webhook that are not obvious and are all about retries
+and refunds:
+
+- **Issuing is idempotent on the Stripe session id.** Webhooks are delivered
+  more than once by design, and a customer sent two keys for one payment has
+  been given a problem rather than a product.
+- **An event this service does not handle is answered `200`.** Stripe retries an
+  endpoint that errors and eventually disables it, which would take the events
+  that *do* matter with it.
+- **A cancellation or refund revokes the licence**, matched by subscription or
+  customer id — the webhook carries no key.
+
+Licences are stored under the SHA-256 of the key rather than the key itself:
+whoever ends up reading a backup of that directory learns which licences exist
+and what they are worth, and cannot use one. The key format is Crockford's
+alphabet without the characters that get misread, because a customer reads it
+off an invoice and types it into a popup.
+
+**Fail open, with an end to it.** This is the part of licensing that decides
+whether a paying customer's tool works on the morning our service does not:
+
+| When | What happens |
+|---|---|
+| Verified less than 7 days ago | Full plan, no network call at all |
+| Older than 7 days, service reachable | Re-verified, cache renewed |
+| Older than 7 days, service unreachable | **Full plan continues**, for a further 7 days of grace, and the popup says the last verification is being honoured |
+| Beyond that | Free allowance — the tool never stops working, it stops being paid-for |
+| Licence expired or revoked, answer received | Free allowance immediately: that is not an outage, it is an answer |
+
+**The free counter is local, and only local.** A quota enforced by a server
+would mean telling that server every time somebody audits a page — a record of
+their browsing, held by us, to protect five audits a month. It can be reset by a
+determined user; that is a price worth paying and it is cheaper than the
+alternative in every sense that matters.
+
+The gate sits on the audit itself and is checked *before* the tab is opened: an
+audit that runs and is then refused has already cost the user a debugger warning
+bar and five seconds of their attention. Policy analysis is what costs the
+operator money, so it is what the Pro plan buys; a free installation is **told**
+rather than billed, and the rest of its audit is unaffected.
+
+A defect found by the end-to-end run and worth recording: re-entering the *same*
+licence key while the service happened to be unreachable wiped the cached
+verification and dropped the installation to the free tier — the exact opposite
+of what the customer was trying to do. Entering a key that is already stored now
+keeps what is known about it.
+
+**Where it stands against the criteria.**
+
+| Criterion | Status |
+|---|---|
+| Seven-day cache | met — measured in the tests: no call is made until it lapses |
+| Fail-open degradation | met — every branch of the table above is a test |
+| Local free-tier counter | met — counted by calendar month, refused at the limit, lifted by a licence without a restart |
+| Full Stripe test purchase | **not run here** |
+
+The purchase needs Stripe test keys, which this container does not have. What is
+proved without them is everything up to Stripe's own servers: a signed webhook
+issues a licence, an unsigned or replayed one does not, a duplicate delivery
+issues nothing further, a cancellation revokes, and the extension accepts the
+key that came out. What is not proved is that Stripe creates the session and
+charges the card, and `npm run verify:stripe` is the harness for that — it
+refuses to run against anything but a test key, prints the Checkout URL, waits
+for the webhook and checks the licence verifies as the extension expects.
+
+Verified: 305 unit tests and 46 end-to-end tests green, `npm run check:tokens`
+and `npm run build` clean.
+
+### Open for phase 8
 
 - **The detection measurement.** `ANTHROPIC_API_KEY=… npm run verify:policies --
   --live`. Nothing in the code needs to change for it, and the document it
@@ -423,7 +507,11 @@ and `npm run build` clean.
   would tighten the rule figures, which inherit the same corpus.
 - **The tracker table is short, and shipping it is not maintaining it.** The
   weekly refresh — JSON into `chrome.storage`, overriding the shipped copy —
-  belongs with the licence server, in phase 7.
+  needs the service to be deployed before it means anything, so it moves with
+  the deployment.
+- **The test purchase.** `STRIPE_SECRET_KEY=sk_test_… npm run verify:stripe`,
+  with `stripe listen` forwarding webhooks. Nothing in the code needs to change
+  for it.
 
 ## Standing constraints
 

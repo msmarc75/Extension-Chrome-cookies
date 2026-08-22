@@ -114,4 +114,31 @@ export function callBackground(page, type, payload = null) {
   );
 }
 
+/**
+ * Put a verified Pro licence on this installation.
+ *
+ * Writes the record a successful verification leaves behind, which is what the
+ * entitlement code reads. Tests that are about something *else* need a licensed
+ * installation without re-running a purchase for it; the purchase path itself
+ * is proved end to end in licence.spec.mjs.
+ */
+export function grantPro(page, { days = 30 } = {}) {
+  return page.evaluate(
+    ([until]) =>
+      chrome.storage.local.set({
+        licence: {
+          key: 'CA-TEST-TEST-TEST-TEST',
+          plan: 'pro',
+          valid: true,
+          reason: null,
+          checkedAt: Date.now(),
+          recheckAfter: until,
+          expiresAt: until,
+          lastError: null,
+        },
+      }),
+    [Date.now() + days * 24 * 60 * 60 * 1000],
+  );
+}
+
 export { expect } from '@playwright/test';

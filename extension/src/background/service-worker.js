@@ -11,6 +11,15 @@ import { AuditError, auditCapability, captureBeforeConsent, probeBanner } from '
 import { liveSessionCount, sweepOrphans } from './debugger-session.js';
 import { analysePolicyText, serviceSettings } from './policy-client.js';
 import { clearHistory, deleteAudit, getAudit, listAudits, saveAudit } from './history.js';
+import {
+  auditAllowance,
+  countAudit,
+  forgetLicence,
+  setLicenceKey,
+  startCheckout,
+  storedLicence,
+  verifyLicence,
+} from './licence.js';
 
 /**
  * Wall-clock instant at which this worker instance started. It resets on every
@@ -51,6 +60,16 @@ const router = createRouter()
   )
   .on(MessageType.PROBE_BANNER, (payload) =>
     guarded(async () => {
+      /*
+       * The allowance is checked before the tab is opened, not after the work
+       * is done: an audit that runs and is then refused has already cost the
+       * user a debugger warning bar and five seconds of their attention.
+       */
+      const allowance = await auditAllowance();
+      if (!allowance.allowed) {
+        throw new AuditError('ALLOWANCE_EXHAUSTED', allowance.reason);
+      }
+
       const result = await probeBanner({
         url: payload?.url,
         mode: payload?.mode ?? 'incognito',
@@ -62,8 +81,10 @@ const router = createRouter()
          * own — and sending a document to a service is not something to do by
          * default because it happened to be reachable.
          */
+        /* Policy analysis is what costs the operator money, so it is what a
+           licence buys. A free installation is told, not billed. */
         analyse:
-          payload?.analysePolicy === false
+          payload?.analysePolicy === false || !allowance.policyAnalysis
             ? null
             : (policy) =>
                 analysePolicyText(policy, {
@@ -82,6 +103,21 @@ const router = createRouter()
         result.auditId = saved.id;
         result.auditAt = saved.at;
       }
+
+      const counter = await countAudit();
+      result.allowance = {
+        plan: allowance.plan,
+        auditsLeft: allowance.auditsLeft === null ? null : Math.max(0, allowance.auditsLeft - 1),
+        policyAnalysis: allowance.policyAnalysis,
+        usedThisMonth: counter.used,
+      };
+      if (!allowance.policyAnalysis && payload?.analysePolicy) {
+        result.policy = result.policy ?? {};
+        result.policy.error = {
+          code: 'PLAN_WITHOUT_POLICY_ANALYSIS',
+          message: 'Policy analysis is part of the Pro plan; the rest of the audit is unaffected.',
+        };
+      }
       return result;
     }),
   )
@@ -89,7 +125,25 @@ const router = createRouter()
   .on(MessageType.HISTORY_LIST, () => listAudits())
   .on(MessageType.HISTORY_GET, (payload) => getAudit(payload?.id))
   .on(MessageType.HISTORY_DELETE, (payload) => deleteAudit(payload?.id))
-  .on(MessageType.HISTORY_CLEAR, () => clearHistory());
+  .on(MessageType.HISTORY_CLEAR, () => clearHistory())
+  .on(MessageType.LICENCE_STATE, async () => ({
+    licence: await storedLicence(),
+    allowance: await auditAllowance(),
+  }))
+  .on(MessageType.LICENCE_SET, async (payload) => {
+    await setLicenceKey(payload?.key);
+    /* Checked immediately: a key typed into a box and silently not verified is
+       how a customer discovers on Friday that they pasted the wrong line. */
+    const licence = await verifyLicence({ force: true, origin: payload?.origin ?? null });
+    return { licence, allowance: await auditAllowance() };
+  })
+  .on(MessageType.LICENCE_FORGET, async () => ({
+    licence: await forgetLicence(),
+    allowance: await auditAllowance(),
+  }))
+  .on(MessageType.LICENCE_CHECKOUT, (payload) =>
+    startCheckout({ plan: payload?.plan ?? 'pro', email: payload?.email ?? null, origin: payload?.origin ?? null }),
+  );
 
 /*
  * An audit that cannot run is an outcome, not a crash: the popup has a screen

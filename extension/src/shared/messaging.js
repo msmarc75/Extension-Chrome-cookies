@@ -21,6 +21,10 @@ export const MessageType = Object.freeze({
   HISTORY_GET: 'history_get',
   HISTORY_DELETE: 'history_delete',
   HISTORY_CLEAR: 'history_clear',
+  LICENCE_STATE: 'licence_state',
+  LICENCE_SET: 'licence_set',
+  LICENCE_FORGET: 'licence_forget',
+  LICENCE_CHECKOUT: 'licence_checkout',
 });
 
 /** Error codes carried by a failed response envelope. */

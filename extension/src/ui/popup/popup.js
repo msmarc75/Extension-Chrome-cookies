@@ -11,6 +11,7 @@
 
 import { MessageType, request } from '../../shared/messaging.js';
 import { formatOffset, summarise } from './summary.js';
+import { FREE_AUDITS_PER_MONTH } from '../../background/licence.js';
 
 const ACKNOWLEDGED_KEY = 'debuggerNoticeAcknowledged';
 
@@ -119,6 +120,39 @@ function fail(message) {
   show('error');
 }
 
+/**
+ * What this installation may do, on the screen where it matters.
+ *
+ * Never a bare tick: a plan that is being honoured because the service could
+ * not be reached says so, and a free installation is told what is left rather
+ * than discovering it at the moment it is refused.
+ */
+function renderPlan(state) {
+  const { licence, allowance } = state;
+  const parts = [`Plan: ${allowance.plan}`];
+  if (allowance.auditsLeft !== null) {
+    parts.push(`${allowance.auditsLeft} of ${FREE_AUDITS_PER_MONTH} audits left this month`);
+  }
+  if (!allowance.policyAnalysis) parts.push('policy analysis not included');
+  field('plan-line').textContent = parts.join(' · ');
+
+  const note = field('plan-note');
+  note.hidden = !allowance.note;
+  note.textContent = allowance.note ?? '';
+
+  field('licence-summary').textContent = licence.key
+    ? `Licence ${licence.key}`
+    : 'Licence — none on this installation';
+  field('licence-forget').hidden = !licence.key;
+  if (licence.key) field('licence-key').value = licence.key;
+}
+
+async function refreshPlan() {
+  const response = await request(MessageType.LICENCE_STATE);
+  if (response.ok) renderPlan(response.data);
+  return response.ok ? response.data : null;
+}
+
 async function refreshCapability() {
   const [status, capability] = await Promise.all([
     request(MessageType.GET_STATUS),
@@ -196,9 +230,36 @@ document.addEventListener('click', async (event) => {
         `src/ui/report/report.html${lastAuditId ? `?audit=${encodeURIComponent(lastAuditId)}` : ''}`,
       ),
     });
+  } else if (action === 'licence-save') {
+    const key = field('licence-key').value;
+    const response = await request(MessageType.LICENCE_SET, { key });
+    if (response.ok) {
+      renderPlan(response.data);
+      field('plan-note').hidden = false;
+      field('plan-note').textContent = response.data.licence.valid
+        ? 'Licence verified.'
+        : `That key was not accepted: ${response.data.licence.reason ?? 'unknown reason'}.`;
+    }
+  } else if (action === 'licence-forget') {
+    const response = await request(MessageType.LICENCE_FORGET);
+    if (response.ok) {
+      field('licence-key').value = '';
+      renderPlan(response.data);
+    }
+  } else if (action === 'licence-buy') {
+    const response = await request(MessageType.LICENCE_CHECKOUT, { plan: 'pro' });
+    if (response.ok && response.data?.url) {
+      /* Stripe's own hosted page: no card details ever touch this extension. */
+      await chrome.tabs.create({ url: response.data.url });
+    } else {
+      field('plan-note').hidden = false;
+      field('plan-note').textContent =
+        `Checkout could not be started: ${response.error?.message ?? 'the service did not answer'}.`;
+    }
   } else if (action === 'open-settings') {
     await chrome.tabs.create({ url: `chrome://extensions/?id=${chrome.runtime.id}` });
   }
 });
 
 refreshCapability();
+void refreshPlan();

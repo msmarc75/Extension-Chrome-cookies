@@ -15,7 +15,7 @@ import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { callBackground, expect, test } from './fixtures.mjs';
+import { callBackground, expect, grantPro, test } from './fixtures.mjs';
 import { startBannerSite } from './banner-site.mjs';
 
 /** @type {Awaited<ReturnType<typeof startBannerSite>>} */
@@ -86,6 +86,9 @@ test.afterAll(async () => {
 });
 
 async function probe(page, path, extra = {}) {
+  /* Policy analysis is what a licence buys; this file is about the analysis,
+     not about who may have it. */
+  await grantPro(page);
   const response = await callBackground(page, 'probe_banner', {
     url: `${site.origin}${path}`,
     mode: 'current',

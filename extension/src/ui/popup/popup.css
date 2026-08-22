@@ -346,6 +346,52 @@
   color: var(--ca-ink-muted);
 }
 
+/* ---- Plan and licence --------------------------------------------------- */
+
+.ca-plan {
+  margin: var(--ca-space-4) var(--ca-space-0) var(--ca-space-2);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
+.ca-details {
+  margin-top: var(--ca-space-3);
+  font-size: var(--ca-size-100);
+}
+
+.ca-details__summary {
+  cursor: pointer;
+  color: var(--ca-ink-muted);
+}
+
+.ca-field {
+  display: block;
+  margin: var(--ca-space-3) var(--ca-space-0);
+}
+
+.ca-field__label {
+  display: block;
+  margin-bottom: var(--ca-space-2);
+  color: var(--ca-ink-muted);
+}
+
+.ca-field__input {
+  width: 100%;
+  padding: var(--ca-space-3);
+  border: var(--ca-border-hairline) solid var(--ca-rule-strong);
+  border-radius: var(--ca-radius-sm);
+  background: var(--ca-paper-raised);
+  color: var(--ca-ink);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-200);
+}
+
+.ca-field__input:focus-visible {
+  outline: var(--ca-focus-ring-width) solid var(--ca-accent);
+  outline-offset: var(--ca-focus-ring-offset);
+}
+
 /* ---- Footer ------------------------------------------------------------- */
 
 .ca-footer {
