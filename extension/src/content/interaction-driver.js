@@ -187,7 +187,6 @@ export async function readProfile(session) {
   );
 
   const contexts = (session.frameContexts?.() ?? []).slice(0, MAX_FRAMES);
-  if (contexts.length === 0) return main;
 
   const mainOrigin = (() => {
     try {
@@ -232,6 +231,7 @@ export async function readProfile(session) {
     .slice(0, MAX_FRAMES);
 
   main.framesExamined = { sameProcess: contexts.length, outOfProcess: children.length, read: 0 };
+
 
   for (const child of children) {
     await session.trySend('Runtime.enable', {}, { sessionId: child.sessionId, timeoutMs: 3_000 });

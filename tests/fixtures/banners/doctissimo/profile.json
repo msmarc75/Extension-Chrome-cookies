@@ -58,12 +58,23 @@
           "title": null,
           "rect": {
             "x": 447,
-            "y": 209,
+            "y": 225,
             "width": 111,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
@@ -77,12 +88,23 @@
           "title": null,
           "rect": {
             "x": 609,
-            "y": 524,
+            "y": 540,
             "width": 326,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -103,7 +125,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -123,12 +156,23 @@
           "title": null,
           "rect": {
             "x": 275,
-            "y": 606,
+            "y": 622,
             "width": 203,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(153, 139, 137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(153, 139, 137)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -149,12 +193,23 @@
           "title": null,
           "rect": {
             "x": 488,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -175,14 +230,26 @@
           "title": null,
           "rect": {
             "x": 701,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
@@ -200,11 +267,11 @@
       "zIndex": "auto",
       "rect": {
         "x": 275,
-        "y": 137,
+        "y": 121,
         "width": 730,
-        "height": 526
+        "height": 558
       },
-      "viewportShare": 0.375,
+      "viewportShare": 0.3977,
       "namedForConsent": true,
       "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
       "inShadow": false,
@@ -221,12 +288,23 @@
           "title": null,
           "rect": {
             "x": 447,
-            "y": 209,
+            "y": 225,
             "width": 111,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
@@ -240,12 +318,23 @@
           "title": null,
           "rect": {
             "x": 609,
-            "y": 524,
+            "y": 540,
             "width": 326,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -266,7 +355,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -286,12 +386,23 @@
           "title": null,
           "rect": {
             "x": 275,
-            "y": 606,
+            "y": 622,
             "width": 203,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(153, 139, 137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(153, 139, 137)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -312,12 +423,23 @@
           "title": null,
           "rect": {
             "x": 488,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -338,14 +460,26 @@
           "title": null,
           "rect": {
             "x": 701,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
@@ -361,11 +495,11 @@
       "zIndex": "auto",
       "rect": {
         "x": 274,
-        "y": 136,
+        "y": 120,
         "width": 732,
-        "height": 528
+        "height": 560
       },
-      "viewportShare": 0.3774,
+      "viewportShare": 0.4003,
       "namedForConsent": true,
       "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
       "inShadow": false,
@@ -382,12 +516,23 @@
           "title": null,
           "rect": {
             "x": 447,
-            "y": 209,
+            "y": 225,
             "width": 111,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
@@ -401,12 +546,23 @@
           "title": null,
           "rect": {
             "x": 609,
-            "y": 524,
+            "y": 540,
             "width": 326,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -427,7 +583,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -447,12 +614,23 @@
           "title": null,
           "rect": {
             "x": 275,
-            "y": 606,
+            "y": 622,
             "width": 203,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(153, 139, 137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(153, 139, 137)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -473,12 +651,23 @@
           "title": null,
           "rect": {
             "x": 488,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -499,14 +688,26 @@
           "title": null,
           "rect": {
             "x": 701,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
@@ -521,11 +722,11 @@
       "zIndex": "auto",
       "rect": {
         "x": 325,
-        "y": 177,
+        "y": 161,
         "width": 630,
-        "height": 481
+        "height": 513
       },
-      "viewportShare": 0.2959,
+      "viewportShare": 0.3156,
       "namedForConsent": true,
       "text": "Doctissimo et ses 1122 partenaires souhaitent utiliser des cookies ou autres traceurs et traiter vos données personnelles (données de navigation, données renseignées dans votre compte et/ou lors de l'utilisation des services, etc.) pour : - Mesure d'audience, - Fonctionnalités liées aux réseaux sociaux, - Fonctionnalités liées à l'amélioration de votre expérience, - Contenu personnalisé et mesure de performance du contenu, - Publicités personnalisées, mesure de performance des publicités et données d'audience, - Développer et améliorer les produits, - Données de géolocalisation précises et ide",
       "inShadow": false,
@@ -542,12 +743,23 @@
           "title": null,
           "rect": {
             "x": 447,
-            "y": 209,
+            "y": 225,
             "width": 111,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
@@ -561,12 +773,23 @@
           "title": null,
           "rect": {
             "x": 609,
-            "y": 524,
+            "y": 540,
             "width": 326,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -587,7 +810,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -607,12 +841,23 @@
           "title": null,
           "rect": {
             "x": 275,
-            "y": 606,
+            "y": 622,
             "width": 203,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(153, 139, 137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(153, 139, 137)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -633,12 +878,23 @@
           "title": null,
           "rect": {
             "x": 488,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -659,14 +915,26 @@
           "title": null,
           "rect": {
             "x": 701,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
@@ -681,7 +949,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 325,
-        "y": 207,
+        "y": 223,
         "width": 630,
         "height": 336
       },
@@ -702,12 +970,23 @@
           "title": null,
           "rect": {
             "x": 447,
-            "y": 209,
+            "y": 225,
             "width": 111,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > p > a",
@@ -721,12 +1000,23 @@
           "title": null,
           "rect": {
             "x": 609,
-            "y": 524,
+            "y": 540,
             "width": 326,
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -747,9 +1037,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#buttons",
@@ -766,7 +1068,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 275,
-        "y": 593,
+        "y": 609,
         "width": 630,
         "height": 65
       },
@@ -793,12 +1095,23 @@
           "title": null,
           "rect": {
             "x": 275,
-            "y": 606,
+            "y": 622,
             "width": 203,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(153, 139, 137)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(153, 139, 137)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -819,12 +1132,23 @@
           "title": null,
           "rect": {
             "x": 488,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -845,14 +1169,26 @@
           "title": null,
           "rect": {
             "x": 701,
-            "y": 606,
+            "y": 622,
             "width": 204,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(80, 83, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(80, 83, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
@@ -867,15 +1203,16 @@
       "zIndex": "auto",
       "rect": {
         "x": 325,
-        "y": 177,
+        "y": 161,
         "width": 630,
-        "height": 30
+        "height": 62
       },
-      "viewportShare": 0.0185,
+      "viewportShare": 0.0381,
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#didomi-notice-disagree-button",
@@ -895,7 +1232,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 488,
-        "y": 606,
+        "y": 622,
         "width": 204,
         "height": 40
       },
@@ -903,7 +1240,8 @@
       "namedForConsent": true,
       "text": "Je n'accepte rien",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#didomi-notice-agree-button",
@@ -923,7 +1261,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 701,
-        "y": 606,
+        "y": 622,
         "width": 204,
         "height": 40
       },
@@ -931,7 +1269,8 @@
       "namedForConsent": true,
       "text": "J'accepte tout",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#didomi-notice-learn-more-button",
@@ -950,7 +1289,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 275,
-        "y": 606,
+        "y": 622,
         "width": 203,
         "height": 40
       },
@@ -958,7 +1297,32 @@
       "namedForConsent": true,
       "text": "Paramétrer",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
+    },
+    {
+      "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container > img.didomi-popup-notice-logo",
+      "tag": "img",
+      "id": null,
+      "classes": [
+        "didomi-popup-notice-logo"
+      ],
+      "role": "heading",
+      "ariaModal": false,
+      "position": "static",
+      "zIndex": "auto",
+      "rect": {
+        "x": 540,
+        "y": 161,
+        "width": 200,
+        "height": 32
+      },
+      "viewportShare": 0.0062,
+      "namedForConsent": true,
+      "text": "",
+      "inShadow": false,
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "span#cmp_preferences",
@@ -971,7 +1335,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 424,
-        "y": 13167,
+        "y": 13159,
         "width": 127,
         "height": 16
       },
@@ -979,7 +1343,8 @@
       "namedForConsent": true,
       "text": "Préférences cookies",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

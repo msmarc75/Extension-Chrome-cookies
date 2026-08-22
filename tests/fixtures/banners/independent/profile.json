@@ -47,7 +47,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#sectionContent > div.sc-1mj8max-0.kyDUXP > div.sc-jMpmlX.bfdNfc > div.section-component > div.sc-jdeof9-2.sc-jdeof9-5 > div.sc-jdeof9-1.sc-x21piv-0 > div.sc-1gucua1-0.TwmQy",
@@ -73,7 +74,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#footerPrompt",
@@ -97,7 +99,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

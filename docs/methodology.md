@@ -120,8 +120,8 @@ papers over:
 **First and third party** are separated by registrable domain, using a compact
 list of multi-label public suffixes rather than the full Public Suffix List.
 The classification is a convenience for reading a capture; it is not the basis
-of a finding. Tracker classification proper arrives with the Tracker Radar data
-and its entity ownership.
+of a finding. What makes a host a *tracker* is a separate question, answered
+below.
 
 ## Identifying the consent platform
 
@@ -198,6 +198,86 @@ is recorded, because it is the imbalance the guidelines are about. A panel whose
 toggles merely start switched off, saved with a neutral "Save" button, is not
 treated as a refusal — only an explicit refusal label counts.
 
+## Deciding that a host is a tracker
+
+**Third party is not the same thing as tracker**, and conflating them is how an
+audit tool loses its reader. Publishers routinely serve their own assets from a
+separate registrable domain — `bbci.co.uk` for the BBC, `guim.co.uk` for The
+Guardian, `lemde.fr` for Le Monde. On the recorded corpus, counting every
+third-party call as a tracker would have produced a blocking failure on roughly
+a third of the sites for nothing but their own CDN.
+
+So a host is only counted when the shipped table names it, and the table names
+categories rather than a verdict: `advertising`, `analytics`, `social`,
+`consent`, `cdn`, `essential`. Only the first three count as a deposit to answer
+for. A consent platform's own script is how the site asks the question and is
+never a finding in itself. An unrecognised host is not counted at all — the
+table is short, it misses trackers, and **the miss is deliberate**: a false
+positive on a blocking rule costs more than a false negative on one.
+
+**Why the table is written here rather than imported.** DuckDuckGo's Tracker
+Radar is the obvious source and cannot be used: it is licensed **CC BY-NC-SA
+4.0**, whose NonCommercial clause rules it out of a paid product without a
+commercial licence from DuckDuckGo. (The construction plan assumed a permissive
+licence. It is wrong on that point.) The shipped table is therefore written by
+this project from public facts about who operates each domain, seeded from the
+third-party hosts actually observed across the corpus, and it says so in its own
+`provenance` field. Its shortness is stated on the report rather than hidden:
+what the tool did not recognise, it does not pretend to have cleared.
+
+## Exemptions, and what the tool refuses to conclude
+
+The exemption in law is narrow — strictly necessary for a service the user
+asked for (ePrivacy art. 5(3)) — and the temptation is to invert it: treat
+"not on the exemption list" as "not necessary". The first corpus run did exactly
+that and produced a blocking failure on Wikipedia, which asks nothing of anyone.
+That is the failure mode this project cares most about, so the rule was rewritten
+to count only what it can positively identify:
+
+- a cookie written by a domain classified `advertising` or `social`;
+- a cookie whose name is a known tracker identifier (`_ga`, `_fbp`, `IDE`, …).
+
+Everything else is raised **for review** with the reason it could not be
+settled — "purpose not determinable from outside the site" — and carries no
+deduction. A capture cannot see what a first-party cookie is for.
+
+**Audience measurement is the deliberate soft spot.** The CNIL exempts it only
+where it measures the site's own audience, builds no cross-site profile and
+shares nothing, and none of those conditions is visible from outside. Where the
+only pre-consent calls are to measurement, the verdict is a `warn`, not a `fail`.
+That is the conservative reading, and it is recorded here rather than settled
+alone.
+
+**Undated cookies are never counted.** A cookie found in the jar with no
+observable moment of writing cannot be shown to predate the choice. It appears
+in the capture and stays out of the finding.
+
+## Scoring, and the honesty constraints on it
+
+A number out of a hundred is the most quotable thing this product makes, and
+therefore the easiest to misuse. Four constraints govern it:
+
+- **A failed blocking rule caps the score at 49.** A site that contacts an ad
+  exchange before anyone was asked does not earn a respectable score for a
+  well-laid-out banner.
+- **Rules that did not apply are not counted as passes.** They are excluded from
+  the denominator, and the report carries the share of the rulebook that actually
+  applied. A score computed over a third of the rules is not a high score.
+- **A score under 80 % coverage is marked `provisional`** — a page where no
+  banner could be located has not passed the fairness rules, it has not been
+  measured on them.
+- **The score is never shown alone.** The band wording and the count of findings
+  travel with it, in the payload and on screen.
+
+The bands are worded as findings, not as legal conclusions: *Broadly consistent
+with the guidance* (85–100), *Departures to correct* (60–84), *Characterised
+failures* (0–59).
+
+**Measured in the visitor's own profile, a `fail` becomes a `warn`.** The site
+may be acting on a choice made weeks ago; what was deposited is still a fact,
+but that it was deposited *before consent* is not established. The finding says
+so and points at re-running in a clean window.
+
 ## Limits of the recorded corpus
 
 The banner corpus in `tests/fixtures/banners/` was recorded from a sandbox whose
@@ -211,6 +291,48 @@ browser, from wherever they are.
 ## Open questions
 
 Legal points this project has deliberately not settled. Each one names the rule
-that depends on it and the conservative reading currently shipped.
+that depends on it and the conservative reading currently shipped. "Conservative"
+here means conservative *about the accusation*: where the law is unsettled, the
+tool reports less than it could, not more.
 
-*None recorded yet — the rule engine lands in phase 4.*
+**Is audience measurement exempt?** *(`PRE_CONSENT_TRACKERS`,
+`PRE_CONSENT_COOKIES`, `EXEMPTION_CHECK`)* The CNIL's exemption (délib. 2020-091)
+holds only where the measurement is confined to the site's own audience,
+produces no cross-site profile and shares nothing — conditions invisible from
+outside. **Shipped:** a page whose only pre-consent calls are to measurement gets
+a `warn`, not a `fail`, and the finding says the exemption could not be checked.
+A stricter reading is defensible; it is not this tool's to impose.
+
+**Is a cookie wall a breach?** *(`NO_COOKIE_WALL`)* Consent conditioned on
+payment is not freely given in the ordinary sense (GDPR art. 7(4), recital 42),
+but the CNIL assesses cookie walls case by case and the EDPB's Opinion 08/2024
+turns on facts — a reasonable price, a genuine alternative — that no capture can
+see. **Shipped:** the finding states the observation ("refusing is offered as a
+purchase; accepting is free") and cites the question. It does not say the
+arrangement is unlawful. It is nonetheless `blocking`, because a refusal that
+costs money is not a refusal the rest of the report can be read against.
+
+**Does a refusal one layer deeper breach anything by itself?**
+*(`REFUSE_SAME_LAYER`)* The CNIL's recommendation is that refusing be as easy as
+accepting, and its January 2022 sanctions against Google and Facebook rested on
+exactly that asymmetry. Whether *one* extra click is per se a breach has not
+been decided in terms. **Shipped:** blocking only where an acceptance was
+positively identified on the first layer **and** no refusal was — never where the
+banner could not be read.
+
+**Is reading a canvas "access to information stored in the terminal"?**
+*(`PRE_CONSENT_FINGERPRINT`)* The EDPB's Guidelines 2/2023 say yes, and the
+question has not been litigated in those terms. **Shipped:** `major`, not
+blocking, and only where two or more distinct techniques were reached inside the
+untouched window — a single canvas read is a chart as often as a fingerprint.
+
+**How unequal is too unequal?** *(`REFUSE_EQUAL_PROMINENCE`, `NO_DARK_PATTERN`)*
+No instrument publishes a threshold; the guidance says "as easy". **Shipped:** a
+20 % tolerance on surface area, WCAG relative luminance for contrast, and both
+sides' figures printed side by side so the reader can disagree with the
+threshold and still use the measurement.
+
+**Does loading a consent platform before consent count against the site?**
+**Shipped:** no. Loading the CMP is how the site asks the question, and its own
+domain is classified `consent` and excluded from the deposit rules. Where a
+consent platform also sells advertising, only its advertising domains count.

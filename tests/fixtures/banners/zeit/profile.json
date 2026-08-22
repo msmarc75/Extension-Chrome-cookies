@@ -41,7 +41,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#main > div.cp-region.cp-region--standard > section.cp-area.cp-area--headed > article.zon-teaser.zon-teaser--wide > div.embed-wrapper.js-embed-consent",
@@ -88,9 +89,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(37, 37, 37)",
+            "ownBackgroundColor": "rgb(37, 37, 37)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#iqd_rightAd",
@@ -111,7 +124,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#iqd_leftAd",
@@ -132,7 +146,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

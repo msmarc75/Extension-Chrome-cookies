@@ -41,7 +41,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#isl-73-FooterPrivacyLink",
@@ -82,9 +83,21 @@
             "height": 11
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 10,
+            "fontWeight": "400",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#isl-3-OopAdSlots > aside.Ad-Slot-Sticky--Right > div.Ad-Slot.Ad-Slot-oop",
@@ -112,7 +125,8 @@
       "namedForConsent": false,
       "text": "ANZEIGE",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#isl-3-OopAdSlots > aside.Ad-Slot-Sticky--Left > div.Ad-Slot.Ad-Slot-oop",
@@ -140,7 +154,8 @@
       "namedForConsent": false,
       "text": "ANZEIGE",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

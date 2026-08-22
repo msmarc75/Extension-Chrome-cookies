@@ -53,7 +53,8 @@
       "namedForConsent": true,
       "text": "Paramétrer les cookies",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

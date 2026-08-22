@@ -51,9 +51,27 @@ export const test = base.extend({
     }
   },
 
-  /** The MV3 service worker registration, awaited. */
+  /**
+   * The MV3 service worker registration, awaited — and ready.
+   *
+   * A worker that exists is not yet a worker that can be questioned. The
+   * registration is announced before its global scope is furnished: an
+   * evaluation landing in that gap sees no `chrome.debugger` — and, earlier
+   * still, no `setTimeout` — so the wait has to be driven from here rather
+   * than from inside. The extension's own code never meets this: its script is
+   * evaluated once the scope is complete.
+   */
   worker: async ({ context }, use) => {
     const worker = context.serviceWorkers()[0] ?? (await context.waitForEvent('serviceworker'));
+
+    for (let attempt = 0; attempt < 200; attempt += 1) {
+      const ready = await worker
+        .evaluate(() => Boolean(globalThis.chrome?.debugger && globalThis.setTimeout))
+        .catch(() => false);
+      if (ready) break;
+      await new Promise((resolve) => setTimeout(resolve, 25));
+    }
+
     await use(worker);
   },
 

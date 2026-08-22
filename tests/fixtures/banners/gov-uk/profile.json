@@ -53,7 +53,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
@@ -74,7 +85,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
@@ -96,7 +118,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
@@ -118,7 +151,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > a.govuk-link",
@@ -139,7 +183,18 @@
             "height": 19
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-hide-button.govuk-button-group > button.gem-c-cookie-banner__hide-button.govuk-button",
@@ -161,9 +216,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container",
@@ -207,7 +274,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
@@ -228,7 +306,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
@@ -250,7 +339,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > button.gem-c-button.govuk-button",
@@ -272,7 +372,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-confirmation-buttons.govuk-button-group > a.govuk-link",
@@ -293,7 +404,18 @@
             "height": 19
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.js-hide-button.govuk-button-group > button.gem-c-cookie-banner__hide-button.govuk-button",
@@ -315,9 +437,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(15, 122, 82)",
+            "ownBackgroundColor": "rgb(15, 122, 82)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 2,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation",
@@ -361,7 +495,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > div.govuk-cookie-banner__content.gem-c-cookie-banner__confirmation > p.gem-c-cookie-banner__confirmation-message--rejected.govuk-body > span.gem-c-cookie-banner__confirmation-message > a.govuk-link",
@@ -382,9 +527,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(26, 101, 166)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 19,
+            "fontWeight": "400",
+            "borderColor": "rgb(26, 101, 166)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#global-cookie-message > div.govuk-cookie-banner__message.govuk-width-container > div.govuk-grid-row > div.govuk-grid-column-two-thirds > h2.govuk-cookie-banner__heading.govuk-heading-m",
@@ -408,7 +565,8 @@
       "namedForConsent": true,
       "text": "Cookies on GOV.UK",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [],

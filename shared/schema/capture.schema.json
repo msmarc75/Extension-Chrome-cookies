@@ -15,6 +15,7 @@
     "requests",
     "cookies",
     "storage",
+    "fingerprinting",
     "notes"
   ],
   "properties": {
@@ -167,6 +168,19 @@
             "description": "'event' is a write observed as it happened, and carries a time. 'snapshot' is what was found in the store once the window closed: it proves the store is non-empty but carries no time, and sometimes no key.",
             "enum": ["event", "snapshot"]
           }
+        }
+      }
+    },
+    "fingerprinting": {
+      "description": "Calls to the browser APIs most used to build an identifier without storing anything — reading pixels back off a canvas, asking WebGL which GPU is installed, opening an audio context. Each has honest uses; the capture records that the call happened and when, and leaves the meaning to the rule engine.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["api", "tMs"],
+        "properties": {
+          "api": { "type": "string" },
+          "tMs": { "type": "number" }
         }
       }
     },

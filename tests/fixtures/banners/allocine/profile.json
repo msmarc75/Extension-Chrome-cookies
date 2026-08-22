@@ -63,7 +63,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
@@ -92,7 +103,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(227, 227, 227)",
+            "ownBackgroundColor": "rgb(227, 227, 227)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
@@ -111,7 +133,18 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
@@ -140,7 +173,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(251, 183, 0)",
+            "ownBackgroundColor": "rgb(251, 183, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
@@ -159,7 +203,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -184,7 +239,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -210,7 +276,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -236,9 +313,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog",
@@ -283,7 +372,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
@@ -312,7 +412,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(227, 227, 227)",
+            "ownBackgroundColor": "rgb(227, 227, 227)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
@@ -331,7 +442,18 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
@@ -360,7 +482,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(251, 183, 0)",
+            "ownBackgroundColor": "rgb(251, 183, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
@@ -379,7 +512,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -404,7 +548,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -430,7 +585,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -456,9 +622,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
@@ -500,7 +678,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
@@ -529,7 +718,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(227, 227, 227)",
+            "ownBackgroundColor": "rgb(227, 227, 227)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
@@ -548,7 +748,18 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
@@ -577,7 +788,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(251, 183, 0)",
+            "ownBackgroundColor": "rgb(251, 183, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
@@ -596,7 +818,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -621,7 +854,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -647,7 +891,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -673,9 +928,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
@@ -716,7 +983,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
@@ -745,7 +1023,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(227, 227, 227)",
+            "ownBackgroundColor": "rgb(227, 227, 227)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
@@ -764,7 +1053,18 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
@@ -793,7 +1093,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(251, 183, 0)",
+            "ownBackgroundColor": "rgb(251, 183, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
@@ -812,7 +1123,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -837,7 +1159,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-disagree-button",
@@ -863,7 +1196,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -889,9 +1233,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(254, 204, 0)",
+            "ownBackgroundColor": "rgb(254, 204, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(254, 204, 0, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
@@ -932,7 +1288,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-subscription",
@@ -961,7 +1328,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(227, 227, 227)",
+            "ownBackgroundColor": "rgb(227, 227, 227)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies > p > a",
@@ -980,7 +1358,18 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#cmp-main > button.jad_cmp_paywall_button.jad_cmp_paywall_button-cookies",
@@ -1009,7 +1398,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(251, 183, 0)",
+            "ownBackgroundColor": "rgb(251, 183, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#cmp-main > div.jad_cmp_paywall_footer > span > a",
@@ -1028,9 +1428,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies",
@@ -1073,9 +1485,21 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > div.jad_cmp_paywall_text.jad_cmp_paywall_text-cookies",
@@ -1119,9 +1543,21 @@
             "height": 32
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_intro",
@@ -1144,7 +1580,8 @@
       "namedForConsent": true,
       "text": "Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre les deux alternati",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription",
@@ -1187,9 +1624,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_intro > div.jad_cmp_paywall_intro-text.mobile-collapsed",
@@ -1213,7 +1662,8 @@
       "namedForConsent": true,
       "text": "Le modèle économique de repose historiquement sur l’affichage de publicités personnalisées basées sur l’utilisation de cookies publicitaires, qui permettent de suivre la navigation des internautes et cibler leurs centres d’intérêts. La nouvelle réglementation relative aux cookies ne permet plus à de s’appuyer sur cette seule source de revenus. En conséquence, afin de pouvoir maintenir le financement de et fournir les services proposés tout en vous offrant une même qualité de contenu éditorial sans cesse renouvelé, nous vous offrons la possibilité d’exprimer votre choix entre les deux alternati",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription > div.jad_cmp_paywall_text.jad_cmp_paywall_text-subscription",
@@ -1257,9 +1707,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
@@ -1282,7 +1744,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-subscription > div.jad_cmp_paywall_text.jad_cmp_paywall_text-subscription > p > span.jad_cmp_paywall_small-text",
@@ -1305,7 +1768,8 @@
       "namedForConsent": true,
       "text": "Si vous souscrivez à cette offre, veuillez toutefois noter que des publicités seront toujours visibles lorsque vous accéderez au site. Cependant, celles-ci ne seront pas basées sur des cookies publicitaires.",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#cmp-main > div.jad_cmp_paywall_section.jad_cmp_paywall_section-cookies > h4.jad_cmp_paywall_title.jad_cmp_paywall_title-cookies",
@@ -1330,7 +1794,8 @@
       "namedForConsent": true,
       "text": "au site gratuitement en acceptant les cookies publicitaires",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

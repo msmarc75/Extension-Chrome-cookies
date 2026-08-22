@@ -65,7 +65,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-accept-notice-button",
@@ -86,7 +97,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-disagree-notice-button",
@@ -107,7 +129,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
@@ -126,7 +159,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -147,7 +191,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -172,7 +227,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -198,9 +264,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(255, 255, 255, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
@@ -244,7 +322,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-accept-notice-button",
@@ -265,7 +354,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-disagree-notice-button",
@@ -286,7 +386,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
@@ -305,7 +416,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -326,7 +448,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -351,7 +484,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -377,9 +521,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(255, 255, 255, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container",
@@ -422,7 +578,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-accept-notice-button",
@@ -443,7 +610,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-disagree-notice-button",
@@ -464,7 +642,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
@@ -483,7 +672,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -504,9 +704,21 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-notice-data-processing-container.didomi-popup-notice-data-processing-list",
@@ -530,7 +742,8 @@
       "namedForConsent": true,
       "text": "Vos donnÃ©es personnelles sont traitÃ©es pour les finalitÃ©s suivantes:Analyser activement les caractÃ©ristiques de lâappareil pour lâidentification, Compartir tus anÃ¡lisis de navegaciÃ³n y grupos de interÃ©s con terceros, Comprendre les publics par le biais de statistiques ou de combinaisons de donnÃ©es provenant de diffÃ©rentes sources, Conservation et accÃšs aux informations de gÃ©olocalisation pour rÃ©aliser des Ã©tudes marketing, Conservation et accÃšs aux informations de gÃ©olocalisation Ã des fins de publicitÃ© ciblÃ©e, CrÃ©er des profils de contenus personnalisÃ©s, CrÃ©er des prof",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-notice-data-processing-container.didomi-popup-notice-data-processing-list > p > span.didomi-notice-data-processing-list",
@@ -553,7 +766,8 @@
       "namedForConsent": true,
       "text": "Analyser activement les caractÃ©ristiques de lâappareil pour lâidentification, Compartir tus anÃ¡lisis de navegaciÃ³n y grupos de interÃ©s con terceros, Comprendre les publics par le biais de statistiques ou de combinaisons de donnÃ©es provenant de diffÃ©rentes sources, Conservation et accÃšs aux informations de gÃ©olocalisation pour rÃ©aliser des Ã©tudes marketing, Conservation et accÃšs aux informations de gÃ©olocalisation Ã des fins de publicitÃ© ciblÃ©e, CrÃ©er des profils de contenus personnalisÃ©s, CrÃ©er des profils pour la publicitÃ© personnalisÃ©e, DÃ©velopper et amÃ©liorer les se",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text",
@@ -596,7 +810,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#ue-disagree-notice-button",
@@ -617,7 +842,18 @@
             "height": 47
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(0, 0, 0)",
+            "ownBackgroundColor": "rgb(0, 0, 0)",
+            "fontSize": 18,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > a",
@@ -636,9 +872,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-notice-data-processing-container.didomi-popup-notice-data-processing-list > p > span.didomi-notice-data-processing-title",
@@ -661,7 +909,8 @@
       "namedForConsent": true,
       "text": "Vos donnÃ©es personnelles sont traitÃ©es pour les finalitÃ©s suivantes:",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > a.didomi-notice-view-partners-link",
@@ -684,7 +933,8 @@
       "namedForConsent": true,
       "text": "Voir nos 1109 partenaires",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container",
@@ -707,7 +957,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > span.didomi-offers__premium",
@@ -750,9 +1001,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 109, 157)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(46, 109, 157)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-logo-container > img.didomi-popup-notice-logo",
@@ -775,7 +1038,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > span.didomi-offers__premium > a.didomi-offers__login",
@@ -798,7 +1062,8 @@
       "namedForConsent": true,
       "text": "Iniciar sesiÃ³n",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "aside#banda_suscripcion",
@@ -822,7 +1087,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

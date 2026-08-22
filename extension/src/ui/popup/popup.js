@@ -43,9 +43,33 @@ const BANNER_METHOD = Object.freeze({
   none: 'not found',
 });
 
+function renderScore(report) {
+  const block = field('score-block');
+  if (!report) {
+    block.hidden = true;
+    return;
+  }
+  block.hidden = false;
+  /*
+   * The plan's rule, kept literally: never the score on its own. The band puts
+   * it in words, the counts say what produced it, and a score computed over
+   * part of the rulebook says so before anything else.
+   */
+  block.dataset.band = report.band.key;
+  field('score').textContent = String(report.score);
+  field('band').textContent = report.provisional
+    ? `${report.band.label} — provisional`
+    : report.band.label;
+  field('finding-counts').textContent =
+    `${report.counts.fail} finding(s), ${report.counts.warn} to check, ` +
+    `${report.counts.not_applicable} not applicable`;
+}
+
 function renderResult(probe) {
   const capture = probe.captureA;
   const summary = summarise(capture);
+
+  renderScore(probe.report ?? null);
 
   field('result-target').textContent = capture.target.finalUrl ?? capture.target.requestedUrl;
   field('third-party-requests').textContent =
@@ -70,6 +94,7 @@ function renderResult(probe) {
    * nobody reads.
    */
   const caveats = [
+    ...(probe.report?.disclosures ?? []),
     ...(probe.banner.disclosure ? [probe.banner.disclosure] : []),
     ...(capture.notes.length > 0
       ? [`Limitations recorded: ${capture.notes.map((n) => n.code).join(', ')}.`]

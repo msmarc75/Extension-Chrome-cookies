@@ -55,7 +55,18 @@
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -74,7 +85,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -93,7 +115,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -112,7 +145,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -131,7 +175,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -150,7 +205,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -169,7 +235,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -188,7 +265,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -207,7 +295,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -226,7 +325,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -245,7 +355,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -264,7 +385,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -283,7 +415,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
@@ -305,7 +448,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -324,7 +478,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
@@ -345,7 +510,18 @@
             "height": 41
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -368,7 +544,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(42, 48, 59)",
+            "ownBackgroundColor": "rgb(42, 48, 59)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -393,7 +580,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
@@ -412,9 +610,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(86, 94, 112)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(86, 94, 112)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper",
@@ -457,7 +667,18 @@
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -476,7 +697,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -495,7 +727,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -514,7 +757,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -533,7 +787,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -552,7 +817,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -571,7 +847,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -590,7 +877,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -609,7 +907,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -628,7 +937,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -647,7 +967,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -666,7 +997,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -685,7 +1027,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
@@ -707,7 +1060,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -726,7 +1090,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
@@ -747,7 +1122,18 @@
             "height": 41
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -770,7 +1156,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(42, 48, 59)",
+            "ownBackgroundColor": "rgb(42, 48, 59)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -795,7 +1192,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
@@ -814,9 +1222,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(86, 94, 112)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(86, 94, 112)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content",
@@ -859,7 +1279,18 @@
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -878,7 +1309,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -897,7 +1339,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -916,7 +1369,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -935,7 +1399,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -954,7 +1429,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -973,7 +1459,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -992,7 +1489,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1011,7 +1519,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1030,7 +1549,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1049,7 +1579,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1068,7 +1609,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1087,7 +1639,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > button.gdpr-lmd-wall__tcfbutton.c-explanation__question",
@@ -1109,7 +1672,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > p.c-explanation__answer > a",
@@ -1128,7 +1702,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 63, 78)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 63, 78)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__content > div.c-explanation__block.c-explanation__block--question > button.c-explanation__question",
@@ -1149,9 +1734,21 @@
             "height": 41
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(42, 48, 59)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer",
@@ -1196,7 +1793,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(42, 48, 59)",
+            "ownBackgroundColor": "rgb(42, 48, 59)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -1221,7 +1829,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 59)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login > a",
@@ -1240,9 +1859,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(86, 94, 112)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(86, 94, 112)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > header.gdpr-lmd-wall__header",
@@ -1265,7 +1896,8 @@
       "namedForConsent": true,
       "text": "Soutenez un journalisme fiable",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > button.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -1290,7 +1922,8 @@
       "namedForConsent": true,
       "text": "Accepter et continuer",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > a.gdpr-lmd-button.gdpr-lmd-button--big",
@@ -1317,7 +1950,8 @@
       "namedForConsent": true,
       "text": "S’abonner",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > header.gdpr-lmd-wall__header > div.gdpr-lmd-wall__title",
@@ -1340,7 +1974,8 @@
       "namedForConsent": true,
       "text": "Soutenez un journalisme fiable",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > footer.gdpr-lmd-wall__footer > p.c-explanation__login.js-gdpr-login",
@@ -1382,9 +2017,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(86, 94, 112)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(86, 94, 112)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "footer#footer > div.footer__container > div.footer__legal > ul.footer__sub-nav.bullet > li.footer__sub-nav__item > a.ds-link.footer__link",
@@ -1409,7 +2056,8 @@
       "namedForConsent": true,
       "text": "Gestion des cookies",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "body#js-body > div.gdpr-lmd-wall.gdpr-lmd-wall--no-blur > div.gdpr-lmd-wall__wrapper > div.gdpr-lmd-wall__separator",
@@ -1432,7 +2080,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#ds-anchor-target-content > div.ds-popin.ds-en-continu-popin",
@@ -1480,7 +2129,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
@@ -1502,7 +2162,18 @@
             "height": 96
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
@@ -1524,7 +2195,18 @@
             "height": 96
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
@@ -1546,7 +2228,18 @@
             "height": 96
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
@@ -1568,7 +2261,18 @@
             "height": 96
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#en-continu > li.ds-en-continu-popin__item > a.ds-en-continu-popin__card-link.js-ds-en-continu-popin__card-link",
@@ -1590,7 +2294,18 @@
             "height": 96
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(42, 48, 60)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#en-continu",
@@ -1620,7 +2335,18 @@
             "height": 26
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(42, 48, 60)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgba(0, 0, 0, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#en-continu",
@@ -1649,9 +2375,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(42, 48, 60)",
+            "ownBackgroundColor": "rgb(42, 48, 60)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#habillagepub > section.ds-area.ds-area--top > aside.ds-home-aside > ul.ds-home-aside__list > div.ds-ad-slot-ctn.ds-ad-slot-ctn--pave_haut",
@@ -1675,7 +2413,8 @@
       "namedForConsent": false,
       "text": "LA SUITE APRÈS CETTE PUBLICITÉ",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#habillagepub > div.ds-area.ds-area--more > div.ds-area.ds-area--standard > aside.ds-home-aside > div.ds-ad-slot-ctn.ds-ad-slot-ctn--pave_milieu",
@@ -1699,7 +2438,8 @@
       "namedForConsent": false,
       "text": "LA SUITE APRÈS CETTE PUBLICITÉ",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

@@ -43,7 +43,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber",
@@ -91,7 +92,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(29, 29, 27)",
+            "backgroundColor": "rgb(255, 187, 0)",
+            "ownBackgroundColor": "rgb(255, 187, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(29, 29, 27)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
@@ -115,7 +127,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
@@ -138,7 +161,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(221, 221, 221)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > button.Cmp__button--signIn.Cmp--mobile",
@@ -162,7 +196,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
@@ -183,7 +228,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -205,7 +261,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -227,7 +294,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
@@ -248,7 +326,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
@@ -271,9 +360,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(29, 29, 27)",
+            "ownBackgroundColor": "rgb(29, 29, 27)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout",
@@ -319,7 +420,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(29, 29, 27)",
+            "backgroundColor": "rgb(255, 187, 0)",
+            "ownBackgroundColor": "rgb(255, 187, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(29, 29, 27)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
@@ -343,7 +455,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
@@ -366,7 +489,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(221, 221, 221)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > button.Cmp__button--signIn.Cmp--mobile",
@@ -390,7 +524,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
@@ -411,7 +556,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -433,7 +589,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -455,7 +622,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
@@ -476,7 +654,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
@@ -499,9 +688,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(29, 29, 27)",
+            "ownBackgroundColor": "rgb(29, 29, 27)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent",
@@ -544,7 +745,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -566,7 +778,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > button.button--unstyled.link",
@@ -588,7 +811,18 @@
             "height": 20
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyContent > a.Link",
@@ -609,9 +843,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer",
@@ -656,9 +902,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(29, 29, 27)",
+            "ownBackgroundColor": "rgb(29, 29, 27)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row",
@@ -703,7 +961,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(29, 29, 27)",
+            "backgroundColor": "rgb(255, 187, 0)",
+            "ownBackgroundColor": "rgb(255, 187, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(29, 29, 27)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
@@ -727,7 +996,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
@@ -750,9 +1030,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(221, 221, 221)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer",
@@ -798,7 +1090,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(29, 29, 27)",
+            "backgroundColor": "rgb(255, 187, 0)",
+            "ownBackgroundColor": "rgb(255, 187, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(29, 29, 27)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
@@ -822,9 +1125,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(56, 115, 184)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(56, 115, 184)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer",
@@ -870,9 +1185,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(221, 221, 221)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__policyTitle",
@@ -895,7 +1222,8 @@
       "namedForConsent": true,
       "text": "accepter les cookies et accéder à L'Équipe gratuitement",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__title",
@@ -918,7 +1246,8 @@
       "namedForConsent": true,
       "text": "En vous abonnant, vous accédez à la source de référence sur l'actu sportive.",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
@@ -943,7 +1272,8 @@
       "namedForConsent": true,
       "text": "je m'abonne",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.button.Cmp__button",
@@ -968,7 +1298,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__actionContainer > button.Cmp__action.Cmp__action--yes",
@@ -993,7 +1324,8 @@
       "namedForConsent": true,
       "text": "oui, j'accepte",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "island-root#island-8 > div.CmpContainer > div.Cmp.CmpUnsubscriber > div.Cmp__container.layout > div.Cmp__row > div.Cmp__col.Cmp__buttonContainer > button.Cmp__button--signIn.Cmp--desktop",
@@ -1019,7 +1351,8 @@
       "namedForConsent": true,
       "text": "déja abonné ? se connecter",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

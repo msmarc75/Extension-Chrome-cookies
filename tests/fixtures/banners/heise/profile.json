@@ -41,7 +41,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#wtma-sticky-footer > a-with-access > div > a-sticky-footer.inset-x-0.z-[var(--z-index-sticky-footer)]",
@@ -100,7 +101,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(50, 50, 50)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(199, 199, 199)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#wtma-sticky-footer > a-with-access > div > a-sticky-footer.inset-x-0.z-[var(--z-index-sticky-footer)] > div.container.relative > div.relative.flex > a.inline-block.whitespace-nowrap",
@@ -132,9 +144,21 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(39, 162, 9)",
+            "ownBackgroundColor": "rgb(39, 162, 9)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(39, 162, 9)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     }
   ],
   "frames": [

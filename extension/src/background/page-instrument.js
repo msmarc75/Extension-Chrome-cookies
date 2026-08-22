@@ -51,9 +51,85 @@ export const INSTRUMENT_SOURCE = `(() => {
       return setItem.call(this, key, value);
     };
 
-    const cookie = Object.getOwnPropertyDescriptor(Document.prototype, 'cookie');
+    /*
+     * Fingerprinting surface. Reading pixels back off a canvas, asking WebGL
+     * which GPU is installed, or spinning up an audio context are the classic
+     * ways to build an identifier without storing anything — which is exactly
+     * why they matter before consent, and exactly why they leave no cookie to
+     * find afterwards.
+     *
+     * Each of these has honest uses too: charts read canvases, maps use WebGL.
+     * The instrument only records that the call happened and when; deciding
+     * what it means is the rule engine's job, and it treats a single call as a
+     * question rather than a finding.
+     */
+    const mark = (api) => { try { marks.push({ kind: 'fingerprint', api, at: now() }); } catch (_) {} };
+
+    /*
+     * Named, never referenced directly: a missing global throws on the way in
+     * and would abort every hook after it — including the cookie hook, which is
+     * the one that matters most.
+     */
+    const wrap = (globalName, name, api) => {
+      try {
+        const holder = globalThis[globalName];
+        const object = holder && holder.prototype;
+        if (!object) return;
+        const original = object[name];
+        if (typeof original !== 'function') return;
+        object[name] = function (...args) {
+          mark(api);
+          return original.apply(this, args);
+        };
+      } catch (_) {}
+    };
+
+    wrap('HTMLCanvasElement', 'toDataURL', 'canvas.toDataURL');
+    wrap('HTMLCanvasElement', 'toBlob', 'canvas.toBlob');
+    wrap('CanvasRenderingContext2D', 'getImageData', 'canvas.getImageData');
+    wrap('OffscreenCanvas', 'convertToBlob', 'canvas.convertToBlob');
+
+    /* Only the two parameters that name the actual GPU are worth recording. */
+    for (const context of ['WebGLRenderingContext', 'WebGL2RenderingContext']) {
+      try {
+        const proto = globalThis[context] && globalThis[context].prototype;
+        if (!proto || typeof proto.getParameter !== 'function') continue;
+        const original = proto.getParameter;
+        proto.getParameter = function (parameter) {
+          if (parameter === 0x9245 || parameter === 0x9246) mark('webgl.unmaskedRenderer');
+          return original.call(this, parameter);
+        };
+      } catch (_) {}
+    }
+
+    for (const name of ['AudioContext', 'OfflineAudioContext', 'webkitOfflineAudioContext']) {
+      try {
+        const Original = globalThis[name];
+        if (typeof Original !== 'function') continue;
+        const Wrapped = function (...args) { mark('audio.' + name); return new Original(...args); };
+        Wrapped.prototype = Original.prototype;
+        globalThis[name] = Wrapped;
+      } catch (_) {}
+    }
+
+    try {
+      const navigatorPrototype = globalThis.Navigator && globalThis.Navigator.prototype;
+      const plugins =
+        navigatorPrototype && Object.getOwnPropertyDescriptor(navigatorPrototype, 'plugins');
+      if (plugins && plugins.get) {
+        Object.defineProperty(navigatorPrototype, 'plugins', {
+          configurable: true,
+          enumerable: plugins.enumerable,
+          get() { mark('navigator.plugins'); return plugins.get.call(this); },
+        });
+      }
+    } catch (_) {}
+
+    const documentPrototype = globalThis.Document && globalThis.Document.prototype;
+    const cookie =
+      documentPrototype && Object.getOwnPropertyDescriptor(documentPrototype, 'cookie');
     if (cookie && cookie.get && cookie.set) {
-      Object.defineProperty(Document.prototype, 'cookie', {
+      Object.defineProperty(documentPrototype, 'cookie', {
         configurable: true,
         enumerable: cookie.enumerable,
         get() { return cookie.get.call(this); },
@@ -123,7 +199,7 @@ export function parsePageMarks(raw) {
           typeof mark === 'object' &&
           mark !== null &&
           typeof mark.at === 'number' &&
-          (mark.kind === 'storage' || mark.kind === 'cookie'),
+          (mark.kind === 'storage' || mark.kind === 'cookie' || mark.kind === 'fingerprint'),
       )
     : [];
 

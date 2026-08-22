@@ -69,8 +69,20 @@
 
       <!-- Capture A summary. -->
       <section class="ca-panel" data-view="result" hidden>
-        <h2 class="ca-panel__title">Deposited before consent</h2>
+        <h2 class="ca-panel__title">Assessment</h2>
         <p class="ca-target" data-field="result-target">—</p>
+
+        <!--
+          The score never appears alone: the band names it in words, the counts
+          say how many findings produced it, and the caveats sit underneath.
+        -->
+        <div class="ca-score" data-field="score-block">
+          <p class="ca-score__value" data-field="score">—</p>
+          <div class="ca-score__gloss">
+            <p class="ca-score__band" data-field="band">—</p>
+            <p class="ca-score__counts" data-field="finding-counts">—</p>
+          </div>
+        </div>
 
         <dl class="ca-figures">
           <div class="ca-figures__row">

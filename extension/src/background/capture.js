@@ -130,6 +130,8 @@ export class CaptureBuilder {
     this.cookies = new Map();
     /** @type {Array<object>} */
     this.storage = [];
+    /** @type {Array<{api: string, tMs: number}>} */
+    this.fingerprinting = [];
     /** @type {Array<{code: string, detail: string}>} */
     this.notes = [];
 
@@ -288,6 +290,7 @@ export class CaptureBuilder {
      * missed and never overwrite a time that was actually observed.
      */
     this.#applyStorageMarks(pageMarks?.marks ?? [], origin);
+    this.#applyFingerprintMarks(pageMarks?.marks ?? []);
     this.#mergeJarCookies(jarCookies);
     this.#applyCookieMarks(pageMarks?.marks ?? []);
     this.#mergeInventory(pageMarks?.inventory, origin);
@@ -313,6 +316,7 @@ export class CaptureBuilder {
         (a, b) => (a.tMs ?? Infinity) - (b.tMs ?? Infinity) || a.name.localeCompare(b.name),
       ),
       storage: this.storage.sort((a, b) => (a.tMs ?? Infinity) - (b.tMs ?? Infinity)),
+      fingerprinting: this.fingerprinting.sort((a, b) => a.tMs - b.tMs),
       notes: this.notes,
     };
   }
@@ -361,6 +365,21 @@ export class CaptureBuilder {
 
       this.storage.push({ origin, type, key: null, tMs: null, bytes: usage, source: 'snapshot' });
     }
+  }
+
+  /*
+   * One entry per API, at the moment it was first reached. A page that reads a
+   * canvas in a loop is doing one thing, not four hundred, and a timeline that
+   * said otherwise would be unreadable.
+   */
+  #applyFingerprintMarks(marks) {
+    const firstUse = new Map();
+    for (const mark of marks) {
+      if (mark.kind !== 'fingerprint' || typeof mark.api !== 'string') continue;
+      const tMs = mark.at - this.startedAt;
+      if (!firstUse.has(mark.api) || tMs < firstUse.get(mark.api)) firstUse.set(mark.api, tMs);
+    }
+    for (const [api, tMs] of firstUse) this.fingerprinting.push({ api, tMs });
   }
 
   /** Storage writes the in-page instrument watched happen, with their moment. */

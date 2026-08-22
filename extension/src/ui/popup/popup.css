@@ -175,6 +175,60 @@
   line-height: var(--ca-leading-snug);
 }
 
+/* ---- Score -------------------------------------------------------------- */
+
+.ca-score {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ca-space-4);
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-5);
+  padding: var(--ca-space-4);
+  border-left: var(--ca-border-strong) solid var(--ca-rule-strong);
+  background: var(--ca-paper-sunken);
+}
+
+.ca-score[data-band='broadly-compliant'] {
+  border-left-color: var(--ca-clear);
+  background: var(--ca-clear-tint);
+}
+
+.ca-score[data-band='departures'] {
+  border-left-color: var(--ca-caution);
+  background: var(--ca-caution-tint);
+}
+
+.ca-score[data-band='characterised'] {
+  border-left-color: var(--ca-breach);
+  background: var(--ca-breach-tint);
+}
+
+.ca-score__value {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-display);
+  font-size: var(--ca-size-600);
+  font-weight: var(--ca-weight-display);
+  line-height: var(--ca-leading-tight);
+  letter-spacing: var(--ca-tracking-tight);
+}
+
+.ca-score__gloss {
+  flex: 1;
+}
+
+.ca-score__band {
+  margin: var(--ca-space-0) var(--ca-space-0) var(--ca-space-1);
+  font-size: var(--ca-size-200);
+  font-weight: var(--ca-weight-medium);
+  line-height: var(--ca-leading-snug);
+}
+
+.ca-score__counts {
+  margin: var(--ca-space-0);
+  font-family: var(--ca-font-data);
+  font-size: var(--ca-size-100);
+  color: var(--ca-ink-muted);
+}
+
 /* ---- Figures ------------------------------------------------------------ */
 
 .ca-figures {

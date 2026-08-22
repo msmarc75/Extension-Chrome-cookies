@@ -267,6 +267,26 @@ export function profileExpression({ relaxed = false } = {}) {
     .sort((a, b) => score(b) - score(a))
     .slice(0, LIMITS.containers);
 
+  /*
+   * The bit of a control that a prominence comparison needs. Colours come back
+   * from getComputedStyle already resolved to rgb()/rgba(), so the engine can
+   * parse them without knowing anything about the page's stylesheets. A
+   * transparent background is walked up the ancestors, because a button painted
+   * by its container still looks painted to the visitor.
+   */
+  const paintedBackground = (element) => {
+    let node = element;
+    for (let hops = 0; node && hops < 8; hops += 1) {
+      let colour;
+      try { colour = getComputedStyle(node).backgroundColor; } catch (_) { return null; }
+      if (colour && !/^rgba\(\s*0,\s*0,\s*0,\s*0\s*\)$/.test(colour) && colour !== 'transparent') {
+        return colour;
+      }
+      node = node.parentElement || (node.getRootNode() && node.getRootNode().host) || null;
+    }
+    return null;
+  };
+
   const controlOf = (element) => {
     let style;
     let rect;
@@ -275,6 +295,17 @@ export function profileExpression({ relaxed = false } = {}) {
       rect = element.getBoundingClientRect();
     } catch (_) { return null; }
     return {
+      styles: {
+        color: style.color || null,
+        backgroundColor: paintedBackground(element),
+        ownBackgroundColor: style.backgroundColor || null,
+        fontSize: Number.parseFloat(style.fontSize) || null,
+        fontWeight: style.fontWeight || null,
+        borderColor: style.borderTopColor || null,
+        borderWidth: Number.parseFloat(style.borderTopWidth) || 0,
+        opacity: Number.parseFloat(style.opacity),
+        textDecorationLine: style.textDecorationLine || null,
+      },
       path: pathOf(element),
       tag: element.tagName.toLowerCase(),
       type: element.getAttribute('type') || null,
@@ -318,6 +349,50 @@ export function profileExpression({ relaxed = false } = {}) {
     };
     gather(root, 0);
 
+    /*
+     * Switches and checkboxes, with the state they were in before anyone
+     * touched them. A purpose that starts switched on is consent nobody gave.
+     */
+    const inputs = [];
+    const gatherInputs = (node, depth) => {
+      if (depth > 6 || inputs.length >= LIMITS.controlsPerContainer) return;
+      let found;
+      try {
+        found = node.querySelectorAll(
+          'input[type="checkbox"], input[type="radio"], [role="switch"], [role="checkbox"]',
+        );
+      } catch (_) { return; }
+      for (const element of found) {
+        if (inputs.length >= LIMITS.controlsPerContainer) break;
+        let style;
+        let rect;
+        try {
+          style = getComputedStyle(element);
+          rect = element.getBoundingClientRect();
+        } catch (_) { continue; }
+        const aria = element.getAttribute('aria-checked');
+        const labelled =
+          (element.id && root.querySelector('label[for="' + CSS.escape(element.id) + '"]')) ||
+          element.closest('label');
+        inputs.push({
+          path: pathOf(element),
+          type: element.getAttribute('type') || element.getAttribute('role') || null,
+          checked: aria === null ? Boolean(element.checked) : aria === 'true',
+          disabled: Boolean(element.disabled) || element.getAttribute('aria-disabled') === 'true',
+          name: element.getAttribute('name') || null,
+          label: squash(
+            (labelled && labelled.innerText) || element.getAttribute('aria-label') || '',
+            LIMITS.controlText,
+          ),
+          visible: visible(element, style, rect),
+        });
+      }
+      let hosts;
+      try { hosts = node.querySelectorAll('*'); } catch (_) { return; }
+      for (const host of hosts) if (host.shadowRoot) gatherInputs(host.shadowRoot, depth + 1);
+    };
+    gatherInputs(root, 0);
+
     return {
       path: pathOf(root),
       tag: root.tagName.toLowerCase(),
@@ -335,6 +410,7 @@ export function profileExpression({ relaxed = false } = {}) {
       text: squash(root.innerText || root.textContent || '', LIMITS.textPreview),
       inShadow: root.getRootNode() !== document,
       controls,
+      inputs,
     };
   });
 
@@ -459,7 +535,51 @@ function normaliseContainer(container) {
             rect: { ...RECT, ...(control.rect ?? {}) },
             visible: control.visible !== false,
             disabled: control.disabled === true,
+            styles: normaliseStyles(control.styles),
           }))
       : [],
+    inputs: Array.isArray(container.inputs)
+      ? container.inputs
+          .filter((input) => typeof input === 'object' && input !== null)
+          .map((input) => ({
+            path: String(input.path ?? ''),
+            type: input.type ?? null,
+            checked: input.checked === true,
+            disabled: input.disabled === true,
+            name: input.name ?? null,
+            label: String(input.label ?? ''),
+            visible: input.visible !== false,
+          }))
+      : [],
+  };
+}
+
+const NO_STYLES = {
+  color: null,
+  backgroundColor: null,
+  ownBackgroundColor: null,
+  fontSize: null,
+  fontWeight: null,
+  borderColor: null,
+  borderWidth: 0,
+  opacity: 1,
+  textDecorationLine: null,
+};
+
+function normaliseStyles(styles) {
+  if (typeof styles !== 'object' || styles === null) return { ...NO_STYLES };
+  const number = (value, fallback) => (Number.isFinite(value) ? value : fallback);
+  return {
+    color: typeof styles.color === 'string' ? styles.color : null,
+    backgroundColor: typeof styles.backgroundColor === 'string' ? styles.backgroundColor : null,
+    ownBackgroundColor:
+      typeof styles.ownBackgroundColor === 'string' ? styles.ownBackgroundColor : null,
+    fontSize: number(styles.fontSize, null),
+    fontWeight: styles.fontWeight === undefined ? null : String(styles.fontWeight),
+    borderColor: typeof styles.borderColor === 'string' ? styles.borderColor : null,
+    borderWidth: number(styles.borderWidth, 0),
+    opacity: number(styles.opacity, 1),
+    textDecorationLine:
+      typeof styles.textDecorationLine === 'string' ? styles.textDecorationLine : null,
   };
 }

@@ -30,7 +30,8 @@
       "namedForConsent": true,
       "text": "Confidentialité",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [],

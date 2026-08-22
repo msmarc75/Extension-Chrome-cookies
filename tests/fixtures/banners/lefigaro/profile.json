@@ -34,7 +34,7 @@
       "zIndex": "auto",
       "rect": {
         "x": 480,
-        "y": 2742,
+        "y": 2741,
         "width": 616,
         "height": 347
       },
@@ -42,7 +42,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [],

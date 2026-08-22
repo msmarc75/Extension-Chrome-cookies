@@ -17,7 +17,8 @@
     "verify:capture": "node scripts/verify-capture.mjs",
     "capture:fixtures": "node scripts/capture-fixtures.mjs",
     "rederive:profiles": "node scripts/rederive-profiles.mjs",
-    "verify:banners": "node scripts/verify-banners.mjs"
+    "verify:banners": "node scripts/verify-banners.mjs",
+    "verify:rules": "node scripts/verify-rules.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0"

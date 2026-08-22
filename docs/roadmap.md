@@ -61,7 +61,7 @@ The order is the product. Step 5 is observable exactly once.
 | 1 | Skeleton | Loads without error, popup opens, message round trip, build and unit tests run | **done** |
 | 2 | Capture | Capture A complete and serialised to `shared/schema`; ten test sites including three French news outlets; debugger detaches under every path, zero orphan sessions over a hundred audits | **done** |
 | 3 | Banner detection | Thirty real fixtures: CMP identified in ≥25, refusal succeeds in ≥22 | **detection met, refusal short** |
-| 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | not started |
+| 4 | Rule engine | Categories A, B, C plus `EXEMPTION_CHECK`; zero false positives on `blocking` rules | **done** |
 | 5 | Server and policy | `POST /analyze-policy`, versioned prompt, schema-validated output, SHA-256 cache; fifteen real policies, >90 % detection, every "present" backed by a literal quote actually found in the source | not started |
 | 6 | Report and export | Deposit timeline, PDF and CSV export, local history; an exported report usable as a client annex without retouching | not started |
 | 7 | Licence and billing | Full Stripe test purchase, seven-day cache, fail-open degradation, local free-tier counter | not started |
@@ -175,22 +175,97 @@ banner pages built from the shapes the corpus showed — a plain bar, a refusal 
 layer deeper than the acceptance, a banner behind a shadow boundary, one in a
 cross-origin frame, and a page with nothing to consent to.
 
-### Open for phase 4
+### Phase 4 — what shipped
 
-- **A measurement from Europe.** The refusal figure above is a floor taken from
-  a non-EU exit IP with a filtered egress. Re-running `npm run verify:banners
-  --live` from a European network is what would settle whether the criterion is
-  met; nothing in the code needs to change for it.
-- **The second audit mode.** Decided (see Structural decisions): a
-  current-profile mode ships alongside the incognito default, labelled as a
-  returning visit everywhere it appears. Phase 4 must cap what can be concluded
-  from it — a deposit observed is still a deposit, but the *absence* of a banner
-  in a profile that may hold a stored choice establishes nothing, so category B
-  and C rules return `not_applicable` rather than `pass` on such a capture.
-- **Fingerprinting surface.** `PRE_CONSENT_FINGERPRINT` needs Canvas, WebGL and
-  AudioContext hooks installed alongside the existing ones. The instrument is
-  the right place; the rule that consumes them lands in phase 4, so the hooks
-  land with it.
+Sixteen rules, each carrying its legal basis, its evidence, its remediation
+sentence and — for every `blocking` one — a written note on how it could be
+wrong. A rule that cannot cite anything throws at load rather than shipping.
+
+| Category | Rules |
+|---|---|
+| A — deposit | `PRE_CONSENT_TRACKERS` (blocking, 12), `PRE_CONSENT_COOKIES` (blocking, 10), `PRE_CONSENT_STORAGE` (7), `PRE_CONSENT_FINGERPRINT` (6), `EXEMPTION_CHECK` (informational, 0) |
+| B — fairness | `REFUSE_SAME_LAYER` (blocking, 8), `REFUSE_EQUAL_PROMINENCE` (6), `NO_PRECHECKED` (blocking, 5), `NO_COOKIE_WALL` (blocking, 4), `GRANULARITY` (4), `WITHDRAWAL_ACCESSIBLE` (2), `NO_DARK_PATTERN` (1) |
+| C — information | `PURPOSES_STATED` (6), `CONTROLLERS_IDENTIFIED` (6), `POLICY_REACHABLE` (4), `RETENTION_STATED` (4) |
+
+- `engine/data/trackers.js` — the classification table, **written by this
+  project** rather than imported. DuckDuckGo's Tracker Radar is licensed CC
+  BY-NC-SA 4.0, whose NonCommercial clause makes it unusable in a paid product;
+  the plan's assumption of a permissive licence is wrong. The table names
+  categories, and only `advertising`, `analytics` and `social` count as a
+  deposit — a publisher's own CDN on a second domain is not a tracker.
+- `engine/data/exemptions.js` — what does not need consent, and on which ground.
+  Anchored name patterns, never substrings: a loose match on "id" would exempt
+  half the web.
+- `engine/colour.js` — WCAG relative luminance and surface area, so
+  "the refusal is less prominent" is a pair of numbers a designer can check
+  rather than an impression.
+- `engine/scoring.js` — a failed blocking rule caps the score at 49; rules that
+  did not apply are excluded rather than counted as passes; anything under 80 %
+  coverage is marked provisional; and the score is never returned or rendered
+  without its band and its counts.
+- Popup: the score block, which shows the number, the band wording and the
+  fail/warn/not-applicable counts together or not at all.
+
+**Where it stands against the criteria.** `npm run verify:rules` runs the
+rulebook over all 38 recorded fixtures and prints **every** blocking failure with
+its evidence, in
+[`verification/rules-2026-08-22.md`](verification/rules-2026-08-22.md). The 53
+blocking failures were read one by one against the fixture that produced them;
+all are substantiated. The six sites in the corpus with nothing to answer for —
+wikipedia, cnil, gov-uk, seloger, telegraph, nu-nl — carry none.
+
+Two false positives were found that way and fixed rather than tolerated:
+
+- **Wikipedia failed `PRE_CONSENT_COOKIES` on the first run.** The rule was
+  inverting the exemption — treating "not on the list" as "not necessary". It now
+  counts only what it can positively identify as non-necessary and raises the
+  rest for review. See `docs/methodology.md`.
+- **Analytics-only calls were failing `PRE_CONSENT_TRACKERS` outright.** The
+  CNIL's measurement exemption is conditional on things no capture can see, so
+  those are now a `warn` that says exactly that.
+
+Two deviations from what phase 3 left open, both deliberate:
+
+- **The current-profile cap is a tempering, not a blanket
+  `not_applicable`.** Phase 3 proposed that category B and C rules return
+  `not_applicable` on a capture taken in the user's own profile. That would
+  discard true findings: a banner whose refusal is buried is buried whoever is
+  looking. What cannot be concluded from such a capture is *when* something was
+  deposited, so a `fail` there becomes a `warn` carrying the reason and the
+  suggestion to re-run in a clean window, and the rules that judge the banner as
+  it stands are unaffected.
+- **The fingerprinting hooks install defensively.** The first version threw when
+  a global was absent — `HTMLCanvasElement` in a bare frame — and took the
+  cookie hook down with it, silently. The wrapper now takes the global's *name*
+  and skips what is not there.
+
+A defect found while closing the phase, and worth recording because it was
+invisible: the start-up sweep that releases debugger sessions left by an evicted
+worker was also clearing the registry of sessions attached *after* it started —
+which, on a cold service worker, is the user's first audit. Its events went
+nowhere and the capture came back empty with nothing in its notes to explain it.
+The sweep now leaves live sessions alone and audits wait for it;
+`tests/unit/debugger-session.test.mjs` holds the regression.
+
+Verified: 200 unit tests and 26 end-to-end tests green, `npm run check:tokens`
+and `npm run build` clean, and the full corpus run linked above.
+
+### Open for phase 5
+
+- **A measurement from Europe.** The refusal figure in phase 3 is a floor taken
+  from a non-EU exit IP with a filtered egress. Re-running `npm run
+  verify:banners --live` from a European network is what would settle whether
+  the criterion is met; nothing in the code needs to change for it. The same run
+  would tighten the rule figures, which inherit the same corpus.
+- **The information rules read the banner, not the policy.** `PURPOSES_STATED`,
+  `CONTROLLERS_IDENTIFIED` and `RETENTION_STATED` currently judge what the banner
+  itself says — which is the right question for a banner, and half the question
+  overall. The policy text phase 5 fetches is the other half. Nothing in the
+  engine anticipates it: the rules that will consume it get written when it
+  exists.
+- **The tracker table is short, and shipping it is not maintaining it.** The
+  weekly refresh from the licence server — JSON into `chrome.storage`, overriding
+  the shipped copy — belongs with the server, in phase 5 or 7.
 
 ## Standing constraints
 

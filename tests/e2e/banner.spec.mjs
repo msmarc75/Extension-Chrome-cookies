@@ -111,3 +111,30 @@ test('it accepts as well as refuses, after starting over', async ({ extensionPag
   expect(result.acceptance.ok).toBe(true);
   expect(result.acceptance.bannerGone).toBe(true);
 });
+
+test('it judges what it measured, and never shows the score alone', async ({ extensionPage }) => {
+  const result = await probe(extensionPage, '/plain');
+
+  expect(result.report).toBeTruthy();
+  expect(result.report.score).toBeGreaterThanOrEqual(0);
+  expect(result.report.band.label.length).toBeGreaterThan(0);
+  expect(result.report.findings.length).toBeGreaterThan(10);
+
+  // Every failure carries the observation that produced it.
+  for (const finding of result.report.findings) {
+    if (finding.verdict !== 'fail') continue;
+    expect(finding.evidence.length, `${finding.id} failed with no evidence`).toBeGreaterThan(0);
+    expect(finding.legalBasis.length).toBeGreaterThan(0);
+    expect(finding.remediation.length).toBeGreaterThan(20);
+  }
+
+  // And the report says what limited it.
+  expect(result.report.disclosures.some((d) => /own profile/.test(d))).toBe(true);
+});
+
+test('a page with nothing to consent to is not marked down for it', async ({ extensionPage }) => {
+  const result = await probe(extensionPage, '/clean', { act: false });
+
+  expect(result.report.blockingFailures).toEqual([]);
+  expect(result.report.provisional).toBe(true);
+});

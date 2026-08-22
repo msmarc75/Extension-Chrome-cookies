@@ -19,6 +19,7 @@
 import { CaptureBuilder } from './capture.js';
 import { withSession } from './debugger-session.js';
 import { COLLECT_EXPRESSION, INSTRUMENT_SOURCE, parsePageMarks } from './page-instrument.js';
+import { assess } from '../engine/index.js';
 import { locateBanner } from '../content/banner-detector.js';
 import { identifyCmp } from '../content/cmp-adapters/index.js';
 import { express, readProfile, resetOrigin } from '../content/interaction-driver.js';
@@ -353,9 +354,26 @@ export async function probeBanner({
           },
         });
 
-        const profile = await readProfile(session);
-        const cmp = identifyCmp(profile);
-        const banner = locateBanner(profile, cmp);
+        /*
+         * A consent frame can attach after the observation window closes —
+         * they are loaded late by design, and an out-of-process one only
+         * becomes readable once its own session is attached. Reading once and
+         * concluding "no banner" would report a site as having nothing to
+         * answer for because the tool looked too early.
+         */
+        let profile = await readProfile(session);
+        let cmp = identifyCmp(profile);
+        let banner = locateBanner(profile, cmp);
+
+        const incomplete = () =>
+          !banner.found || (!banner.controls.accept && !banner.controls.refuse);
+
+        for (let attempt = 0; attempt < 2 && incomplete(); attempt += 1) {
+          await sleep(1_000);
+          profile = await readProfile(session);
+          cmp = identifyCmp(profile);
+          banner = locateBanner(profile, cmp);
+        }
 
         const result = {
           target,
@@ -385,9 +403,21 @@ export async function probeBanner({
           framesExamined: profile.framesExamined ?? null,
           refusal: null,
           acceptance: null,
+          report: null,
         };
 
-        if (!act) return result;
+        /*
+         * The rulebook reads the detector's own output, not the summary above:
+         * the fairness rules need the controls' geometry and colours, which the
+         * summary deliberately drops.
+         */
+        const judge = () =>
+          assess({ captureA, profile, cmp, banner, refusal: result.refusal });
+
+        if (!act) {
+          result.report = judge();
+          return result;
+        }
 
         result.refusal = await express({ session, cmp, banner, intent: 'refuse' });
 
@@ -405,8 +435,19 @@ export async function probeBanner({
             banner: freshBanner,
             intent: 'accept',
           });
+          /* The page as it stands once consent is given — WITHDRAWAL_ACCESSIBLE
+             has nothing to look at before that. */
+          result.profileAfterAcceptance = await readProfile(session);
         }
 
+        result.report = assess({
+          captureA,
+          profile,
+          cmp,
+          banner,
+          refusal: result.refusal,
+          profileAfterAcceptance: result.profileAfterAcceptance ?? null,
+        });
         return result;
       },
       { budgetMs: SESSION_BUDGET_MS },

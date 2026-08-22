@@ -54,6 +54,20 @@ function lastError() {
 }
 
 /**
+ * Resolves once the start-up sweep has settled.
+ *
+ * The sweep is asynchronous and the popup can ask for an audit while it is
+ * still running — in practice it always does, because the click that wakes the
+ * worker is also the click that starts the audit. A session attached in that
+ * window would be swept away underneath itself, so `withSession` waits here
+ * first.
+ */
+let reconciliation = Promise.resolve(0);
+
+/** Wait for the start-up sweep before attaching anything of our own. */
+export const whenReconciled = () => reconciliation;
+
+/**
  * Detach every debugger session this extension still holds.
  *
  * Called at worker start-up: if the worker was evicted mid-audit, the registry
@@ -61,28 +75,39 @@ function lastError() {
  * up. Detaching a target we are not attached to is a no-op that reports an
  * error, which is why the failure is swallowed here and only here.
  *
+ * Sessions this worker holds *now* are not orphans and are left alone. That
+ * distinction is not theoretical: releasing one would silently unhook the audit
+ * that opened it, and the capture would come back empty with nothing to say
+ * for itself.
+ *
  * @returns {Promise<number>} how many sessions were released
  */
-export async function sweepOrphans() {
-  let released = 0;
-  let targets = [];
-  try {
-    targets = await chrome.debugger.getTargets();
-  } catch {
-    return 0;
-  }
-
-  for (const target of targets) {
-    if (!target.attached || typeof target.tabId !== 'number') continue;
+export function sweepOrphans() {
+  const run = (async () => {
+    let released = 0;
+    let targets = [];
     try {
-      await chrome.debugger.detach({ tabId: target.tabId });
-      released += 1;
+      targets = await chrome.debugger.getTargets();
     } catch {
-      /* Attached by DevTools or by another extension — not ours to release. */
+      return 0;
     }
-  }
-  live.clear();
-  return released;
+
+    for (const target of targets) {
+      if (!target.attached || typeof target.tabId !== 'number') continue;
+      if (live.has(target.tabId)) continue;
+      try {
+        await chrome.debugger.detach({ tabId: target.tabId });
+        live.delete(target.tabId);
+        released += 1;
+      } catch {
+        /* Attached by DevTools or by another extension — not ours to release. */
+      }
+    }
+    return released;
+  })();
+
+  reconciliation = run.catch(() => 0);
+  return run;
 }
 
 /** Sessions currently attached by this worker. Exposed for diagnostics. */
@@ -242,6 +267,8 @@ export class DebuggerSession {
  * @template T
  */
 export async function withSession(tabId, onEvent, body, { budgetMs = 120_000 } = {}) {
+  await whenReconciled();
+
   const session = new DebuggerSession(tabId, onEvent);
   await session.attach();
 

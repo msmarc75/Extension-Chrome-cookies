@@ -42,7 +42,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
@@ -65,7 +66,8 @@
       "namedForConsent": false,
       "text": "Publicité",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
@@ -88,7 +90,8 @@
       "namedForConsent": false,
       "text": "Publicité",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#Pave-Bas_6a8961f0721c0",
@@ -111,7 +114,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-epgGrid > div.grid > div.epgSidebar > div.ads-tabletDesktop",
@@ -134,7 +138,8 @@
       "namedForConsent": false,
       "text": "Publicité",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#Pave-Bas2_6a8961f073974",
@@ -157,7 +162,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "main#corps > div.site_content > div.page.home > div.home-grid > div.home-sidebar > div.homeSidebar > div.homeSidebar-ad",
@@ -180,7 +186,8 @@
       "namedForConsent": false,
       "text": "Publicité",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#Pave-Bas2_6a8961f07500c",
@@ -203,7 +210,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#Pave-Haut_6a8961f0708ad",
@@ -226,7 +234,8 @@
       "namedForConsent": false,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "header#header > div.header-topbar",
@@ -269,7 +278,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "600",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerTopbar > div.headerTopbar-logo > a.headerTopbar-logoLink",
@@ -290,7 +310,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "300",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerTopbarProfil > button.headerTopbar-profilButton",
@@ -311,7 +342,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerTopbarProfil > div.headerTopbar-menuAccount > a.headerTopbar-menuAccountLink",
@@ -332,7 +374,18 @@
             "height": 40
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerTopbarProfil > div.headerTopbar-menuAccount > a.headerTopbar-menuAccountLink",
@@ -353,9 +406,21 @@
             "height": 40
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "header#header > div.header-navbar",
@@ -398,7 +463,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-primaryList > li.headerNavbar-primaryListItem > a.headerNavbar-primaryListItemLink.active",
@@ -420,7 +496,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-primaryList > li.headerNavbar-primaryListItem > a.headerNavbar-primaryListItemLink",
@@ -441,7 +528,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
@@ -462,7 +560,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
@@ -483,7 +592,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
@@ -504,7 +624,18 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#headerNavbar > nav.headerNavbar-navigation > ul.headerNavbar-secondaryList > li.headerNavbar-secondaryListItem > a.headerNavbar-secondaryListItemLink",
@@ -525,9 +656,21 @@
             "height": 54
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     }
   ],
   "frames": [

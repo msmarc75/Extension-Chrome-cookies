@@ -66,7 +66,18 @@
             "height": 8
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -85,7 +96,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -104,7 +126,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -123,7 +156,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
@@ -144,7 +188,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
@@ -168,7 +223,18 @@
             "height": 36
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
@@ -187,7 +253,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -206,7 +283,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -225,7 +313,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -250,7 +349,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -276,9 +386,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(30, 160, 230, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border",
@@ -323,7 +445,18 @@
             "height": 8
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -342,7 +475,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -361,7 +505,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -380,7 +535,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
@@ -401,7 +567,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
@@ -425,7 +602,18 @@
             "height": 36
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
@@ -444,7 +632,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -463,7 +662,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -482,7 +692,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -507,7 +728,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -533,9 +765,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(30, 160, 230, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#didomi-popup > div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view",
@@ -579,7 +823,18 @@
             "height": 8
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -598,7 +853,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -617,7 +883,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a",
@@ -636,7 +913,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.container > div.lp-font-text.lp-mb_24_16 > a.lp-font-text",
@@ -657,7 +945,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
@@ -681,7 +980,18 @@
             "height": 36
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 14,
+            "fontWeight": "600",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > div.lp-font-btn.lp-blue > a",
@@ -700,7 +1010,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -719,7 +1040,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > p > a",
@@ -738,7 +1070,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#didomi-notice-learn-more-button",
@@ -763,7 +1106,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(68, 68, 68)",
+            "backgroundColor": "rgb(238, 238, 238)",
+            "ownBackgroundColor": "rgb(238, 238, 238)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(34, 34, 34, 0.2)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#didomi-notice-agree-button",
@@ -789,9 +1143,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(30, 160, 230)",
+            "ownBackgroundColor": "rgb(30, 160, 230)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(30, 160, 230, 0.3)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#fusion-app > div.layout-homepage.is-header-big > div.menu > aside.lp-sidebar.lp-sidebar--left",
@@ -837,7 +1203,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgba(120, 144, 156, 0.25)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
@@ -861,7 +1238,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
@@ -885,7 +1273,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
@@ -909,7 +1308,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -931,7 +1341,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -953,7 +1374,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -975,7 +1407,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -997,7 +1440,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1019,7 +1473,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1041,7 +1506,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1063,7 +1539,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1085,7 +1572,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1107,7 +1605,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1129,7 +1638,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container > a.menu__link.menu__link--default",
@@ -1153,7 +1673,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
@@ -1177,7 +1708,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1199,7 +1741,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1221,7 +1774,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1243,7 +1807,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1265,7 +1840,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1287,7 +1873,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
@@ -1311,7 +1908,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1333,7 +1941,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1355,7 +1974,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1377,7 +2007,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1399,7 +2040,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1421,7 +2073,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.lp-sidebar__content > div.menu__mainContainer > div > div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > a.menu__link.menu__link--default",
@@ -1445,7 +2108,18 @@
             "height": 44
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 28,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1467,7 +2141,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1489,7 +2174,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1511,7 +2207,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1533,7 +2240,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1555,7 +2273,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1577,7 +2306,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1599,7 +2339,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1621,7 +2372,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1643,7 +2405,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1665,7 +2438,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1687,7 +2471,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div.menu__container.lp-box-sizing > ul.menu__list.menu__list--primary > li.menu__item.lp-box-sizing > div.menu__item-container.menu__item-container--with-dropdown > div.menu__dropdown > ul.menu__list > li.menu__item > a.menu__link.menu__link--dropdown",
@@ -1709,9 +2504,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 22,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div.didomi-exterior-border.didomi-popup__exterior-border > div.didomi-popup-container.didomi-popup__dialog > div.didomi-popup-view > div.didomi-popup-notice-text-container > div.didomi-popup-notice-text > div > div.lp-buttons-container.lp-ta_c > button.lp-cmp-button.lp-font-btn",
@@ -1737,7 +2544,8 @@
       "namedForConsent": true,
       "text": "Accepter",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "header#header",
@@ -1783,7 +2591,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "header#header > div.header__container > div.header__logo > h1 > a",
@@ -1802,7 +2621,18 @@
             "height": 60
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(30, 160, 230)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(30, 160, 230)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "header#header > div.header__container > div.header__right > div.header__login > button.lp-button.lp-button--outline",
@@ -1826,7 +2656,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "header#header > div.header__container > div.header__right > div.header__subscription > a.lp-button.lp-button--subscription",
@@ -1849,9 +2690,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(25, 32, 36)",
+            "backgroundColor": "rgb(255, 204, 51)",
+            "ownBackgroundColor": "rgb(255, 204, 51)",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "borderColor": "rgb(25, 32, 36)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     }
   ],
   "frames": [

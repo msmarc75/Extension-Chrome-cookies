@@ -44,16 +44,17 @@
       "position": "static",
       "zIndex": "auto",
       "rect": {
-        "x": 774,
-        "y": 3729,
-        "width": 134,
+        "x": 723,
+        "y": 3288,
+        "width": 120,
         "height": 14
       },
-      "viewportShare": 0.0018,
+      "viewportShare": 0.0016,
       "namedForConsent": true,
       "text": "Paramétrer les cookies",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element",
@@ -70,9 +71,9 @@
         "x": 820,
         "y": 1660,
         "width": 300,
-        "height": 1047
+        "height": 1006
       },
-      "viewportShare": 0.3068,
+      "viewportShare": 0.2948,
       "namedForConsent": false,
       "text": "Articles les plus lus Monique Barbut envisage de financer l'adaptation au changement climatique via l'épargne des Français Le PIB de la zone euro a progressé de 0,4% au deuxième trimestre 2026, confirmant la résilience de l'union monétaire Olivier Faure critique Emmanuel Macron pour avoir fait du jet ski à Brégançon pendant la canicule Roland Lescure relance la piste d'un gel partiel des retraites pour le budget 2027 À NE PAS RATER Bientôt la dernière éclipse de l'année : en France, il faudra être bien placé pour la voir Aides pour une voiture électrique : 30 nouvelles voitures rejoignent la l",
       "inShadow": false,
@@ -91,10 +92,21 @@
             "x": 820,
             "y": 1683,
             "width": 300,
-            "height": 116
+            "height": 92
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
@@ -108,12 +120,23 @@
           "title": null,
           "rect": {
             "x": 820,
-            "y": 1800,
+            "y": 1776,
             "width": 300,
             "height": 116
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
@@ -127,12 +150,23 @@
           "title": null,
           "rect": {
             "x": 820,
-            "y": 1917,
+            "y": 1893,
             "width": 300,
             "height": 92
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_aside.app_list > ul > li > a",
@@ -146,12 +180,23 @@
           "title": null,
           "rect": {
             "x": 820,
-            "y": 2010,
+            "y": 1986,
             "width": 300,
             "height": 92
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
@@ -165,12 +210,23 @@
           "title": null,
           "rect": {
             "x": 840,
-            "y": 2447,
-            "width": 259,
-            "height": 48
+            "y": 2422,
+            "width": 248,
+            "height": 33
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
@@ -184,12 +240,23 @@
           "title": null,
           "rect": {
             "x": 840,
-            "y": 2511,
-            "width": 250,
-            "height": 48
+            "y": 2469,
+            "width": 221,
+            "height": 50
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
@@ -203,12 +270,23 @@
           "title": null,
           "rect": {
             "x": 840,
-            "y": 2574,
-            "width": 247,
-            "height": 48
+            "y": 2532,
+            "width": 249,
+            "height": 50
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element > aside.app_box_2.skin_2 > div.content > ul > li > a",
@@ -222,14 +300,26 @@
           "title": null,
           "rect": {
             "x": 840,
-            "y": 2638,
-            "width": 249,
-            "height": 48
+            "y": 2596,
+            "width": 245,
+            "height": 50
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#jSidebarSticky > div.sticky-zone > div.sticky-element",
@@ -246,9 +336,9 @@
         "x": 820,
         "y": 840,
         "width": 300,
-        "height": 143
+        "height": 172
       },
-      "viewportShare": 0.0419,
+      "viewportShare": 0.0504,
       "namedForConsent": false,
       "text": "NEWSLETTER QUOTIDIENNE Voir un exemple",
       "inShadow": false,
@@ -264,13 +354,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 1065,
-            "y": 889,
+            "x": 1066,
+            "y": 918,
             "width": 55,
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(206, 5, 10)",
+            "ownBackgroundColor": "rgb(206, 5, 10)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "form#frmSS7 > fieldset > div.nl-box__link.nl-box__link--solo > a.a_hover",
@@ -285,15 +386,27 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 1031,
-            "y": 937,
-            "width": 89,
-            "height": 12
+            "x": 1041,
+            "y": 964,
+            "width": 79,
+            "height": 14
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(48, 48, 48)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "borderColor": "rgb(48, 48, 48)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     }
   ],
   "frames": [

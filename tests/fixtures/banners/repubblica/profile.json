@@ -62,7 +62,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(49, 91, 136)",
+            "ownBackgroundColor": "rgb(49, 91, 136)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-accept-btn.iubenda-cs-btn-primary",
@@ -84,9 +95,21 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(49, 91, 136)",
+            "ownBackgroundColor": "rgb(49, 91, 136)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "a#kw-cookie-link",
@@ -109,7 +132,8 @@
       "namedForConsent": true,
       "text": "Gestione Cookie",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#iub_cmp_subscribe_custom_btn",
@@ -130,7 +154,8 @@
       "namedForConsent": true,
       "text": "ACCEDI",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#kw-cookie-policy-link",
@@ -151,7 +176,8 @@
       "namedForConsent": true,
       "text": "Cookie Policy",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#kw-privacy-link",
@@ -172,7 +198,8 @@
       "namedForConsent": true,
       "text": "Privacy",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#repNetworkNav",
@@ -213,7 +240,18 @@
             "height": 45
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#repHamCloseButton",
@@ -235,7 +273,18 @@
             "height": 49
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
@@ -256,7 +305,18 @@
             "height": 46
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "500",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
@@ -277,7 +337,18 @@
             "height": 46
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "500",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > a.rep-left-nav__list__label",
@@ -298,7 +369,18 @@
             "height": 46
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "500",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -317,7 +399,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -336,7 +429,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -355,7 +459,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -374,7 +489,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -393,7 +519,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -412,7 +549,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -431,7 +579,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -450,7 +609,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -469,7 +639,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -488,7 +669,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -507,7 +699,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -526,7 +729,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -545,7 +759,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -564,7 +789,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -583,7 +819,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -602,7 +849,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -621,7 +879,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -640,7 +909,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -659,7 +939,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -678,7 +969,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -697,7 +999,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -716,7 +1029,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -735,7 +1059,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -754,7 +1089,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -773,7 +1119,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -792,7 +1149,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -811,7 +1179,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -830,7 +1209,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -849,7 +1239,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -868,7 +1269,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -887,7 +1299,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -906,7 +1329,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -925,7 +1359,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -944,7 +1389,18 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#rep-nav-list > ul.rep-left-nav__list > li.rep-left-nav__list__item > ul.rep-left-nav__sublist > li > a",
@@ -963,9 +1419,21 @@
             "height": 37
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(72, 70, 70)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(72, 70, 70)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#iubenda-cs-banner",
@@ -1014,7 +1482,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(102, 102, 102)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(119, 119, 119)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div > a",
@@ -1033,7 +1512,18 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div > a.btn-underline > button.iubenda-advertising-preferences-link",
@@ -1054,7 +1544,18 @@
             "height": 22
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-reject-btn.iubenda-cs-btn-primary",
@@ -1076,7 +1577,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(49, 91, 136)",
+            "ownBackgroundColor": "rgb(49, 91, 136)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-opt-group > div.iubenda-cs-opt-group-consent > button.iubenda-cs-accept-btn.iubenda-cs-btn-primary",
@@ -1098,7 +1610,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(49, 91, 136)",
+            "ownBackgroundColor": "rgb(49, 91, 136)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#iub_cmp_subscribe_custom_btn",
@@ -1117,7 +1640,18 @@
             "height": 26
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a",
@@ -1136,7 +1670,18 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a.btn-underline > button.iubenda-vendor-list-link",
@@ -1157,7 +1702,18 @@
             "height": 18
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a.btn-underline > button.iubenda-advertising-preferences-link",
@@ -1178,7 +1734,18 @@
             "height": 18
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#iubenda-cs-banner > div.iubenda-cs-container > div.iubenda-cs-content > div.iubenda-cs-rationale > div.iubenda-banner-content.iubenda-custom-content > div.iubenda-cs-footer > a",
@@ -1197,90 +1764,21 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(49, 91, 136)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "borderColor": "rgb(49, 91, 136)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
-    },
-    {
-      "path": "main#main-content > div.gd-row > div.gd-column-4.sidebar > div.sidebar__sticky",
-      "tag": "div",
-      "id": null,
-      "classes": [
-        "sidebar__sticky"
       ],
-      "role": null,
-      "ariaModal": false,
-      "position": "sticky",
-      "zIndex": "auto",
-      "rect": {
-        "x": 822,
-        "y": 660,
-        "width": 299,
-        "height": 647
-      },
-      "viewportShare": 0.1888,
-      "namedForConsent": false,
-      "text": "Il video del giorno IL CASO Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo | L'articolo dal nostro inviato Cosimo Cito",
-      "inShadow": false,
-      "controls": [
-        {
-          "path": "div.gd-column-4.sidebar > div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > figure.entry__media > a",
-          "tag": "a",
-          "type": null,
-          "role": null,
-          "id": null,
-          "classes": [],
-          "text": "",
-          "ariaLabel": null,
-          "title": null,
-          "rect": {
-            "x": 822,
-            "y": 726,
-            "width": 299,
-            "height": 532
-          },
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
-          "tag": "a",
-          "type": null,
-          "role": null,
-          "id": null,
-          "classes": [],
-          "text": "Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo |",
-          "ariaLabel": null,
-          "title": null,
-          "rect": {
-            "x": 838,
-            "y": 1068,
-            "width": 256,
-            "height": 149
-          },
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
-          "tag": "a",
-          "type": null,
-          "role": null,
-          "id": null,
-          "classes": [],
-          "text": "L'articolo",
-          "ariaLabel": null,
-          "title": null,
-          "rect": {
-            "x": 850,
-            "y": 1188,
-            "width": 100,
-            "height": 29
-          },
-          "visible": true,
-          "disabled": false
-        }
-      ]
+      "inputs": []
     },
     {
       "path": "div#rep-slim-header",
@@ -1323,7 +1821,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 11,
+            "fontWeight": "500",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.rep-slim-header__top__subscribe",
@@ -1344,7 +1853,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 11,
+            "fontWeight": "500",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.hide-on-mobile.rep-slim-header__item--claim",
@@ -1366,7 +1886,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__top.rep-slim-header__mobile > a.rep-slim-header__top__premium",
@@ -1387,7 +1918,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 11,
+            "fontWeight": "500",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#repHamOpenButton",
@@ -1410,7 +1952,18 @@
             "height": 34
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#repSearchToggleButton",
@@ -1433,7 +1986,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__left > button.rep-slim-header__item.rep-slim-header__notification-button",
@@ -1456,7 +2020,18 @@
             "height": 20
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__center > a.rep-slim-header__logo",
@@ -1477,7 +2052,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 0,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__center > a.hide-on-mobile.rep-slim-header__item--claim",
@@ -1499,7 +2085,18 @@
             "height": 12
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__right > a.rep-slim-header__item.hide-on-mobile",
@@ -1522,7 +2119,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(34, 34, 34)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "borderColor": "rgb(34, 34, 34)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#rep-slim-header > div.rep-slim-header__content > div.rep-slim-header__right > a.rep-slim-header__item.hide-on-mobile",
@@ -1545,7 +2153,18 @@
             "height": 14
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#repSearchForm > div.rep-slim-header__content > form.rep-slim-header__search > button",
@@ -1564,7 +2183,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#repSearchFormCloseButton",
@@ -1585,9 +2215,136 @@
             "height": 36
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(90, 90, 90)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(90, 90, 90)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
+    },
+    {
+      "path": "main#main-content > div.gd-row > div.gd-column-4.sidebar > div.sidebar__sticky",
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "sidebar__sticky"
+      ],
+      "role": null,
+      "ariaModal": false,
+      "position": "sticky",
+      "zIndex": "auto",
+      "rect": {
+        "x": 822,
+        "y": 660,
+        "width": 299,
+        "height": 115
+      },
+      "viewportShare": 0.0336,
+      "namedForConsent": false,
+      "text": "Il video del giorno IL CASO Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo | L'articolo dal nostro inviato Cosimo Cito",
+      "inShadow": false,
+      "controls": [
+        {
+          "path": "div.gd-column-4.sidebar > div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > figure.entry__media > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 822,
+            "y": 726,
+            "width": 299,
+            "height": 532
+          },
+          "visible": true,
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
+        },
+        {
+          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "Meloni fischiata due volte dal pubblico all'inaugurazione dei Giochi del Mediterraneo |",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 838,
+            "y": 1068,
+            "width": 256,
+            "height": 149
+          },
+          "visible": true,
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 26,
+            "fontWeight": "500",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
+        },
+        {
+          "path": "div.sidebar__sticky > section.block.block__layout-A-4 > div.block__grid > div.block__item > article.entry > div.entry__content > h2.entry__title > a",
+          "tag": "a",
+          "type": null,
+          "role": null,
+          "id": null,
+          "classes": [],
+          "text": "L'articolo",
+          "ariaLabel": null,
+          "title": null,
+          "rect": {
+            "x": 850,
+            "y": 1188,
+            "width": 100,
+            "height": 29
+          },
+          "visible": true,
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 26,
+            "fontWeight": "500",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
+        }
+      ],
+      "inputs": []
     }
   ],
   "frames": [

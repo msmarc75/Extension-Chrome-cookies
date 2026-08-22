@@ -45,7 +45,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#onetrust-banner-sdk",
@@ -92,7 +93,18 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
@@ -114,7 +126,18 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#onetrust-accept-btn-handler",
@@ -133,7 +156,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#onetrust-pc-btn-handler",
@@ -152,9 +186,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#onetrust-group-container",
@@ -198,7 +244,18 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
@@ -220,9 +277,21 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#onetrust-policy",
@@ -263,7 +332,18 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
@@ -285,9 +365,21 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#onetrust-policy-text",
@@ -328,9 +420,21 @@
             "height": 15
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 13.008,
+            "fontWeight": "700",
+            "borderColor": "rgb(0, 0, 0)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#onetrust-button-group",
@@ -369,7 +473,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#onetrust-pc-btn-handler",
@@ -388,9 +503,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#onetrust-button-group-parent",
@@ -432,7 +559,18 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#onetrust-pc-btn-handler",
@@ -451,9 +589,21 @@
             "height": 40
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(51, 51, 51)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "borderColor": "rgb(51, 51, 51)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "h2#onetrust-policy-title",
@@ -474,7 +624,8 @@
       "namedForConsent": true,
       "text": "We value your privacy",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#onetrust-accept-btn-handler",
@@ -495,7 +646,8 @@
       "namedForConsent": true,
       "text": "I ACCEPT",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#onetrust-pc-btn-handler",
@@ -516,7 +668,8 @@
       "namedForConsent": true,
       "text": "MANAGE SETTINGS",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#onetrust-policy > div.ot-dpd-container > div.ot-dpd-content > p.ot-dpd-desc > button.ot-link-btn.onetrust-vendors-list-handler",
@@ -540,7 +693,8 @@
       "namedForConsent": true,
       "text": "List of Partners (vendors)",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#onetrust-policy-text > a.ot-cookie-policy-link",
@@ -563,7 +717,8 @@
       "namedForConsent": true,
       "text": "Cookie Policy",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#fusion-app > div.b-it-right-rail-advanced > header.c-stack.b-it-right-rail-advanced__navigation",
@@ -610,7 +765,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-left > div.nav-components--desktop > button.c-button.c-button--small",
@@ -633,7 +799,18 @@
             "height": 34
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-left > div.nav-components--desktop > button.c-button.c-button--small",
@@ -656,7 +833,18 @@
             "height": 34
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > a.c-link.b-it-header-nav-chain__logo",
@@ -676,11 +864,22 @@
           "rect": {
             "x": 199,
             "y": 12,
-            "width": 16,
+            "width": 256,
             "height": 24
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(46, 46, 46)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "borderColor": "rgb(46, 46, 46)",
+            "borderWidth": 0,
+            "opacity": 0,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -695,13 +894,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 239,
+            "x": 479,
             "y": 12,
             "width": 79,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -716,13 +926,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 340,
+            "x": 580,
             "y": 12,
             "width": 86,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -737,13 +958,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 449,
+            "x": 689,
             "y": 12,
             "width": 45,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -758,13 +990,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 516,
+            "x": 756,
             "y": 12,
             "width": 140,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -779,13 +1022,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 678,
-            "y": 12,
+            "x": 493,
+            "y": 41,
             "width": 58,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -800,13 +1054,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 757,
-            "y": 12,
+            "x": 572,
+            "y": 41,
             "width": 73,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -821,13 +1086,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 253,
+            "x": 668,
             "y": 41,
             "width": 100,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > nav.c-stack.b-it-header-nav-chain__links-list > span.b-it-header-nav-chain__links-list-item > a.c-link",
@@ -842,13 +1118,24 @@
           "ariaLabel": null,
           "title": null,
           "rect": {
-            "x": 374,
+            "x": 789,
             "y": 41,
             "width": 75,
             "height": 21
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--mobile > div.c-stack.b-signin-subscribe-block > a.c-button.c-button--link",
@@ -873,7 +1160,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 209, 101)",
+            "ownBackgroundColor": "rgb(250, 209, 101)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--mobile > div.c-stack.b-signin-subscribe-block > button.c-button.c-button--small",
@@ -897,7 +1195,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--desktop > div.c-stack.b-signin-subscribe-block > a.c-button.c-button--link",
@@ -922,7 +1231,18 @@
             "height": 34
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 209, 101)",
+            "ownBackgroundColor": "rgb(250, 209, 101)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "nav#main-nav > div.b-it-header-nav-chain__top-layout.b-it-header-nav-chain__top-layout--left-align > div.b-it-header-nav-chain__nav-right > div.nav-components--desktop > div.c-stack.b-signin-subscribe-block > button.c-button.c-button--small",
@@ -946,7 +1266,18 @@
             "height": 34
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.b-it-header-nav-chain__flyout-close-button > button.c-button.c-button--small",
@@ -969,7 +1300,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.nav-menu > div.c-stack.nav-components--mobile > div.b-subscribe-button-block.do-not-show-on-print > a.c-button.c-button--link",
@@ -994,7 +1336,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(250, 209, 101)",
+            "ownBackgroundColor": "rgb(250, 209, 101)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > div.nav-menu > div.c-stack.nav-components--mobile > button.c-button.c-button--small",
@@ -1017,7 +1370,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(127, 127, 127)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
@@ -1038,7 +1402,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
@@ -1059,7 +1434,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > a.c-link",
@@ -1080,7 +1466,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
@@ -1101,7 +1498,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
@@ -1125,7 +1533,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 0.5,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
@@ -1146,7 +1565,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
@@ -1167,7 +1597,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
@@ -1188,7 +1629,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
@@ -1209,7 +1661,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_crosswords-puzzles > li.subsection-item > a.c-link",
@@ -1230,7 +1693,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
@@ -1251,7 +1725,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
@@ -1275,7 +1760,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 0.5,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
@@ -1296,7 +1792,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
@@ -1317,7 +1824,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
@@ -1338,7 +1856,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
@@ -1359,7 +1888,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_ireland > li.subsection-item > a.c-link",
@@ -1380,7 +1920,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > a.c-link",
@@ -1401,7 +1952,18 @@
             "height": 48
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "div#flyout-overlay > div > div.c-stack.b-it-header-nav-chain__flyout-nav-wrapper > ul.c-stack.b-it-header-nav-chain__flyout-nav > li.section-item > div.c-stack.b-it-header-nav-chain__subsection-anchor > button.c-button.c-button--medium",
@@ -1425,7 +1987,18 @@
             "height": 38
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 0.5,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_politics > li.subsection-item > a.c-link",
@@ -1446,7 +2019,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "ul#header_sub_section_politics > li.subsection-item > a.c-link",
@@ -1467,9 +2051,21 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(96, 96, 96)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(96, 96, 96)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#webpush-custom-prompt",
@@ -1492,7 +2088,8 @@
       "namedForConsent": false,
       "text": "The Irish Times would like to send you push notifications. Website notifications can be changed in browser notifications preferences. Don't AllowAllow",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

@@ -52,7 +52,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#privacy-cp-wall-reject-and-subscribe",
@@ -71,7 +82,18 @@
             "height": 22
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -92,7 +114,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -113,7 +146,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "a#privacy-cp-wall-partnersList",
@@ -134,7 +178,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#privacy-cp-wall-accept",
@@ -157,7 +212,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(10, 82, 120)",
+            "ownBackgroundColor": "rgb(10, 82, 120)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#privacy-cp-wall-settings",
@@ -180,7 +246,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#privacy-cp-wall-login",
@@ -199,9 +276,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp",
@@ -242,7 +331,18 @@
             "height": 0
           },
           "visible": false,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(255, 255, 255)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#privacy-cp-wall-reject-and-subscribe",
@@ -261,7 +361,18 @@
             "height": 22
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -282,7 +393,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -303,7 +425,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "a#privacy-cp-wall-partnersList",
@@ -324,7 +457,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "button#privacy-cp-wall-accept",
@@ -347,7 +491,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(10, 82, 120)",
+            "ownBackgroundColor": "rgb(10, 82, 120)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "button#privacy-cp-wall-settings",
@@ -370,7 +525,18 @@
             "height": 42
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgb(255, 255, 255)",
+            "ownBackgroundColor": "rgb(255, 255, 255)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 1,
+            "opacity": 1,
+            "textDecorationLine": "none"
+          }
         },
         {
           "path": "a#privacy-cp-wall-login",
@@ -389,9 +555,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp",
@@ -434,7 +612,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -455,7 +644,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "a#privacy-cp-wall-partnersList",
@@ -476,9 +676,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp",
@@ -521,7 +733,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp > p.privacy-cp-wall__container__answer_cmp > a.link",
@@ -542,7 +765,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "a#privacy-cp-wall-partnersList",
@@ -563,9 +797,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container_cmp",
@@ -608,7 +854,18 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         },
         {
           "path": "a#privacy-cp-wall-partnersList",
@@ -629,9 +886,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first",
@@ -675,9 +944,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > div.privacy-cp-wall__body_cmp > div.privacy-cp-wall__container_cmp > div.privacy-cp-wall__container__text_cmp.privacy-cp-wall__container__answer_first > p.privacy-cp-wall__container__answer_cmp",
@@ -720,9 +1001,21 @@
             "height": 16
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 14,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "button#privacy-cp-wall-accept",
@@ -747,7 +1040,8 @@
       "namedForConsent": true,
       "text": "ACCETTA E CONTINUA",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "button#privacy-cp-wall-settings",
@@ -772,7 +1066,8 @@
       "namedForConsent": true,
       "text": "PREFERENZE",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "html > body.sub-default.type-home > div.privacy-cp-wall > div.privacy-cp-wall__wrapper_cmp > footer > p.privacy-cp-login__link_cmp",
@@ -813,9 +1108,21 @@
             "height": 17
           },
           "visible": true,
-          "disabled": false
+          "disabled": false,
+          "styles": {
+            "color": "rgb(10, 82, 120)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "ownBackgroundColor": "rgba(0, 0, 0, 0)",
+            "fontSize": 15,
+            "fontWeight": "700",
+            "borderColor": "rgb(10, 82, 120)",
+            "borderWidth": 0,
+            "opacity": 1,
+            "textDecorationLine": "underline"
+          }
         }
-      ]
+      ],
+      "inputs": []
     },
     {
       "path": "div#wall-accedi > div.privacy-cp-wall__container_cmp.privacy-cp-wall__container_cmp-header",
@@ -839,7 +1146,8 @@
       "namedForConsent": true,
       "text": "",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#privacy-cp-wall-reject-and-subscribe",
@@ -860,7 +1168,8 @@
       "namedForConsent": true,
       "text": "Rifiuta e abbonati",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#privacy-cp-wall-partnersList",
@@ -883,7 +1192,8 @@
       "namedForConsent": true,
       "text": "in questa lista",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "a#privacy-cp-wall-login",
@@ -904,7 +1214,8 @@
       "namedForConsent": true,
       "text": "Accedi",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [

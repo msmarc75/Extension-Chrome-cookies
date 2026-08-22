@@ -41,7 +41,8 @@
       "namedForConsent": true,
       "text": "Gestion des cookies",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     },
     {
       "path": "div#nadzU_softAskingDiv > div.nadzUBox > div.nadzContainer",
@@ -64,7 +65,8 @@
       "namedForConsent": false,
       "text": "www.futura-sciences.com souhaite Afficher les notifications Bloquer Autoriser Soyez notifié.e de nos actualités et offres partenaires en temps réel Aucun email requis. Autoriser les notifications pour continuer. ' Protection des données",
       "inShadow": false,
-      "controls": []
+      "controls": [],
+      "inputs": []
     }
   ],
   "frames": [
